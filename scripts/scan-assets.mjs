@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+import crypto from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -63,10 +64,11 @@ for (const source of sourceRoots) for (const file of await filesUnder(path.join(
 const discoveredPaths = new Set(discovered.map((item) => item.localPath || item.file));
 const preserved = existing.filter((item) => !discoveredPaths.has(item.localPath || item.file));
 await fs.mkdir(path.dirname(dataFile), { recursive: true });
-const records = discovered.map((item) => {
+const records = await Promise.all(discovered.map(async (item) => {
   const assetPath = item.file;
   const encoded = assetPath.split("/").map(encodeURIComponent).join("/");
-  return { ...item, path: assetPath, source: item.source || item.provider || "", rawUrl: `https://raw.githubusercontent.com/Yuji5124/nexus/main/${encoded}`, previewUrl: `https://yuji5124.github.io/nexus/${encoded}`, thumbnail: item.type === "texture" ? assetPath : item.thumbnail === "thumbnail missing" ? null : item.thumbnail };
-});
+  const sha256 = crypto.createHash('sha256').update(await fs.readFile(path.join(root,assetPath))).digest('hex');
+  return { ...item, sha256, path: assetPath, source: item.source || item.provider || "", rawUrl: `https://raw.githubusercontent.com/Yuji5124/nexus/main/${encoded}`, previewUrl: `https://yuji5124.github.io/nexus/${encoded}`, thumbnail: item.type === "texture" ? assetPath : item.thumbnail === "thumbnail missing" ? null : item.thumbnail };
+}));
 await fs.writeFile(dataFile, JSON.stringify(records, null, 2) + "\n");
 console.log(`Scanned ${discovered.length} files; preserved ${preserved.length} metadata-only records.`);

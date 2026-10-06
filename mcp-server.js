@@ -1,11 +1,14 @@
 #!/usr/bin/env node
 import fs from 'node:fs/promises';
+import crypto from 'node:crypto';
 import path from 'node:path';
 import { constants } from 'node:fs';
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { z } from 'zod';
 import { searchAssets } from './src/search.js';
+import { EnvHttpProxyAgent, setGlobalDispatcher } from 'undici';
+if(process.env.HTTPS_PROXY || process.env.HTTP_PROXY || process.env.https_proxy || process.env.http_proxy) setGlobalDispatcher(new EnvHttpProxyAgent());
 const indexUrl=process.env.NEXUS_INDEX_URL || 'https://raw.githubusercontent.com/Yuji5124/nexus/main/data/assets.json';
 const projectRoot=await fs.realpath(process.env.NEXUS_PROJECT_ROOT || process.cwd());
 async function index() {const r=await fetch(indexUrl);if(!r.ok) throw new Error('GitHub index HTTP '+r.status);return r.json();}
@@ -28,6 +31,7 @@ server.registerTool('download_asset',{description:'Download from GitHub into the
   const url=new URL(a.rawUrl);if(url.origin!=='https://raw.githubusercontent.com'||!url.pathname.startsWith('/Yuji5124/nexus/'))throw new Error('Unexpected asset source');
   const response=await fetch(url);if(!response.ok)throw new Error('Download HTTP '+response.status);
   const data=Buffer.from(await response.arrayBuffer());
+  if(a.sha256 && crypto.createHash('sha256').update(data).digest('hex')!==a.sha256)throw new Error('Downloaded asset checksum does not match GitHub metadata; retry after the index updates.');
   await fs.mkdir(target,{recursive:true});
   const destination=path.join(target,path.basename(a.path));await fs.writeFile(destination,data,{flag:'wx'});
   return result({assetId,destination,license:a.license,author:a.author,sourceUrl:a.sourceUrl});
