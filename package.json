@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
-    "preview": "HOST=0.0.0.0 PORT=4173 node server.js",
+    "preview": "node server.js",
     "mcp": "node mcp-server.js"
   },
   "dependencies": {
