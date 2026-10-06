@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXUS — 3D Asset Hub</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <style>.card-title{display:flex;align-items:start;justify-content:space-between;gap:8px}.save-button{background:transparent;border:0;color:#89919a;font-size:20px;line-height:1;cursor:pointer;padding:0}.save-button.saved{color:#d8ff55}</style>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/"><i>N</i><span>NEXUS</span><small>3D ASSET HUB</small></a><nav class="top-nav"><a class="active" href="#browse">BROWSE</a><a href="#library">LIBRARY</a><a href="#projects">PROJECTS</a></nav><div class="top-actions"><span class="live-dot"></span><span id="mode">LOCAL MODE</span><a href="https://github.com/Yuji5124/nexus" target="_blank">GITHUB ↗</a></div></header>
+  <main id="browse" class="app-shell">
+    <aside class="sidebar">
+      <div class="side-heading"><span>COLLECTION</span><span class="count-pill">v0.1</span></div>
+      <div class="side-card"><div class="side-stat"><strong>100</strong><span>LOCAL ASSETS</span></div><div class="side-stat"><strong>CC0</strong><span>LICENSE FIRST</span></div></div>
+      <div class="side-heading"><span>ASSET TYPE</span><span class="muted">FILTER</span></div>
+      <div class="side-types" id="types"><button class="chip active" data-type="all"><span>◈</span> ALL ASSETS</button><button class="chip" data-type="model"><span>◇</span> MODEL</button><button class="chip" data-type="material"><span>▦</span> MATERIAL</button><button class="chip" data-type="texture"><span>▧</span> TEXTURE</button><button class="chip" data-type="hdri"><span>◌</span> HDRI</button><button class="chip" data-type="pack"><span>▤</span> PACK</button></div>
+      <div class="side-heading"><span>LICENSE</span></div>
+      <label class="filter-check"><input id="free" type="checkbox" checked /><span>FREE ONLY</span><em>⌘</em></label><label class="filter-check"><input id="cc0" type="checkbox" /><span>CC0 PRIORITY</span><em>⌘</em></label><label class="filter-check"><input id="glb" type="checkbox" checked /><span>GLB / GLTF</span><em>⌘</em></label>
+      <div class="side-heading"><span>PROVIDER</span></div><select id="provider"><option value="all">ALL PROVIDERS</option></select>
+      <div class="sidebar-bottom"><div class="connection"><span class="live-dot"></span><span>INDEX ONLINE</span></div><p>Search, preview and connect your game assets locally.</p></div>
+    </aside>
+    <section class="content">
+      <div class="content-head"><div><p class="eyebrow">ASSET INDEX / 001</p><h1>Find something<br /><span>worth building with.</span></h1></div><div class="head-actions"><label class="button import-button">＋ IMPORT ASSET<input id="importFile" type="file" accept=".glb,.gltf,.png,.jpg,.jpeg,.webp,model/gltf-binary,model/gltf+json,image/png,image/jpeg,image/webp" hidden /></label><span id="importStatus" class="muted"></span></div></div>
+      <div class="search-row"><div class="search"><span>⌕</span><input id="query" placeholder="Search assets, tags, providers..." autocomplete="off" /><kbd>⌘ K</kbd></div><button class="saved-filter" id="savedFilter">♡ <span>SAVED</span></button></div>
+      <div class="results-head"><span id="count">0 assets</span><span class="sort-label">SORTED BY <b>RELEVANCE ↓</b></span></div>
+      <section id="grid" class="grid"></section>
+    </section>
+  </main>
+  <dialog id="detail"><button class="close" id="close">×</button><div class="detail-layout"><div class="viewer-wrap"><div id="viewer"></div><div class="viewer-tools"><button id="rotate">AUTO ROTATE: ON</button><button id="gridToggle">GRID: ON</button></div></div><div class="detail-copy"><p class="eyebrow" id="detailProvider"></p><h2 id="detailTitle"></h2><div class="badges" id="detailBadges"></div><dl id="facts"></dl><p id="detailTags" class="muted"></p><div class="detail-actions"><button id="saveDetail" class="button secondary">♡ SAVE</button><a id="source" class="button secondary" target="_blank">SOURCE URL ↗</a><button id="download" class="button">DOWNLOAD</button><button id="copyCode" class="button">COPY THREE.JS</button><button id="send" class="button">SEND TO PROJECT</button></div><p id="notice" class="notice"></p><div class="used"><h3>USED BY</h3><p id="usedBy" class="muted">No registered projects yet.</p></div></div></div></dialog>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

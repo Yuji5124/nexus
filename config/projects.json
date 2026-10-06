@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "name": "Three.test",
+      "assetDir": "../Three.test/public/assets/models"
+    },
+    {
+      "name": "monster-quest-0",
+      "assetDir": "../monster-quest-0/public/assets/models"
+    },
+    {
+      "name": "naka-asobi",
+      "assetDir": "../naka-asobi/public/assets/models"
+    }
+  ]
+}

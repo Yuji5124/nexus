@@ -1,0 +1,18 @@
+{
+  "name": "nexus-3d-asset-hub",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A local-first 3D asset hub for searching, previewing, licensing, and connecting assets to projects.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "preview": "HOST=0.0.0.0 PORT=4173 node server.js",
+    "mcp": "node mcp-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "three": "^0.180.0",
+    "zod": "^4.6.5"
+  }
+}
