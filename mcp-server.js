@@ -20,13 +20,20 @@ const server = new McpServer({ name: "nexus", version: "0.1.0" });
 server.registerTool("search_assets", {
   description: "Search NEXUS assets. Results are ranked CC0/free/GLB first.",
   inputSchema: {
-    q: z.string().optional().describe("Text or tag query"),
+    query: z.string().optional().describe("Text query across name, category, tags, and recommended use"),
+    category: z.string().optional(),
+    tags: z.array(z.string()).optional(),
+    format: z.string().optional(),
+    maxTriangles: z.number().int().positive().optional(),
+    animated: z.boolean().optional(),
     type: z.enum(["all", "model", "material", "texture", "hdri", "pack"]).optional(),
     cc0: z.boolean().optional().describe("Only return CC0 assets"),
     glb: z.boolean().optional().describe("Only return GLB assets")
   }
-}, async ({ q = "", type = "all", cc0 = false, glb = false }) => {
-  const params = new URLSearchParams({ q, type, free: "true", cc0: String(cc0), glb: String(glb) });
+}, async ({ query = "", category = "all", tags = [], format = "all", maxTriangles, animated, type = "all", cc0 = false, glb = false }) => {
+  const params = new URLSearchParams({ q: query, category, tags: tags.join(","), format, type, free: "false", cc0: String(cc0), glb: String(glb) });
+  if (maxTriangles) params.set("maxTriangles", String(maxTriangles));
+  if (animated !== undefined) params.set("animated", String(animated));
   return result(await api(`/api/search?${params}`));
 });
 
@@ -45,6 +52,11 @@ server.registerTool("list_library", {
   inputSchema: {}
 }, async () => result(await api("/api/library")));
 
+server.registerTool("list_assets", {
+  description: "List all assets known to the NEXUS local index, optionally filtered by category.",
+  inputSchema: { category: z.string().optional() }
+}, async ({ category = "all" }) => result(await api(`/api/assets?free=false&glb=false&category=${encodeURIComponent(category)}`)));
+
 server.registerTool("list_projects", {
   description: "List explicitly registered Project Bridge destinations.",
   inputSchema: {}
@@ -56,6 +68,18 @@ server.registerTool("send_to_project", {
 }, async ({ id, project }) => result(await api(`/api/assets/${encodeURIComponent(id)}/send`, {
   method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ project })
 })));
+
+server.registerTool("copy_asset", {
+  description: "Copy a locally stored asset into a workspace-relative game project directory without overwriting an existing file.",
+  inputSchema: { assetId: z.string(), targetDirectory: z.string() }
+}, async ({ assetId, targetDirectory }) => result(await api(`/api/assets/${encodeURIComponent(assetId)}/copy`, {
+  method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ targetDirectory })
+})));
+
+server.registerTool("find_similar_assets", {
+  description: "Find locally indexed assets with overlapping category and tags.",
+  inputSchema: { assetId: z.string() }
+}, async ({ assetId }) => result(await api(`/api/similar/${encodeURIComponent(assetId)}`)));
 
 server.registerTool("search_local_assets", {
   description: "Search only assets already stored in the local NEXUS Library.",

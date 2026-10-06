@@ -1,5 +1,6 @@
 import http from "node:http";
 import crypto from "node:crypto";
+import { constants as fsConstants } from "node:fs";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -94,6 +95,29 @@ function score(asset) {
     + (asset.downloadable ? 5 : 0);
 }
 
+function assetMatches(asset, url) {
+  const query = (url.searchParams.get("q") || url.searchParams.get("query") || "").toLowerCase().trim();
+  const category = (url.searchParams.get("category") || "all").toLowerCase();
+  const tags = (url.searchParams.get("tags") || "").toLowerCase().split(",").map((tag) => tag.trim()).filter(Boolean);
+  const format = (url.searchParams.get("format") || "all").toLowerCase();
+  const maxTriangles = Number(url.searchParams.get("maxTriangles") || 0);
+  const animated = url.searchParams.get("animated");
+  const words = query.split(/\s+/).filter(Boolean);
+  const text = `${asset.title} ${asset.name || ""} ${asset.category || ""} ${asset.subcategory || ""} ${asset.provider} ${(asset.tags || []).join(" ")} ${(asset.recommendedFor || []).join(" ")}`.toLowerCase();
+  return (!words.length || words.every((word) => text.includes(word)))
+    && (category === "all" || String(asset.category || "").toLowerCase() === category)
+    && (!tags.length || tags.every((tag) => (asset.tags || []).map(String).map((value) => value.toLowerCase()).includes(tag)))
+    && (format === "all" || String(asset.format || "").toLowerCase() === format)
+    && (!maxTriangles || !asset.triangles || asset.triangles <= maxTriangles)
+    && (animated == null || animated === "" || (animated === "true" ? asset.animated === true : asset.animated !== true));
+}
+
+function similarScore(source, candidate) {
+  const sourceTags = new Set([...(source.tags || []), source.category, source.subcategory].filter(Boolean).map((tag) => String(tag).toLowerCase()));
+  const candidateTags = new Set([...(candidate.tags || []), candidate.category, candidate.subcategory].filter(Boolean).map((tag) => String(tag).toLowerCase()));
+  return [...sourceTags].filter((tag) => candidateTags.has(tag)).length;
+}
+
 async function sendAsset(asset, projectName) {
   const config = await readJson(projectsFile, { projects: [] });
   const project = config.projects.find((item) => item.name === projectName);
@@ -146,6 +170,21 @@ async function downloadAsset(asset) {
   return record;
 }
 
+async function copyAsset(asset, targetDirectory) {
+  if (!asset.localPath) throw new Error("Only assets already stored in the local Library can be copied");
+  const workspaceRoot = path.resolve(root, "..");
+  if (!targetDirectory || targetDirectory.includes("..")) throw new Error("targetDirectory must be a direct workspace path");
+  const targetRoot = path.resolve(workspaceRoot, targetDirectory);
+  if (!targetRoot.startsWith(workspaceRoot + path.sep)) throw new Error("Target directory is outside the workspace");
+  const source = path.resolve(root, asset.localPath);
+  if (!source.startsWith(path.resolve(root, "library") + path.sep)) throw new Error("Invalid Library source");
+  const extension = path.extname(asset.localPath) || `.${String(asset.format || "glb").toLowerCase()}`;
+  const destination = path.resolve(targetRoot, `${asset.id}${extension}`);
+  await fs.mkdir(targetRoot, { recursive: true });
+  await fs.copyFile(source, destination, fsConstants.COPYFILE_EXCL);
+  return { id: asset.id, source: asset.localPath, destination: path.relative(workspaceRoot, destination).replace(/\\/g, "/") };
+}
+
 async function route(req, res, url) {
   if (url.pathname === "/api/health") return json(res, 200, { ok: true, mode: "local" });
   if (url.pathname === "/api/import" && req.method === "POST") {
@@ -153,20 +192,24 @@ async function route(req, res, url) {
     catch (error) { return json(res, 400, { error: error.message }); }
   }
   if (url.pathname === "/api/assets" || url.pathname === "/api/search") {
-    const q = (url.searchParams.get("q") || "").toLowerCase();
     const type = (url.searchParams.get("type") || "all").toLowerCase();
     const provider = (url.searchParams.get("provider") || "all").toLowerCase();
     const free = url.searchParams.get("free") !== "false";
     const cc0 = url.searchParams.get("cc0") === "true";
     const glb = url.searchParams.get("glb") === "true";
     const assets = (await allAssets()).filter((asset) => {
-      const text = `${asset.title} ${asset.provider} ${asset.tags.join(" ")}`.toLowerCase();
-      return (!q || text.includes(q)) && (type === "all" || asset.type === type)
+      return assetMatches(asset, url) && (type === "all" || asset.type === type)
         && (provider === "all" || asset.provider.toLowerCase() === provider)
         && (!free || asset.free) && (!cc0 || asset.license.toLowerCase().includes("cc0"))
         && (!glb || asset.format === "GLB");
     }).sort((a, b) => score(b) - score(a));
     return json(res, 200, { assets, total: assets.length });
+  }
+  if (url.pathname.startsWith("/api/similar/")) {
+    const id = url.pathname.split("/").pop(); const assets = await allAssets(); const source = assets.find((item) => item.id === id);
+    if (!source) return json(res, 404, { error: "Asset not found" });
+    const similar = assets.filter((item) => item.id !== id).map((item) => ({ ...item, similarity: similarScore(source, item) })).filter((item) => item.similarity > 0).sort((a, b) => b.similarity - a.similarity).slice(0, 20);
+    return json(res, 200, { source: source.id, assets: similar });
   }
   if (url.pathname.startsWith("/api/assets/")) {
     const parts = url.pathname.split("/").filter(Boolean);
@@ -181,6 +224,10 @@ async function route(req, res, url) {
     }
     if (req.method === "POST" && parts[3] === "send") {
       try { return json(res, 200, await sendAsset(asset, (await body(req)).project)); }
+      catch (error) { return json(res, 400, { error: error.message }); }
+    }
+    if (req.method === "POST" && parts[3] === "copy") {
+      try { return json(res, 200, await copyAsset(asset, (await body(req)).targetDirectory)); }
       catch (error) { return json(res, 400, { error: error.message }); }
     }
     return json(res, 200, enriched);

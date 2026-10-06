@@ -29,6 +29,7 @@ The server is intentionally dependency-light: Node's built-in HTTP server provid
 - `COPY THREE.JS` template generation without an AI service
 - REST endpoints for assets, search, projects, library, download, and send
 - MCP stdio server exposing asset search, library, download, and Project Bridge tools
+- Metadata scanner that preserves user-authored fields while refreshing file-derived facts
 
 ## Project Bridge safety
 
@@ -45,7 +46,19 @@ POST /api/assets/:id/download
 GET  /api/projects
 POST /api/assets/:id/send   { "project": "Three.test" }
 GET  /api/library
+POST /api/assets/:id/copy  { "targetDirectory": "my-game/public/assets" }
+GET  /api/similar/:id
 ```
+
+## Local scan
+
+Put local assets under `assets/` (or add them through the Import UI), then run:
+
+```sh
+npm run scan
+```
+
+The scanner indexes GLB, glTF, FBX, OBJ, PNG, JPG, and WebP files into `library/assets.json`. GLB files are parsed for mesh, vertex, triangle, material, texture, animation, bounding-box, and dimension data when the embedded glTF JSON contains it. Existing `name`, `tags`, `license`, `source`, `sourceUrl`, `author`, `notes`, and `recommendedFor` values are retained.
 
 ## Architecture and licensing note
 
