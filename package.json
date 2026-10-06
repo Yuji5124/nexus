@@ -4,11 +4,13 @@
   "private": true,
   "description": "A local-first 3D asset hub for searching, previewing, licensing, and connecting assets to projects.",
   "type": "module",
+  "bin": { "nexus-mcp": "./mcp-server.js" },
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
     "preview": "node server.js",
     "scan": "node scripts/scan-assets.mjs",
+    "build": "npm run scan && node scripts/build-pages.mjs",
     "mcp": "node mcp-server.js"
   },
   "dependencies": {

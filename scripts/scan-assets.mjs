@@ -3,7 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const dataFile = path.join(root, "library", "assets.json");
+const dataFile = path.join(root, "data", "assets.json");
 const sourceRoots = ["assets", "library/models", "library/2d"];
 const supported = new Set([".glb", ".gltf", ".fbx", ".obj", ".png", ".jpg", ".jpeg", ".webp"]);
 
@@ -58,10 +58,15 @@ async function scanFile(file, existing) {
   return { ...old, id: old?.id || idFor(relative), name: old?.name || path.basename(file, extension), title: old?.title || old?.name || path.basename(file, extension), category, ...(subcategory ? { subcategory } : {}), tags: old?.tags?.length ? old.tags : [...new Set(pathTags(relative))], file: relative, localPath: relative, thumbnail: old?.thumbnail || (isImage ? `/${relative}` : "thumbnail missing"), format, type: old?.type || (isImage ? "texture" : "model"), size: stat.size, fileSize: stat.size, vertices: stats.vertices ?? old?.vertices ?? null, triangles: stats.triangles ?? old?.triangles ?? null, polygonCount: stats.triangles ?? old?.polygonCount ?? null, meshCount: stats.meshCount ?? old?.meshCount ?? null, materials: stats.materialCount ?? old?.materials ?? null, textures: stats.textureCount ?? old?.textures ?? null, animations: stats.animations ?? old?.animations ?? [], animated: (stats.animations || old?.animations || []).length > 0, boundingBox: stats.boundingBox ?? old?.boundingBox ?? null, dimensions: stats.dimensions ?? old?.dimensions ?? null, scale: old?.scale ?? 1, license: old?.license || "UNKNOWN", source: old?.source || "", sourceUrl: old?.sourceUrl || "", author: old?.author || "", addedAt: old?.addedAt || stat.birthtime.toISOString(), notes: old?.notes || "", recommendedFor: old?.recommendedFor || [] };
 }
 
-const existing = await readJson(dataFile, []); const discovered = [];
+const existing = await readJson(dataFile, await readJson(path.join(root, "library/assets.json"), [])); const discovered = [];
 for (const source of sourceRoots) for (const file of await filesUnder(path.join(root, source))) discovered.push(await scanFile(file, existing));
 const discoveredPaths = new Set(discovered.map((item) => item.localPath || item.file));
 const preserved = existing.filter((item) => !discoveredPaths.has(item.localPath || item.file));
 await fs.mkdir(path.dirname(dataFile), { recursive: true });
-await fs.writeFile(dataFile, JSON.stringify([...discovered, ...preserved], null, 2) + "\n");
+const records = discovered.map((item) => {
+  const assetPath = item.file;
+  const encoded = assetPath.split("/").map(encodeURIComponent).join("/");
+  return { ...item, path: assetPath, source: item.source || item.provider || "", rawUrl: `https://raw.githubusercontent.com/Yuji5124/nexus/main/${encoded}`, previewUrl: `https://yuji5124.github.io/nexus/${encoded}`, thumbnail: item.type === "texture" ? assetPath : item.thumbnail === "thumbnail missing" ? null : item.thumbnail };
+});
+await fs.writeFile(dataFile, JSON.stringify(records, null, 2) + "\n");
 console.log(`Scanned ${discovered.length} files; preserved ${preserved.length} metadata-only records.`);

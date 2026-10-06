@@ -1,55 +1,67 @@
-import * as THREE from "/vendor/three/build/three.module.js";
-import { OrbitControls } from "/vendor/three/examples/jsm/controls/OrbitControls.js";
-import { GLTFLoader } from "/vendor/three/examples/jsm/loaders/GLTFLoader.js";
-
-const $ = (id) => document.getElementById(id);
-let selectedType = "all";
-let savedOnly = false;
-let selectedAsset;
-let scene, camera, renderer, controls, model, gridHelper, animation;
-
-async function get(url, options) { const response = await fetch(url, options); const data = await response.json(); if (!response.ok) throw new Error(data.error || "Request failed"); return data; }
-function badge(text, cc0 = false) { return `<span class="badge ${cc0 ? "cc0" : ""}">${text}</span>`; }
-function favorites() { try { return JSON.parse(localStorage.getItem("nexus:favorites") || "[]"); } catch { return []; } }
-function isFavorite(id) { return favorites().includes(id); }
-function toggleFavorite(id) { const next = favorites().filter((item) => item !== id); if (!isFavorite(id)) next.push(id); localStorage.setItem("nexus:favorites", JSON.stringify(next)); updateSavedButton(); loadAssets(); }
-function updateSavedButton() { $("savedFilter").textContent = `${savedOnly ? "♥" : "♡"} SAVED`; $("savedFilter").classList.toggle("active", savedOnly); if (selectedAsset) $("saveDetail").textContent = `${isFavorite(selectedAsset.id) ? "♥" : "♡"} ${isFavorite(selectedAsset.id) ? "SAVED" : "SAVE"}`; }
-function renderCards(assets) {
-  if (savedOnly) assets = assets.filter((asset) => isFavorite(asset.id));
-  $("count").textContent = `${assets.length} asset${assets.length === 1 ? "" : "s"}`;
-  $("grid").innerHTML = assets.length ? assets.map((asset) => `<article class="card" data-id="${asset.id}"><div class="thumb" style="background-image:url('${asset.thumbnail || ""}')"></div><div class="card-body"><div class="card-title"><h3>${asset.title}</h3><button class="save-button ${isFavorite(asset.id) ? "saved" : ""}" data-save="${asset.id}">${isFavorite(asset.id) ? "♥" : "♡"}</button></div><div class="provider">${asset.provider}</div><div class="badges">${badge(asset.format)}${badge(asset.license, asset.license.toLowerCase().includes("cc0"))}${asset.downloadable ? badge("DOWNLOAD") : ""}</div></div></article>`).join("") : '<div class="empty">No assets match these filters.</div>';
-  document.querySelectorAll(".card").forEach((card) => card.addEventListener("click", () => openDetail(card.dataset.id)));
-  document.querySelectorAll("[data-save]").forEach((button) => button.addEventListener("click", (event) => { event.stopPropagation(); toggleFavorite(button.dataset.save); }));
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { searchAssets } from './search.js';
+const $ = id => document.getElementById(id);
+const base = new URL('./', location.href);
+let assets = [], selected, savedOnly = false, disposeViewer = () => {};
+let toggleRotate = () => {}, toggleGrid = () => {}, toggleWire = () => {}, toggleBounds = () => {};
+const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const favorites = () => { try { const ids=JSON.parse(localStorage.getItem('nexus:favorites') || '[]'); return Array.isArray(ids) ? ids : []; } catch { return []; } };
+const assetUrl = asset => asset.previewUrl || new URL(asset.path, base).href;
+function save(id) { const ids = favorites(); localStorage.setItem('nexus:favorites',JSON.stringify(ids.includes(id) ? ids.filter(x=>x!==id) : [...ids,id])); render(); }
+function render() {
+  let results = searchAssets(assets, {query:$('query').value,category:$('category').value,format:$('format').value,license:$('license').value,tags:$('tags').value,maxTriangles:$('maxTriangles').value,animated:$('animated').value === '' ? undefined : $('animated').value === 'true'});
+  if (savedOnly) results = results.filter(a=>favorites().includes(a.id));
+  $('count').textContent = results.length + ' assets';
+  $('grid').innerHTML = results.map(a=>'<article class="card" data-id="'+escape(a.id)+'"><div class="thumb">'+(a.thumbnail ? '<img loading="lazy" src="'+escape(new URL(a.thumbnail.replace(/^\//,''),base).href)+'" style="width:100%;height:100%;object-fit:contain" alt="">' : '<span style="display:block;padding:55px;text-align:center">◇<br>3D PREVIEW</span>')+'</div><div class="card-body"><h3>'+escape(a.name)+'</h3><p class="provider">'+escape(a.category)+'</p><div class="badges"><span class="badge">'+escape(a.format)+'</span><span class="badge">'+escape(a.license || 'UNKNOWN')+'</span><span class="badge">'+(a.triangles == null ? '—' : a.triangles.toLocaleString())+' triangles</span></div><p class="provider">'+escape((a.tags || []).join(' · '))+'</p></div></article>').join('') || '<p class="empty">No matching assets.</p>';
+  document.querySelectorAll('[data-id]').forEach(card=>card.onclick=()=>openAsset(assets.find(a=>a.id===card.dataset.id)));
 }
-async function loadAssets() {
-  const params = new URLSearchParams({ q: $("query").value, type: selectedType, provider: $("provider").value, free: $("free").checked, cc0: $("cc0").checked, glb: $("glb").checked });
-  try { renderCards((await get(`/api/search?${params}`)).assets); } catch (error) { $("grid").innerHTML = `<div class="empty">${error.message}</div>`; }
+function viewer(asset) {
+  disposeViewer(); const host=$('viewer'); host.replaceChildren();
+  if (['PNG','JPG','JPEG','WEBP'].includes(asset.format.toUpperCase())) { const img=document.createElement('img'); img.src=new URL(asset.path,base).href; img.style='width:100%;height:430px;object-fit:contain'; host.append(img); return; }
+  if (!['GLB','GLTF'].includes(asset.format.toUpperCase())) { host.textContent='Stored file. Convert to GLB to preview.'; return; }
+  const scene=new THREE.Scene(); scene.background=new THREE.Color(0x0a0b0d);
+  const camera=new THREE.PerspectiveCamera(45,1,.01,10000); camera.position.set(3,2,4);
+  const renderer=new THREE.WebGLRenderer({antialias:true}); host.append(renderer.domElement);
+  renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+  const controls=new OrbitControls(camera,renderer.domElement); controls.enableDamping=true; controls.autoRotate=true;
+  scene.add(new THREE.HemisphereLight(0xffffff,0x444444,3));
+  const light=new THREE.DirectionalLight(0xffffff,3); light.position.set(3,5,4); scene.add(light);
+  const grid=new THREE.GridHelper(10,20); scene.add(grid);
+  let model, box, stopped=false;
+  toggleRotate=()=>controls.autoRotate=!controls.autoRotate;
+  toggleGrid=()=>grid.visible=!grid.visible;
+  toggleWire=()=>model?.traverse(n=>{if(n.isMesh) for(const m of [].concat(n.material)) m.wireframe=!m.wireframe;});
+  toggleBounds=()=>{if(box) box.visible=!box.visible;};
+  new GLTFLoader().load(new URL(asset.path,base).href,gltf=>{
+    if(stopped) return; model=gltf.scene; scene.add(model);
+    const bounds=new THREE.Box3().setFromObject(model), size=bounds.getSize(new THREE.Vector3()), center=bounds.getCenter(new THREE.Vector3());
+    const radius=Math.max(size.x,size.y,size.z,.1); controls.target.copy(center); camera.position.copy(center).add(new THREE.Vector3(radius*1.5,radius,radius*1.5)); camera.far=radius*100+100; camera.updateProjectionMatrix(); controls.update();
+    box=new THREE.Box3Helper(bounds,0xd8ff55); box.visible=false; scene.add(box);
+  },undefined,error=>{$('notice').textContent='Model could not be loaded: '+error.message;});
+  const observer=new ResizeObserver(()=>{const w=host.clientWidth,h=Math.max(host.clientHeight,300); camera.aspect=w/h;camera.updateProjectionMatrix();renderer.setSize(w,h);}); observer.observe(host);
+  renderer.setAnimationLoop(()=>{controls.update();renderer.render(scene,camera);});
+  disposeViewer=()=>{stopped=true;observer.disconnect();renderer.setAnimationLoop(null);controls.dispose();scene.traverse(n=>{n.geometry?.dispose();for(const m of [].concat(n.material || [])) m.dispose();});renderer.dispose();};
 }
-function initViewer(asset) {
-  const host = $("viewer"); host.innerHTML = "";
-  scene = new THREE.Scene(); scene.background = new THREE.Color(0x0a0b0d);
-  camera = new THREE.PerspectiveCamera(45, host.clientWidth / host.clientHeight, .01, 1000); camera.position.set(2.4, 1.6, 3.2);
-  renderer = new THREE.WebGLRenderer({ antialias: true }); renderer.setPixelRatio(Math.min(devicePixelRatio, 2)); renderer.setSize(host.clientWidth, host.clientHeight); renderer.shadowMap.enabled = true; host.appendChild(renderer.domElement);
-  scene.add(new THREE.HemisphereLight(0xddeeff, 0x222222, 2)); const key = new THREE.DirectionalLight(0xffffff, 3); key.position.set(3, 5, 2); key.castShadow = true; scene.add(key);
-  gridHelper = new THREE.GridHelper(10, 20, 0x37403a, 0x202522); scene.add(gridHelper);
-  controls = new OrbitControls(camera, renderer.domElement); controls.enableDamping = true; controls.autoRotate = true; controls.autoRotateSpeed = 1.5;
-  if (asset.modelUrl) new GLTFLoader().load(asset.modelUrl, (gltf) => { model = gltf.scene; model.traverse((node) => { if (node.isMesh) { node.castShadow = true; node.receiveShadow = true; } }); scene.add(model); }, undefined, () => addPlaceholder()); else addPlaceholder();
-  const resize = () => { if (!renderer) return; camera.aspect = host.clientWidth / host.clientHeight; camera.updateProjectionMatrix(); renderer.setSize(host.clientWidth, host.clientHeight); }; window.addEventListener("resize", resize, { once: true });
-  const loop = () => { animation = requestAnimationFrame(loop); controls?.update(); renderer.render(scene, camera); }; loop();
+function openAsset(asset) {
+  selected=asset; $('name').textContent=asset.name; $('source').textContent=asset.source || 'GitHub NEXUS'; $('assetTags').textContent=(asset.tags || []).join(' · ');
+  $('facts').innerHTML=Object.entries({License:asset.license || 'UNKNOWN',Author:asset.author || '—',Format:asset.format,Size:asset.size+' bytes',Triangles:asset.triangles ?? '—',Materials:asset.materials ?? '—',Animations:(asset.animations || []).length}).map(([k,v])=>'<dt>'+escape(k)+'</dt><dd>'+escape(v)+'</dd>').join('');
+  $('notice').textContent=''; $('download').href=assetUrl(asset); $('download').target='_blank'; $('detail').showModal(); viewer(asset);
 }
-function addPlaceholder() { const group = new THREE.Group(); const body = new THREE.Mesh(new THREE.IcosahedronGeometry(.85, 1), new THREE.MeshStandardMaterial({ color: 0xb7d35a, roughness: .7, flatShading: true })); body.position.y = .9; group.add(body); scene.add(group); model = group; }
-async function openDetail(id) {
-  selectedAsset = await get(`/api/assets/${id}`); $("detailProvider").textContent = `${selectedAsset.provider} / ${selectedAsset.type.toUpperCase()}`; $("detailTitle").textContent = selectedAsset.title; $("detailBadges").innerHTML = badge(selectedAsset.format) + badge(selectedAsset.license, selectedAsset.license.toLowerCase().includes("cc0")); $("source").href = selectedAsset.sourceUrl || "#"; $("facts").innerHTML = `<dt>LICENSE</dt><dd>${selectedAsset.license}</dd><dt>AUTHOR</dt><dd>${selectedAsset.author}</dd><dt>TRIANGLES</dt><dd>${selectedAsset.polygonCount || "—"}</dd><dt>FILE SIZE</dt><dd>${selectedAsset.fileSize || "—"}</dd>`; $("detailTags").textContent = selectedAsset.tags.map((tag) => `#${tag}`).join("  "); $("usedBy").textContent = selectedAsset.usedBy?.length ? selectedAsset.usedBy.join(" · ") : "No registered projects yet."; $("notice").textContent = ""; updateSavedButton(); $("detail").showModal(); initViewer(selectedAsset);
-}
-async function copyCode() { const path = `/assets/models/${selectedAsset.id}.glb`; await navigator.clipboard.writeText(`const loader = new GLTFLoader();\n\nloader.load(\n  '${path}',\n  (gltf) => {\n    gltf.scene.scale.set(1, 1, 1);\n    gltf.scene.position.set(0, 0, 0);\n    gltf.scene.traverse((node) => { if (node.isMesh) node.castShadow = true; });\n    scene.add(gltf.scene);\n  }\n);`); $("notice").textContent = "Three.js loader snippet copied."; }
-async function downloadAsset() { try { const result = await get(`/api/assets/${selectedAsset.id}/download`, { method: "POST" }); $("notice").textContent = result.cached ? "Already in NEXUS Library." : `Downloaded to ${result.localPath}`; } catch (error) { $("notice").textContent = error.message; } }
-async function sendToProject() { const projects = (await get("/api/projects")).projects; const project = prompt(`Send ${selectedAsset.title} to which project?\n\n${projects.map((p) => p.name).join("\n")}`, projects[0]?.name || ""); if (!project) return; try { const result = await get(`/api/assets/${selectedAsset.id}/send`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ project }) }); $("notice").textContent = `Sent to ${result.project}: ${result.filename}`; } catch (error) { $("notice").textContent = error.message; } }
-async function importLocal(event) { const file = event.target.files[0]; if (!file) return; $("importStatus").textContent = `Importing ${file.name}…`; try { const bytes = new Uint8Array(await file.arrayBuffer()); let binary = ""; for (let i = 0; i < bytes.length; i += 0x8000) binary += String.fromCharCode(...bytes.subarray(i, i + 0x8000)); const result = await get("/api/import", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ filename: file.name, name: file.name.replace(/\.(glb|gltf|png|jpe?g|webp)$/i, ""), contentBase64: btoa(binary) }) }); $("importStatus").textContent = `Imported ${result.title} into NEXUS Library.`; await loadAssets(); } catch (error) { $("importStatus").textContent = error.message; } finally { event.target.value = ""; } }
-document.querySelectorAll("#types .chip").forEach((button) => button.addEventListener("click", () => { document.querySelector(".chip.active").classList.remove("active"); button.classList.add("active"); selectedType = button.dataset.type; loadAssets(); }));
-["query", "free", "cc0", "glb", "provider"].forEach((id) => $(id).addEventListener(id === "query" ? "input" : "change", loadAssets));
-$("importFile").addEventListener("change", importLocal);
-$("savedFilter").addEventListener("click", () => { savedOnly = !savedOnly; updateSavedButton(); loadAssets(); });
-$("saveDetail").addEventListener("click", () => { toggleFavorite(selectedAsset.id); });
-$("close").addEventListener("click", () => { $("detail").close(); cancelAnimationFrame(animation); }); $("download").addEventListener("click", downloadAsset); $("copyCode").addEventListener("click", copyCode); $("send").addEventListener("click", sendToProject); $("rotate").addEventListener("click", () => { controls.autoRotate = !controls.autoRotate; $("rotate").textContent = `AUTO ROTATE: ${controls.autoRotate ? "ON" : "OFF"}`; }); $("gridToggle").addEventListener("click", () => { gridHelper.visible = !gridHelper.visible; $("gridToggle").textContent = `GRID: ${gridHelper.visible ? "ON" : "OFF"}`; });
-document.addEventListener("keydown", (event) => { if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") { event.preventDefault(); $("query").focus(); } });
-const providers = [...new Set((await get("/api/assets")).assets.map((asset) => asset.provider))]; providers.forEach((name) => $("provider").insertAdjacentHTML("beforeend", `<option value="${name.toLowerCase()}">${name}</option>`)); loadAssets();
+async function copy(text) { try { await navigator.clipboard.writeText(text); $('notice').textContent='Copied.'; } catch { $('notice').textContent=text; } }
+$('copyUrl').onclick=()=>copy(assetUrl(selected));
+$('copyPath').onclick=()=>copy(selected.path);
+$('copyCode').onclick=()=>copy("import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';\nconst loader = new GLTFLoader();\nloader.load("+JSON.stringify(assetUrl(selected))+", (gltf) => { scene.add(gltf.scene); });");
+$('favorite').onclick=()=>save(selected.id);
+$('rotate').onclick=()=>toggleRotate(); $('gridToggle').onclick=()=>toggleGrid(); $('wire').onclick=()=>toggleWire(); $('bounds').onclick=()=>toggleBounds();
+$('close').onclick=()=>$('detail').close(); $('detail').addEventListener('close',()=>disposeViewer());
+$('saved').onclick=()=>{savedOnly=!savedOnly;$('saved').classList.toggle('active',savedOnly);render();};
+for(const id of ['query','category','format','license','maxTriangles','animated','tags']) $(id).addEventListener('input',render);
+document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key==='k'){e.preventDefault();$('query').focus();}});
+try {
+  const response=await fetch(new URL('data/assets.json',base)); if(!response.ok) throw new Error('Index HTTP '+response.status);
+  assets=await response.json(); $('total').textContent=assets.length;
+  for(const key of ['category','format','license']) for(const value of [...new Set(assets.map(a=>a[key]).filter(Boolean))].sort()) {const option=document.createElement('option');option.value=value;option.textContent=value;$ (key).append(option);}
+  render();
+} catch(error) {$('count').textContent='Asset index unavailable';$('grid').textContent=error.message;}

@@ -1,94 +1,35 @@
-import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
-import { z } from "zod";
-
-const apiBase = process.env.NEXUS_API_URL || "http://127.0.0.1:4173";
-
-async function api(path, options) {
-  const response = await fetch(`${apiBase}${path}`, options);
-  const data = await response.json();
-  if (!response.ok) throw new Error(data.error || `NEXUS API returned ${response.status}`);
-  return data;
-}
-
-function result(value) {
-  return { content: [{ type: "text", text: JSON.stringify(value, null, 2) }] };
-}
-
-const server = new McpServer({ name: "nexus", version: "0.1.0" });
-
-server.registerTool("search_assets", {
-  description: "Search NEXUS assets. Results are ranked CC0/free/GLB first.",
-  inputSchema: {
-    query: z.string().optional().describe("Text query across name, category, tags, and recommended use"),
-    category: z.string().optional(),
-    tags: z.array(z.string()).optional(),
-    format: z.string().optional(),
-    maxTriangles: z.number().int().positive().optional(),
-    animated: z.boolean().optional(),
-    type: z.enum(["all", "model", "material", "texture", "hdri", "pack"]).optional(),
-    cc0: z.boolean().optional().describe("Only return CC0 assets"),
-    glb: z.boolean().optional().describe("Only return GLB assets")
-  }
-}, async ({ query = "", category = "all", tags = [], format = "all", maxTriangles, animated, type = "all", cc0 = false, glb = false }) => {
-  const params = new URLSearchParams({ q: query, category, tags: tags.join(","), format, type, free: "false", cc0: String(cc0), glb: String(glb) });
-  if (maxTriangles) params.set("maxTriangles", String(maxTriangles));
-  if (animated !== undefined) params.set("animated", String(animated));
-  return result(await api(`/api/search?${params}`));
+#!/usr/bin/env node
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { constants } from 'node:fs';
+import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
+import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
+import { z } from 'zod';
+import { searchAssets } from './src/search.js';
+const indexUrl=process.env.NEXUS_INDEX_URL || 'https://raw.githubusercontent.com/Yuji5124/nexus/main/data/assets.json';
+const projectRoot=await fs.realpath(process.env.NEXUS_PROJECT_ROOT || process.cwd());
+async function index() {const r=await fetch(indexUrl);if(!r.ok) throw new Error('GitHub index HTTP '+r.status);return r.json();}
+async function asset(id) {const a=(await index()).find(a=>a.id===id);if(!a) throw new Error('Asset not found');return a;}
+const result=v=>({content:[{type:'text',text:JSON.stringify(v,null,2)}]});
+const server=new McpServer({name:'nexus-github',version:'0.2.0'});
+server.registerTool('search_assets',{description:'Search the GitHub NEXUS asset index, including license and online URLs.',inputSchema:{query:z.string().optional(),category:z.string().optional(),tags:z.array(z.string()).optional(),format:z.string().optional(),maxTriangles:z.number().positive().optional(),animated:z.boolean().optional()}},async f=>result(searchAssets(await index(),f)));
+server.registerTool('get_asset',{description:'Read metadata from GitHub.',inputSchema:{assetId:z.string()}},async({assetId})=>result(await asset(assetId)));
+server.registerTool('get_asset_url',{description:'Return the GitHub Pages and raw URLs.',inputSchema:{assetId:z.string()}},async({assetId})=>{const a=await asset(assetId);return result({assetId,url:a.previewUrl,rawUrl:a.rawUrl,license:a.license});});
+server.registerTool('list_assets',{description:'List GitHub assets by category.',inputSchema:{category:z.string().optional()}},async f=>result(searchAssets(await index(),f)));
+server.registerTool('find_similar_assets',{description:'Find candidates by shared tags and category.',inputSchema:{assetId:z.string()}},async({assetId})=>{const all=await index(),a=all.find(a=>a.id===assetId);if(!a) throw new Error('Asset not found');return result(all.filter(b=>b.id!==a.id).map(b=>({...b,similarity:(b.tags||[]).filter(t=>(a.tags||[]).includes(t)).length+(b.category===a.category?1:0)})).filter(b=>b.similarity>0).sort((a,b)=>b.similarity-a.similarity).slice(0,20));});
+server.registerTool('download_asset',{description:'Download from GitHub into the consuming game project. Existing files are never overwritten.',inputSchema:{assetId:z.string(),targetDirectory:z.string()}},async({assetId,targetDirectory})=>{
+  const a=await asset(assetId);
+  const target=path.resolve(projectRoot,targetDirectory);
+  if(target!==projectRoot&&!target.startsWith(projectRoot+path.sep)) throw new Error('Destination must be inside NEXUS_PROJECT_ROOT');
+  let ancestor=target;
+  while(true){try{const real=await fs.realpath(ancestor);if(real!==projectRoot&&!real.startsWith(projectRoot+path.sep)) throw new Error('Destination symlink escapes project');break;}catch(e){if(e.code!=='ENOENT')throw e;ancestor=path.dirname(ancestor);}}
+  const extension=path.extname(a.path).toLowerCase();
+  if(!['.glb','.png','.jpg','.jpeg','.webp','.obj','.fbx'].includes(extension))throw new Error('Multi-file glTF requires downloading its dependency bundle; use GLB.');
+  const url=new URL(a.rawUrl);if(url.origin!=='https://raw.githubusercontent.com'||!url.pathname.startsWith('/Yuji5124/nexus/'))throw new Error('Unexpected asset source');
+  const response=await fetch(url);if(!response.ok)throw new Error('Download HTTP '+response.status);
+  const data=Buffer.from(await response.arrayBuffer());
+  await fs.mkdir(target,{recursive:true});
+  const destination=path.join(target,path.basename(a.path));await fs.writeFile(destination,data,{flag:'wx'});
+  return result({assetId,destination,license:a.license,author:a.author,sourceUrl:a.sourceUrl});
 });
-
-server.registerTool("get_asset", {
-  description: "Get full metadata and usage information for one NEXUS asset.",
-  inputSchema: { id: z.string() }
-}, async ({ id }) => result(await api(`/api/assets/${encodeURIComponent(id)}`)));
-
-server.registerTool("download_asset", {
-  description: "Download a provider asset into the NEXUS Library. Existing files are reused.",
-  inputSchema: { id: z.string() }
-}, async ({ id }) => result(await api(`/api/assets/${encodeURIComponent(id)}/download`, { method: "POST" })));
-
-server.registerTool("list_library", {
-  description: "List assets stored in the local NEXUS Library.",
-  inputSchema: {}
-}, async () => result(await api("/api/library")));
-
-server.registerTool("list_assets", {
-  description: "List all assets known to the NEXUS local index, optionally filtered by category.",
-  inputSchema: { category: z.string().optional() }
-}, async ({ category = "all" }) => result(await api(`/api/assets?free=false&glb=false&category=${encodeURIComponent(category)}`)));
-
-server.registerTool("list_projects", {
-  description: "List explicitly registered Project Bridge destinations.",
-  inputSchema: {}
-}, async () => result(await api("/api/projects")));
-
-server.registerTool("send_to_project", {
-  description: "Send an asset to a registered project destination after path safety checks.",
-  inputSchema: { id: z.string(), project: z.string() }
-}, async ({ id, project }) => result(await api(`/api/assets/${encodeURIComponent(id)}/send`, {
-  method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ project })
-})));
-
-server.registerTool("copy_asset", {
-  description: "Copy a locally stored asset into a workspace-relative game project directory without overwriting an existing file.",
-  inputSchema: { assetId: z.string(), targetDirectory: z.string() }
-}, async ({ assetId, targetDirectory }) => result(await api(`/api/assets/${encodeURIComponent(assetId)}/copy`, {
-  method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ targetDirectory })
-})));
-
-server.registerTool("find_similar_assets", {
-  description: "Find locally indexed assets with overlapping category and tags.",
-  inputSchema: { assetId: z.string() }
-}, async ({ assetId }) => result(await api(`/api/similar/${encodeURIComponent(assetId)}`)));
-
-server.registerTool("search_local_assets", {
-  description: "Search only assets already stored in the local NEXUS Library.",
-  inputSchema: { q: z.string().optional() }
-}, async ({ q = "" }) => {
-  const library = await api("/api/library");
-  const needle = q.toLowerCase();
-  return result(library.filter((asset) => !needle || `${asset.name} ${asset.provider} ${(asset.tags || []).join(" ")}`.toLowerCase().includes(needle)));
-});
-
-const transport = new StdioServerTransport();
-await server.connect(transport);
+await server.connect(new StdioServerTransport());
