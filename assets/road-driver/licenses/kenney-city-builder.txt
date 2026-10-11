@@ -1,0 +1,8 @@
+Kenney Starter Kit City Builder
+Author: Kenney (www.kenney.nl)
+License: CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://github.com/KenneyNL/Starter-Kit-City-Builder @ 4535092b740b378b700efd9df9e27a631815b84a
+Evidence: README: "Sprites and 3D Models (CC0 licensed)"; project code is MIT and is not imported.
+
+- Sprites and 3D Models _(CC0 licensed)_
+Assets included in this package (2D sprites, 3D models and sound effects) are [CC0 licensed](https://creativecommons.org/publicdomain/zero/1.0/)

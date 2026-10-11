@@ -1,0 +1,28 @@
+Kenney Space Kit 2.0
+Author: Kenney (www.kenney.nl)
+License: CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://kenney.nl/assets/space-kit (@anabis/kenney-space-kit-mirror@2.0.0, sha512-mpXkBM9xtv8KlBjBolyYEYpsx8G3EcNyggZp4pQZ/+qFmKgG0256pbeXoiVB2f1iN6vVTfSHJhFxHEASJVVuUQ==)
+Evidence: Unofficial npm mirror; ships Kenney's original License.txt (CC0 1.0). Only model files are used; the package script is never executed.
+
+Space Kit (2.0)
+
+	Created/distributed by Kenney (www.kenney.nl)
+	Creation date: 27-08-2020 14:20
+
+			------------------------------
+
+	License: (Creative Commons Zero, CC0)
+	http://creativecommons.org/publicdomain/zero/1.0/
+
+	This content is free to use in personal, educational and commercial projects.
+
+	Support us by crediting Kenney or www.kenney.nl (this is not mandatory)
+
+			------------------------------
+
+	Donate:   http://support.kenney.nl
+	Request:  http://request.kenney.nl
+	Patreon:  http://patreon.com/kenney/
+
+	Follow on Twitter for updates:
+	http://twitter.com/KenneyNL

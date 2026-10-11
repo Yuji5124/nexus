@@ -53,7 +53,7 @@ export async function renderThumbnails(outDir, files) {
   });
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
   const playwright = await loadPlaywright(), chromium = playwright.chromium || playwright.default.chromium;
-  const browser = await chromium.launch({ args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader'] });
+  const browser = await chromium.launch({ ...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH ? { executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH } : {}), args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader'] });
   const tab = await browser.newPage({ viewport: { width: 256, height: 256 } });
   await tab.goto(`http://127.0.0.1:${server.address().port}/`);
   await tab.waitForFunction(() => window.ready);

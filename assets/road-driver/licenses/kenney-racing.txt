@@ -1,0 +1,9 @@
+Kenney Starter Kit Racing
+Author: Kenney (www.kenney.nl)
+License: CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://github.com/KenneyNL/Starter-Kit-Racing @ 2f2e5f2646dda89cb21d4e8539bab60c6e955dc8
+Evidence: README: "3D Models & sounds (CC0 licensed)"; project code is MIT and is not imported.
+
+- 3D Models & sounds _(CC0 licensed)_
+Assets included in this package (2D sprites, 3D models and sound effects) are [CC0 licensed](https://creativecommons.org/publicdomain/zero/1.0/)
+The skid sound effect was made by [Landeplage](https://github.com/Landeplage) and is also CC0 licensed

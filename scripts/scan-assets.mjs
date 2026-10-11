@@ -10,6 +10,7 @@ const supported = new Set([".glb", ".gltf", ".fbx", ".obj", ".png", ".jpg", ".jp
 
 async function readJson(file, fallback) { try { return JSON.parse(await fs.readFile(file, "utf8")); } catch { return fallback; } }
 async function filesUnder(directory) {
+  if (path.relative(root, directory).split(path.sep).join('/') === 'assets/road-driver') return [];
   try { await fs.access(directory); } catch { return []; }
   const entries = await fs.readdir(directory, { withFileTypes: true });
   const files = [];
@@ -83,7 +84,7 @@ async function scanFile(file, existing) {
   return { ...old, id: old?.id || idFor(relative), name: old?.name || path.basename(file, extension), title: old?.title || old?.name || path.basename(file, extension), category, ...(subcategory ? { subcategory } : {}), tags: old?.tags?.length ? old.tags : [...new Set(pathTags(relative))], file: relative, localPath: relative, thumbnail: old?.thumbnail || (isImage ? `/${relative}` : "thumbnail missing"), format, type: old?.type || (isImage ? "texture" : "model"), size: stat.size, fileSize: stat.size, vertices: stats.vertices ?? old?.vertices ?? null, triangles: stats.triangles ?? old?.triangles ?? null, polygonCount: stats.triangles ?? old?.polygonCount ?? null, meshCount: stats.meshCount ?? old?.meshCount ?? null, materials: stats.materialCount ?? old?.materials ?? null, textures: stats.textureCount ?? old?.textures ?? null, animations: stats.animations ?? old?.animations ?? [], animated: (stats.animations || old?.animations || []).length > 0, boundingBox: stats.boundingBox ?? old?.boundingBox ?? null, dimensions: stats.dimensions ?? old?.dimensions ?? null, scale: old?.scale ?? 1, license: old?.license || "UNKNOWN", source: old?.source || "", sourceUrl: old?.sourceUrl || "", author: old?.author || "", addedAt: old?.addedAt || stat.birthtime.toISOString(), notes: old?.notes || "", recommendedFor: old?.recommendedFor || [] };
 }
 
-const existing = await readJson(dataFile, await readJson(path.join(root, "library/assets.json"), [])); const discovered = [];
+const existing = (await readJson(dataFile, await readJson(path.join(root, "library/assets.json"), []))).filter(item => !String(item.file || '').startsWith('assets/road-driver/')); const discovered = [];
 for (const source of sourceRoots) for (const file of await filesUnder(path.join(root, source))) discovered.push(await scanFile(file, existing));
 const discoveredPaths = new Set(discovered.map((item) => item.localPath || item.file));
 const preserved = existing.filter((item) => !discoveredPaths.has(item.localPath || item.file));

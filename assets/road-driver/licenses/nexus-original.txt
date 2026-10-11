@@ -1,0 +1,5 @@
+NEXUS original (GIANT CLIMB)
+Author: NEXUS
+License: CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs
+Evidence: Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).

@@ -895,7 +895,8 @@
       "apartment",
       "mansion",
       "balcony",
-      "building"
+      "building",
+      "road-driver"
     ],
     "gameRoles": [
       "climbable-surface",
@@ -945,7 +946,8 @@
       "threejs",
       "lowpoly",
       "climbable-surface",
-      "platform"
+      "platform",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-building",
@@ -978,7 +980,12 @@
     "sha256": "aa0a63429634b2632cd44e320eb8a63773da78e56069e94e5587109536802ee3",
     "path": "assets/giant-climb/city-building/city_apartment_block.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/city_apartment_block.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/city_apartment_block.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/city_apartment_block.glb",
+    "roadDriver": {
+      "category": "CITY",
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
+    }
   },
   {
     "id": "city_billboard_frame",
@@ -1093,7 +1100,8 @@
       "konbini",
       "convenience-store",
       "shop",
-      "building"
+      "building",
+      "road-driver"
     ],
     "gameRoles": [
       "platform",
@@ -1143,7 +1151,8 @@
       "threejs",
       "lowpoly",
       "platform",
-      "background"
+      "background",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-building",
@@ -1176,7 +1185,12 @@
     "sha256": "910d004ce4f3e78b9b70a23c1ec58c92c5de9f12855d6139b67568891e9c5fe9",
     "path": "assets/giant-climb/city-building/city_corner_store.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/city_corner_store.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/city_corner_store.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/city_corner_store.glb",
+    "roadDriver": {
+      "category": "CITY",
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
+    }
   },
   {
     "id": "city_office_tower",
@@ -1192,7 +1206,8 @@
       "office",
       "skyscraper",
       "building",
-      "tall"
+      "tall",
+      "road-driver"
     ],
     "gameRoles": [
       "climbable-surface",
@@ -1242,7 +1257,8 @@
       "threejs",
       "lowpoly",
       "climbable-surface",
-      "landmark"
+      "landmark",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-building",
@@ -1275,7 +1291,12 @@
     "sha256": "d13a5a75113f16df753ff4f474aae3222be28a0a47e6f0fd169a7c2b0f1d78a7",
     "path": "assets/giant-climb/city-building/city_office_tower.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/city_office_tower.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/city_office_tower.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/city_office_tower.glb",
+    "roadDriver": {
+      "category": "CITY",
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
+    }
   },
   {
     "id": "city_pencil_building",
@@ -1291,7 +1312,8 @@
       "pencil-building",
       "zakkyo",
       "signage",
-      "building"
+      "building",
+      "road-driver"
     ],
     "gameRoles": [
       "climbable-surface",
@@ -1341,7 +1363,8 @@
       "threejs",
       "lowpoly",
       "climbable-surface",
-      "handhold"
+      "handhold",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-building",
@@ -1374,7 +1397,12 @@
     "sha256": "79f884b645c08027647a49cc6d0dff91445c976166b4c9af81d07a6d967d5cd3",
     "path": "assets/giant-climb/city-building/city_pencil_building.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/city_pencil_building.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/city_pencil_building.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/city_pencil_building.glb",
+    "roadDriver": {
+      "category": "CITY",
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
+    }
   },
   {
     "id": "city_radio_tower",
@@ -1683,7 +1711,8 @@
       "lowpoly",
       "city",
       "building",
-      "tile"
+      "tile",
+      "road-driver"
     ],
     "gameRoles": [
       "climbable-surface",
@@ -1733,7 +1762,8 @@
       "threejs",
       "lowpoly",
       "climbable-surface",
-      "background"
+      "background",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-building",
@@ -1766,7 +1796,12 @@
     "sha256": "d14be1c3bec947199cb537f14a7d5ac34a9e4e02e20a47133015c93d7f00df35",
     "path": "assets/giant-climb/city-building/citykit_building_garage.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/citykit_building_garage.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_garage.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_garage.glb",
+    "roadDriver": {
+      "category": "CITY",
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
+    }
   },
   {
     "id": "citykit_building_small_a",
@@ -1779,7 +1814,8 @@
       "lowpoly",
       "city",
       "building",
-      "tile"
+      "tile",
+      "road-driver"
     ],
     "gameRoles": [
       "climbable-surface",
@@ -1829,7 +1865,8 @@
       "threejs",
       "lowpoly",
       "climbable-surface",
-      "background"
+      "background",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-building",
@@ -1862,7 +1899,12 @@
     "sha256": "4a49db0205b231c4b1b5137f08123f89f8363ffd9ea8396c202b756cb4dab4e1",
     "path": "assets/giant-climb/city-building/citykit_building_small_a.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/citykit_building_small_a.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_small_a.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_small_a.glb",
+    "roadDriver": {
+      "category": "CITY",
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
+    }
   },
   {
     "id": "citykit_building_small_b",
@@ -1875,7 +1917,8 @@
       "lowpoly",
       "city",
       "building",
-      "tile"
+      "tile",
+      "road-driver"
     ],
     "gameRoles": [
       "climbable-surface",
@@ -1925,7 +1968,8 @@
       "threejs",
       "lowpoly",
       "climbable-surface",
-      "background"
+      "background",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-building",
@@ -1958,7 +2002,12 @@
     "sha256": "701bc797a14bf892423f27eebfb2f57f8b215362b461af8d0a00dec2670ffa94",
     "path": "assets/giant-climb/city-building/citykit_building_small_b.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/citykit_building_small_b.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_small_b.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_small_b.glb",
+    "roadDriver": {
+      "category": "CITY",
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
+    }
   },
   {
     "id": "citykit_building_small_c",
@@ -1971,7 +2020,8 @@
       "lowpoly",
       "city",
       "building",
-      "tile"
+      "tile",
+      "road-driver"
     ],
     "gameRoles": [
       "climbable-surface",
@@ -2021,7 +2071,8 @@
       "threejs",
       "lowpoly",
       "climbable-surface",
-      "background"
+      "background",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-building",
@@ -2054,7 +2105,12 @@
     "sha256": "36f1d6660d413c97bd9079cd13e7e5feacbc667686022eab04e27644254b330d",
     "path": "assets/giant-climb/city-building/citykit_building_small_c.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/citykit_building_small_c.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_small_c.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_small_c.glb",
+    "roadDriver": {
+      "category": "CITY",
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
+    }
   },
   {
     "id": "citykit_building_small_d",
@@ -2067,7 +2123,8 @@
       "lowpoly",
       "city",
       "building",
-      "tile"
+      "tile",
+      "road-driver"
     ],
     "gameRoles": [
       "climbable-surface",
@@ -2117,7 +2174,8 @@
       "threejs",
       "lowpoly",
       "climbable-surface",
-      "background"
+      "background",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-building",
@@ -2150,7 +2208,12 @@
     "sha256": "b7a1f380e537e7c33c2dc0efdbccba9749fbc3f94eb5c13210cc6807d002bd5a",
     "path": "assets/giant-climb/city-building/citykit_building_small_d.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/citykit_building_small_d.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_small_d.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_small_d.glb",
+    "roadDriver": {
+      "category": "CITY",
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
+    }
   },
   {
     "id": "kenney_house_4",
@@ -2358,7 +2421,8 @@
       "city",
       "house",
       "residential",
-      "building"
+      "building",
+      "road-driver"
     ],
     "gameRoles": [
       "climbable-surface",
@@ -2408,7 +2472,8 @@
       "threejs",
       "lowpoly",
       "climbable-surface",
-      "background"
+      "background",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-building",
@@ -2441,7 +2506,12 @@
     "sha256": "bc38bb8bc70e97b52248ff18b23032c7b7065cf24e3d36dedf73b9080dec5889",
     "path": "assets/giant-climb/city-building/kenney_house_7.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/kenney_house_7.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/kenney_house_7.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/kenney_house_7.glb",
+    "roadDriver": {
+      "category": "CITY",
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
+    }
   },
   {
     "id": "city_crosswalk_road",
@@ -2953,7 +3023,9 @@
       "tokyo",
       "guardrail",
       "barrier",
-      "street"
+      "street",
+      "road-driver",
+      "road-props"
     ],
     "gameRoles": [
       "obstacle",
@@ -3003,7 +3075,8 @@
       "threejs",
       "lowpoly",
       "obstacle",
-      "handhold"
+      "handhold",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-street",
@@ -3036,7 +3109,12 @@
     "sha256": "76fb4737ae46539daae997be3f0dc678e2c3af84d542da1bb043dc8fc8f48e91",
     "path": "assets/giant-climb/city-street/city_sidewalk_barrier.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_sidewalk_barrier.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_sidewalk_barrier.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_sidewalk_barrier.glb",
+    "roadDriver": {
+      "category": "ROAD PROPS",
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。"
+    }
   },
   {
     "id": "city_street_lamp",
@@ -3051,7 +3129,9 @@
       "tokyo",
       "street-lamp",
       "light",
-      "street"
+      "street",
+      "road-driver",
+      "road-props"
     ],
     "gameRoles": [
       "handhold",
@@ -3101,7 +3181,8 @@
       "threejs",
       "lowpoly",
       "handhold",
-      "decoration"
+      "decoration",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-street",
@@ -3134,7 +3215,12 @@
     "sha256": "8be983c8e5bbd81c5286f179f1722c6c221d6ed7b30385861afa6b0115f08315",
     "path": "assets/giant-climb/city-street/city_street_lamp.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_street_lamp.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_street_lamp.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_street_lamp.glb",
+    "roadDriver": {
+      "category": "ROAD PROPS",
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。"
+    }
   },
   {
     "id": "city_traffic_light",
@@ -3149,7 +3235,9 @@
       "tokyo",
       "traffic-light",
       "signal",
-      "street"
+      "street",
+      "road-driver",
+      "road-props"
     ],
     "gameRoles": [
       "handhold",
@@ -3199,7 +3287,8 @@
       "threejs",
       "lowpoly",
       "handhold",
-      "decoration"
+      "decoration",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-street",
@@ -3232,7 +3321,12 @@
     "sha256": "c254175908ee287f11ae514705d78568eeb168145580a7a8658bcf7cb8629ac3",
     "path": "assets/giant-climb/city-street/city_traffic_light.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_traffic_light.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_traffic_light.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_traffic_light.glb",
+    "roadDriver": {
+      "category": "ROAD PROPS",
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。"
+    }
   },
   {
     "id": "city_utility_pole",
@@ -3443,7 +3537,9 @@
       "city",
       "park",
       "tree",
-      "tile"
+      "tile",
+      "road-driver",
+      "nature"
     ],
     "gameRoles": [
       "walkable-floor",
@@ -3493,7 +3589,8 @@
       "threejs",
       "lowpoly",
       "walkable-floor",
-      "background"
+      "background",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-street",
@@ -3526,7 +3623,12 @@
     "sha256": "a1c01286dd063e12619a2b3ba256bc4096ecc19da6ed98f12043903893410af6",
     "path": "assets/giant-climb/city-street/citykit_grass.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/citykit_grass.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/citykit_grass.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/citykit_grass.glb",
+    "roadDriver": {
+      "category": "NATURE",
+      "recommendedUse": "公園・街路樹・緑地・空のアクセント。",
+      "placement": "路肩や遠景に配置。植栽は同一モデルを共有し、密集時はInstancedMeshを検討。"
+    }
   },
   {
     "id": "citykit_grass_trees",
@@ -3540,7 +3642,9 @@
       "city",
       "park",
       "tree",
-      "tile"
+      "tile",
+      "road-driver",
+      "nature"
     ],
     "gameRoles": [
       "walkable-floor",
@@ -3590,7 +3694,8 @@
       "threejs",
       "lowpoly",
       "walkable-floor",
-      "background"
+      "background",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-street",
@@ -3623,7 +3728,12 @@
     "sha256": "cb92b1c8ecc11d3fcd7dbaedebbb7a2d7a0ff332fc1dab7c987e972723dcd42e",
     "path": "assets/giant-climb/city-street/citykit_grass_trees.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/citykit_grass_trees.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/citykit_grass_trees.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/citykit_grass_trees.glb",
+    "roadDriver": {
+      "category": "NATURE",
+      "recommendedUse": "公園・街路樹・緑地・空のアクセント。",
+      "placement": "路肩や遠景に配置。植栽は同一モデルを共有し、密集時はInstancedMeshを検討。"
+    }
   },
   {
     "id": "citykit_grass_trees_tall",
@@ -3637,7 +3747,9 @@
       "city",
       "park",
       "tree",
-      "tile"
+      "tile",
+      "road-driver",
+      "nature"
     ],
     "gameRoles": [
       "walkable-floor",
@@ -3687,7 +3799,8 @@
       "threejs",
       "lowpoly",
       "walkable-floor",
-      "background"
+      "background",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-street",
@@ -3720,7 +3833,12 @@
     "sha256": "312ae406054a36a3f6dba1deb0afbdeb159b4c6c0c309b477dd98dccb1c4c120",
     "path": "assets/giant-climb/city-street/citykit_grass_trees_tall.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/citykit_grass_trees_tall.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/citykit_grass_trees_tall.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/citykit_grass_trees_tall.glb",
+    "roadDriver": {
+      "category": "NATURE",
+      "recommendedUse": "公園・街路樹・緑地・空のアクセント。",
+      "placement": "路肩や遠景に配置。植栽は同一モデルを共有し、密集時はInstancedMeshを検討。"
+    }
   },
   {
     "id": "citykit_pavement",
@@ -3931,7 +4049,9 @@
       "road",
       "street",
       "tile",
-      "modular"
+      "modular",
+      "road-driver",
+      "road-props"
     ],
     "gameRoles": [
       "walkable-floor",
@@ -3981,7 +4101,8 @@
       "threejs",
       "lowpoly",
       "walkable-floor",
-      "modular-kit"
+      "modular-kit",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-street",
@@ -4014,7 +4135,12 @@
     "sha256": "8812353515f773fe025a2f8dd1c2c886bd15cbe713ee5a419ed41bb0b792aea2",
     "path": "assets/giant-climb/city-street/citykit_road_corner.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/citykit_road_corner.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/citykit_road_corner.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/citykit_road_corner.glb",
+    "roadDriver": {
+      "category": "ROAD PROPS",
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。"
+    }
   },
   {
     "id": "citykit_road_intersection",
@@ -4029,7 +4155,9 @@
       "road",
       "street",
       "tile",
-      "modular"
+      "modular",
+      "road-driver",
+      "road-props"
     ],
     "gameRoles": [
       "walkable-floor",
@@ -4079,7 +4207,8 @@
       "threejs",
       "lowpoly",
       "walkable-floor",
-      "modular-kit"
+      "modular-kit",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-street",
@@ -4112,7 +4241,12 @@
     "sha256": "6cab96dffc1cf6bbbc9e8f948f5007c825f74f8f2190962b2e0d63b18a16ed44",
     "path": "assets/giant-climb/city-street/citykit_road_intersection.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/citykit_road_intersection.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/citykit_road_intersection.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/citykit_road_intersection.glb",
+    "roadDriver": {
+      "category": "ROAD PROPS",
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。"
+    }
   },
   {
     "id": "citykit_road_split",
@@ -4127,7 +4261,9 @@
       "road",
       "street",
       "tile",
-      "modular"
+      "modular",
+      "road-driver",
+      "road-props"
     ],
     "gameRoles": [
       "walkable-floor",
@@ -4177,7 +4313,8 @@
       "threejs",
       "lowpoly",
       "walkable-floor",
-      "modular-kit"
+      "modular-kit",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-street",
@@ -4210,7 +4347,12 @@
     "sha256": "94020f2c1a79da68362c89b48109c167a5de1b8083f47c3fef852632d4cdfe93",
     "path": "assets/giant-climb/city-street/citykit_road_split.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/citykit_road_split.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/citykit_road_split.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/citykit_road_split.glb",
+    "roadDriver": {
+      "category": "ROAD PROPS",
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。"
+    }
   },
   {
     "id": "citykit_road_straight",
@@ -4225,7 +4367,9 @@
       "road",
       "street",
       "tile",
-      "modular"
+      "modular",
+      "road-driver",
+      "road-props"
     ],
     "gameRoles": [
       "walkable-floor",
@@ -4275,7 +4419,8 @@
       "threejs",
       "lowpoly",
       "walkable-floor",
-      "modular-kit"
+      "modular-kit",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-street",
@@ -4308,7 +4453,12 @@
     "sha256": "54bff0e54db1344c0dcf48486f359feeb519cc96e22a6cc79eb0e7d1686770b2",
     "path": "assets/giant-climb/city-street/citykit_road_straight.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/citykit_road_straight.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/citykit_road_straight.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/citykit_road_straight.glb",
+    "roadDriver": {
+      "category": "ROAD PROPS",
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。"
+    }
   },
   {
     "id": "citykit_road_straight_lightposts",
@@ -4323,7 +4473,9 @@
       "road",
       "street",
       "tile",
-      "modular"
+      "modular",
+      "road-driver",
+      "road-props"
     ],
     "gameRoles": [
       "walkable-floor",
@@ -4373,7 +4525,8 @@
       "threejs",
       "lowpoly",
       "walkable-floor",
-      "modular-kit"
+      "modular-kit",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-street",
@@ -4406,7 +4559,12 @@
     "sha256": "60761b0918cc609ddd439c536db28d161e71c51a107ff877f9def8d4718a5c6e",
     "path": "assets/giant-climb/city-street/citykit_road_straight_lightposts.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/citykit_road_straight_lightposts.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/citykit_road_straight_lightposts.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/citykit_road_straight_lightposts.glb",
+    "roadDriver": {
+      "category": "ROAD PROPS",
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。"
+    }
   },
   {
     "id": "space_monorail_track_corner_large",
@@ -4422,7 +4580,9 @@
       "monorail",
       "track",
       "elevated",
-      "modular"
+      "modular",
+      "road-driver",
+      "future"
     ],
     "gameRoles": [
       "platform",
@@ -4472,7 +4632,8 @@
       "threejs",
       "lowpoly",
       "platform",
-      "modular-kit"
+      "modular-kit",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-street",
@@ -4505,7 +4666,12 @@
     "sha256": "f8bff88b72f015ba346273ca78d196c71424036c39077b2152b0635155165db9",
     "path": "assets/giant-climb/city-street/space_monorail_track_corner_large.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/space_monorail_track_corner_large.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/space_monorail_track_corner_large.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/space_monorail_track_corner_large.glb",
+    "roadDriver": {
+      "category": "FUTURE",
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。"
+    }
   },
   {
     "id": "space_monorail_track_corner_small",
@@ -4719,7 +4885,9 @@
       "monorail",
       "track",
       "elevated",
-      "modular"
+      "modular",
+      "road-driver",
+      "future"
     ],
     "gameRoles": [
       "platform",
@@ -4769,7 +4937,8 @@
       "threejs",
       "lowpoly",
       "platform",
-      "modular-kit"
+      "modular-kit",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-street",
@@ -4802,7 +4971,12 @@
     "sha256": "6cac3ba41bf3f004a66a08f375681ac8a27a65089f3705dc62906754eb00c166",
     "path": "assets/giant-climb/city-street/space_monorail_track_straight.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/space_monorail_track_straight.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/space_monorail_track_straight.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/space_monorail_track_straight.glb",
+    "roadDriver": {
+      "category": "FUTURE",
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。"
+    }
   },
   {
     "id": "space_monorail_track_support",
@@ -4818,7 +4992,9 @@
       "monorail",
       "track",
       "elevated",
-      "modular"
+      "modular",
+      "road-driver",
+      "future"
     ],
     "gameRoles": [
       "platform",
@@ -4868,7 +5044,8 @@
       "threejs",
       "lowpoly",
       "platform",
-      "modular-kit"
+      "modular-kit",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "city-street",
@@ -4901,7 +5078,12 @@
     "sha256": "69e77687c15da97c4537106b55fa73218a30680dd20617660142ae12b6967434",
     "path": "assets/giant-climb/city-street/space_monorail_track_support.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/space_monorail_track_support.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/space_monorail_track_support.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/space_monorail_track_support.glb",
+    "roadDriver": {
+      "category": "FUTURE",
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。"
+    }
   },
   {
     "id": "space_monorail_track_support_corner",
@@ -6451,7 +6633,9 @@
       "giant-climb",
       "lowpoly",
       "platform",
-      "grass"
+      "grass",
+      "road-driver",
+      "nature"
     ],
     "gameRoles": [
       "platform"
@@ -6499,7 +6683,8 @@
       "giant-climb",
       "threejs",
       "lowpoly",
-      "platform"
+      "platform",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "platform",
@@ -6532,7 +6717,12 @@
     "sha256": "62ffae489280d320f7ca34e9eb582cf97333474672ea21e33302e293b06bba12",
     "path": "assets/giant-climb/platform/fpskit_platform_large_grass.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/platform/fpskit_platform_large_grass.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/platform/fpskit_platform_large_grass.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/platform/fpskit_platform_large_grass.glb",
+    "roadDriver": {
+      "category": "NATURE",
+      "recommendedUse": "公園・街路樹・緑地・空のアクセント。",
+      "placement": "路肩や遠景に配置。植栽は同一モデルを共有し、密集時はInstancedMeshを検討。"
+    }
   },
   {
     "id": "fpskit_wall_high",
@@ -6830,7 +7020,9 @@
       "giant-climb",
       "lowpoly",
       "platform",
-      "platformer"
+      "platformer",
+      "road-driver",
+      "nature"
     ],
     "gameRoles": [
       "platform"
@@ -6878,7 +7070,8 @@
       "giant-climb",
       "threejs",
       "lowpoly",
-      "platform"
+      "platform",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "platform",
@@ -6911,7 +7104,12 @@
     "sha256": "ae0930d320c30b03717b6f44baf16743a0e449a1dbcac6fed6c154c01c46570e",
     "path": "assets/giant-climb/platform/platformer_platform_grass_large_round.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/platform/platformer_platform_grass_large_round.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/platform/platformer_platform_grass_large_round.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/platform/platformer_platform_grass_large_round.glb",
+    "roadDriver": {
+      "category": "NATURE",
+      "recommendedUse": "公園・街路樹・緑地・空のアクセント。",
+      "placement": "路肩や遠景に配置。植栽は同一モデルを共有し、密集時はInstancedMeshを検討。"
+    }
   },
   {
     "id": "platformer_platform_large",
@@ -18414,7 +18612,9 @@
       "frame",
       "scaffold",
       "lattice",
-      "industrial"
+      "industrial",
+      "road-driver",
+      "future"
     ],
     "gameRoles": [
       "climbable-surface",
@@ -18464,7 +18664,8 @@
       "threejs",
       "lowpoly",
       "climbable-surface",
-      "modular-kit"
+      "modular-kit",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "robot-interior",
@@ -18497,7 +18698,12 @@
     "sha256": "b686282d9e26242a14654603b709174f7ec89aadb283673fcd1110bb3f092b50",
     "path": "assets/giant-climb/robot-interior/space_structure.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/robot-interior/space_structure.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/robot-interior/space_structure.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/robot-interior/space_structure.glb",
+    "roadDriver": {
+      "category": "FUTURE",
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。"
+    }
   },
   {
     "id": "space_structure_closed",
@@ -18512,7 +18718,9 @@
       "frame",
       "scaffold",
       "lattice",
-      "industrial"
+      "industrial",
+      "road-driver",
+      "future"
     ],
     "gameRoles": [
       "climbable-surface",
@@ -18562,7 +18770,8 @@
       "threejs",
       "lowpoly",
       "climbable-surface",
-      "modular-kit"
+      "modular-kit",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "robot-interior",
@@ -18595,7 +18804,12 @@
     "sha256": "3096e26f8707ee8435bb8083f12e81c74df45fbd0d87664523b400f17892eeef",
     "path": "assets/giant-climb/robot-interior/space_structure_closed.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/robot-interior/space_structure_closed.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/robot-interior/space_structure_closed.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/robot-interior/space_structure_closed.glb",
+    "roadDriver": {
+      "category": "FUTURE",
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。"
+    }
   },
   {
     "id": "space_structure_detailed",
@@ -18610,7 +18824,9 @@
       "frame",
       "scaffold",
       "lattice",
-      "industrial"
+      "industrial",
+      "road-driver",
+      "future"
     ],
     "gameRoles": [
       "climbable-surface",
@@ -18660,7 +18876,8 @@
       "threejs",
       "lowpoly",
       "climbable-surface",
-      "modular-kit"
+      "modular-kit",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "robot-interior",
@@ -18693,7 +18910,12 @@
     "sha256": "4717f05d87ae6f2e53fe0e59ca0c3dc15ee2bc61b544c393d6249ba8ff14c9cc",
     "path": "assets/giant-climb/robot-interior/space_structure_detailed.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/robot-interior/space_structure_detailed.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/robot-interior/space_structure_detailed.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/robot-interior/space_structure_detailed.glb",
+    "roadDriver": {
+      "category": "FUTURE",
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。"
+    }
   },
   {
     "id": "space_structure_diagonal",
@@ -18806,7 +19028,9 @@
       "frame",
       "scaffold",
       "lattice",
-      "industrial"
+      "industrial",
+      "road-driver",
+      "future"
     ],
     "gameRoles": [
       "climbable-surface",
@@ -18856,7 +19080,8 @@
       "threejs",
       "lowpoly",
       "climbable-surface",
-      "modular-kit"
+      "modular-kit",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "robot-interior",
@@ -18889,7 +19114,12 @@
     "sha256": "49fbbcb9c86df9ea0642c16bc2780f33babb27d9c7811b60cf25a9236a653324",
     "path": "assets/giant-climb/robot-interior/space_supports_high.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/robot-interior/space_supports_high.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/robot-interior/space_supports_high.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/robot-interior/space_supports_high.glb",
+    "roadDriver": {
+      "category": "FUTURE",
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。"
+    }
   },
   {
     "id": "space_supports_low",
@@ -18904,7 +19134,9 @@
       "frame",
       "scaffold",
       "lattice",
-      "industrial"
+      "industrial",
+      "road-driver",
+      "future"
     ],
     "gameRoles": [
       "climbable-surface",
@@ -18954,7 +19186,8 @@
       "threejs",
       "lowpoly",
       "climbable-surface",
-      "modular-kit"
+      "modular-kit",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "robot-interior",
@@ -18987,7 +19220,12 @@
     "sha256": "4ba36d1cd7118e129ab411a850dc0262ac3d5a48debd78853fbf0b2baf345088",
     "path": "assets/giant-climb/robot-interior/space_supports_low.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/robot-interior/space_supports_low.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/robot-interior/space_supports_low.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/robot-interior/space_supports_low.glb",
+    "roadDriver": {
+      "category": "FUTURE",
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。"
+    }
   },
   {
     "id": "kenney_ambulance",
@@ -19002,7 +19240,8 @@
       "car",
       "street",
       "city",
-      "traffic"
+      "traffic",
+      "road-driver"
     ],
     "gameRoles": [
       "vehicle-prop",
@@ -19052,7 +19291,8 @@
       "threejs",
       "lowpoly",
       "vehicle-prop",
-      "platform"
+      "platform",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "vehicle",
@@ -19085,7 +19325,12 @@
     "sha256": "39fffb29bc230e8019f90baf416fe4b2991680eae398abd3c540c367d00e6433",
     "path": "assets/giant-climb/vehicle/kenney_ambulance.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/vehicle/kenney_ambulance.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_ambulance.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_ambulance.glb",
+    "roadDriver": {
+      "category": "VEHICLE",
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。"
+    }
   },
   {
     "id": "kenney_delivery_truck",
@@ -19100,7 +19345,8 @@
       "car",
       "street",
       "city",
-      "traffic"
+      "traffic",
+      "road-driver"
     ],
     "gameRoles": [
       "vehicle-prop",
@@ -19150,7 +19396,8 @@
       "threejs",
       "lowpoly",
       "vehicle-prop",
-      "platform"
+      "platform",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "vehicle",
@@ -19183,7 +19430,12 @@
     "sha256": "2777cd28e27016e3665627026bc5b11b13c31ce2c7a3d223aa24eed9b6575580",
     "path": "assets/giant-climb/vehicle/kenney_delivery_truck.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/vehicle/kenney_delivery_truck.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_delivery_truck.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_delivery_truck.glb",
+    "roadDriver": {
+      "category": "VEHICLE",
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。"
+    }
   },
   {
     "id": "kenney_firetruck",
@@ -19394,7 +19646,8 @@
       "car",
       "street",
       "city",
-      "traffic"
+      "traffic",
+      "road-driver"
     ],
     "gameRoles": [
       "vehicle-prop",
@@ -19444,7 +19697,8 @@
       "threejs",
       "lowpoly",
       "vehicle-prop",
-      "platform"
+      "platform",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "vehicle",
@@ -19477,7 +19731,12 @@
     "sha256": "173cc68777eecd17e69facbfddb6903a84c574666c4ba09fc490da5327cf5660",
     "path": "assets/giant-climb/vehicle/kenney_hatchback.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/vehicle/kenney_hatchback.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_hatchback.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_hatchback.glb",
+    "roadDriver": {
+      "category": "VEHICLE",
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。"
+    }
   },
   {
     "id": "kenney_police_car",
@@ -19492,7 +19751,8 @@
       "car",
       "street",
       "city",
-      "traffic"
+      "traffic",
+      "road-driver"
     ],
     "gameRoles": [
       "vehicle-prop",
@@ -19542,7 +19802,8 @@
       "threejs",
       "lowpoly",
       "vehicle-prop",
-      "platform"
+      "platform",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "vehicle",
@@ -19575,7 +19836,12 @@
     "sha256": "71439bf3eeb40a891da32c6e1ea69878c0cf9d8f518d7965f46dfbccf308ad2a",
     "path": "assets/giant-climb/vehicle/kenney_police_car.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/vehicle/kenney_police_car.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_police_car.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_police_car.glb",
+    "roadDriver": {
+      "category": "VEHICLE",
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。"
+    }
   },
   {
     "id": "kenney_sedan",
@@ -19590,7 +19856,8 @@
       "car",
       "street",
       "city",
-      "traffic"
+      "traffic",
+      "road-driver"
     ],
     "gameRoles": [
       "vehicle-prop",
@@ -19640,7 +19907,8 @@
       "threejs",
       "lowpoly",
       "vehicle-prop",
-      "platform"
+      "platform",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "vehicle",
@@ -19673,7 +19941,12 @@
     "sha256": "1116a3441b18fbcbc4422423ed4228466db176faa1cbca88cf5d1664da4fec12",
     "path": "assets/giant-climb/vehicle/kenney_sedan.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/vehicle/kenney_sedan.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_sedan.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_sedan.glb",
+    "roadDriver": {
+      "category": "VEHICLE",
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。"
+    }
   },
   {
     "id": "kenney_sports_sedan",
@@ -19688,7 +19961,8 @@
       "car",
       "street",
       "city",
-      "traffic"
+      "traffic",
+      "road-driver"
     ],
     "gameRoles": [
       "vehicle-prop",
@@ -19738,7 +20012,8 @@
       "threejs",
       "lowpoly",
       "vehicle-prop",
-      "platform"
+      "platform",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "vehicle",
@@ -19771,7 +20046,12 @@
     "sha256": "4e40cd6ca6d8d0a9a02c21cab77c44578c185ef748358767fe21dec7ed030357",
     "path": "assets/giant-climb/vehicle/kenney_sports_sedan.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/vehicle/kenney_sports_sedan.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_sports_sedan.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_sports_sedan.glb",
+    "roadDriver": {
+      "category": "VEHICLE",
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。"
+    }
   },
   {
     "id": "kenney_suv",
@@ -19786,7 +20066,8 @@
       "car",
       "street",
       "city",
-      "traffic"
+      "traffic",
+      "road-driver"
     ],
     "gameRoles": [
       "vehicle-prop",
@@ -19836,7 +20117,8 @@
       "threejs",
       "lowpoly",
       "vehicle-prop",
-      "platform"
+      "platform",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "vehicle",
@@ -19869,7 +20151,12 @@
     "sha256": "51e5e847ac87d4a823d6e47a4169af29cad942c267f8ea07935f46286c045189",
     "path": "assets/giant-climb/vehicle/kenney_suv.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/vehicle/kenney_suv.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_suv.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_suv.glb",
+    "roadDriver": {
+      "category": "VEHICLE",
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。"
+    }
   },
   {
     "id": "kenney_taxi",
@@ -19884,7 +20171,8 @@
       "car",
       "street",
       "city",
-      "traffic"
+      "traffic",
+      "road-driver"
     ],
     "gameRoles": [
       "vehicle-prop",
@@ -19934,7 +20222,8 @@
       "threejs",
       "lowpoly",
       "vehicle-prop",
-      "platform"
+      "platform",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "vehicle",
@@ -19967,7 +20256,12 @@
     "sha256": "3a6df7cd783a288348471c6ce723060726cfe08058e9ed3ddacff68e1aa5fc6c",
     "path": "assets/giant-climb/vehicle/kenney_taxi.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/vehicle/kenney_taxi.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_taxi.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_taxi.glb",
+    "roadDriver": {
+      "category": "VEHICLE",
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。"
+    }
   },
   {
     "id": "kenney_truck",
@@ -19982,7 +20276,8 @@
       "car",
       "street",
       "city",
-      "traffic"
+      "traffic",
+      "road-driver"
     ],
     "gameRoles": [
       "vehicle-prop",
@@ -20032,7 +20327,8 @@
       "threejs",
       "lowpoly",
       "vehicle-prop",
-      "platform"
+      "platform",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "vehicle",
@@ -20065,7 +20361,12 @@
     "sha256": "608ebf93777ae3be29e47b5c8c39e74b932eba07de4d418d2e399ddb5dc29e25",
     "path": "assets/giant-climb/vehicle/kenney_truck.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/vehicle/kenney_truck.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_truck.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_truck.glb",
+    "roadDriver": {
+      "category": "VEHICLE",
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。"
+    }
   },
   {
     "id": "kenney_truck_flat",
@@ -20080,7 +20381,8 @@
       "car",
       "street",
       "city",
-      "traffic"
+      "traffic",
+      "road-driver"
     ],
     "gameRoles": [
       "vehicle-prop",
@@ -20130,7 +20432,8 @@
       "threejs",
       "lowpoly",
       "vehicle-prop",
-      "platform"
+      "platform",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "vehicle",
@@ -20163,7 +20466,12 @@
     "sha256": "50be9cba4fde03107978e5f1c247bb20c3ae627271be57ab8b6ff70cbe1c5544",
     "path": "assets/giant-climb/vehicle/kenney_truck_flat.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/vehicle/kenney_truck_flat.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_truck_flat.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_truck_flat.glb",
+    "roadDriver": {
+      "category": "VEHICLE",
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。"
+    }
   },
   {
     "id": "kenney_van",
@@ -20178,7 +20486,8 @@
       "car",
       "street",
       "city",
-      "traffic"
+      "traffic",
+      "road-driver"
     ],
     "gameRoles": [
       "vehicle-prop",
@@ -20228,7 +20537,8 @@
       "threejs",
       "lowpoly",
       "vehicle-prop",
-      "platform"
+      "platform",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "vehicle",
@@ -20261,7 +20571,12 @@
     "sha256": "7129ac4c6142fb06a89a52c6b0e44c8e316be6c921c7ba79a0998b53d5f3ead9",
     "path": "assets/giant-climb/vehicle/kenney_van.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/vehicle/kenney_van.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_van.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/kenney_van.glb",
+    "roadDriver": {
+      "category": "VEHICLE",
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。"
+    }
   },
   {
     "id": "racing_vehicle_motorcycle",
@@ -20566,7 +20881,8 @@
       "vehicle",
       "truck",
       "street",
-      "city"
+      "city",
+      "road-driver"
     ],
     "gameRoles": [
       "vehicle-prop",
@@ -20616,7 +20932,8 @@
       "threejs",
       "lowpoly",
       "vehicle-prop",
-      "platform"
+      "platform",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "vehicle",
@@ -20649,7 +20966,12 @@
     "sha256": "f0376a326fe1f3e15432c59fffc297fc0a8274e350d1df70d81a9d522f241ab0",
     "path": "assets/giant-climb/vehicle/racing_vehicle_truck_yellow.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/vehicle/racing_vehicle_truck_yellow.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/racing_vehicle_truck_yellow.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/racing_vehicle_truck_yellow.glb",
+    "roadDriver": {
+      "category": "VEHICLE",
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。"
+    }
   },
   {
     "id": "space_monorail_train_end",
@@ -20762,7 +21084,9 @@
       "tokyo",
       "monorail",
       "train",
-      "vehicle"
+      "vehicle",
+      "road-driver",
+      "future"
     ],
     "gameRoles": [
       "vehicle-prop",
@@ -20812,7 +21136,8 @@
       "threejs",
       "lowpoly",
       "vehicle-prop",
-      "platform"
+      "platform",
+      "road-driver"
     ],
     "addedAt": "2026-10-11T00:00:00.000Z",
     "subcategory": "vehicle",
@@ -20845,7 +21170,12 @@
     "sha256": "73eaf6aceba408c4bfeb96e795b78aea96b68582508a97820114eef6b3135cf6",
     "path": "assets/giant-climb/vehicle/space_monorail_train_front.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/vehicle/space_monorail_train_front.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/space_monorail_train_front.glb"
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/space_monorail_train_front.glb",
+    "roadDriver": {
+      "category": "FUTURE",
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。"
+    }
   },
   {
     "id": "space_monorail_train_passenger",
@@ -20958,7 +21288,8 @@
       "demo",
       "forest",
       "lowpoly",
-      "rpg"
+      "rpg",
+      "road-driver"
     ],
     "file": "assets/nature/tree/demo_tree.glb",
     "localPath": "assets/nature/tree/demo_tree.glb",
@@ -21002,12 +21333,18 @@
     "recommendedFor": [
       "threejs",
       "rpg",
-      "background"
+      "background",
+      "road-driver"
     ],
     "path": "assets/nature/tree/demo_tree.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/nature/tree/demo_tree.glb",
     "previewUrl": "https://yuji5124.github.io/nexus/assets/nature/tree/demo_tree.glb",
-    "sha256": "73e2f56069747dca2285d574672b700696e672ad295a6529ddc19b3871b04717"
+    "sha256": "73e2f56069747dca2285d574672b700696e672ad295a6529ddc19b3871b04717",
+    "roadDriver": {
+      "category": "NATURE",
+      "recommendedUse": "公園・街路樹・緑地・空のアクセント。",
+      "placement": "路肩や遠景に配置。植栽は同一モデルを共有し、密集時はInstancedMeshを検討。"
+    }
   },
   {
     "id": "local-1791297238633-cc0-2d-asset-001",

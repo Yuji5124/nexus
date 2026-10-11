@@ -1,0 +1,3098 @@
+{
+  "schemaVersion": 1,
+  "collection": "road-driver",
+  "generatedFrom": "NEXUS data/assets.json",
+  "license": "All selected files are CC0-1.0; per-asset evidence is included below.",
+  "modelCount": 45,
+  "totalModelBytes": 1520616,
+  "categoryCounts": {
+    "VEHICLE": 12,
+    "ROAD PROPS": 8,
+    "CITY": 10,
+    "NATURE": 6,
+    "FUTURE": 9
+  },
+  "assets": [
+    {
+      "id": "kenney_sedan",
+      "name": "Sedan",
+      "category": "VEHICLE",
+      "tags": [
+        "road-driver",
+        "vehicle",
+        "giant-climb",
+        "lowpoly",
+        "car",
+        "street",
+        "city",
+        "traffic"
+      ],
+      "model": "models/kenney_sedan.glb",
+      "thumbnail": "../../thumbnails/road-driver/kenney_sedan.png",
+      "format": "GLB",
+      "bytes": 78988,
+      "sha256": "1116a3441b18fbcbc4422423ed4228466db176faa1cbca88cf5d1664da4fec12",
+      "triangles": 1932,
+      "vertices": 2421,
+      "meshCount": 5,
+      "materialCount": 8,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -0.75,
+          0,
+          -1.25
+        ],
+        "max": [
+          0.75,
+          1.2996,
+          1.25
+        ]
+      },
+      "dimensions": [
+        1.5,
+        1.2996,
+        2.5
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1.8,
+        "nativeSize": [
+          1.5,
+          1.3,
+          2.5
+        ],
+        "suggestedSizeMetres": [
+          2.7,
+          2.34,
+          4.5
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y",
+        "forwardAxis": "+Z",
+        "ground": "Y=0; verify forward convention in the target scene"
+      },
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "pmndrs market-assets",
+      "sourceUrl": "https://github.com/pmndrs/market-assets/blob/c9cfa0236a012093edd5affe200808752375bd90/files/models/sedan/model.gltf",
+      "licenseEvidence": "Only items whose info.json lists creator \"kenney\" and license id 1 (= CC0 in pmndrs/market src/helpers/constants/licenses.js). Kenney publishes these kits as CC0."
+    },
+    {
+      "id": "kenney_sports_sedan",
+      "name": "Sports Sedan",
+      "category": "VEHICLE",
+      "tags": [
+        "road-driver",
+        "vehicle",
+        "giant-climb",
+        "lowpoly",
+        "car",
+        "street",
+        "city",
+        "traffic"
+      ],
+      "model": "models/kenney_sports_sedan.glb",
+      "thumbnail": "../../thumbnails/road-driver/kenney_sports_sedan.png",
+      "format": "GLB",
+      "bytes": 79488,
+      "sha256": "4e40cd6ca6d8d0a9a02c21cab77c44578c185ef748358767fe21dec7ed030357",
+      "triangles": 1940,
+      "vertices": 2437,
+      "meshCount": 5,
+      "materialCount": 8,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -0.65,
+          0,
+          -1.25
+        ],
+        "max": [
+          0.6502,
+          1.1003,
+          1.25
+        ]
+      },
+      "dimensions": [
+        1.3002,
+        1.1003,
+        2.5
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1.8,
+        "nativeSize": [
+          1.3,
+          1.1,
+          2.5
+        ],
+        "suggestedSizeMetres": [
+          2.34,
+          1.98,
+          4.5
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y",
+        "forwardAxis": "+Z",
+        "ground": "Y=0; verify forward convention in the target scene"
+      },
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "pmndrs market-assets",
+      "sourceUrl": "https://github.com/pmndrs/market-assets/blob/c9cfa0236a012093edd5affe200808752375bd90/files/models/sports-sedan/model.gltf",
+      "licenseEvidence": "Only items whose info.json lists creator \"kenney\" and license id 1 (= CC0 in pmndrs/market src/helpers/constants/licenses.js). Kenney publishes these kits as CC0."
+    },
+    {
+      "id": "kenney_hatchback",
+      "name": "Hatchback",
+      "category": "VEHICLE",
+      "tags": [
+        "road-driver",
+        "vehicle",
+        "giant-climb",
+        "lowpoly",
+        "car",
+        "street",
+        "city",
+        "traffic"
+      ],
+      "model": "models/kenney_hatchback.glb",
+      "thumbnail": "../../thumbnails/road-driver/kenney_hatchback.png",
+      "format": "GLB",
+      "bytes": 81812,
+      "sha256": "173cc68777eecd17e69facbfddb6903a84c574666c4ba09fc490da5327cf5660",
+      "triangles": 1984,
+      "vertices": 2520,
+      "meshCount": 5,
+      "materialCount": 8,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -0.65,
+          0,
+          -1.4
+        ],
+        "max": [
+          0.6506,
+          1.1005,
+          1.4
+        ]
+      },
+      "dimensions": [
+        1.3006,
+        1.1005,
+        2.8
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1.8,
+        "nativeSize": [
+          1.301,
+          1.101,
+          2.8
+        ],
+        "suggestedSizeMetres": [
+          2.342,
+          1.982,
+          5.04
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y",
+        "forwardAxis": "+Z",
+        "ground": "Y=0; verify forward convention in the target scene"
+      },
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "pmndrs market-assets",
+      "sourceUrl": "https://github.com/pmndrs/market-assets/blob/c9cfa0236a012093edd5affe200808752375bd90/files/models/hatchback/model.gltf",
+      "licenseEvidence": "Only items whose info.json lists creator \"kenney\" and license id 1 (= CC0 in pmndrs/market src/helpers/constants/licenses.js). Kenney publishes these kits as CC0."
+    },
+    {
+      "id": "kenney_suv",
+      "name": "Suv",
+      "category": "VEHICLE",
+      "tags": [
+        "road-driver",
+        "vehicle",
+        "giant-climb",
+        "lowpoly",
+        "car",
+        "street",
+        "city",
+        "traffic"
+      ],
+      "model": "models/kenney_suv.glb",
+      "thumbnail": "../../thumbnails/road-driver/kenney_suv.png",
+      "format": "GLB",
+      "bytes": 86264,
+      "sha256": "51e5e847ac87d4a823d6e47a4169af29cad942c267f8ea07935f46286c045189",
+      "triangles": 2328,
+      "vertices": 2580,
+      "meshCount": 6,
+      "materialCount": 7,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -0.75,
+          0,
+          -1.3501
+        ],
+        "max": [
+          0.75,
+          1.3004,
+          1.35
+        ]
+      },
+      "dimensions": [
+        1.5,
+        1.3004,
+        2.7001
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1.8,
+        "nativeSize": [
+          1.5,
+          1.3,
+          2.7
+        ],
+        "suggestedSizeMetres": [
+          2.7,
+          2.34,
+          4.86
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y",
+        "forwardAxis": "+Z",
+        "ground": "Y=0; verify forward convention in the target scene"
+      },
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "pmndrs market-assets",
+      "sourceUrl": "https://github.com/pmndrs/market-assets/blob/c9cfa0236a012093edd5affe200808752375bd90/files/models/suv/model.gltf",
+      "licenseEvidence": "Only items whose info.json lists creator \"kenney\" and license id 1 (= CC0 in pmndrs/market src/helpers/constants/licenses.js). Kenney publishes these kits as CC0."
+    },
+    {
+      "id": "kenney_taxi",
+      "name": "Taxi",
+      "category": "VEHICLE",
+      "tags": [
+        "road-driver",
+        "vehicle",
+        "giant-climb",
+        "lowpoly",
+        "car",
+        "street",
+        "city",
+        "traffic"
+      ],
+      "model": "models/kenney_taxi.glb",
+      "thumbnail": "../../thumbnails/road-driver/kenney_taxi.png",
+      "format": "GLB",
+      "bytes": 73924,
+      "sha256": "3a6df7cd783a288348471c6ce723060726cfe08058e9ed3ddacff68e1aa5fc6c",
+      "triangles": 1968,
+      "vertices": 2192,
+      "meshCount": 5,
+      "materialCount": 8,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -0.975,
+          0,
+          -1.755
+        ],
+        "max": [
+          0.9751,
+          1.9503,
+          1.755
+        ]
+      },
+      "dimensions": [
+        1.9501,
+        1.9503,
+        3.51
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1.8,
+        "nativeSize": [
+          1.95,
+          1.95,
+          3.51
+        ],
+        "suggestedSizeMetres": [
+          3.51,
+          3.51,
+          6.318
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y",
+        "forwardAxis": "+Z",
+        "ground": "Y=0; verify forward convention in the target scene"
+      },
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "pmndrs market-assets",
+      "sourceUrl": "https://github.com/pmndrs/market-assets/blob/c9cfa0236a012093edd5affe200808752375bd90/files/models/taxi/model.gltf",
+      "licenseEvidence": "Only items whose info.json lists creator \"kenney\" and license id 1 (= CC0 in pmndrs/market src/helpers/constants/licenses.js). Kenney publishes these kits as CC0."
+    },
+    {
+      "id": "kenney_van",
+      "name": "Van",
+      "category": "VEHICLE",
+      "tags": [
+        "road-driver",
+        "vehicle",
+        "giant-climb",
+        "lowpoly",
+        "car",
+        "street",
+        "city",
+        "traffic"
+      ],
+      "model": "models/kenney_van.glb",
+      "thumbnail": "../../thumbnails/road-driver/kenney_van.png",
+      "format": "GLB",
+      "bytes": 43264,
+      "sha256": "7129ac4c6142fb06a89a52c6b0e44c8e316be6c921c7ba79a0998b53d5f3ead9",
+      "triangles": 1092,
+      "vertices": 1260,
+      "meshCount": 2,
+      "materialCount": 7,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -0.9001,
+          0,
+          -1.62
+        ],
+        "max": [
+          0.9,
+          1.5602,
+          1.62
+        ]
+      },
+      "dimensions": [
+        1.8001,
+        1.5602,
+        3.24
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1.8,
+        "nativeSize": [
+          1.8,
+          1.56,
+          3.24
+        ],
+        "suggestedSizeMetres": [
+          3.24,
+          2.808,
+          5.832
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y",
+        "forwardAxis": "+Z",
+        "ground": "Y=0; verify forward convention in the target scene"
+      },
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "pmndrs market-assets",
+      "sourceUrl": "https://github.com/pmndrs/market-assets/blob/c9cfa0236a012093edd5affe200808752375bd90/files/models/van/model.gltf",
+      "licenseEvidence": "Only items whose info.json lists creator \"kenney\" and license id 1 (= CC0 in pmndrs/market src/helpers/constants/licenses.js). Kenney publishes these kits as CC0."
+    },
+    {
+      "id": "kenney_truck",
+      "name": "Truck",
+      "category": "VEHICLE",
+      "tags": [
+        "road-driver",
+        "vehicle",
+        "giant-climb",
+        "lowpoly",
+        "car",
+        "street",
+        "city",
+        "traffic"
+      ],
+      "model": "models/kenney_truck.glb",
+      "thumbnail": "../../thumbnails/road-driver/kenney_truck.png",
+      "format": "GLB",
+      "bytes": 44160,
+      "sha256": "608ebf93777ae3be29e47b5c8c39e74b932eba07de4d418d2e399ddb5dc29e25",
+      "triangles": 1108,
+      "vertices": 1294,
+      "meshCount": 2,
+      "materialCount": 8,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -0.7505,
+          0,
+          -1.45
+        ],
+        "max": [
+          0.75,
+          1.3002,
+          1.45
+        ]
+      },
+      "dimensions": [
+        1.5005,
+        1.3002,
+        2.9
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1.8,
+        "nativeSize": [
+          1.501,
+          1.3,
+          2.9
+        ],
+        "suggestedSizeMetres": [
+          2.702,
+          2.34,
+          5.22
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y",
+        "forwardAxis": "+Z",
+        "ground": "Y=0; verify forward convention in the target scene"
+      },
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "pmndrs market-assets",
+      "sourceUrl": "https://github.com/pmndrs/market-assets/blob/c9cfa0236a012093edd5affe200808752375bd90/files/models/truck/model.gltf",
+      "licenseEvidence": "Only items whose info.json lists creator \"kenney\" and license id 1 (= CC0 in pmndrs/market src/helpers/constants/licenses.js). Kenney publishes these kits as CC0."
+    },
+    {
+      "id": "kenney_truck_flat",
+      "name": "Truck Flat",
+      "category": "VEHICLE",
+      "tags": [
+        "road-driver",
+        "vehicle",
+        "giant-climb",
+        "lowpoly",
+        "car",
+        "street",
+        "city",
+        "traffic"
+      ],
+      "model": "models/kenney_truck_flat.glb",
+      "thumbnail": "../../thumbnails/road-driver/kenney_truck_flat.png",
+      "format": "GLB",
+      "bytes": 49064,
+      "sha256": "50be9cba4fde03107978e5f1c247bb20c3ae627271be57ab8b6ff70cbe1c5544",
+      "triangles": 1230,
+      "vertices": 1434,
+      "meshCount": 2,
+      "materialCount": 9,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -0.7502,
+          0,
+          -1.3726
+        ],
+        "max": [
+          0.75,
+          1.2999,
+          1.3726
+        ]
+      },
+      "dimensions": [
+        1.5002,
+        1.2999,
+        2.7452
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1.8,
+        "nativeSize": [
+          1.5,
+          1.3,
+          2.745
+        ],
+        "suggestedSizeMetres": [
+          2.7,
+          2.34,
+          4.941
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y",
+        "forwardAxis": "+Z",
+        "ground": "Y=0; verify forward convention in the target scene"
+      },
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "pmndrs market-assets",
+      "sourceUrl": "https://github.com/pmndrs/market-assets/blob/c9cfa0236a012093edd5affe200808752375bd90/files/models/truck-flat/model.gltf",
+      "licenseEvidence": "Only items whose info.json lists creator \"kenney\" and license id 1 (= CC0 in pmndrs/market src/helpers/constants/licenses.js). Kenney publishes these kits as CC0."
+    },
+    {
+      "id": "kenney_delivery_truck",
+      "name": "Delivery Truck",
+      "category": "VEHICLE",
+      "tags": [
+        "road-driver",
+        "vehicle",
+        "giant-climb",
+        "lowpoly",
+        "car",
+        "street",
+        "city",
+        "traffic"
+      ],
+      "model": "models/kenney_delivery_truck.glb",
+      "thumbnail": "../../thumbnails/road-driver/kenney_delivery_truck.png",
+      "format": "GLB",
+      "bytes": 107308,
+      "sha256": "2777cd28e27016e3665627026bc5b11b13c31ce2c7a3d223aa24eed9b6575580",
+      "triangles": 2328,
+      "vertices": 3331,
+      "meshCount": 6,
+      "materialCount": 10,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -0.75,
+          0,
+          -1.6
+        ],
+        "max": [
+          0.75,
+          1.6,
+          1.6
+        ]
+      },
+      "dimensions": [
+        1.5,
+        1.6,
+        3.2
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1.8,
+        "nativeSize": [
+          1.5,
+          1.6,
+          3.2
+        ],
+        "suggestedSizeMetres": [
+          2.7,
+          2.88,
+          5.76
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y",
+        "forwardAxis": "+Z",
+        "ground": "Y=0; verify forward convention in the target scene"
+      },
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "pmndrs market-assets",
+      "sourceUrl": "https://github.com/pmndrs/market-assets/blob/c9cfa0236a012093edd5affe200808752375bd90/files/models/delivery-truck/model.gltf",
+      "licenseEvidence": "Only items whose info.json lists creator \"kenney\" and license id 1 (= CC0 in pmndrs/market src/helpers/constants/licenses.js). Kenney publishes these kits as CC0."
+    },
+    {
+      "id": "kenney_police_car",
+      "name": "Police Car",
+      "category": "VEHICLE",
+      "tags": [
+        "road-driver",
+        "vehicle",
+        "giant-climb",
+        "lowpoly",
+        "car",
+        "street",
+        "city",
+        "traffic"
+      ],
+      "model": "models/kenney_police_car.glb",
+      "thumbnail": "../../thumbnails/road-driver/kenney_police_car.png",
+      "format": "GLB",
+      "bytes": 87220,
+      "sha256": "71439bf3eeb40a891da32c6e1ea69878c0cf9d8f518d7965f46dfbccf308ad2a",
+      "triangles": 2200,
+      "vertices": 2541,
+      "meshCount": 6,
+      "materialCount": 9,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -0.75,
+          0,
+          -1.5
+        ],
+        "max": [
+          0.7503,
+          1.3,
+          1.5
+        ]
+      },
+      "dimensions": [
+        1.5003,
+        1.3,
+        3
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1.8,
+        "nativeSize": [
+          1.5,
+          1.3,
+          3
+        ],
+        "suggestedSizeMetres": [
+          2.7,
+          2.34,
+          5.4
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y",
+        "forwardAxis": "+Z",
+        "ground": "Y=0; verify forward convention in the target scene"
+      },
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "pmndrs market-assets",
+      "sourceUrl": "https://github.com/pmndrs/market-assets/blob/c9cfa0236a012093edd5affe200808752375bd90/files/models/police-car/model.gltf",
+      "licenseEvidence": "Only items whose info.json lists creator \"kenney\" and license id 1 (= CC0 in pmndrs/market src/helpers/constants/licenses.js). Kenney publishes these kits as CC0."
+    },
+    {
+      "id": "kenney_ambulance",
+      "name": "Ambulance",
+      "category": "VEHICLE",
+      "tags": [
+        "road-driver",
+        "vehicle",
+        "giant-climb",
+        "lowpoly",
+        "car",
+        "street",
+        "city",
+        "traffic"
+      ],
+      "model": "models/kenney_ambulance.glb",
+      "thumbnail": "../../thumbnails/road-driver/kenney_ambulance.png",
+      "format": "GLB",
+      "bytes": 102580,
+      "sha256": "39fffb29bc230e8019f90baf416fe4b2991680eae398abd3c540c367d00e6433",
+      "triangles": 2588,
+      "vertices": 2944,
+      "meshCount": 7,
+      "materialCount": 8,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -0.75,
+          0,
+          -1.6
+        ],
+        "max": [
+          0.7507,
+          1.7007,
+          1.6
+        ]
+      },
+      "dimensions": [
+        1.5007,
+        1.7007,
+        3.2
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1.8,
+        "nativeSize": [
+          1.501,
+          1.701,
+          3.2
+        ],
+        "suggestedSizeMetres": [
+          2.702,
+          3.062,
+          5.76
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y",
+        "forwardAxis": "+Z",
+        "ground": "Y=0; verify forward convention in the target scene"
+      },
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "pmndrs market-assets",
+      "sourceUrl": "https://github.com/pmndrs/market-assets/blob/c9cfa0236a012093edd5affe200808752375bd90/files/models/ambulance/model.gltf",
+      "licenseEvidence": "Only items whose info.json lists creator \"kenney\" and license id 1 (= CC0 in pmndrs/market src/helpers/constants/licenses.js). Kenney publishes these kits as CC0."
+    },
+    {
+      "id": "racing_vehicle_truck_yellow",
+      "name": "Vehicle Truck Yellow",
+      "category": "VEHICLE",
+      "tags": [
+        "road-driver",
+        "vehicle",
+        "giant-climb",
+        "lowpoly",
+        "truck",
+        "street",
+        "city"
+      ],
+      "model": "models/racing_vehicle_truck_yellow.glb",
+      "thumbnail": "../../thumbnails/road-driver/racing_vehicle_truck_yellow.png",
+      "format": "GLB",
+      "bytes": 56956,
+      "sha256": "f0376a326fe1f3e15432c59fffc297fc0a8274e350d1df70d81a9d522f241ab0",
+      "triangles": 989,
+      "vertices": 1113,
+      "meshCount": 6,
+      "materialCount": 1,
+      "textureCount": 1,
+      "boundingBox": {
+        "min": [
+          -0.75,
+          0,
+          -1.4
+        ],
+        "max": [
+          0.75,
+          1.55,
+          1.4
+        ]
+      },
+      "dimensions": [
+        1.5,
+        1.55,
+        2.8
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1.8,
+        "nativeSize": [
+          1.5,
+          1.55,
+          2.8
+        ],
+        "suggestedSizeMetres": [
+          2.7,
+          2.79,
+          5.04
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y",
+        "forwardAxis": "+Z",
+        "ground": "Y=0; verify forward convention in the target scene"
+      },
+      "recommendedUse": "背景交通車両・追走車・障害物。プレイヤー車両の代替にも利用可能。",
+      "placement": "道路面に接地させ、道路の流れ方向に向ける。複数配置は同じGLBを共有し、同じ色・素材の車はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Starter Kit Racing",
+      "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-Racing/blob/2f2e5f2646dda89cb21d4e8539bab60c6e955dc8/models/vehicle-truck-yellow.glb",
+      "licenseEvidence": "README: \"3D Models & sounds (CC0 licensed)\"; project code is MIT and is not imported."
+    },
+    {
+      "id": "citykit_road_straight",
+      "name": "Road Straight",
+      "category": "ROAD PROPS",
+      "tags": [
+        "road-driver",
+        "road-props",
+        "giant-climb",
+        "lowpoly",
+        "city",
+        "road",
+        "street",
+        "tile",
+        "modular"
+      ],
+      "model": "models/citykit_road_straight.glb",
+      "thumbnail": "../../thumbnails/road-driver/citykit_road_straight.png",
+      "format": "GLB",
+      "bytes": 14544,
+      "sha256": "54bff0e54db1344c0dcf48486f359feeb519cc96e22a6cc79eb0e7d1686770b2",
+      "triangles": 54,
+      "vertices": 84,
+      "meshCount": 1,
+      "materialCount": 1,
+      "textureCount": 1,
+      "boundingBox": {
+        "min": [
+          -0.5,
+          0,
+          -0.5
+        ],
+        "max": [
+          0.5,
+          0.05,
+          0.5
+        ]
+      },
+      "dimensions": [
+        1,
+        0.05,
+        1
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 12,
+        "nativeSize": [
+          1,
+          0.05,
+          1
+        ],
+        "suggestedSizeMetres": [
+          12,
+          0.6,
+          12
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Starter Kit City Builder",
+      "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/road-straight.glb",
+      "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported."
+    },
+    {
+      "id": "citykit_road_corner",
+      "name": "Road Corner",
+      "category": "ROAD PROPS",
+      "tags": [
+        "road-driver",
+        "road-props",
+        "giant-climb",
+        "lowpoly",
+        "city",
+        "road",
+        "street",
+        "tile",
+        "modular"
+      ],
+      "model": "models/citykit_road_corner.glb",
+      "thumbnail": "../../thumbnails/road-driver/citykit_road_corner.png",
+      "format": "GLB",
+      "bytes": 17160,
+      "sha256": "8812353515f773fe025a2f8dd1c2c886bd15cbe713ee5a419ed41bb0b792aea2",
+      "triangles": 126,
+      "vertices": 154,
+      "meshCount": 1,
+      "materialCount": 1,
+      "textureCount": 1,
+      "boundingBox": {
+        "min": [
+          -0.5,
+          0,
+          -0.5
+        ],
+        "max": [
+          0.5,
+          0.06,
+          0.5
+        ]
+      },
+      "dimensions": [
+        1,
+        0.06,
+        1
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 12,
+        "nativeSize": [
+          1,
+          0.06,
+          1
+        ],
+        "suggestedSizeMetres": [
+          12,
+          0.72,
+          12
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Starter Kit City Builder",
+      "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/road-corner.glb",
+      "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported."
+    },
+    {
+      "id": "citykit_road_intersection",
+      "name": "Road Intersection",
+      "category": "ROAD PROPS",
+      "tags": [
+        "road-driver",
+        "road-props",
+        "giant-climb",
+        "lowpoly",
+        "city",
+        "road",
+        "street",
+        "tile",
+        "modular"
+      ],
+      "model": "models/citykit_road_intersection.glb",
+      "thumbnail": "../../thumbnails/road-driver/citykit_road_intersection.png",
+      "format": "GLB",
+      "bytes": 18840,
+      "sha256": "6cab96dffc1cf6bbbc9e8f948f5007c825f74f8f2190962b2e0d63b18a16ed44",
+      "triangles": 154,
+      "vertices": 200,
+      "meshCount": 1,
+      "materialCount": 1,
+      "textureCount": 1,
+      "boundingBox": {
+        "min": [
+          -0.5,
+          0,
+          -0.5
+        ],
+        "max": [
+          0.5,
+          0.05,
+          0.5
+        ]
+      },
+      "dimensions": [
+        1,
+        0.05,
+        1
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 12,
+        "nativeSize": [
+          1,
+          0.05,
+          1
+        ],
+        "suggestedSizeMetres": [
+          12,
+          0.6,
+          12
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Starter Kit City Builder",
+      "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/road-intersection.glb",
+      "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported."
+    },
+    {
+      "id": "citykit_road_split",
+      "name": "Road Split",
+      "category": "ROAD PROPS",
+      "tags": [
+        "road-driver",
+        "road-props",
+        "giant-climb",
+        "lowpoly",
+        "city",
+        "road",
+        "street",
+        "tile",
+        "modular"
+      ],
+      "model": "models/citykit_road_split.glb",
+      "thumbnail": "../../thumbnails/road-driver/citykit_road_split.png",
+      "format": "GLB",
+      "bytes": 16516,
+      "sha256": "94020f2c1a79da68362c89b48109c167a5de1b8083f47c3fef852632d4cdfe93",
+      "triangles": 100,
+      "vertices": 138,
+      "meshCount": 1,
+      "materialCount": 1,
+      "textureCount": 1,
+      "boundingBox": {
+        "min": [
+          -0.5,
+          0,
+          -0.5
+        ],
+        "max": [
+          0.5,
+          0.05,
+          0.5
+        ]
+      },
+      "dimensions": [
+        1,
+        0.05,
+        1
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 12,
+        "nativeSize": [
+          1,
+          0.05,
+          1
+        ],
+        "suggestedSizeMetres": [
+          12,
+          0.6,
+          12
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Starter Kit City Builder",
+      "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/road-split.glb",
+      "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported."
+    },
+    {
+      "id": "citykit_road_straight_lightposts",
+      "name": "Road Straight Lightposts",
+      "category": "ROAD PROPS",
+      "tags": [
+        "road-driver",
+        "road-props",
+        "giant-climb",
+        "lowpoly",
+        "city",
+        "road",
+        "street",
+        "tile",
+        "modular"
+      ],
+      "model": "models/citykit_road_straight_lightposts.glb",
+      "thumbnail": "../../thumbnails/road-driver/citykit_road_straight_lightposts.png",
+      "format": "GLB",
+      "bytes": 20644,
+      "sha256": "60761b0918cc609ddd439c536db28d161e71c51a107ff877f9def8d4718a5c6e",
+      "triangles": 190,
+      "vertices": 248,
+      "meshCount": 1,
+      "materialCount": 1,
+      "textureCount": 1,
+      "boundingBox": {
+        "min": [
+          -0.5,
+          0,
+          -0.5
+        ],
+        "max": [
+          0.5,
+          0.55,
+          0.5
+        ]
+      },
+      "dimensions": [
+        1,
+        0.55,
+        1
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 12,
+        "nativeSize": [
+          1,
+          0.55,
+          1
+        ],
+        "suggestedSizeMetres": [
+          12,
+          6.6,
+          12
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Starter Kit City Builder",
+      "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/road-straight-lightposts.glb",
+      "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported."
+    },
+    {
+      "id": "city_sidewalk_barrier",
+      "name": "City Sidewalk Barrier",
+      "category": "ROAD PROPS",
+      "tags": [
+        "road-driver",
+        "road-props",
+        "giant-climb",
+        "lowpoly",
+        "city",
+        "tokyo",
+        "guardrail",
+        "barrier",
+        "street"
+      ],
+      "model": "models/city_sidewalk_barrier.glb",
+      "thumbnail": "../../thumbnails/road-driver/city_sidewalk_barrier.png",
+      "format": "GLB",
+      "bytes": 4800,
+      "sha256": "76fb4737ae46539daae997be3f0dc678e2c3af84d542da1bb043dc8fc8f48e91",
+      "triangles": 60,
+      "vertices": 140,
+      "meshCount": 1,
+      "materialCount": 1,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -2,
+          0,
+          -0.04
+        ],
+        "max": [
+          2,
+          0.8,
+          0.04
+        ]
+      },
+      "dimensions": [
+        4,
+        0.8,
+        0.08
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1,
+        "nativeSize": [
+          4,
+          0.8,
+          0.08
+        ],
+        "suggestedSizeMetres": [
+          4,
+          0.8,
+          0.08
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "NEXUS",
+      "source": "NEXUS original (GIANT CLIMB)",
+      "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+      "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0)."
+    },
+    {
+      "id": "city_traffic_light",
+      "name": "City Traffic Light",
+      "category": "ROAD PROPS",
+      "tags": [
+        "road-driver",
+        "road-props",
+        "giant-climb",
+        "lowpoly",
+        "city",
+        "tokyo",
+        "traffic-light",
+        "signal",
+        "street"
+      ],
+      "model": "models/city_traffic_light.glb",
+      "thumbnail": "../../thumbnails/road-driver/city_traffic_light.png",
+      "format": "GLB",
+      "bytes": 12892,
+      "sha256": "c254175908ee287f11ae514705d78568eeb168145580a7a8658bcf7cb8629ac3",
+      "triangles": 152,
+      "vertices": 318,
+      "meshCount": 5,
+      "materialCount": 5,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -0.15,
+          0,
+          -0.175
+        ],
+        "max": [
+          4,
+          5.5,
+          0.23
+        ]
+      },
+      "dimensions": [
+        4.15,
+        5.5,
+        0.405
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1,
+        "nativeSize": [
+          4.15,
+          5.5,
+          0.405
+        ],
+        "suggestedSizeMetres": [
+          4.15,
+          5.5,
+          0.405
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "NEXUS",
+      "source": "NEXUS original (GIANT CLIMB)",
+      "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+      "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0)."
+    },
+    {
+      "id": "city_street_lamp",
+      "name": "City Street Lamp",
+      "category": "ROAD PROPS",
+      "tags": [
+        "road-driver",
+        "road-props",
+        "giant-climb",
+        "lowpoly",
+        "city",
+        "tokyo",
+        "street-lamp",
+        "light",
+        "street"
+      ],
+      "model": "models/city_street_lamp.glb",
+      "thumbnail": "../../thumbnails/road-driver/city_street_lamp.png",
+      "format": "GLB",
+      "bytes": 7048,
+      "sha256": "8be983c8e5bbd81c5286f179f1722c6c221d6ed7b30385861afa6b0115f08315",
+      "triangles": 68,
+      "vertices": 163,
+      "meshCount": 3,
+      "materialCount": 3,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -0.14,
+          0,
+          -0.15
+        ],
+        "max": [
+          1.5,
+          7,
+          0.15
+        ]
+      },
+      "dimensions": [
+        1.64,
+        7,
+        0.3
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1,
+        "nativeSize": [
+          1.64,
+          7,
+          0.3
+        ],
+        "suggestedSizeMetres": [
+          1.64,
+          7,
+          0.3
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "NEXUS",
+      "source": "NEXUS original (GIANT CLIMB)",
+      "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+      "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0)."
+    },
+    {
+      "id": "city_apartment_block",
+      "name": "City Apartment Block",
+      "category": "CITY",
+      "tags": [
+        "road-driver",
+        "city",
+        "giant-climb",
+        "lowpoly",
+        "tokyo",
+        "apartment",
+        "mansion",
+        "balcony",
+        "building"
+      ],
+      "model": "models/city_apartment_block.glb",
+      "thumbnail": "../../thumbnails/road-driver/city_apartment_block.png",
+      "format": "GLB",
+      "bytes": 45628,
+      "sha256": "aa0a63429634b2632cd44e320eb8a63773da78e56069e94e5587109536802ee3",
+      "triangles": 672,
+      "vertices": 1568,
+      "meshCount": 5,
+      "materialCount": 5,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -8.2,
+          0,
+          -5.2
+        ],
+        "max": [
+          8.2,
+          30.6,
+          6.4
+        ]
+      },
+      "dimensions": [
+        16.4,
+        30.6,
+        11.6
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1,
+        "nativeSize": [
+          16.4,
+          30.6,
+          11.6
+        ],
+        "suggestedSizeMetres": [
+          16.4,
+          30.6,
+          11.6
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "NEXUS",
+      "source": "NEXUS original (GIANT CLIMB)",
+      "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+      "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0)."
+    },
+    {
+      "id": "city_corner_store",
+      "name": "City Corner Store",
+      "category": "CITY",
+      "tags": [
+        "road-driver",
+        "city",
+        "giant-climb",
+        "lowpoly",
+        "tokyo",
+        "konbini",
+        "convenience-store",
+        "shop",
+        "building"
+      ],
+      "model": "models/city_corner_store.glb",
+      "thumbnail": "../../thumbnails/road-driver/city_corner_store.png",
+      "format": "GLB",
+      "bytes": 10000,
+      "sha256": "910d004ce4f3e78b9b70a23c1ec58c92c5de9f12855d6139b67568891e9c5fe9",
+      "triangles": 84,
+      "vertices": 196,
+      "meshCount": 6,
+      "materialCount": 6,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -7.1,
+          0,
+          -5.1
+        ],
+        "max": [
+          7.5,
+          6.5,
+          5.1
+        ]
+      },
+      "dimensions": [
+        14.6,
+        6.5,
+        10.2
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1,
+        "nativeSize": [
+          14.6,
+          6.5,
+          10.2
+        ],
+        "suggestedSizeMetres": [
+          14.6,
+          6.5,
+          10.2
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "NEXUS",
+      "source": "NEXUS original (GIANT CLIMB)",
+      "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+      "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0)."
+    },
+    {
+      "id": "city_office_tower",
+      "name": "City Office Tower",
+      "category": "CITY",
+      "tags": [
+        "road-driver",
+        "city",
+        "giant-climb",
+        "lowpoly",
+        "tokyo",
+        "office",
+        "skyscraper",
+        "building",
+        "tall"
+      ],
+      "model": "models/city_office_tower.glb",
+      "thumbnail": "../../thumbnails/road-driver/city_office_tower.png",
+      "format": "GLB",
+      "bytes": 21492,
+      "sha256": "d13a5a75113f16df753ff4f474aae3222be28a0a47e6f0fd169a7c2b0f1d78a7",
+      "triangles": 304,
+      "vertices": 692,
+      "meshCount": 4,
+      "materialCount": 4,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -9.5,
+          0,
+          -9.5
+        ],
+        "max": [
+          9.5,
+          59.2,
+          9.5
+        ]
+      },
+      "dimensions": [
+        19,
+        59.2,
+        19
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1,
+        "nativeSize": [
+          19,
+          59.2,
+          19
+        ],
+        "suggestedSizeMetres": [
+          19,
+          59.2,
+          19
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "NEXUS",
+      "source": "NEXUS original (GIANT CLIMB)",
+      "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+      "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0)."
+    },
+    {
+      "id": "city_pencil_building",
+      "name": "City Pencil Building",
+      "category": "CITY",
+      "tags": [
+        "road-driver",
+        "city",
+        "giant-climb",
+        "lowpoly",
+        "tokyo",
+        "pencil-building",
+        "zakkyo",
+        "signage",
+        "building"
+      ],
+      "model": "models/city_pencil_building.glb",
+      "thumbnail": "../../thumbnails/road-driver/city_pencil_building.png",
+      "format": "GLB",
+      "bytes": 18872,
+      "sha256": "79f884b645c08027647a49cc6d0dff91445c976166b4c9af81d07a6d967d5cd3",
+      "triangles": 192,
+      "vertices": 448,
+      "meshCount": 9,
+      "materialCount": 9,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -3.1,
+          0,
+          -4.1
+        ],
+        "max": [
+          3.4,
+          28,
+          4.1
+        ]
+      },
+      "dimensions": [
+        6.5,
+        28,
+        8.2
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1,
+        "nativeSize": [
+          6.5,
+          28,
+          8.2
+        ],
+        "suggestedSizeMetres": [
+          6.5,
+          28,
+          8.2
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "NEXUS",
+      "source": "NEXUS original (GIANT CLIMB)",
+      "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+      "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0)."
+    },
+    {
+      "id": "citykit_building_garage",
+      "name": "Building Garage",
+      "category": "CITY",
+      "tags": [
+        "road-driver",
+        "city",
+        "giant-climb",
+        "lowpoly",
+        "building",
+        "tile"
+      ],
+      "model": "models/citykit_building_garage.glb",
+      "thumbnail": "../../thumbnails/road-driver/citykit_building_garage.png",
+      "format": "GLB",
+      "bytes": 21504,
+      "sha256": "d14be1c3bec947199cb537f14a7d5ac34a9e4e02e20a47133015c93d7f00df35",
+      "triangles": 196,
+      "vertices": 276,
+      "meshCount": 1,
+      "materialCount": 1,
+      "textureCount": 1,
+      "boundingBox": {
+        "min": [
+          -0.5,
+          0,
+          -0.5
+        ],
+        "max": [
+          0.5,
+          0.55,
+          0.5
+        ]
+      },
+      "dimensions": [
+        1,
+        0.55,
+        1
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 12,
+        "nativeSize": [
+          1,
+          0.55,
+          1
+        ],
+        "suggestedSizeMetres": [
+          12,
+          6.6,
+          12
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Starter Kit City Builder",
+      "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/building-garage.glb",
+      "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported."
+    },
+    {
+      "id": "citykit_building_small_a",
+      "name": "Building Small A",
+      "category": "CITY",
+      "tags": [
+        "road-driver",
+        "city",
+        "giant-climb",
+        "lowpoly",
+        "building",
+        "tile"
+      ],
+      "model": "models/citykit_building_small_a.glb",
+      "thumbnail": "../../thumbnails/road-driver/citykit_building_small_a.png",
+      "format": "GLB",
+      "bytes": 33796,
+      "sha256": "4a49db0205b231c4b1b5137f08123f89f8363ffd9ea8396c202b756cb4dab4e1",
+      "triangles": 452,
+      "vertices": 612,
+      "meshCount": 1,
+      "materialCount": 1,
+      "textureCount": 1,
+      "boundingBox": {
+        "min": [
+          -0.5,
+          0,
+          -0.5
+        ],
+        "max": [
+          0.5,
+          0.95,
+          0.5
+        ]
+      },
+      "dimensions": [
+        1,
+        0.95,
+        1
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 12,
+        "nativeSize": [
+          1,
+          0.95,
+          1
+        ],
+        "suggestedSizeMetres": [
+          12,
+          11.4,
+          12
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Starter Kit City Builder",
+      "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/building-small-a.glb",
+      "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported."
+    },
+    {
+      "id": "citykit_building_small_b",
+      "name": "Building Small B",
+      "category": "CITY",
+      "tags": [
+        "road-driver",
+        "city",
+        "giant-climb",
+        "lowpoly",
+        "building",
+        "tile"
+      ],
+      "model": "models/citykit_building_small_b.glb",
+      "thumbnail": "../../thumbnails/road-driver/citykit_building_small_b.png",
+      "format": "GLB",
+      "bytes": 39996,
+      "sha256": "701bc797a14bf892423f27eebfb2f57f8b215362b461af8d0a00dec2670ffa94",
+      "triangles": 600,
+      "vertices": 778,
+      "meshCount": 1,
+      "materialCount": 1,
+      "textureCount": 1,
+      "boundingBox": {
+        "min": [
+          -0.5,
+          0,
+          -0.5
+        ],
+        "max": [
+          0.5,
+          1.6265,
+          0.5
+        ]
+      },
+      "dimensions": [
+        1,
+        1.6265,
+        1
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 12,
+        "nativeSize": [
+          1,
+          1.626,
+          1
+        ],
+        "suggestedSizeMetres": [
+          12,
+          19.512,
+          12
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Starter Kit City Builder",
+      "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/building-small-b.glb",
+      "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported."
+    },
+    {
+      "id": "citykit_building_small_c",
+      "name": "Building Small C",
+      "category": "CITY",
+      "tags": [
+        "road-driver",
+        "city",
+        "giant-climb",
+        "lowpoly",
+        "building",
+        "tile"
+      ],
+      "model": "models/citykit_building_small_c.glb",
+      "thumbnail": "../../thumbnails/road-driver/citykit_building_small_c.png",
+      "format": "GLB",
+      "bytes": 54328,
+      "sha256": "36f1d6660d413c97bd9079cd13e7e5feacbc667686022eab04e27644254b330d",
+      "triangles": 834,
+      "vertices": 1182,
+      "meshCount": 1,
+      "materialCount": 1,
+      "textureCount": 1,
+      "boundingBox": {
+        "min": [
+          -0.5,
+          0,
+          -0.5
+        ],
+        "max": [
+          0.5,
+          1.75,
+          0.5
+        ]
+      },
+      "dimensions": [
+        1,
+        1.75,
+        1
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 12,
+        "nativeSize": [
+          1,
+          1.75,
+          1
+        ],
+        "suggestedSizeMetres": [
+          12,
+          21,
+          12
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Starter Kit City Builder",
+      "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/building-small-c.glb",
+      "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported."
+    },
+    {
+      "id": "citykit_building_small_d",
+      "name": "Building Small D",
+      "category": "CITY",
+      "tags": [
+        "road-driver",
+        "city",
+        "giant-climb",
+        "lowpoly",
+        "building",
+        "tile"
+      ],
+      "model": "models/citykit_building_small_d.glb",
+      "thumbnail": "../../thumbnails/road-driver/citykit_building_small_d.png",
+      "format": "GLB",
+      "bytes": 33260,
+      "sha256": "b7a1f380e537e7c33c2dc0efdbccba9749fbc3f94eb5c13210cc6807d002bd5a",
+      "triangles": 448,
+      "vertices": 596,
+      "meshCount": 1,
+      "materialCount": 1,
+      "textureCount": 1,
+      "boundingBox": {
+        "min": [
+          -0.5,
+          0,
+          -0.5
+        ],
+        "max": [
+          0.5,
+          1,
+          0.55
+        ]
+      },
+      "dimensions": [
+        1,
+        1,
+        1.05
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 12,
+        "nativeSize": [
+          1,
+          1,
+          1.05
+        ],
+        "suggestedSizeMetres": [
+          12,
+          12,
+          12.6
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Starter Kit City Builder",
+      "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/building-small-d.glb",
+      "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported."
+    },
+    {
+      "id": "kenney_house_7",
+      "name": "House 7",
+      "category": "CITY",
+      "tags": [
+        "road-driver",
+        "city",
+        "giant-climb",
+        "lowpoly",
+        "house",
+        "residential",
+        "building"
+      ],
+      "model": "models/kenney_house_7.glb",
+      "thumbnail": "../../thumbnails/road-driver/kenney_house_7.png",
+      "format": "GLB",
+      "bytes": 19040,
+      "sha256": "bc38bb8bc70e97b52248ff18b23032c7b7065cf24e3d36dedf73b9080dec5889",
+      "triangles": 398,
+      "vertices": 564,
+      "meshCount": 1,
+      "materialCount": 4,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -0.6,
+          0,
+          -0.405
+        ],
+        "max": [
+          0.6,
+          0.85,
+          0.4052
+        ]
+      },
+      "dimensions": [
+        1.2,
+        0.85,
+        0.8102
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 8,
+        "nativeSize": [
+          1.2,
+          0.85,
+          0.81
+        ],
+        "suggestedSizeMetres": [
+          9.6,
+          6.8,
+          6.48
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "pmndrs market-assets",
+      "sourceUrl": "https://github.com/pmndrs/market-assets/blob/c9cfa0236a012093edd5affe200808752375bd90/files/models/house-7/model.gltf",
+      "licenseEvidence": "Only items whose info.json lists creator \"kenney\" and license id 1 (= CC0 in pmndrs/market src/helpers/constants/licenses.js). Kenney publishes these kits as CC0."
+    },
+    {
+      "id": "assets_nature_tree_demo_tree",
+      "name": "NEXUS Low Poly Demo Tree",
+      "category": "NATURE",
+      "tags": [
+        "road-driver",
+        "nature",
+        "assets",
+        "tree",
+        "demo",
+        "forest",
+        "lowpoly",
+        "rpg"
+      ],
+      "model": "models/assets_nature_tree_demo_tree.glb",
+      "thumbnail": "../../thumbnails/road-driver/assets_nature_tree_demo_tree.png",
+      "format": "GLB",
+      "bytes": 11404,
+      "sha256": "73e2f56069747dca2285d574672b700696e672ad295a6529ddc19b3871b04717",
+      "triangles": 104,
+      "vertices": 280,
+      "meshCount": 2,
+      "materialCount": 2,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          -0.9,
+          0,
+          -0.9
+        ],
+        "max": [
+          0.9,
+          2.6,
+          0.9
+        ]
+      },
+      "dimensions": [
+        1.8,
+        2.6,
+        1.8
+      ],
+      "nativeScale": 1,
+      "units": {
+        "upAxis": "Y",
+        "metresPerUnit": 1
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "公園・街路樹・緑地・空のアクセント。",
+      "placement": "路肩や遠景に配置。植栽は同一モデルを共有し、密集時はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "author": "NEXUS",
+      "source": "NEXUS procedural demo",
+      "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/create-demo-tree.mjs",
+      "licenseEvidence": "Original procedural tree created for preview testing; CC0-1.0 dedication in assets/nature/tree/LICENSE.md."
+    },
+    {
+      "id": "citykit_grass",
+      "name": "Grass",
+      "category": "NATURE",
+      "tags": [
+        "road-driver",
+        "nature",
+        "giant-climb",
+        "lowpoly",
+        "city",
+        "park",
+        "tree",
+        "tile"
+      ],
+      "model": "models/citykit_grass.glb",
+      "thumbnail": "../../thumbnails/road-driver/citykit_grass.png",
+      "format": "GLB",
+      "bytes": 13556,
+      "sha256": "a1c01286dd063e12619a2b3ba256bc4096ecc19da6ed98f12043903893410af6",
+      "triangles": 30,
+      "vertices": 60,
+      "meshCount": 1,
+      "materialCount": 1,
+      "textureCount": 1,
+      "boundingBox": {
+        "min": [
+          -0.5,
+          0,
+          -0.5
+        ],
+        "max": [
+          0.5,
+          0.06,
+          0.5
+        ]
+      },
+      "dimensions": [
+        1,
+        0.06,
+        1
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 12,
+        "nativeSize": [
+          1,
+          0.06,
+          1
+        ],
+        "suggestedSizeMetres": [
+          12,
+          0.72,
+          12
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "公園・街路樹・緑地・空のアクセント。",
+      "placement": "路肩や遠景に配置。植栽は同一モデルを共有し、密集時はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Starter Kit City Builder",
+      "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/grass.glb",
+      "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported."
+    },
+    {
+      "id": "citykit_grass_trees",
+      "name": "Grass Trees",
+      "category": "NATURE",
+      "tags": [
+        "road-driver",
+        "nature",
+        "giant-climb",
+        "lowpoly",
+        "city",
+        "park",
+        "tree",
+        "tile"
+      ],
+      "model": "models/citykit_grass_trees.glb",
+      "thumbnail": "../../thumbnails/road-driver/citykit_grass_trees.png",
+      "format": "GLB",
+      "bytes": 28356,
+      "sha256": "cb92b1c8ecc11d3fcd7dbaedebbb7a2d7a0ff332fc1dab7c987e972723dcd42e",
+      "triangles": 380,
+      "vertices": 456,
+      "meshCount": 1,
+      "materialCount": 1,
+      "textureCount": 1,
+      "boundingBox": {
+        "min": [
+          -0.5,
+          0,
+          -0.5
+        ],
+        "max": [
+          0.5,
+          0.6359,
+          0.5
+        ]
+      },
+      "dimensions": [
+        1,
+        0.6359,
+        1
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 12,
+        "nativeSize": [
+          1,
+          0.636,
+          1
+        ],
+        "suggestedSizeMetres": [
+          12,
+          7.632,
+          12
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "公園・街路樹・緑地・空のアクセント。",
+      "placement": "路肩や遠景に配置。植栽は同一モデルを共有し、密集時はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Starter Kit City Builder",
+      "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/grass-trees.glb",
+      "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported."
+    },
+    {
+      "id": "citykit_grass_trees_tall",
+      "name": "Grass Trees Tall",
+      "category": "NATURE",
+      "tags": [
+        "road-driver",
+        "nature",
+        "giant-climb",
+        "lowpoly",
+        "city",
+        "park",
+        "tree",
+        "tile"
+      ],
+      "model": "models/citykit_grass_trees_tall.glb",
+      "thumbnail": "../../thumbnails/road-driver/citykit_grass_trees_tall.png",
+      "format": "GLB",
+      "bytes": 32408,
+      "sha256": "312ae406054a36a3f6dba1deb0afbdeb159b4c6c0c309b477dd98dccb1c4c120",
+      "triangles": 472,
+      "vertices": 564,
+      "meshCount": 1,
+      "materialCount": 1,
+      "textureCount": 1,
+      "boundingBox": {
+        "min": [
+          -0.5,
+          0,
+          -0.5
+        ],
+        "max": [
+          0.5719,
+          0.7596,
+          0.5062
+        ]
+      },
+      "dimensions": [
+        1.0719,
+        0.7596,
+        1.0062
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 12,
+        "nativeSize": [
+          1.072,
+          0.76,
+          1.006
+        ],
+        "suggestedSizeMetres": [
+          12.864,
+          9.12,
+          12.072
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "公園・街路樹・緑地・空のアクセント。",
+      "placement": "路肩や遠景に配置。植栽は同一モデルを共有し、密集時はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Starter Kit City Builder",
+      "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/grass-trees-tall.glb",
+      "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported."
+    },
+    {
+      "id": "fpskit_platform_large_grass",
+      "name": "Platform Large Grass",
+      "category": "NATURE",
+      "tags": [
+        "road-driver",
+        "nature",
+        "giant-climb",
+        "lowpoly",
+        "platform",
+        "grass"
+      ],
+      "model": "models/fpskit_platform_large_grass.glb",
+      "thumbnail": "../../thumbnails/road-driver/fpskit_platform_large_grass.png",
+      "format": "GLB",
+      "bytes": 18980,
+      "sha256": "62ffae489280d320f7ca34e9eb582cf97333474672ea21e33302e293b06bba12",
+      "triangles": 180,
+      "vertices": 224,
+      "meshCount": 1,
+      "materialCount": 1,
+      "textureCount": 1,
+      "boundingBox": {
+        "min": [
+          -2.6,
+          0,
+          -2.6
+        ],
+        "max": [
+          2.6,
+          0.5,
+          2.6
+        ]
+      },
+      "dimensions": [
+        5.2,
+        0.5,
+        5.2
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 2,
+        "nativeSize": [
+          5.2,
+          0.5,
+          5.2
+        ],
+        "suggestedSizeMetres": [
+          10.4,
+          1,
+          10.4
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "公園・街路樹・緑地・空のアクセント。",
+      "placement": "路肩や遠景に配置。植栽は同一モデルを共有し、密集時はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Starter Kit FPS",
+      "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-FPS/blob/185fd2326d74a5cf858cffc616f87cf9696f9cc0/models/platform-large-grass.glb",
+      "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported."
+    },
+    {
+      "id": "platformer_platform_grass_large_round",
+      "name": "Platformer Platform Grass Large Round",
+      "category": "NATURE",
+      "tags": [
+        "road-driver",
+        "nature",
+        "giant-climb",
+        "lowpoly",
+        "platform",
+        "platformer"
+      ],
+      "model": "models/platformer_platform_grass_large_round.glb",
+      "thumbnail": "../../thumbnails/road-driver/platformer_platform_grass_large_round.png",
+      "format": "GLB",
+      "bytes": 16352,
+      "sha256": "ae0930d320c30b03717b6f44baf16743a0e449a1dbcac6fed6c154c01c46570e",
+      "triangles": 124,
+      "vertices": 128,
+      "meshCount": 1,
+      "materialCount": 1,
+      "textureCount": 1,
+      "boundingBox": {
+        "min": [
+          -2.5,
+          0,
+          -2.5
+        ],
+        "max": [
+          2.5,
+          0.5,
+          2.5
+        ]
+      },
+      "dimensions": [
+        5,
+        0.5,
+        5
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 1.3,
+        "nativeSize": [
+          5,
+          0.5,
+          5
+        ],
+        "suggestedSizeMetres": [
+          6.5,
+          0.65,
+          6.5
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "公園・街路樹・緑地・空のアクセント。",
+      "placement": "路肩や遠景に配置。植栽は同一モデルを共有し、密集時はInstancedMeshを検討。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Starter Kit 3D Platformer",
+      "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-3D-Platformer/blob/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0/models/platform-grass-large-round.glb",
+      "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported."
+    },
+    {
+      "id": "space_structure",
+      "name": "Structure",
+      "category": "FUTURE",
+      "tags": [
+        "road-driver",
+        "future",
+        "giant-climb",
+        "lowpoly",
+        "robot",
+        "frame",
+        "scaffold",
+        "lattice",
+        "industrial"
+      ],
+      "model": "models/space_structure.glb",
+      "thumbnail": "../../thumbnails/road-driver/space_structure.png",
+      "format": "GLB",
+      "bytes": 9280,
+      "sha256": "b686282d9e26242a14654603b709174f7ec89aadb283673fcd1110bb3f092b50",
+      "triangles": 168,
+      "vertices": 280,
+      "meshCount": 1,
+      "materialCount": 2,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          1.5,
+          0,
+          1
+        ],
+        "max": [
+          2.5,
+          1,
+          2
+        ]
+      },
+      "dimensions": [
+        1,
+        1,
+        1
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 4,
+        "nativeSize": [
+          1,
+          1,
+          1
+        ],
+        "suggestedSizeMetres": [
+          4,
+          4,
+          4
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Space Kit 2.0",
+      "sourceUrl": "https://www.npmjs.com/package/@anabis/kenney-space-kit-mirror/v/2.0.0 (package/assets/Models/GLTF format/structure.glb)",
+      "licenseEvidence": "Unofficial npm mirror; ships Kenney's original License.txt (CC0 1.0). Only model files are used; the package script is never executed."
+    },
+    {
+      "id": "space_structure_closed",
+      "name": "Structure Closed",
+      "category": "FUTURE",
+      "tags": [
+        "road-driver",
+        "future",
+        "giant-climb",
+        "lowpoly",
+        "robot",
+        "frame",
+        "scaffold",
+        "lattice",
+        "industrial"
+      ],
+      "model": "models/space_structure_closed.glb",
+      "thumbnail": "../../thumbnails/road-driver/space_structure_closed.png",
+      "format": "GLB",
+      "bytes": 13188,
+      "sha256": "3096e26f8707ee8435bb8083f12e81c74df45fbd0d87664523b400f17892eeef",
+      "triangles": 264,
+      "vertices": 392,
+      "meshCount": 1,
+      "materialCount": 3,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          1.5,
+          0,
+          1
+        ],
+        "max": [
+          2.5,
+          1,
+          2
+        ]
+      },
+      "dimensions": [
+        1,
+        1,
+        1
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 4,
+        "nativeSize": [
+          1,
+          1,
+          1
+        ],
+        "suggestedSizeMetres": [
+          4,
+          4,
+          4
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Space Kit 2.0",
+      "sourceUrl": "https://www.npmjs.com/package/@anabis/kenney-space-kit-mirror/v/2.0.0 (package/assets/Models/GLTF format/structure_closed.glb)",
+      "licenseEvidence": "Unofficial npm mirror; ships Kenney's original License.txt (CC0 1.0). Only model files are used; the package script is never executed."
+    },
+    {
+      "id": "space_structure_detailed",
+      "name": "Structure Detailed",
+      "category": "FUTURE",
+      "tags": [
+        "road-driver",
+        "future",
+        "giant-climb",
+        "lowpoly",
+        "robot",
+        "frame",
+        "scaffold",
+        "lattice",
+        "industrial"
+      ],
+      "model": "models/space_structure_detailed.glb",
+      "thumbnail": "../../thumbnails/road-driver/space_structure_detailed.png",
+      "format": "GLB",
+      "bytes": 13136,
+      "sha256": "4717f05d87ae6f2e53fe0e59ca0c3dc15ee2bc61b544c393d6249ba8ff14c9cc",
+      "triangles": 232,
+      "vertices": 400,
+      "meshCount": 1,
+      "materialCount": 3,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          1.5,
+          0,
+          1
+        ],
+        "max": [
+          2.5,
+          1,
+          2
+        ]
+      },
+      "dimensions": [
+        1,
+        1,
+        1
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 4,
+        "nativeSize": [
+          1,
+          1,
+          1
+        ],
+        "suggestedSizeMetres": [
+          4,
+          4,
+          4
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Space Kit 2.0",
+      "sourceUrl": "https://www.npmjs.com/package/@anabis/kenney-space-kit-mirror/v/2.0.0 (package/assets/Models/GLTF format/structure_detailed.glb)",
+      "licenseEvidence": "Unofficial npm mirror; ships Kenney's original License.txt (CC0 1.0). Only model files are used; the package script is never executed."
+    },
+    {
+      "id": "space_supports_high",
+      "name": "Supports High",
+      "category": "FUTURE",
+      "tags": [
+        "road-driver",
+        "future",
+        "giant-climb",
+        "lowpoly",
+        "robot",
+        "frame",
+        "scaffold",
+        "lattice",
+        "industrial"
+      ],
+      "model": "models/space_supports_high.glb",
+      "thumbnail": "../../thumbnails/road-driver/space_supports_high.png",
+      "format": "GLB",
+      "bytes": 17108,
+      "sha256": "49fbbcb9c86df9ea0642c16bc2780f33babb27d9c7811b60cf25a9236a653324",
+      "triangles": 312,
+      "vertices": 540,
+      "meshCount": 1,
+      "materialCount": 3,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          1.5875,
+          0,
+          1.0875
+        ],
+        "max": [
+          2.4125,
+          1,
+          1.9125
+        ]
+      },
+      "dimensions": [
+        0.825,
+        1,
+        0.825
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 4,
+        "nativeSize": [
+          0.825,
+          1,
+          0.825
+        ],
+        "suggestedSizeMetres": [
+          3.3,
+          4,
+          3.3
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Space Kit 2.0",
+      "sourceUrl": "https://www.npmjs.com/package/@anabis/kenney-space-kit-mirror/v/2.0.0 (package/assets/Models/GLTF format/supports_high.glb)",
+      "licenseEvidence": "Unofficial npm mirror; ships Kenney's original License.txt (CC0 1.0). Only model files are used; the package script is never executed."
+    },
+    {
+      "id": "space_supports_low",
+      "name": "Supports Low",
+      "category": "FUTURE",
+      "tags": [
+        "road-driver",
+        "future",
+        "giant-climb",
+        "lowpoly",
+        "robot",
+        "frame",
+        "scaffold",
+        "lattice",
+        "industrial"
+      ],
+      "model": "models/space_supports_low.glb",
+      "thumbnail": "../../thumbnails/road-driver/space_supports_low.png",
+      "format": "GLB",
+      "bytes": 11168,
+      "sha256": "4ba36d1cd7118e129ab411a850dc0262ac3d5a48debd78853fbf0b2baf345088",
+      "triangles": 184,
+      "vertices": 324,
+      "meshCount": 1,
+      "materialCount": 3,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          1.5875,
+          0,
+          1.0875
+        ],
+        "max": [
+          2.4125,
+          0.5,
+          1.9125
+        ]
+      },
+      "dimensions": [
+        0.825,
+        0.5,
+        0.825
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 4,
+        "nativeSize": [
+          0.825,
+          0.5,
+          0.825
+        ],
+        "suggestedSizeMetres": [
+          3.3,
+          2,
+          3.3
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Space Kit 2.0",
+      "sourceUrl": "https://www.npmjs.com/package/@anabis/kenney-space-kit-mirror/v/2.0.0 (package/assets/Models/GLTF format/supports_low.glb)",
+      "licenseEvidence": "Unofficial npm mirror; ships Kenney's original License.txt (CC0 1.0). Only model files are used; the package script is never executed."
+    },
+    {
+      "id": "space_monorail_track_straight",
+      "name": "Monorail TrackStraight",
+      "category": "FUTURE",
+      "tags": [
+        "road-driver",
+        "future",
+        "giant-climb",
+        "lowpoly",
+        "city",
+        "tokyo",
+        "monorail",
+        "track",
+        "elevated",
+        "modular"
+      ],
+      "model": "models/space_monorail_track_straight.glb",
+      "thumbnail": "../../thumbnails/road-driver/space_monorail_track_straight.png",
+      "format": "GLB",
+      "bytes": 2980,
+      "sha256": "6cac3ba41bf3f004a66a08f375681ac8a27a65089f3705dc62906754eb00c166",
+      "triangles": 28,
+      "vertices": 48,
+      "meshCount": 1,
+      "materialCount": 2,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          1.9,
+          0,
+          1
+        ],
+        "max": [
+          2.1,
+          0.13,
+          2
+        ]
+      },
+      "dimensions": [
+        0.2,
+        0.13,
+        1
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 4,
+        "nativeSize": [
+          0.2,
+          0.13,
+          1
+        ],
+        "suggestedSizeMetres": [
+          0.8,
+          0.52,
+          4
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Space Kit 2.0",
+      "sourceUrl": "https://www.npmjs.com/package/@anabis/kenney-space-kit-mirror/v/2.0.0 (package/assets/Models/GLTF format/monorail_trackStraight.glb)",
+      "licenseEvidence": "Unofficial npm mirror; ships Kenney's original License.txt (CC0 1.0). Only model files are used; the package script is never executed."
+    },
+    {
+      "id": "space_monorail_track_support",
+      "name": "Monorail TrackSupport",
+      "category": "FUTURE",
+      "tags": [
+        "road-driver",
+        "future",
+        "giant-climb",
+        "lowpoly",
+        "city",
+        "tokyo",
+        "monorail",
+        "track",
+        "elevated",
+        "modular"
+      ],
+      "model": "models/space_monorail_track_support.glb",
+      "thumbnail": "../../thumbnails/road-driver/space_monorail_track_support.png",
+      "format": "GLB",
+      "bytes": 9928,
+      "sha256": "69e77687c15da97c4537106b55fa73218a30680dd20617660142ae12b6967434",
+      "triangles": 176,
+      "vertices": 272,
+      "meshCount": 1,
+      "materialCount": 3,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          1.9,
+          0,
+          1.4
+        ],
+        "max": [
+          2.1,
+          0.5,
+          1.6
+        ]
+      },
+      "dimensions": [
+        0.2,
+        0.5,
+        0.2
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 4,
+        "nativeSize": [
+          0.2,
+          0.5,
+          0.2
+        ],
+        "suggestedSizeMetres": [
+          0.8,
+          2,
+          0.8
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Space Kit 2.0",
+      "sourceUrl": "https://www.npmjs.com/package/@anabis/kenney-space-kit-mirror/v/2.0.0 (package/assets/Models/GLTF format/monorail_trackSupport.glb)",
+      "licenseEvidence": "Unofficial npm mirror; ships Kenney's original License.txt (CC0 1.0). Only model files are used; the package script is never executed."
+    },
+    {
+      "id": "space_monorail_track_corner_large",
+      "name": "Monorail TrackCornerLarge",
+      "category": "FUTURE",
+      "tags": [
+        "road-driver",
+        "future",
+        "giant-climb",
+        "lowpoly",
+        "city",
+        "tokyo",
+        "monorail",
+        "track",
+        "elevated",
+        "modular"
+      ],
+      "model": "models/space_monorail_track_corner_large.glb",
+      "thumbnail": "../../thumbnails/road-driver/space_monorail_track_corner_large.png",
+      "format": "GLB",
+      "bytes": 8240,
+      "sha256": "f8bff88b72f015ba346273ca78d196c71424036c39077b2152b0635155165db9",
+      "triangles": 204,
+      "vertices": 224,
+      "meshCount": 1,
+      "materialCount": 2,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          1,
+          0,
+          0.5
+        ],
+        "max": [
+          2.6,
+          0.13,
+          2.1
+        ]
+      },
+      "dimensions": [
+        1.6,
+        0.13,
+        1.6
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 4,
+        "nativeSize": [
+          1.6,
+          0.13,
+          1.6
+        ],
+        "suggestedSizeMetres": [
+          6.4,
+          0.52,
+          6.4
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Space Kit 2.0",
+      "sourceUrl": "https://www.npmjs.com/package/@anabis/kenney-space-kit-mirror/v/2.0.0 (package/assets/Models/GLTF format/monorail_trackCornerLarge.glb)",
+      "licenseEvidence": "Unofficial npm mirror; ships Kenney's original License.txt (CC0 1.0). Only model files are used; the package script is never executed."
+    },
+    {
+      "id": "space_monorail_train_front",
+      "name": "Monorail TrainFront",
+      "category": "FUTURE",
+      "tags": [
+        "road-driver",
+        "future",
+        "giant-climb",
+        "lowpoly",
+        "city",
+        "tokyo",
+        "monorail",
+        "train",
+        "vehicle"
+      ],
+      "model": "models/space_monorail_train_front.glb",
+      "thumbnail": "../../thumbnails/road-driver/space_monorail_train_front.png",
+      "format": "GLB",
+      "bytes": 13144,
+      "sha256": "73eaf6aceba408c4bfeb96e795b78aea96b68582508a97820114eef6b3135cf6",
+      "triangles": 242,
+      "vertices": 396,
+      "meshCount": 1,
+      "materialCount": 3,
+      "textureCount": 0,
+      "boundingBox": {
+        "min": [
+          1.7,
+          0,
+          0.95
+        ],
+        "max": [
+          2.3,
+          0.8,
+          2
+        ]
+      },
+      "dimensions": [
+        0.6,
+        0.8,
+        1.05
+      ],
+      "nativeScale": 1,
+      "units": {
+        "metresPerUnit": 4,
+        "nativeSize": [
+          0.6,
+          0.8,
+          1.05
+        ],
+        "suggestedSizeMetres": [
+          2.4,
+          3.2,
+          4.2
+        ],
+        "upAxis": "Y"
+      },
+      "orientation": {
+        "upAxis": "Y"
+      },
+      "recommendedUse": "未来的な高架・構造物・モノレールの背景アクセント。",
+      "placement": "道路と交差しない遠景・上空に配置。車線や視界を塞がないよう少数を再利用。",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney (www.kenney.nl)",
+      "source": "Kenney Space Kit 2.0",
+      "sourceUrl": "https://www.npmjs.com/package/@anabis/kenney-space-kit-mirror/v/2.0.0 (package/assets/Models/GLTF format/monorail_trainFront.glb)",
+      "licenseEvidence": "Unofficial npm mirror; ships Kenney's original License.txt (CC0 1.0). Only model files are used; the package script is never executed."
+    }
+  ]
+}
