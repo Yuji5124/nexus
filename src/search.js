@@ -11,7 +11,9 @@ export function searchAssets(assets, filters = {}) {
     && (!filters.maxTriangles || (asset.triangles != null && asset.triangles <= Number(filters.maxTriangles)))
     && (filters.animated == null || asset.animated === filters.animated)
     && (!filters.license || filters.license === 'all' || asset.license === filters.license)
-    && (!filters.collection || filters.collection === 'all' || asset.collection === filters.collection)
+    && (!filters.collection || filters.collection === 'all' || (filters.collection === 'road-driver'
+      ? (asset.tags || []).includes('road-driver')
+      : asset.collection === filters.collection))
     && (!filters.role || filters.role === 'all' || (asset.gameRoles || []).includes(filters.role))
     && (filters.climbable == null || Boolean(asset.climbable) === filters.climbable))
     .sort((a,b) => b.score-a.score || a.asset.name.localeCompare(b.asset.name)).map(({asset}) => asset);

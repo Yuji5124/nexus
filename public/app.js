@@ -64,5 +64,7 @@ try {
   assets=await response.json(); $('total').textContent=assets.length;
   for(const value of [...new Set(assets.flatMap(a=>a.gameRoles || []))].sort()) {const option=document.createElement('option');option.value=value;option.textContent=value;$('role').append(option);}
   for(const key of ['collection','category','format','license']) for(const value of [...new Set(assets.map(a=>a[key]).filter(Boolean))].sort()) {const option=document.createElement('option');option.value=value;option.textContent=value;$ (key).append(option);}
+  const roadDriverAssets=assets.filter(a=>(a.tags || []).includes('road-driver'));
+  if(roadDriverAssets.length){const option=document.createElement('option');option.value='road-driver';option.textContent='ROAD DRIVER ('+roadDriverAssets.length+')';$('collection').append(option);}
   render();
 } catch(error) {$('count').textContent='Asset index unavailable';$('grid').textContent=error.message;}
