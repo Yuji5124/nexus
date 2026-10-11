@@ -1,0 +1,9 @@
+Kenney Starter Kit 3D Platformer
+Author: Kenney (www.kenney.nl)
+License: CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://github.com/KenneyNL/Starter-Kit-3D-Platformer @ 3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0
+Evidence: README: "Sprites and 3D Models (CC0 licensed)"; project code is MIT and is not imported.
+
+- Sprites and 3D Models _(CC0 licensed)_
+- Sound effects _(CC0 licensed)_
+Assets included in this package (2D sprites, 3D models and sound effects) are [CC0 licensed](https://creativecommons.org/publicdomain/zero/1.0/)

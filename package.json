@@ -13,12 +13,21 @@
     "preview": "node server.js",
     "scan": "node scripts/scan-assets.mjs",
     "build": "npm run scan && node scripts/build-pages.mjs",
-    "mcp": "node mcp-server.js"
+    "mcp": "node mcp-server.js",
+    "giant-climb:fetch": "node scripts/giant-climb/fetch-sources.mjs",
+    "giant-climb:import": "node scripts/giant-climb/import.mjs && npm run scan",
+    "giant-climb": "npm run giant-climb:fetch && npm run giant-climb:import"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.1",
     "three": "^0.180.0",
     "undici": "^8.11.2",
     "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "^4.5.1",
+    "@gltf-transform/extensions": "^4.5.1",
+    "@gltf-transform/functions": "^4.5.1",
+    "draco3dgltf": "^1.5.7"
   }
 }

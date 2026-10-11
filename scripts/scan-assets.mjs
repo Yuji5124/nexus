@@ -35,6 +35,29 @@ function glbJson(buffer) {
   return null;
 }
 
+// World-space bounds: apply node transforms to each mesh's POSITION accessor box.
+function multiply(a, b) { const r = new Array(16).fill(0); for (let c = 0; c < 4; c++) for (let rI = 0; rI < 4; rI++) for (let k = 0; k < 4; k++) r[c * 4 + rI] += a[k * 4 + rI] * b[c * 4 + k]; return r; }
+function localMatrix(node) {
+  if (node.matrix) return node.matrix;
+  const [x, y, z, w] = node.rotation || [0, 0, 0, 1], [sx, sy, sz] = node.scale || [1, 1, 1], [tx, ty, tz] = node.translation || [0, 0, 0];
+  return [(1 - 2 * (y * y + z * z)) * sx, 2 * (x * y + z * w) * sx, 2 * (x * z - y * w) * sx, 0, 2 * (x * y - z * w) * sy, (1 - 2 * (x * x + z * z)) * sy, 2 * (y * z + x * w) * sy, 0, 2 * (x * z + y * w) * sz, 2 * (y * z - x * w) * sz, (1 - 2 * (x * x + y * y)) * sz, 0, tx, ty, tz, 1];
+}
+function sceneBounds(doc) {
+  const scene = doc?.scenes?.[doc.scene ?? 0]; if (!scene) return null;
+  let min = [Infinity, Infinity, Infinity], max = [-Infinity, -Infinity, -Infinity];
+  const visit = (index, parent) => {
+    const node = doc.nodes?.[index]; if (!node) return; const m = multiply(parent, localMatrix(node));
+    for (const primitive of doc.meshes?.[node.mesh]?.primitives || []) {
+      const a = doc.accessors?.[primitive.attributes?.POSITION]; if (!a?.min || !a?.max) continue;
+      for (let i = 0; i < 8; i++) { const p = [i & 1 ? a.max[0] : a.min[0], i & 2 ? a.max[1] : a.min[1], i & 4 ? a.max[2] : a.min[2]];
+        for (let j = 0; j < 3; j++) { const v = m[j] * p[0] + m[4 + j] * p[1] + m[8 + j] * p[2] + m[12 + j]; min[j] = Math.min(min[j], v); max[j] = Math.max(max[j], v); } }
+    }
+    for (const child of node.children || []) visit(child, m);
+  };
+  for (const index of scene.nodes || []) visit(index, [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]);
+  return Number.isFinite(min[0]) ? { min: min.map(v => Number(v.toFixed(4))), max: max.map(v => Number(v.toFixed(4))) } : null;
+}
+
 function gltfStats(doc) {
   const accessors = doc?.accessors || []; let vertices = 0; let triangles = 0; let min; let max;
   for (const mesh of doc?.meshes || []) for (const primitive of mesh.primitives || []) {
@@ -45,6 +68,7 @@ function gltfStats(doc) {
     const index = primitive.indices == null ? null : accessors[primitive.indices];
     triangles += Math.floor((index?.count ?? accessor.count ?? 0) / 3);
   }
+  const world = sceneBounds(doc); if (world) { min = world.min; max = world.max; }
   const dimensions = min && max ? max.map((v, i) => Number((v - min[i]).toFixed(4))) : null;
   return { vertices, triangles, meshCount: doc?.meshes?.length || 0, materialCount: doc?.materials?.length || 0, textureCount: doc?.textures?.length || 0, animations: (doc?.animations || []).map((item) => item.name || "unnamed"), boundingBox: min && max ? { min, max } : null, dimensions };
 }

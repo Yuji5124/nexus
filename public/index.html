@@ -12,18 +12,20 @@
 <main class="app-shell">
 <aside class="sidebar">
 <div class="side-heading">MY LIBRARY</div><div class="side-card"><div class="side-stat"><strong id="total">—</strong><span>GITHUB ASSETS</span></div></div>
+<div class="side-heading">COLLECTION</div><select id="collection"><option value="all">ALL COLLECTIONS</option></select>
 <div class="side-heading">CATEGORY</div><select id="category"><option value="all">ALL CATEGORIES</option></select>
 <div class="side-heading">FORMAT</div><select id="format"><option value="all">ALL FORMATS</option></select>
 <div class="side-heading">LICENSE</div><select id="license"><option value="all">ALL LICENSES</option></select>
+<div class="side-heading">GAME ROLE</div><select id="role"><option value="all">ALL ROLES</option></select>
 <div class="side-heading">POLYGON LIMIT</div><input id="maxTriangles" type="number" min="1" placeholder="Max triangles" style="width:100%">
 <div class="side-heading">ANIMATION</div><select id="animated"><option value="">ALL</option><option value="true">ANIMATED</option><option value="false">NO ANIMATION</option></select>
 <div class="side-heading">TAG</div><input id="tags" placeholder="forest,rpg" style="width:100%">
 <div class="sidebar-bottom"><p>GitHub is the source of truth. Search, preview and reuse assets across your games.</p><a href="https://github.com/Yuji5124/nexus/tree/main/assets">ADD ASSETS ↗</a></div>
 </aside>
 <section class="content"><div class="content-head"><div><p class="eyebrow">MY 3D ASSET LIBRARY</p><h1>Find something<br><span>worth building with.</span></h1></div></div>
-<div class="search-row"><div class="search"><span>⌕</span><input id="query" placeholder="Search tree, forest, lowpoly, RPG…"><kbd>⌘ K</kbd></div><button class="saved-filter" id="saved">♡ SAVED</button></div>
+<div class="search-row"><div class="search"><span>⌕</span><input id="query" placeholder="Search robot, climb, tokyo, corridor…"><kbd>⌘ K</kbd></div><button class="saved-filter" id="saved">♡ SAVED</button></div>
 <div class="results-head"><span id="count">Loading GitHub asset index…</span><span>RELEVANCE ↓</span></div><section id="grid" class="grid"></section></section>
 </main>
-<dialog id="detail"><button class="close" id="close" aria-label="Close">×</button><div class="detail-layout"><div class="viewer-wrap"><div id="viewer"></div><div class="viewer-tools"><button id="rotate">AUTO ROTATE</button><button id="gridToggle">GRID</button><button id="wire">WIREFRAME</button><button id="bounds">BOUNDING BOX</button></div></div><div class="detail-copy"><p class="eyebrow" id="source"></p><h2 id="name"></h2><dl id="facts"></dl><p id="assetTags"></p><div class="detail-actions"><button class="button" id="copyUrl">COPY URL</button><button class="button" id="copyPath">COPY PATH</button><button class="button" id="copyCode">COPY THREE.JS</button><a class="button" id="download">DOWNLOAD</a><button class="button" id="favorite">♡ SAVE</button></div><p id="notice" role="status"></p></div></div></dialog>
+<dialog id="detail"><button class="close" id="close" aria-label="Close">×</button><div class="detail-layout"><div class="viewer-wrap"><div id="viewer"></div><div class="viewer-tools"><button id="rotate">AUTO ROTATE</button><button id="gridToggle">GRID</button><button id="wire">WIREFRAME</button><button id="bounds">BOUNDING BOX</button></div></div><div class="detail-copy"><p class="eyebrow" id="source"></p><h2 id="name"></h2><dl id="facts"></dl><p id="description"></p><p id="assetTags"></p><div class="detail-actions"><button class="button" id="copyUrl">COPY URL</button><button class="button" id="copyPath">COPY PATH</button><button class="button" id="copyCode">COPY THREE.JS</button><a class="button" id="download">DOWNLOAD</a><button class="button" id="favorite">♡ SAVE</button></div><p id="notice" role="status"></p></div></div></dialog>
 <script type="module" src="./app.js"></script>
 </body></html>
