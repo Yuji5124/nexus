@@ -1,0 +1,8 @@
+Kenney Starter Kit FPS
+Author: Kenney (www.kenney.nl)
+License: CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://github.com/KenneyNL/Starter-Kit-FPS @ 185fd2326d74a5cf858cffc616f87cf9696f9cc0
+Evidence: README: "Sprites and 3D Models (CC0 licensed)"; project code is MIT and is not imported.
+
+- Sprites and 3D Models _(CC0 licensed)_
+Assets included in this package (2D sprites, 3D models and sound effects) are [CC0 licensed](https://creativecommons.org/publicdomain/zero/1.0/)

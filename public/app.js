@@ -11,7 +11,7 @@ const favorites = () => { try { const ids=JSON.parse(localStorage.getItem('nexus
 const assetUrl = asset => asset.previewUrl || new URL(asset.path, base).href;
 function save(id) { const ids = favorites(); localStorage.setItem('nexus:favorites',JSON.stringify(ids.includes(id) ? ids.filter(x=>x!==id) : [...ids,id])); render(); }
 function render() {
-  let results = searchAssets(assets, {query:$('query').value,category:$('category').value,format:$('format').value,license:$('license').value,tags:$('tags').value,maxTriangles:$('maxTriangles').value,animated:$('animated').value === '' ? undefined : $('animated').value === 'true'});
+  let results = searchAssets(assets, {query:$('query').value,category:$('category').value,format:$('format').value,license:$('license').value,collection:$('collection').value,role:$('role').value,tags:$('tags').value,maxTriangles:$('maxTriangles').value,animated:$('animated').value === '' ? undefined : $('animated').value === 'true'});
   if (savedOnly) results = results.filter(a=>favorites().includes(a.id));
   $('count').textContent = results.length + ' assets';
   $('grid').innerHTML = results.map(a=>'<article class="card" data-id="'+escape(a.id)+'"><div class="thumb">'+(a.thumbnail ? '<img loading="lazy" src="'+escape(new URL(a.thumbnail.replace(/^\//,''),base).href)+'" style="width:100%;height:100%;object-fit:contain" alt="">' : '<span style="display:block;padding:55px;text-align:center">◇<br>3D PREVIEW</span>')+'</div><div class="card-body"><h3>'+escape(a.name)+'</h3><p class="provider">'+escape(a.category)+'</p><div class="badges"><span class="badge">'+escape(a.format)+'</span><span class="badge">'+escape(a.license || 'UNKNOWN')+'</span><span class="badge">'+(a.triangles == null ? '—' : a.triangles.toLocaleString())+' triangles</span></div><p class="provider">'+escape((a.tags || []).join(' · '))+'</p></div></article>').join('') || '<p class="empty">No matching assets.</p>';
@@ -45,8 +45,8 @@ function viewer(asset) {
   disposeViewer=()=>{stopped=true;observer.disconnect();renderer.setAnimationLoop(null);controls.dispose();scene.traverse(n=>{n.geometry?.dispose();for(const m of [].concat(n.material || [])) m.dispose();});renderer.dispose();};
 }
 function openAsset(asset) {
-  selected=asset; $('name').textContent=asset.name; $('source').textContent=asset.source || 'GitHub NEXUS'; $('assetTags').textContent=(asset.tags || []).join(' · ');
-  $('facts').innerHTML=Object.entries({License:asset.license || 'UNKNOWN',Author:asset.author || '—',Format:asset.format,Size:asset.size+' bytes',Triangles:asset.triangles ?? '—',Materials:asset.materials ?? '—',Animations:(asset.animations || []).length}).map(([k,v])=>'<dt>'+escape(k)+'</dt><dd>'+escape(v)+'</dd>').join('');
+  selected=asset; $('name').textContent=asset.name; $('source').textContent=asset.source || 'GitHub NEXUS'; $('assetTags').textContent=(asset.tags || []).join(' · '); $('description').textContent=asset.description || '';
+  $('facts').innerHTML=Object.entries({License:asset.license || 'UNKNOWN',Author:asset.author || '—',Format:asset.format,Size:asset.size+' bytes',Triangles:asset.triangles ?? '—',Materials:asset.materials ?? '—',Animations:(asset.animations || []).length,...(asset.gameRoles ? {'Game roles':asset.gameRoles.join(', ')} : {}),...(asset.units ? {'Suggested size':asset.units.suggestedSizeMetres.join(' × ')+' m (×'+asset.units.metresPerUnit+')'} : {}),...(asset.sourceUrl ? {Source:asset.sourceUrl} : {})}).map(([k,v])=>'<dt>'+escape(k)+'</dt><dd>'+escape(v)+'</dd>').join('');
   $('notice').textContent=''; $('download').href=assetUrl(asset); $('download').target='_blank'; $('detail').showModal(); viewer(asset);
 }
 async function copy(text) { try { await navigator.clipboard.writeText(text); $('notice').textContent='Copied.'; } catch { $('notice').textContent=text; } }
@@ -57,11 +57,12 @@ $('favorite').onclick=()=>save(selected.id);
 $('rotate').onclick=()=>toggleRotate(); $('gridToggle').onclick=()=>toggleGrid(); $('wire').onclick=()=>toggleWire(); $('bounds').onclick=()=>toggleBounds();
 $('close').onclick=()=>$('detail').close(); $('detail').addEventListener('close',()=>disposeViewer());
 $('saved').onclick=()=>{savedOnly=!savedOnly;$('saved').classList.toggle('active',savedOnly);render();};
-for(const id of ['query','category','format','license','maxTriangles','animated','tags']) $(id).addEventListener('input',render);
+for(const id of ['query','collection','role','category','format','license','maxTriangles','animated','tags']) $(id).addEventListener('input',render);
 document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key==='k'){e.preventDefault();$('query').focus();}});
 try {
   const response=await fetch(new URL('data/assets.json',base)); if(!response.ok) throw new Error('Index HTTP '+response.status);
   assets=await response.json(); $('total').textContent=assets.length;
-  for(const key of ['category','format','license']) for(const value of [...new Set(assets.map(a=>a[key]).filter(Boolean))].sort()) {const option=document.createElement('option');option.value=value;option.textContent=value;$ (key).append(option);}
+  for(const value of [...new Set(assets.flatMap(a=>a.gameRoles || []))].sort()) {const option=document.createElement('option');option.value=value;option.textContent=value;$('role').append(option);}
+  for(const key of ['collection','category','format','license']) for(const value of [...new Set(assets.map(a=>a[key]).filter(Boolean))].sort()) {const option=document.createElement('option');option.value=value;option.textContent=value;$ (key).append(option);}
   render();
 } catch(error) {$('count').textContent='Asset index unavailable';$('grid').textContent=error.message;}

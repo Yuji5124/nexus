@@ -20,6 +20,10 @@ Add files such as `assets/nature/tree/tree_001.glb` and push to GitHub. GLB is p
 
 Run `npm run scan` to generate `data/assets.json`. Edit the record's name, tags, license, author, source, sourceUrl, notes and recommendedFor, then commit both assets and metadata. Later scans preserve these fields. Unknown licenses remain UNKNOWN. Missing thumbnails remain empty; the detailed viewer loads the real model. GLB accessor bounds are geometry bounds and may not reflect transformed scene dimensions.
 
+## GIANT CLIMB collection
+
+215 CC0 GLB models for the GIANT CLIMB climbing game (giant robot exterior and interior, Tokyo streets and buildings, vehicles, characters, gameplay objects) live in `assets/giant-climb/` with thumbnails in `thumbnails/giant-climb/`. Each record has `collection: "giant-climb"`, `gameRoles`, `climbable`, `units.metresPerUnit` and a commit-pinned `sourceUrl`. The pipeline (`npm run giant-climb`), source catalog and license evidence are documented in [giant-climb/README.md](giant-climb/README.md) and [giant-climb/REPORT.md](giant-climb/REPORT.md).
+
 ## Use from Codex / Claude Code
 
 Fetch the raw index URL above, search name/category/tags/recommendedFor, inspect the license, then use previewUrl in Three.js:
@@ -45,7 +49,7 @@ The MCP server fetches GitHub directly and needs no local NEXUS asset checkout o
 }
 ```
 
-Tools: search_assets, get_asset, get_asset_url, list_assets, find_similar_assets, download_asset. download_asset writes only under the consuming game's NEXUS_PROJECT_ROOT, rejects escaping symlinks, and refuses overwrite. Multi-file glTF downloads are not supported; use GLB.
+Tools: search_assets (query, collection, role, climbable, category, tags, format, maxTriangles, animated), get_asset, get_asset_url, list_assets, find_similar_assets, download_asset. download_asset writes only under the consuming game's NEXUS_PROJECT_ROOT, rejects escaping symlinks, and refuses overwrite. Multi-file glTF downloads are not supported; use GLB.
 
 ## Developer setup
 

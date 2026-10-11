@@ -4,3 +4,4 @@ dist/
 .env
 library/models/*
 !library/models/.gitkeep
+.cache/
