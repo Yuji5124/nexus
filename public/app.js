@@ -60,7 +60,7 @@ $('saved').onclick=()=>{savedOnly=!savedOnly;$('saved').classList.toggle('active
 for(const id of ['query','collection','role','category','format','license','maxTriangles','animated','tags']) $(id).addEventListener('input',render);
 document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key==='k'){e.preventDefault();$('query').focus();}});
 try {
-  const response=await fetch(new URL('data/assets.json',base)); if(!response.ok) throw new Error('Index HTTP '+response.status);
+  const response=await fetch(new URL('data/assets.json',base),{cache:'no-cache'}); if(!response.ok) throw new Error('Index HTTP '+response.status);
   assets=await response.json(); $('total').textContent=assets.length;
   for(const value of [...new Set(assets.flatMap(a=>a.gameRoles || []))].sort()) {const option=document.createElement('option');option.value=value;option.textContent=value;$('role').append(option);}
   for(const key of ['collection','category','format','license']) for(const value of [...new Set(assets.map(a=>a[key]).filter(Boolean))].sort()) {const option=document.createElement('option');option.value=value;option.textContent=value;$ (key).append(option);}
