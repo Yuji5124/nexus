@@ -21276,6 +21276,218 @@
     "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/vehicle/space_monorail_train_passenger.glb"
   },
   {
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Ramon Linares",
+    "source": "FORGE — Character Lab (RamonLinares/atlas-09)",
+    "sourceRevision": "1b8fb9d54160215c071c5a29a49b1c36dc01f0df",
+    "licenseEvidence": "ASSET-LICENSE.md and public/models/LICENSE.txt: the seven FORGE mecha (incl. ATLAS/09 and RONIN/04) GLB models, rigs, baked animations and textures are dedicated to CC0 1.0 by Ramon Linares. Copies in assets/kiba-real-city/mecha/licenses/.",
+    "gameRoles": [
+      "character",
+      "enemy",
+      "landmark"
+    ],
+    "climbable": false,
+    "animated": true,
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "id": "forge_atlas_09",
+    "name": "FORGE ATLAS 09",
+    "title": "FORGE ATLAS 09",
+    "file": "assets/kiba-real-city/mecha/forge_atlas_09.glb",
+    "thumbnail": "thumbnails/kiba-real-city/forge_atlas_09.png",
+    "tags": [
+      "kiba-real-city",
+      "mecha",
+      "robot",
+      "giant",
+      "rigged",
+      "animated",
+      "pbr",
+      "heavy",
+      "forge"
+    ],
+    "description": "Weathered heavy giant mecha (18 m). Rigged, PBR textures with emissive core, 10 baked clips (Sentinel, Walk, Run, PunchCombo, KneelFire, Backflip, HitChest, HitHead, Knockback, Collapse). Kept unmodified.",
+    "sourceUrl": "https://github.com/RamonLinares/atlas-09/blob/1b8fb9d54160215c071c5a29a49b1c36dc01f0df/public/models/atlas-09.glb",
+    "sourceFile": "public/models/atlas-09.glb",
+    "sourceSha256": "e9e5ec9ffe17fa447992ce0a50f87a5023e6bb8e12bff554c23c130149cedb47",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        14.94,
+        18,
+        6.2
+      ],
+      "suggestedSizeMetres": [
+        14.94,
+        18,
+        6.2
+      ],
+      "upAxis": "Y"
+    },
+    "notes": "AI-assisted origin (OpenAI concept image → Tripo image-to-model → Blender rig/animation); Quaternius CC0 animations retargeted. See ASSET-PROVENANCE.md upstream. Hero asset: ~26.5k triangles, 4 textures up to 2048px, ~6.9 MB.",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "boss",
+      "giant-robot"
+    ],
+    "localPath": "assets/kiba-real-city/mecha/forge_atlas_09.glb",
+    "subcategory": "mecha",
+    "size": 6868744,
+    "fileSize": 6868744,
+    "vertices": 42148,
+    "triangles": 26519,
+    "polygonCount": 26519,
+    "meshCount": 1,
+    "materials": 4,
+    "textures": 4,
+    "animations": [
+      "Backflip",
+      "Collapse",
+      "HitChest",
+      "HitHead",
+      "KneelFire",
+      "Knockback",
+      "PunchCombo",
+      "Run",
+      "Sentinel",
+      "Walk"
+    ],
+    "boundingBox": {
+      "min": [
+        -7.6347,
+        0,
+        -3.0822
+      ],
+      "max": [
+        7.3092,
+        18,
+        3.1174
+      ]
+    },
+    "dimensions": [
+      14.9439,
+      18,
+      6.1996
+    ],
+    "scale": 1,
+    "sha256": "e9e5ec9ffe17fa447992ce0a50f87a5023e6bb8e12bff554c23c130149cedb47",
+    "path": "assets/kiba-real-city/mecha/forge_atlas_09.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/mecha/forge_atlas_09.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/mecha/forge_atlas_09.glb"
+  },
+  {
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Ramon Linares",
+    "source": "FORGE — Character Lab (RamonLinares/atlas-09)",
+    "sourceRevision": "1b8fb9d54160215c071c5a29a49b1c36dc01f0df",
+    "licenseEvidence": "ASSET-LICENSE.md and public/models/LICENSE.txt: the seven FORGE mecha (incl. ATLAS/09 and RONIN/04) GLB models, rigs, baked animations and textures are dedicated to CC0 1.0 by Ramon Linares. Copies in assets/kiba-real-city/mecha/licenses/.",
+    "gameRoles": [
+      "character",
+      "enemy",
+      "landmark"
+    ],
+    "climbable": false,
+    "animated": true,
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "id": "forge_ronin_04",
+    "name": "FORGE RONIN 04",
+    "title": "FORGE RONIN 04",
+    "file": "assets/kiba-real-city/mecha/forge_ronin_04.glb",
+    "thumbnail": "thumbnails/kiba-real-city/forge_ronin_04.png",
+    "tags": [
+      "kiba-real-city",
+      "mecha",
+      "robot",
+      "samurai",
+      "sword",
+      "rigged",
+      "animated",
+      "pbr",
+      "forge"
+    ],
+    "description": "Red samurai mecha with katana (16 m). Rigged, PBR with clearcoat, 12 baked clips including SwordSlash, SwordCombo, SwordBlock and BladeSalute. Kept unmodified.",
+    "sourceUrl": "https://github.com/RamonLinares/atlas-09/blob/1b8fb9d54160215c071c5a29a49b1c36dc01f0df/public/models/ronin-04.glb",
+    "sourceFile": "public/models/ronin-04.glb",
+    "sourceSha256": "c73ba62bb8f6f2398f57085f211f01a4f150ff872e203dec2360ce2285d13cbc",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        10.79,
+        16,
+        7.96
+      ],
+      "suggestedSizeMetres": [
+        10.79,
+        16,
+        7.96
+      ],
+      "upAxis": "Y"
+    },
+    "notes": "AI-assisted origin (concept image → Tripo image-to-model → Blender rig/animation); Quaternius CC0 animations retargeted. See ASSET-PROVENANCE.md upstream. Hero asset: ~31.5k triangles, 3 textures up to 2048px, ~7.6 MB.",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "boss",
+      "giant-robot"
+    ],
+    "localPath": "assets/kiba-real-city/mecha/forge_ronin_04.glb",
+    "subcategory": "mecha",
+    "size": 7598824,
+    "fileSize": 7598824,
+    "vertices": 45810,
+    "triangles": 31533,
+    "polygonCount": 31533,
+    "meshCount": 1,
+    "materials": 4,
+    "textures": 3,
+    "animations": [
+      "Backflip",
+      "BladeSalute",
+      "HitChest",
+      "HitHead",
+      "KneelFire",
+      "Knockback",
+      "PunchCombo",
+      "Run",
+      "Sentinel",
+      "SwordBlock",
+      "SwordCombo",
+      "SwordSlash"
+    ],
+    "boundingBox": {
+      "min": [
+        -6.4808,
+        0,
+        -2.0409
+      ],
+      "max": [
+        4.3081,
+        16,
+        5.9235
+      ]
+    },
+    "dimensions": [
+      10.7889,
+      16,
+      7.9644
+    ],
+    "scale": 1,
+    "sha256": "c73ba62bb8f6f2398f57085f211f01a4f150ff872e203dec2360ce2285d13cbc",
+    "path": "assets/kiba-real-city/mecha/forge_ronin_04.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/mecha/forge_ronin_04.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/mecha/forge_ronin_04.glb"
+  },
+  {
     "id": "assets_nature_tree_demo_tree",
     "name": "NEXUS Low Poly Demo Tree",
     "title": "NEXUS Low Poly Demo Tree",
