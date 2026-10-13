@@ -1,0 +1,8 @@
+Kenney Mini Arena (Starter Kit Basic Scene)
+Author: Kenney (www.kenney.nl)
+License: CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://github.com/KenneyNL/Starter-Kit-Basic-Scene @ a6927e66ff8dd8e173660ce4825abe773c65f683
+Evidence: README: "comes with the (CC0 licensed) Mini Arena pack".
+
+This includes a basic scene and environment set-up for a pleasing and bright result, comes with the (CC0 licensed) Mini Arena pack.
+Assets included in this package (2D sprites, 3D models and sound effects) are [CC0 licensed](https://creativecommons.org/publicdomain/zero/1.0/)
