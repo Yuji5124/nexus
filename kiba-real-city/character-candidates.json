@@ -1,0 +1,76 @@
+{
+  "project": "KIBA-REAL-CITY",
+  "kind": "character-candidates",
+  "status": "candidate",
+  "note": "Recorded from information shared by the user. Not downloaded or verified yet; confirm license and source page before importing. Source URLs are inferred (likely Quaternius packs) and unverified.",
+  "candidates": [
+    {
+      "rank": 1,
+      "name": "Universal Base Characters",
+      "variants": ["Regular", "Teen"],
+      "description": "6 base bodies to choose from. Closest candidate to 7-head proportions.",
+      "descriptionJa": "最も7頭身に近づけやすい候補。6種類の素体から選択できます。",
+      "rigged": true,
+      "license": "CC0-1.0",
+      "formats": ["glTF", "FBX"],
+      "author": "Quaternius (unverified)",
+      "sourceUrl": "https://quaternius.com/packs/universalbasecharacters.html",
+      "sourceUrlVerified": false,
+      "use": ["protagonist-base", "7-head-proportion"]
+    },
+    {
+      "rank": 2,
+      "name": "Ultimate Modular Men",
+      "description": "11 male characters, 24 animations. Outfits and parts are swappable.",
+      "descriptionJa": "男性11種類、24アニメーション。衣装やパーツを変更できます。",
+      "characterCount": 11,
+      "animationCount": 24,
+      "license": "CC0-1.0",
+      "formats": ["glTF", "FBX"],
+      "author": "Quaternius (unverified)",
+      "sourceUrl": "https://quaternius.com/packs/ultimatemodularmen.html",
+      "sourceUrlVerified": false,
+      "use": ["male-characters", "citizens", "modular"]
+    },
+    {
+      "rank": 3,
+      "name": "Ultimate Modular Women",
+      "description": "10 female characters, 24 animations. Softer design suited to a protagonist.",
+      "descriptionJa": "女性10種類、24アニメーション。少し柔らかいデザインの主人公向き。",
+      "characterCount": 10,
+      "animationCount": 24,
+      "license": "CC0-1.0",
+      "formats": ["glTF", "FBX"],
+      "author": "Quaternius (unverified)",
+      "sourceUrl": "https://quaternius.com/packs/ultimatemodularwomen.html",
+      "sourceUrlVerified": false,
+      "use": ["female-characters", "protagonist", "modular"]
+    },
+    {
+      "rank": 4,
+      "name": "RPG Character Pack",
+      "description": "6 fantasy characters. Candidates for armed adventurers and warriors.",
+      "descriptionJa": "ファンタジー系6種類。武器を持つ冒険者・戦士のキャラクター候補。",
+      "characterCount": 6,
+      "license": "CC0-1.0",
+      "formats": ["FBX", "OBJ", "Blend"],
+      "author": "Quaternius (unverified)",
+      "sourceUrl": "https://quaternius.com/packs/rpgcharacters.html",
+      "sourceUrlVerified": false,
+      "use": ["fantasy", "adventurer", "warrior"],
+      "importNote": "No glTF distribution; convert FBX to GLB."
+    },
+    {
+      "rank": 5,
+      "name": "Cyberpunk Game Kit",
+      "description": "Sci-fi protagonist and enemy characters, for games set in a future city.",
+      "descriptionJa": "SF系の主人公と敵キャラクター。未来都市を舞台にするゲーム向き。",
+      "license": "CC0-1.0",
+      "formats": ["glTF", "FBX"],
+      "author": "Quaternius (unverified)",
+      "sourceUrl": "https://quaternius.com/packs/cyberpunkgamekit.html",
+      "sourceUrlVerified": false,
+      "use": ["sci-fi", "protagonist", "enemy", "future-city"]
+    }
+  ]
+}
