@@ -1,6 +1,6 @@
 # KIBA-REAL-CITY — キャラクター素材候補
 
-KIBA-REAL-CITY 用のキャラクター（人型素体）候補リストです。取り込み済みのモデル（FORGE ATLAS / RONIN）は [README.md](README.md) を参照してください。機械向けの同じ内容は [character-candidates.json](character-candidates.json) にあります。
+KIBA-REAL-CITY 用のキャラクター（人型素体）候補リストです。取り込み済みのモデル（FORGE メカ 7 体と Quaternius アニメーション）は [README.md](README.md) を参照してください。機械向けの同じ内容は [character-candidates.json](character-candidates.json) にあります。
 
 > **状態：候補（未取得・未検証）**
 > 内容は依頼時に共有された情報をそのまま記録したものです。モデルファイルはまだ NEXUS に取り込んでいません。
@@ -22,6 +22,13 @@ KIBA-REAL-CITY 用のキャラクター（人型素体）候補リストです�
 3. Ultimate Modular Women — https://quaternius.com/packs/ultimatemodularwomen.html
 4. RPG Character Pack — https://quaternius.com/packs/rpgcharacters.html
 5. Cyberpunk Game Kit — https://quaternius.com/packs/cyberpunkgamekit.html
+
+## Universal Base Characters の取得状況（2026-10-13）
+
+- 公式配布は itch.io（https://quaternius.itch.io/universal-base-characters、Standard 約 122 MB、価格自由で 0 円可、CC0）と quaternius.com。
+- この作業環境からは itch.io・quaternius.com・OpenGameArt に接続できないため、未取得です。
+- GitHub / npm にライセンス付きの複製は見つかりませんでした（`@jgengine/assets` の索引も「無料ミラーは FBX/OBJ のみ」と記録）。
+- 取得するには、手元の PC で Standard 版をダウンロードしてもらう必要があります。
 
 ## 取り込み時のメモ
 

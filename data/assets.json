@@ -21277,6 +21277,255 @@
   },
   {
     "collection": "kiba-real-city",
+    "format": "GLB",
+    "type": "animation",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Quaternius, Gonzalo Furnier",
+    "source": "Quaternius Universal Animation Library 1 via RamonLinares/atlas-09",
+    "sourceRevision": "1b8fb9d54160215c071c5a29a49b1c36dc01f0df",
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "id": "quaternius_ual1_selected",
+    "name": "Quaternius Universal Animation Library 1 (subset)",
+    "title": "Quaternius Universal Animation Library 1 (subset)",
+    "category": "animation",
+    "file": "assets/kiba-real-city/animations/quaternius_ual1_selected.glb",
+    "localPath": "assets/kiba-real-city/animations/quaternius_ual1_selected.glb",
+    "thumbnail": null,
+    "tags": [
+      "kiba-real-city",
+      "animation",
+      "quaternius",
+      "humanoid",
+      "skeleton",
+      "retarget"
+    ],
+    "gameRoles": [
+      "animation"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Skeleton + 9 humanoid animation clips (Walk_Loop, Jog_Fwd_Loop, Sprint_Loop, Punch_Jab, Punch_Cross, Death01, Hit_Chest, Hit_Head, Roll). No mesh — retarget onto a humanoid rig such as Quaternius Universal Base Characters.",
+    "sourceUrl": "https://github.com/RamonLinares/atlas-09/blob/1b8fb9d54160215c071c5a29a49b1c36dc01f0df/assets/animations/quaternius/UAL1_selected.glb",
+    "originalPage": "https://quaternius.itch.io/universal-animation-library",
+    "sourceFile": "assets/animations/quaternius/UAL1_selected.glb",
+    "sourceSha256": "9585fe028b07a520c5ed9e2f5bf2edca3c77e51d0dae4cb99fcbe916ab8ada3e",
+    "licenseEvidence": "Universal Animation Library 1/2 by Quaternius and Gonzalo Furnier, CC0-1.0 (original UAL1/UAL2 license texts in assets/kiba-real-city/animations/licenses/). Subset prepared in RamonLinares/atlas-09; SHA-256 matches its provenance.json.",
+    "notes": "Animation-only file: the 3D preview shows no geometry.",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "animation",
+      "retarget"
+    ],
+    "subcategory": "animations",
+    "size": 1163912,
+    "fileSize": 1163912,
+    "vertices": 0,
+    "triangles": 0,
+    "polygonCount": 0,
+    "meshCount": 0,
+    "materials": 0,
+    "textures": 0,
+    "animations": [
+      "Death01",
+      "Hit_Chest",
+      "Hit_Head",
+      "Jog_Fwd_Loop",
+      "Punch_Cross",
+      "Punch_Jab",
+      "Roll",
+      "Sprint_Loop",
+      "Walk_Loop"
+    ],
+    "boundingBox": null,
+    "dimensions": null,
+    "scale": 1,
+    "sha256": "9585fe028b07a520c5ed9e2f5bf2edca3c77e51d0dae4cb99fcbe916ab8ada3e",
+    "path": "assets/kiba-real-city/animations/quaternius_ual1_selected.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/animations/quaternius_ual1_selected.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/animations/quaternius_ual1_selected.glb"
+  },
+  {
+    "collection": "kiba-real-city",
+    "format": "GLB",
+    "type": "animation",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Quaternius, Gonzalo Furnier",
+    "source": "Quaternius Universal Animation Library 2 via RamonLinares/atlas-09",
+    "sourceRevision": "1b8fb9d54160215c071c5a29a49b1c36dc01f0df",
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "id": "quaternius_ual2_selected",
+    "name": "Quaternius Universal Animation Library 2 (subset)",
+    "title": "Quaternius Universal Animation Library 2 (subset)",
+    "category": "animation",
+    "file": "assets/kiba-real-city/animations/quaternius_ual2_selected.glb",
+    "localPath": "assets/kiba-real-city/animations/quaternius_ual2_selected.glb",
+    "thumbnail": null,
+    "tags": [
+      "kiba-real-city",
+      "animation",
+      "quaternius",
+      "humanoid",
+      "skeleton",
+      "retarget"
+    ],
+    "gameRoles": [
+      "animation"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Skeleton + 7 humanoid animation clips (Melee_Hook, Melee_Hook_Rec, Hit_Knockback, Sword_Regular_Combo, Sword_Block, Sword_Regular_B, Sword_Regular_B_Rec). No mesh — retarget onto a humanoid rig such as Quaternius Universal Base Characters.",
+    "sourceUrl": "https://github.com/RamonLinares/atlas-09/blob/1b8fb9d54160215c071c5a29a49b1c36dc01f0df/assets/animations/quaternius/UAL2_selected.glb",
+    "originalPage": "https://quaternius.itch.io/universal-animation-library-2",
+    "sourceFile": "assets/animations/quaternius/UAL2_selected.glb",
+    "sourceSha256": "4edc339d0eea1090f3daa5942fb2bab137dce48dfe2c0955a56363715e4e5cf5",
+    "licenseEvidence": "Universal Animation Library 1/2 by Quaternius and Gonzalo Furnier, CC0-1.0 (original UAL1/UAL2 license texts in assets/kiba-real-city/animations/licenses/). Subset prepared in RamonLinares/atlas-09; SHA-256 matches its provenance.json.",
+    "notes": "Animation-only file: the 3D preview shows no geometry.",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "animation",
+      "retarget"
+    ],
+    "subcategory": "animations",
+    "size": 937200,
+    "fileSize": 937200,
+    "vertices": 0,
+    "triangles": 0,
+    "polygonCount": 0,
+    "meshCount": 0,
+    "materials": 0,
+    "textures": 0,
+    "animations": [
+      "Hit_Knockback",
+      "Melee_Hook",
+      "Melee_Hook_Rec",
+      "Sword_Block",
+      "Sword_Regular_B",
+      "Sword_Regular_B_Rec",
+      "Sword_Regular_Combo"
+    ],
+    "boundingBox": null,
+    "dimensions": null,
+    "scale": 1,
+    "sha256": "4edc339d0eea1090f3daa5942fb2bab137dce48dfe2c0955a56363715e4e5cf5",
+    "path": "assets/kiba-real-city/animations/quaternius_ual2_selected.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/animations/quaternius_ual2_selected.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/animations/quaternius_ual2_selected.glb"
+  },
+  {
+    "collection": "kiba-real-city",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Ramon Linares",
+    "source": "FORGE — Character Lab (RamonLinares/atlas-09)",
+    "sourceRevision": "1b8fb9d54160215c071c5a29a49b1c36dc01f0df",
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "id": "forge_aether_02",
+    "name": "FORGE AETHER 02",
+    "title": "FORGE AETHER 02",
+    "category": "character",
+    "file": "assets/kiba-real-city/mecha/forge_aether_02.glb",
+    "localPath": "assets/kiba-real-city/mecha/forge_aether_02.glb",
+    "thumbnail": "thumbnails/kiba-real-city/forge_aether_02.png",
+    "tags": [
+      "kiba-real-city",
+      "mecha",
+      "robot",
+      "giant",
+      "rigged",
+      "animated",
+      "pbr",
+      "forge",
+      "humanoid",
+      "sleek",
+      "white",
+      "hero"
+    ],
+    "gameRoles": [
+      "character",
+      "enemy",
+      "landmark"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Athletic white humanoid mecha with smoked-glass chest/visor and ice-blue lights (14 m). Rigged with baked clips; kept unmodified.",
+    "sourceUrl": "https://github.com/RamonLinares/atlas-09/blob/1b8fb9d54160215c071c5a29a49b1c36dc01f0df/public/models/aether-02.glb",
+    "sourceFile": "public/models/aether-02.glb",
+    "sourceSha256": "ed91ecddff69d3de088e475dcf529a5ab410d04b5c61ddb394ed29f482e8ce41",
+    "licenseEvidence": "ASSET-LICENSE.md and public/models/LICENSE.txt: all seven FORGE mecha GLB models, rigs, baked animations and textures are dedicated to CC0 1.0 by Ramon Linares. Copies in assets/kiba-real-city/mecha/licenses/.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        6.55,
+        14,
+        2.71
+      ],
+      "suggestedSizeMetres": [
+        6.55,
+        14,
+        2.71
+      ],
+      "upAxis": "Y"
+    },
+    "notes": "AI-assisted origin (concept image → Tripo image-to-model → Blender rig/animation), see upstream ASSET-PROVENANCE.md. Hero asset: 24–31k triangles, 2048px PBR textures, 6–8 MB.",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "boss",
+      "giant-robot"
+    ],
+    "subcategory": "mecha",
+    "size": 5992836,
+    "fileSize": 5992836,
+    "vertices": 33655,
+    "triangles": 24310,
+    "polygonCount": 24310,
+    "meshCount": 1,
+    "materials": 5,
+    "textures": 7,
+    "animations": [
+      "Backflip",
+      "Collapse",
+      "DodgeRoll",
+      "HitChest",
+      "HitHead",
+      "KneelFire",
+      "Knockback",
+      "PunchCombo",
+      "Run",
+      "Sentinel",
+      "Walk"
+    ],
+    "boundingBox": {
+      "min": [
+        -3.33,
+        0,
+        -1.3562
+      ],
+      "max": [
+        3.2192,
+        14.0049,
+        1.3562
+      ]
+    },
+    "dimensions": [
+      6.5492,
+      14.0049,
+      2.7124
+    ],
+    "scale": 1,
+    "sha256": "ed91ecddff69d3de088e475dcf529a5ab410d04b5c61ddb394ed29f482e8ce41",
+    "path": "assets/kiba-real-city/mecha/forge_aether_02.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/mecha/forge_aether_02.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/mecha/forge_aether_02.glb"
+  },
+  {
+    "collection": "kiba-real-city",
     "category": "character",
     "format": "GLB",
     "type": "model",
@@ -21486,6 +21735,430 @@
     "path": "assets/kiba-real-city/mecha/forge_ronin_04.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/mecha/forge_ronin_04.glb",
     "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/mecha/forge_ronin_04.glb"
+  },
+  {
+    "collection": "kiba-real-city",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Ramon Linares",
+    "source": "FORGE — Character Lab (RamonLinares/atlas-09)",
+    "sourceRevision": "1b8fb9d54160215c071c5a29a49b1c36dc01f0df",
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "id": "forge_scorpio_05",
+    "name": "FORGE SCORPIO 05",
+    "title": "FORGE SCORPIO 05",
+    "category": "character",
+    "file": "assets/kiba-real-city/mecha/forge_scorpio_05.glb",
+    "localPath": "assets/kiba-real-city/mecha/forge_scorpio_05.glb",
+    "thumbnail": "thumbnails/kiba-real-city/forge_scorpio_05.png",
+    "tags": [
+      "kiba-real-city",
+      "mecha",
+      "robot",
+      "giant",
+      "rigged",
+      "animated",
+      "pbr",
+      "forge",
+      "scorpion",
+      "beast",
+      "quadruped",
+      "enemy",
+      "boss"
+    ],
+    "gameRoles": [
+      "character",
+      "enemy",
+      "landmark"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Scorpion predator mecha with pincer claws, segmented tail stinger and venom-green glow (17 m). Rigged with baked clips; kept unmodified.",
+    "sourceUrl": "https://github.com/RamonLinares/atlas-09/blob/1b8fb9d54160215c071c5a29a49b1c36dc01f0df/public/models/scorpio-05.glb",
+    "sourceFile": "public/models/scorpio-05.glb",
+    "sourceSha256": "afb72490df0a7b0f4700403e21b4173f6d10e256e1bdcf358475b6aad053210d",
+    "licenseEvidence": "ASSET-LICENSE.md and public/models/LICENSE.txt: all seven FORGE mecha GLB models, rigs, baked animations and textures are dedicated to CC0 1.0 by Ramon Linares. Copies in assets/kiba-real-city/mecha/licenses/.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        16.9,
+        17,
+        14.8
+      ],
+      "suggestedSizeMetres": [
+        16.9,
+        17,
+        14.8
+      ],
+      "upAxis": "Y"
+    },
+    "notes": "AI-assisted origin (concept image → Tripo image-to-model → Blender rig/animation), see upstream ASSET-PROVENANCE.md. Hero asset: 24–31k triangles, 2048px PBR textures, 6–8 MB.",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "boss",
+      "giant-robot"
+    ],
+    "subcategory": "mecha",
+    "size": 7752248,
+    "fileSize": 7752248,
+    "vertices": 48465,
+    "triangles": 30445,
+    "polygonCount": 30445,
+    "meshCount": 1,
+    "materials": 4,
+    "textures": 4,
+    "animations": [
+      "Backflip",
+      "ClawSlash",
+      "KneelFire",
+      "Run",
+      "Sentinel",
+      "StingerStrike"
+    ],
+    "boundingBox": {
+      "min": [
+        -8.4335,
+        0,
+        -7.4022
+      ],
+      "max": [
+        8.4667,
+        17,
+        7.4022
+      ]
+    },
+    "dimensions": [
+      16.9002,
+      17,
+      14.8044
+    ],
+    "scale": 1,
+    "sha256": "afb72490df0a7b0f4700403e21b4173f6d10e256e1bdcf358475b6aad053210d",
+    "path": "assets/kiba-real-city/mecha/forge_scorpio_05.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/mecha/forge_scorpio_05.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/mecha/forge_scorpio_05.glb"
+  },
+  {
+    "collection": "kiba-real-city",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Ramon Linares",
+    "source": "FORGE — Character Lab (RamonLinares/atlas-09)",
+    "sourceRevision": "1b8fb9d54160215c071c5a29a49b1c36dc01f0df",
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "id": "forge_seraph_03",
+    "name": "FORGE SERAPH 03",
+    "title": "FORGE SERAPH 03",
+    "category": "character",
+    "file": "assets/kiba-real-city/mecha/forge_seraph_03.glb",
+    "localPath": "assets/kiba-real-city/mecha/forge_seraph_03.glb",
+    "thumbnail": "thumbnails/kiba-real-city/forge_seraph_03.png",
+    "tags": [
+      "kiba-real-city",
+      "mecha",
+      "robot",
+      "giant",
+      "rigged",
+      "animated",
+      "pbr",
+      "forge",
+      "winged",
+      "flying",
+      "cannon",
+      "dark"
+    ],
+    "gameRoles": [
+      "character",
+      "enemy",
+      "landmark"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Dark titanium mecha with silver articulated wings, amber lights and an arm cannon (20 m). Rigged with baked clips; kept unmodified.",
+    "sourceUrl": "https://github.com/RamonLinares/atlas-09/blob/1b8fb9d54160215c071c5a29a49b1c36dc01f0df/public/models/seraph-03.glb",
+    "sourceFile": "public/models/seraph-03.glb",
+    "sourceSha256": "68b88df32fd5948816ac689c925c1473fcd6f82c602158b8cadfb19c011831fe",
+    "licenseEvidence": "ASSET-LICENSE.md and public/models/LICENSE.txt: all seven FORGE mecha GLB models, rigs, baked animations and textures are dedicated to CC0 1.0 by Ramon Linares. Copies in assets/kiba-real-city/mecha/licenses/.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        20.44,
+        20,
+        7.19
+      ],
+      "suggestedSizeMetres": [
+        20.44,
+        20,
+        7.19
+      ],
+      "upAxis": "Y"
+    },
+    "notes": "AI-assisted origin (concept image → Tripo image-to-model → Blender rig/animation), see upstream ASSET-PROVENANCE.md. Hero asset: 24–31k triangles, 2048px PBR textures, 6–8 MB.",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "boss",
+      "giant-robot"
+    ],
+    "subcategory": "mecha",
+    "size": 7034096,
+    "fileSize": 7034096,
+    "vertices": 43574,
+    "triangles": 30858,
+    "polygonCount": 30858,
+    "meshCount": 1,
+    "materials": 2,
+    "textures": 4,
+    "animations": [
+      "Backflip",
+      "Flight",
+      "HitChest",
+      "HitHead",
+      "KneelFire",
+      "Knockback",
+      "Run",
+      "Sentinel",
+      "WingDeploy"
+    ],
+    "boundingBox": {
+      "min": [
+        -10.2209,
+        0,
+        -3.5944
+      ],
+      "max": [
+        10.2209,
+        20,
+        3.5944
+      ]
+    },
+    "dimensions": [
+      20.4418,
+      20,
+      7.1888
+    ],
+    "scale": 1,
+    "sha256": "68b88df32fd5948816ac689c925c1473fcd6f82c602158b8cadfb19c011831fe",
+    "path": "assets/kiba-real-city/mecha/forge_seraph_03.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/mecha/forge_seraph_03.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/mecha/forge_seraph_03.glb"
+  },
+  {
+    "collection": "kiba-real-city",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Ramon Linares",
+    "source": "FORGE — Character Lab (RamonLinares/atlas-09)",
+    "sourceRevision": "1b8fb9d54160215c071c5a29a49b1c36dc01f0df",
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "id": "forge_titan_06",
+    "name": "FORGE TITAN 06",
+    "title": "FORGE TITAN 06",
+    "category": "character",
+    "file": "assets/kiba-real-city/mecha/forge_titan_06.glb",
+    "localPath": "assets/kiba-real-city/mecha/forge_titan_06.glb",
+    "thumbnail": "thumbnails/kiba-real-city/forge_titan_06.png",
+    "tags": [
+      "kiba-real-city",
+      "mecha",
+      "robot",
+      "giant",
+      "rigged",
+      "animated",
+      "pbr",
+      "forge",
+      "super-robot",
+      "retro",
+      "blue",
+      "hero",
+      "ip-caution"
+    ],
+    "gameRoles": [
+      "character",
+      "enemy",
+      "landmark"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Classic 1970s-style super robot: royal blue armour, crimson chest with gold V crest, rocket fists (19 m). Rigged with baked clips; kept unmodified.",
+    "sourceUrl": "https://github.com/RamonLinares/atlas-09/blob/1b8fb9d54160215c071c5a29a49b1c36dc01f0df/public/models/titan-06.glb",
+    "sourceFile": "public/models/titan-06.glb",
+    "sourceSha256": "853daa4c4d8b6c1e3b867244ca1400de585cd4ba8f587e4bc03020259eb36bf1",
+    "licenseEvidence": "ASSET-LICENSE.md and public/models/LICENSE.txt: all seven FORGE mecha GLB models, rigs, baked animations and textures are dedicated to CC0 1.0 by Ramon Linares. Copies in assets/kiba-real-city/mecha/licenses/.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        23.97,
+        19,
+        6.24
+      ],
+      "suggestedSizeMetres": [
+        23.97,
+        19,
+        6.24
+      ],
+      "upAxis": "Y"
+    },
+    "notes": "AI-assisted origin (concept image → Tripo image-to-model → Blender rig/animation), see upstream ASSET-PROVENANCE.md. Hero asset: 24–31k triangles, 2048px PBR textures, 6–8 MB. CAUTION: the design closely resembles a well-known existing robot franchise. CC0 covers only the author's own rights (upstream ASSET-LICENSE.md: \"CC0 does not grant rights belonging to unrelated third parties, trademark or patent rights\"); review before commercial use.",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "boss",
+      "giant-robot"
+    ],
+    "subcategory": "mecha",
+    "size": 5978432,
+    "fileSize": 5978432,
+    "vertices": 39066,
+    "triangles": 27579,
+    "polygonCount": 27579,
+    "meshCount": 1,
+    "materials": 5,
+    "textures": 3,
+    "animations": [
+      "Backflip",
+      "ChestBeam",
+      "KneelFire",
+      "RocketPunch",
+      "Run",
+      "Sentinel"
+    ],
+    "boundingBox": {
+      "min": [
+        -11.9864,
+        0,
+        -3.1198
+      ],
+      "max": [
+        11.9864,
+        19,
+        3.1198
+      ]
+    },
+    "dimensions": [
+      23.9728,
+      19,
+      6.2396
+    ],
+    "scale": 1,
+    "sha256": "853daa4c4d8b6c1e3b867244ca1400de585cd4ba8f587e4bc03020259eb36bf1",
+    "path": "assets/kiba-real-city/mecha/forge_titan_06.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/mecha/forge_titan_06.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/mecha/forge_titan_06.glb"
+  },
+  {
+    "collection": "kiba-real-city",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Ramon Linares",
+    "source": "FORGE — Character Lab (RamonLinares/atlas-09)",
+    "sourceRevision": "1b8fb9d54160215c071c5a29a49b1c36dc01f0df",
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "id": "forge_vanguard_07",
+    "name": "FORGE VANGUARD 07",
+    "title": "FORGE VANGUARD 07",
+    "category": "character",
+    "file": "assets/kiba-real-city/mecha/forge_vanguard_07.glb",
+    "localPath": "assets/kiba-real-city/mecha/forge_vanguard_07.glb",
+    "thumbnail": "thumbnails/kiba-real-city/forge_vanguard_07.png",
+    "tags": [
+      "kiba-real-city",
+      "mecha",
+      "robot",
+      "giant",
+      "rigged",
+      "animated",
+      "pbr",
+      "forge",
+      "real-robot",
+      "military",
+      "rifle",
+      "shield",
+      "hero",
+      "ip-caution"
+    ],
+    "gameRoles": [
+      "character",
+      "enemy",
+      "landmark"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Classic real-robot military mecha: white armour, cobalt chest, V antenna, beam rifle and shield (18 m). Rigged with baked clips; kept unmodified.",
+    "sourceUrl": "https://github.com/RamonLinares/atlas-09/blob/1b8fb9d54160215c071c5a29a49b1c36dc01f0df/public/models/vanguard-07.glb",
+    "sourceFile": "public/models/vanguard-07.glb",
+    "sourceSha256": "b2c198b4dd8569d215ef13d416349ffddf643a5618f9862f897d6b1d08a1401f",
+    "licenseEvidence": "ASSET-LICENSE.md and public/models/LICENSE.txt: all seven FORGE mecha GLB models, rigs, baked animations and textures are dedicated to CC0 1.0 by Ramon Linares. Copies in assets/kiba-real-city/mecha/licenses/.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        20.04,
+        18,
+        8.88
+      ],
+      "suggestedSizeMetres": [
+        20.04,
+        18,
+        8.88
+      ],
+      "upAxis": "Y"
+    },
+    "notes": "AI-assisted origin (concept image → Tripo image-to-model → Blender rig/animation), see upstream ASSET-PROVENANCE.md. Hero asset: 24–31k triangles, 2048px PBR textures, 6–8 MB. CAUTION: the design closely resembles a well-known existing robot franchise. CC0 covers only the author's own rights (upstream ASSET-LICENSE.md: \"CC0 does not grant rights belonging to unrelated third parties, trademark or patent rights\"); review before commercial use.",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "boss",
+      "giant-robot"
+    ],
+    "subcategory": "mecha",
+    "size": 6582908,
+    "fileSize": 6582908,
+    "vertices": 41747,
+    "triangles": 27320,
+    "polygonCount": 27320,
+    "meshCount": 1,
+    "materials": 5,
+    "textures": 4,
+    "animations": [
+      "Backflip",
+      "BoostJump",
+      "KneelFire",
+      "RifleBurst",
+      "Run",
+      "Sentinel",
+      "ShieldGuard"
+    ],
+    "boundingBox": {
+      "min": [
+        -10.6447,
+        0,
+        -4.1221
+      ],
+      "max": [
+        9.3956,
+        18,
+        4.7546
+      ]
+    },
+    "dimensions": [
+      20.0403,
+      18,
+      8.8767
+    ],
+    "scale": 1,
+    "sha256": "b2c198b4dd8569d215ef13d416349ffddf643a5618f9862f897d6b1d08a1401f",
+    "path": "assets/kiba-real-city/mecha/forge_vanguard_07.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/mecha/forge_vanguard_07.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/mecha/forge_vanguard_07.glb"
   },
   {
     "id": "assets_nature_tree_demo_tree",
