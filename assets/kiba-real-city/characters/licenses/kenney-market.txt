@@ -1,0 +1,7 @@
+Kenney characters via pmndrs market-assets
+Author: Kenney (www.kenney.nl)
+License: CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://github.com/pmndrs/market-assets @ c9cfa0236a012093edd5affe200808752375bd90
+Evidence: info.json lists creator "kenney" and license id 1 (= CC0 in pmndrs/market licenses.js); Kenney publishes these packs as CC0.
+
+
