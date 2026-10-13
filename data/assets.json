@@ -24427,6 +24427,2056 @@
     "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/mecha/forge_vanguard_07.glb"
   },
   {
+    "id": "rocketbox_business_female_01",
+    "name": "Rocketbox Business Female 01",
+    "title": "Rocketbox Business Female 01",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "business",
+      "suit",
+      "female"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Businesswoman in dark suit. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_business_female_01.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_business_female_01.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_business_female_01.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Business_Female_01/Export/Business_Female_01.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Business_Female_01/Export/Business_Female_01.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "7a13fa1e633d7718fe53bc5a26d96552fd271db7dd48a4fe3ab93f520df23fc2",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.217,
+        1.74,
+        0.305
+      ],
+      "suggestedSizeMetres": [
+        1.217,
+        1.74,
+        0.305
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 616576,
+      "outputBytes": 3015584
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 3015584,
+    "fileSize": 3015584,
+    "vertices": 6013,
+    "triangles": 8966,
+    "polygonCount": 8966,
+    "meshCount": 1,
+    "materials": 3,
+    "textures": 5,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6086,
+        -0.0005,
+        -0.1724
+      ],
+      "max": [
+        0.6087,
+        1.7399,
+        0.1326
+      ]
+    },
+    "dimensions": [
+      1.2173,
+      1.7404,
+      0.305
+    ],
+    "scale": 1,
+    "sha256": "a47a0bb1eb8ba8ce6b3acfa207429f57185c22d0c3c5bc9b8aa72bd5e1943c53",
+    "path": "assets/kiba-real-city/realistic/rocketbox_business_female_01.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_business_female_01.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_business_female_01.glb"
+  },
+  {
+    "id": "rocketbox_business_male_01",
+    "name": "Rocketbox Business Male 01",
+    "title": "Rocketbox Business Male 01",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "business",
+      "suit"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Businessman in dark suit and tie. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_business_male_01.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_business_male_01.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_business_male_01.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Business_Male_01/Export/Business_Male_01.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Business_Male_01/Export/Business_Male_01.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "c39987e44c031674946c2a6929abceb99b21ef3322023bbf2e31bd1705e8a130",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.348,
+        1.806,
+        0.351
+      ],
+      "suggestedSizeMetres": [
+        1.348,
+        1.806,
+        0.351
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 520704,
+      "outputBytes": 2350704
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 2350704,
+    "fileSize": 2350704,
+    "vertices": 4630,
+    "triangles": 7435,
+    "polygonCount": 7435,
+    "meshCount": 1,
+    "materials": 3,
+    "textures": 5,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6739,
+        -0.0009,
+        -0.1453
+      ],
+      "max": [
+        0.6739,
+        1.8055,
+        0.2059
+      ]
+    },
+    "dimensions": [
+      1.3478,
+      1.8064,
+      0.3512
+    ],
+    "scale": 1,
+    "sha256": "5521631d4e046027eb8480c68cfaafa2758c00bdd46033624895eabd2c8e7fdb",
+    "path": "assets/kiba-real-city/realistic/rocketbox_business_male_01.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_business_male_01.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_business_male_01.glb"
+  },
+  {
+    "id": "rocketbox_fire_female_01",
+    "name": "Rocketbox Fire Female 01",
+    "title": "Rocketbox Fire Female 01",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "firefighter",
+      "rescue",
+      "female"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Female firefighter in turnout gear with helmet. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_fire_female_01.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_fire_female_01.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_fire_female_01.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Fire_Female_01/Export/Fire_Female_01.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Fire_Female_01/Export/Fire_Female_01.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "9b8ad324a1b3e42c366e32d72da952026d085c2b607d207cb84f2850884c4920",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.354,
+        1.874,
+        0.54
+      ],
+      "suggestedSizeMetres": [
+        1.354,
+        1.874,
+        0.54
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 763632,
+      "outputBytes": 3891332
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 3891332,
+    "fileSize": 3891332,
+    "vertices": 9453,
+    "triangles": 11988,
+    "polygonCount": 11988,
+    "meshCount": 1,
+    "materials": 6,
+    "textures": 12,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.677,
+        -0.0009,
+        -0.281
+      ],
+      "max": [
+        0.677,
+        1.8726,
+        0.2592
+      ]
+    },
+    "dimensions": [
+      1.354,
+      1.8735,
+      0.5402
+    ],
+    "scale": 1,
+    "sha256": "7411a637673a98e38f7f7315710141a9fbfd52b4ad9853ee4ed0bf187138b44e",
+    "path": "assets/kiba-real-city/realistic/rocketbox_fire_female_01.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_fire_female_01.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_fire_female_01.glb"
+  },
+  {
+    "id": "rocketbox_fire_male_01",
+    "name": "Rocketbox Fire Male 01",
+    "title": "Rocketbox Fire Male 01",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "firefighter",
+      "rescue"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Firefighter in turnout gear with helmet. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_fire_male_01.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_fire_male_01.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_fire_male_01.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Fire_Male_01/Export/Fire_Male_01.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Fire_Male_01/Export/Fire_Male_01.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "41489040dd25fdb4cf370d48f1c072eae2b714e0502806904b860cfe8b58883b",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.354,
+        1.858,
+        0.369
+      ],
+      "suggestedSizeMetres": [
+        1.354,
+        1.858,
+        0.369
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 596000,
+      "outputBytes": 2891980
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 2891980,
+    "fileSize": 2891980,
+    "vertices": 5832,
+    "triangles": 8551,
+    "polygonCount": 8551,
+    "meshCount": 1,
+    "materials": 3,
+    "textures": 6,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.677,
+        -0.0009,
+        -0.1529
+      ],
+      "max": [
+        0.677,
+        1.8566,
+        0.2163
+      ]
+    },
+    "dimensions": [
+      1.354,
+      1.8575,
+      0.3692
+    ],
+    "scale": 1,
+    "sha256": "e3c8cd95956aac94741d0ecd3a25501db558a84a8f33c94044b8b7f172f711bb",
+    "path": "assets/kiba-real-city/realistic/rocketbox_fire_male_01.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_fire_male_01.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_fire_male_01.glb"
+  },
+  {
+    "id": "rocketbox_military_female_01",
+    "name": "Rocketbox Military Female 01",
+    "title": "Rocketbox Military Female 01",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "military",
+      "soldier",
+      "female"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Female soldier in ACU camouflage with helmet. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_military_female_01.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_military_female_01.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_military_female_01.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Female_01/Export/Military_Female_01.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Military_Female_01/Export/Military_Female_01.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "f4601e48c9a6725fecdb092caa37d5dff85bd22df2744d2de21af0c6bf06b563",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.218,
+        1.777,
+        0.405
+      ],
+      "suggestedSizeMetres": [
+        1.218,
+        1.777,
+        0.405
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 800992,
+      "outputBytes": 4100864
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 4100864,
+    "fileSize": 4100864,
+    "vertices": 9571,
+    "triangles": 13015,
+    "polygonCount": 13015,
+    "meshCount": 1,
+    "materials": 4,
+    "textures": 8,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6093,
+        -0.0051,
+        -0.2619
+      ],
+      "max": [
+        0.6091,
+        1.7717,
+        0.1435
+      ]
+    },
+    "dimensions": [
+      1.2184,
+      1.7768,
+      0.4054
+    ],
+    "scale": 1,
+    "sha256": "2e33d996413723a95e8c3b0e93a83316a26b3d4040bdd9eafefb3e6d9d92e8a8",
+    "path": "assets/kiba-real-city/realistic/rocketbox_military_female_01.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_military_female_01.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_military_female_01.glb"
+  },
+  {
+    "id": "rocketbox_military_female_02",
+    "name": "Rocketbox Military Female 02",
+    "title": "Rocketbox Military Female 02",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "military",
+      "soldier",
+      "female"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Female soldier in ACU camouflage. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_military_female_02.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_military_female_02.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_military_female_02.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Female_02/Export/Military_Female_02.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Military_Female_02/Export/Military_Female_02.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "30145abff958e64669e30060a05a563045db21c4fa62ee416d856f7b438f52e8",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.218,
+        1.777,
+        0.405
+      ],
+      "suggestedSizeMetres": [
+        1.218,
+        1.777,
+        0.405
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 798400,
+      "outputBytes": 4182664
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 4182664,
+    "fileSize": 4182664,
+    "vertices": 9596,
+    "triangles": 12957,
+    "polygonCount": 12957,
+    "meshCount": 1,
+    "materials": 4,
+    "textures": 8,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6093,
+        -0.0051,
+        -0.2619
+      ],
+      "max": [
+        0.6091,
+        1.7717,
+        0.1435
+      ]
+    },
+    "dimensions": [
+      1.2184,
+      1.7768,
+      0.4054
+    ],
+    "scale": 1,
+    "sha256": "04d51f2e82426c5a211555bea2095776b7238100c99c9ff8443cfc78c41a1cd4",
+    "path": "assets/kiba-real-city/realistic/rocketbox_military_female_02.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_military_female_02.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_military_female_02.glb"
+  },
+  {
+    "id": "rocketbox_military_male_01",
+    "name": "Rocketbox Military Male 01",
+    "title": "Rocketbox Military Male 01",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "military",
+      "soldier"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Soldier in ACU camouflage with helmet and gear. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_military_male_01.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_military_male_01.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_military_male_01.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_01/Export/Military_Male_01.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Military_Male_01/Export/Military_Male_01.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "b041e9a605a9bead434a9d1ec51fec42e4118f1a991f373de945d69c87de0c59",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.356,
+        1.844,
+        0.454
+      ],
+      "suggestedSizeMetres": [
+        1.356,
+        1.844,
+        0.454
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 908640,
+      "outputBytes": 4932268
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 4932268,
+    "fileSize": 4932268,
+    "vertices": 12406,
+    "triangles": 15387,
+    "polygonCount": 15387,
+    "meshCount": 1,
+    "materials": 5,
+    "textures": 10,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6781,
+        -0.0034,
+        -0.2515
+      ],
+      "max": [
+        0.6781,
+        1.8407,
+        0.2022
+      ]
+    },
+    "dimensions": [
+      1.3562,
+      1.8441,
+      0.4537
+    ],
+    "scale": 1,
+    "sha256": "283e92af3eea06a59c0ffa1fe27ab04375f5b5443e753d296ed708147a69ee6f",
+    "path": "assets/kiba-real-city/realistic/rocketbox_military_male_01.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_military_male_01.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_military_male_01.glb"
+  },
+  {
+    "id": "rocketbox_military_male_02",
+    "name": "Rocketbox Military Male 02",
+    "title": "Rocketbox Military Male 02",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "military",
+      "soldier"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Soldier in ACU camouflage with cap. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_military_male_02.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_military_male_02.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_military_male_02.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_02/Export/Military_Male_02.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Military_Male_02/Export/Military_Male_02.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "0f20df55226028524122fc70383aa8fab5d5e9da797436e07d3606245893efc5",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.348,
+        1.811,
+        0.419
+      ],
+      "suggestedSizeMetres": [
+        1.348,
+        1.811,
+        0.419
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 573440,
+      "outputBytes": 3737420
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 3737420,
+    "fileSize": 3737420,
+    "vertices": 5172,
+    "triangles": 8231,
+    "polygonCount": 8231,
+    "meshCount": 1,
+    "materials": 2,
+    "textures": 4,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6741,
+        -0.0034,
+        -0.2315
+      ],
+      "max": [
+        0.6741,
+        1.8078,
+        0.1874
+      ]
+    },
+    "dimensions": [
+      1.3482,
+      1.8112,
+      0.4189
+    ],
+    "scale": 1,
+    "sha256": "36da68600f765d8642e4d5e96d0b46c8b5386f09f9593e94125142d55e2b0253",
+    "path": "assets/kiba-real-city/realistic/rocketbox_military_male_02.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_military_male_02.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_military_male_02.glb"
+  },
+  {
+    "id": "rocketbox_military_male_03",
+    "name": "Rocketbox Military Male 03",
+    "title": "Rocketbox Military Male 03",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "military",
+      "soldier"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Soldier in ACU camouflage with helmet. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_military_male_03.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_military_male_03.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_military_male_03.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_03/Export/Military_Male_03.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Military_Male_03/Export/Military_Male_03.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "682e9645cab9b50c8583af23085b61963b723014ab4af00e2d65e66b859639e5",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.356,
+        1.85,
+        0.465
+      ],
+      "suggestedSizeMetres": [
+        1.356,
+        1.85,
+        0.465
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 914912,
+      "outputBytes": 4262852
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 4262852,
+    "fileSize": 4262852,
+    "vertices": 12083,
+    "triangles": 15517,
+    "polygonCount": 15517,
+    "meshCount": 1,
+    "materials": 5,
+    "textures": 10,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6781,
+        -0.0034,
+        -0.2515
+      ],
+      "max": [
+        0.6781,
+        1.847,
+        0.2135
+      ]
+    },
+    "dimensions": [
+      1.3562,
+      1.8504,
+      0.465
+    ],
+    "scale": 1,
+    "sha256": "db244013fb1f2991dffe04825527b7c7859667d4c9eb403c662c9ce89d6f6a7e",
+    "path": "assets/kiba-real-city/realistic/rocketbox_military_male_03.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_military_male_03.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_military_male_03.glb"
+  },
+  {
+    "id": "rocketbox_military_male_04",
+    "name": "Rocketbox Military Male 04",
+    "title": "Rocketbox Military Male 04",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "military",
+      "soldier"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Soldier in ACU camouflage with helmet and goggles. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_military_male_04.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_military_male_04.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_military_male_04.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_04/Export/Military_Male_04.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Military_Male_04/Export/Military_Male_04.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "483b5c1d9c1cfd89db620832a66a3bffe4451524bb3f3362bda40f6345519276",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.356,
+        1.848,
+        0.494
+      ],
+      "suggestedSizeMetres": [
+        1.356,
+        1.848,
+        0.494
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 880448,
+      "outputBytes": 4033124
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 4033124,
+    "fileSize": 4033124,
+    "vertices": 12125,
+    "triangles": 14907,
+    "polygonCount": 14907,
+    "meshCount": 1,
+    "materials": 4,
+    "textures": 8,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6781,
+        -0.0034,
+        -0.2515
+      ],
+      "max": [
+        0.6781,
+        1.8446,
+        0.243
+      ]
+    },
+    "dimensions": [
+      1.3562,
+      1.848,
+      0.4945
+    ],
+    "scale": 1,
+    "sha256": "1f02b2473bbbf1811b3176fac84661cb4f054518b455b67b52435b23c4e5d5df",
+    "path": "assets/kiba-real-city/realistic/rocketbox_military_male_04.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_military_male_04.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_military_male_04.glb"
+  },
+  {
+    "id": "rocketbox_pilot_female_02",
+    "name": "Rocketbox Pilot Female 02",
+    "title": "Rocketbox Pilot Female 02",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "pilot",
+      "uniform",
+      "female"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Female airline pilot in uniform. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_pilot_female_02.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_pilot_female_02.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_pilot_female_02.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Pilot_Female_02/Export/Pilot_Female_02.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Pilot_Female_02/Export/Pilot_Female_02.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "17d414a4861476163dfa91fdb6288565577887529f0a7a637dc98507b3036eed",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.217,
+        1.777,
+        0.343
+      ],
+      "suggestedSizeMetres": [
+        1.217,
+        1.777,
+        0.343
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 579008,
+      "outputBytes": 2977032
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 2977032,
+    "fileSize": 2977032,
+    "vertices": 5300,
+    "triangles": 8458,
+    "polygonCount": 8458,
+    "meshCount": 1,
+    "materials": 3,
+    "textures": 6,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6086,
+        -0.0037,
+        -0.2032
+      ],
+      "max": [
+        0.6086,
+        1.7731,
+        0.1397
+      ]
+    },
+    "dimensions": [
+      1.2172,
+      1.7768,
+      0.3429
+    ],
+    "scale": 1,
+    "sha256": "443d6cbd8d5a6fb33514ffe651d54f4c98d7a5ead68c90b191934799a675b652",
+    "path": "assets/kiba-real-city/realistic/rocketbox_pilot_female_02.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_pilot_female_02.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_pilot_female_02.glb"
+  },
+  {
+    "id": "rocketbox_pilot_male_01",
+    "name": "Rocketbox Pilot Male 01",
+    "title": "Rocketbox Pilot Male 01",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "pilot",
+      "uniform"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Airline pilot in uniform. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_pilot_male_01.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_pilot_male_01.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_pilot_male_01.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Pilot_Male_01/Export/Pilot_Male_01.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Pilot_Male_01/Export/Pilot_Male_01.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "6cb685dd59cef0bfb5b64cd72ff89d3b9ca5c199ac3a156f3088084af48ac3bd",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.348,
+        1.837,
+        0.351
+      ],
+      "suggestedSizeMetres": [
+        1.348,
+        1.837,
+        0.351
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 557424,
+      "outputBytes": 2243596
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 2243596,
+    "fileSize": 2243596,
+    "vertices": 4972,
+    "triangles": 7664,
+    "polygonCount": 7664,
+    "meshCount": 1,
+    "materials": 2,
+    "textures": 4,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6739,
+        -0.0009,
+        -0.1453
+      ],
+      "max": [
+        0.6739,
+        1.8363,
+        0.2059
+      ]
+    },
+    "dimensions": [
+      1.3478,
+      1.8372,
+      0.3512
+    ],
+    "scale": 1,
+    "sha256": "f2bc3d4c7e321eab30442ae2af2fab20d078258bd5471ec76605bde588b17f18",
+    "path": "assets/kiba-real-city/realistic/rocketbox_pilot_male_01.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_pilot_male_01.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_pilot_male_01.glb"
+  },
+  {
+    "id": "rocketbox_police_female_01",
+    "name": "Rocketbox Police Female 01",
+    "title": "Rocketbox Police Female 01",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "police",
+      "swat",
+      "tactical",
+      "female"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Female tactical police / SWAT officer with helmet. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_police_female_01.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_police_female_01.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_police_female_01.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Police_Female_01/Export/Police_Female_01.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Police_Female_01/Export/Police_Female_01.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "d9f65c4864d96ffb5afbf383f2e35f2b48ce8a1b2604b18f8bd9923b619fddf6",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.356,
+        1.853,
+        0.466
+      ],
+      "suggestedSizeMetres": [
+        1.356,
+        1.853,
+        0.466
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 827152,
+      "outputBytes": 4603240
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 4603240,
+    "fileSize": 4603240,
+    "vertices": 12193,
+    "triangles": 13514,
+    "polygonCount": 13514,
+    "meshCount": 1,
+    "materials": 8,
+    "textures": 16,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6781,
+        -0.0003,
+        -0.2247
+      ],
+      "max": [
+        0.6781,
+        1.8529,
+        0.2413
+      ]
+    },
+    "dimensions": [
+      1.3562,
+      1.8532,
+      0.466
+    ],
+    "scale": 1,
+    "sha256": "99c0b849ba617cf7f522d30311c5b2c0247dd649281356568bdbec53478944b6",
+    "path": "assets/kiba-real-city/realistic/rocketbox_police_female_01.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_police_female_01.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_police_female_01.glb"
+  },
+  {
+    "id": "rocketbox_police_male_01",
+    "name": "Rocketbox Police Male 01",
+    "title": "Rocketbox Police Male 01",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "police",
+      "officer"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Police officer in blue uniform. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_police_male_01.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_police_male_01.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_police_male_01.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Police_Male_01/Export/Police_Male_01.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Police_Male_01/Export/Police_Male_01.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "d7240f089e193470e86078ed3455dcd6b3224de87de7fc1cf1368338c4372b06",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.348,
+        1.811,
+        0.333
+      ],
+      "suggestedSizeMetres": [
+        1.348,
+        1.811,
+        0.333
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 602400,
+      "outputBytes": 3485804
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 3485804,
+    "fileSize": 3485804,
+    "vertices": 5724,
+    "triangles": 8687,
+    "polygonCount": 8687,
+    "meshCount": 1,
+    "materials": 4,
+    "textures": 8,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6741,
+        -0.0034,
+        -0.1349
+      ],
+      "max": [
+        0.6741,
+        1.8081,
+        0.1984
+      ]
+    },
+    "dimensions": [
+      1.3482,
+      1.8115,
+      0.3333
+    ],
+    "scale": 1,
+    "sha256": "5d6959fe03583b739cc4d8c29f1195cd61d55223e792da9c43ef4f2628ad007d",
+    "path": "assets/kiba-real-city/realistic/rocketbox_police_male_01.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_police_male_01.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_police_male_01.glb"
+  },
+  {
+    "id": "rocketbox_police_male_02",
+    "name": "Rocketbox Police Male 02",
+    "title": "Rocketbox Police Male 02",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "police",
+      "swat",
+      "tactical"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Tactical police / SWAT officer in black gear with balaclava. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_police_male_02.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_police_male_02.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_police_male_02.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Police_Male_02/Export/Police_Male_02.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Police_Male_02/Export/Police_Male_02.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "4eaef4f8a4043cc72f20c68e0515fb1616ec07a6ef11cd74916b9b7d7eb6cdf4",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.352,
+        1.843,
+        0.385
+      ],
+      "suggestedSizeMetres": [
+        1.352,
+        1.843,
+        0.385
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 695888,
+      "outputBytes": 3396120
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 3396120,
+    "fileSize": 3396120,
+    "vertices": 8350,
+    "triangles": 10881,
+    "polygonCount": 10881,
+    "meshCount": 1,
+    "materials": 6,
+    "textures": 12,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6762,
+        -0.0009,
+        -0.1814
+      ],
+      "max": [
+        0.6762,
+        1.8423,
+        0.2037
+      ]
+    },
+    "dimensions": [
+      1.3524,
+      1.8432,
+      0.3851
+    ],
+    "scale": 1,
+    "sha256": "f0282f0e0cd001ef4ad8cb71f047529ca302032d0ab47d8fcc52aad3a23e78d0",
+    "path": "assets/kiba-real-city/realistic/rocketbox_police_male_02.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_police_male_02.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_police_male_02.glb"
+  },
+  {
+    "id": "rocketbox_police_male_03",
+    "name": "Rocketbox Police Male 03",
+    "title": "Rocketbox Police Male 03",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "police",
+      "officer"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Police officer in dark uniform with cap. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_police_male_03.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_police_male_03.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_police_male_03.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Police_Male_03/Export/Police_Male_03.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Police_Male_03/Export/Police_Male_03.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "961a0b30cdf59e10677d0121f0c7d0f6b213a73dff85773a4af3d2140e6a3797",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.348,
+        1.856,
+        0.366
+      ],
+      "suggestedSizeMetres": [
+        1.348,
+        1.856,
+        0.366
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 725744,
+      "outputBytes": 3582444
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 3582444,
+    "fileSize": 3582444,
+    "vertices": 9155,
+    "triangles": 12445,
+    "polygonCount": 12445,
+    "meshCount": 1,
+    "materials": 4,
+    "textures": 8,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6741,
+        -0.0023,
+        -0.1655
+      ],
+      "max": [
+        0.6741,
+        1.8542,
+        0.2005
+      ]
+    },
+    "dimensions": [
+      1.3482,
+      1.8565,
+      0.366
+    ],
+    "scale": 1,
+    "sha256": "7fc3b61eef60174ced9f1c61470d851e915c7fa3217afe5473030db85518000e",
+    "path": "assets/kiba-real-city/realistic/rocketbox_police_male_03.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_police_male_03.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_police_male_03.glb"
+  },
+  {
+    "id": "rocketbox_security_female_01",
+    "name": "Rocketbox Security Female 01",
+    "title": "Rocketbox Security Female 01",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "security",
+      "guard",
+      "female"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Female security guard in dark uniform. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_security_female_01.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_security_female_01.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_security_female_01.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Security_Female_01/Export/Security_Female_01.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Security_Female_01/Export/Security_Female_01.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "a2376f6b17680b717f67ddc836125efc5f1a5525208166428d6bf6680c8c3743",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.217,
+        1.739,
+        0.339
+      ],
+      "suggestedSizeMetres": [
+        1.217,
+        1.739,
+        0.339
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 626544,
+      "outputBytes": 3189768
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 3189768,
+    "fileSize": 3189768,
+    "vertices": 5940,
+    "triangles": 8973,
+    "polygonCount": 8973,
+    "meshCount": 1,
+    "materials": 4,
+    "textures": 8,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6086,
+        -0.0009,
+        -0.1955
+      ],
+      "max": [
+        0.6087,
+        1.738,
+        0.1431
+      ]
+    },
+    "dimensions": [
+      1.2173,
+      1.7389,
+      0.3386
+    ],
+    "scale": 1,
+    "sha256": "cc58b06d345cd2f7757a11a5fd4d81b88193ae3cf2666356bc027f886a5e92fa",
+    "path": "assets/kiba-real-city/realistic/rocketbox_security_female_01.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_security_female_01.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_security_female_01.glb"
+  },
+  {
+    "id": "rocketbox_security_male_01",
+    "name": "Rocketbox Security Male 01",
+    "title": "Rocketbox Security Male 01",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "security",
+      "guard"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Security guard in dark uniform. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_security_male_01.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_security_male_01.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_security_male_01.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Security_Male_01/Export/Security_Male_01.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Security_Male_01/Export/Security_Male_01.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "e9fe24aef03e3e154166ee14b19059c19f911ba13f4b4ddee3978e169bfd8912",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.348,
+        1.832,
+        0.35
+      ],
+      "suggestedSizeMetres": [
+        1.348,
+        1.832,
+        0.35
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 592928,
+      "outputBytes": 3313420
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 3313420,
+    "fileSize": 3313420,
+    "vertices": 6609,
+    "triangles": 9515,
+    "polygonCount": 9515,
+    "meshCount": 1,
+    "materials": 3,
+    "textures": 6,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6741,
+        -0.0009,
+        -0.1501
+      ],
+      "max": [
+        0.6741,
+        1.8314,
+        0.2002
+      ]
+    },
+    "dimensions": [
+      1.3482,
+      1.8323,
+      0.3503
+    ],
+    "scale": 1,
+    "sha256": "d4fb8a072fa61d9fcb2deb92c8f45a0230e827e673939abd9d4322e905be11ca",
+    "path": "assets/kiba-real-city/realistic/rocketbox_security_male_01.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_security_male_01.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_security_male_01.glb"
+  },
+  {
+    "id": "rocketbox_sports_female_02",
+    "name": "Rocketbox Sports Female 02",
+    "title": "Rocketbox Sports Female 02",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "athlete",
+      "sports",
+      "female"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Female athlete in tank top and trousers. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_sports_female_02.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_sports_female_02.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_sports_female_02.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Sports_Female_02/Export/Sports_Female_02.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Sports_Female_02/Export/Sports_Female_02.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "b96d9952e6e5d232ddd12e0ec844e371623d9922d03c73814299fd4dbc0a9710",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.217,
+        1.737,
+        0.347
+      ],
+      "suggestedSizeMetres": [
+        1.217,
+        1.737,
+        0.347
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 600576,
+      "outputBytes": 2727000
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 2727000,
+    "fileSize": 2727000,
+    "vertices": 5369,
+    "triangles": 8580,
+    "polygonCount": 8580,
+    "meshCount": 1,
+    "materials": 3,
+    "textures": 5,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6086,
+        -0.0046,
+        -0.2175
+      ],
+      "max": [
+        0.6086,
+        1.7329,
+        0.1291
+      ]
+    },
+    "dimensions": [
+      1.2172,
+      1.7375,
+      0.3466
+    ],
+    "scale": 1,
+    "sha256": "7c934920987aacf680ebde48af332340a606654d2728dc6362cc7c96989a5add",
+    "path": "assets/kiba-real-city/realistic/rocketbox_sports_female_02.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_sports_female_02.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_sports_female_02.glb"
+  },
+  {
+    "id": "rocketbox_sports_male_04",
+    "name": "Rocketbox Sports Male 04",
+    "title": "Rocketbox Sports Male 04",
+    "collection": "kiba-real-city",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "kiba-real-city",
+      "character",
+      "humanoid",
+      "realistic",
+      "7-head",
+      "rigged",
+      "animated",
+      "rocketbox",
+      "athlete",
+      "sports"
+    ],
+    "gameRoles": [
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Athlete in tank top and shorts. Realistic proportions (~7.5 heads), 80-joint 3ds Max Biped rig, PBR colour + normal maps. Embedded clips: Idle, Walk, Run (in-place) from the Rocketbox animation library; 417 more compatible clips exist upstream.",
+    "file": "assets/kiba-real-city/realistic/rocketbox_sports_male_04.glb",
+    "localPath": "assets/kiba-real-city/realistic/rocketbox_sports_male_04.glb",
+    "thumbnail": "thumbnails/kiba-real-city/rocketbox_sports_male_04.png",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "author": "Microsoft / Rocketbox Studios",
+    "source": "Microsoft Rocketbox Avatar Library",
+    "sourceUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Sports_Male_04/Export/Sports_Male_04.fbx",
+    "sourceFile": "Assets/Avatars/Professions/Sports_Male_04/Export/Sports_Male_04.fbx",
+    "sourceRevision": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+    "sourceSha256": "55489f2b44880684c304be589667d12ebf86d35ee513f2e09ff3fbd9783f9f4c",
+    "licenseEvidence": "Repository LICENSE.md is the MIT License (Copyright (c) 2020 Microsoft); README: \"The library of avatars is now released under MIT License\" (Nov 2020). Keep the notice in assets/kiba-real-city/realistic/licenses/ with redistributed copies.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.348,
+        1.804,
+        0.322
+      ],
+      "suggestedSizeMetres": [
+        1.348,
+        1.804,
+        0.322
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "FBX2glTF 0.9.7 (hipoly mesh + skin) + glTF Transform; TGA → JPEG (head 2048 px, others 1024 px), metallic 0 / roughness 0.75",
+      "sourceBytes": 536704,
+      "outputBytes": 2690148
+    },
+    "notes": "MIT licence: commercial use allowed; include the copyright and licence notice when redistributing. Specular maps were not carried over (glTF uses metallic-roughness).",
+    "recommendedFor": [
+      "kiba-real-city",
+      "threejs",
+      "character",
+      "realistic"
+    ],
+    "addedAt": "2026-10-13T00:00:00.000Z",
+    "subcategory": "realistic",
+    "size": 2690148,
+    "fileSize": 2690148,
+    "vertices": 4483,
+    "triangles": 7520,
+    "polygonCount": 7520,
+    "meshCount": 1,
+    "materials": 2,
+    "textures": 4,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.6741,
+        0.0026,
+        -0.1238
+      ],
+      "max": [
+        0.6741,
+        1.8069,
+        0.1985
+      ]
+    },
+    "dimensions": [
+      1.3482,
+      1.8043,
+      0.3223
+    ],
+    "scale": 1,
+    "sha256": "d56846baec5375b7a93bd89f26dfe892a8b2b519edd883882d1430a07d4de8a4",
+    "path": "assets/kiba-real-city/realistic/rocketbox_sports_male_04.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/kiba-real-city/realistic/rocketbox_sports_male_04.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_sports_male_04.glb"
+  },
+  {
     "id": "assets_nature_tree_demo_tree",
     "name": "NEXUS Low Poly Demo Tree",
     "title": "NEXUS Low Poly Demo Tree",

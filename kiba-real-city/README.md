@@ -25,6 +25,38 @@ KIBA-REAL-CITY プロジェクトの素材置き場です。
 - **スケール**：1 単位 = 1 m（実寸）。原点は足元です。
 - ⚠ **TITAN / 06 と VANGUARD / 07**：有名な既存ロボット作品によく似たデザインです。CC0 は作者自身の権利しか対象にしません（配布元の `ASSET-LICENSE.md` にも「第三者の権利・商標は含まない」と明記）。商用で使う場合は、形や配色を変えるなどの検討をおすすめします。NEXUS では `ip-caution` タグを付けています。
 
+### リアル等身の人型（20 体・MIT ライセンス）
+
+7〜8 頭身のリアルな人物です。[Microsoft Rocketbox Avatar Library](https://github.com/microsoft/Microsoft-Rocketbox)（コミット `0943055`）から、軍人・特殊部隊・警察・警備・パイロット・消防士・アスリート・ビジネスの 20 体を選んでいます。
+
+| ID | 内容 | 身長 | 三角形 | サイズ |
+|---|---|---:|---:|---:|
+| `rocketbox_business_female_01` | Businesswoman in dark suit | 1.74 m | 8,966 | 2.9 MB |
+| `rocketbox_business_male_01` | Businessman in dark suit and tie | 1.81 m | 7,435 | 2.2 MB |
+| `rocketbox_fire_female_01` | Female firefighter in turnout gear with helmet | 1.87 m | 11,988 | 3.7 MB |
+| `rocketbox_fire_male_01` | Firefighter in turnout gear with helmet | 1.86 m | 8,551 | 2.8 MB |
+| `rocketbox_military_female_01` | Female soldier in ACU camouflage with helmet | 1.78 m | 13,015 | 3.9 MB |
+| `rocketbox_military_female_02` | Female soldier in ACU camouflage | 1.78 m | 12,957 | 4.0 MB |
+| `rocketbox_military_male_01` | Soldier in ACU camouflage with helmet and gear | 1.84 m | 15,387 | 4.7 MB |
+| `rocketbox_military_male_02` | Soldier in ACU camouflage with cap | 1.81 m | 8,231 | 3.6 MB |
+| `rocketbox_military_male_03` | Soldier in ACU camouflage with helmet | 1.85 m | 15,517 | 4.1 MB |
+| `rocketbox_military_male_04` | Soldier in ACU camouflage with helmet and goggles | 1.85 m | 14,907 | 3.8 MB |
+| `rocketbox_pilot_female_02` | Female airline pilot in uniform | 1.78 m | 8,458 | 2.8 MB |
+| `rocketbox_pilot_male_01` | Airline pilot in uniform | 1.84 m | 7,664 | 2.1 MB |
+| `rocketbox_police_female_01` | Female tactical police / SWAT officer with helmet | 1.85 m | 13,514 | 4.4 MB |
+| `rocketbox_police_male_01` | Police officer in blue uniform | 1.81 m | 8,687 | 3.3 MB |
+| `rocketbox_police_male_02` | Tactical police / SWAT officer in black gear with balaclava | 1.84 m | 10,881 | 3.2 MB |
+| `rocketbox_police_male_03` | Police officer in dark uniform with cap | 1.86 m | 12,445 | 3.4 MB |
+| `rocketbox_security_female_01` | Female security guard in dark uniform | 1.74 m | 8,973 | 3.0 MB |
+| `rocketbox_security_male_01` | Security guard in dark uniform | 1.83 m | 9,515 | 3.2 MB |
+| `rocketbox_sports_female_02` | Female athlete in tank top and trousers | 1.74 m | 8,580 | 2.6 MB |
+| `rocketbox_sports_male_04` | Athlete in tank top and shorts | 1.80 m | 7,520 | 2.6 MB |
+
+- **ライセンス：MIT**（Copyright (c) 2020 Microsoft）。商用利用・改変・再配布ができます。CC0 と違い、**配布するときは著作権表示とライセンス文を同梱する**必要があります。ライセンス文は `assets/kiba-real-city/realistic/licenses/` に保存しています。
+- **リグ**：全員が同じ 80 関節（3ds Max Biped）です。**Idle・Walk・Run** の 3 種類を各モデルに埋め込みました（男女別の Rocketbox 公式モーション。Walk と Run はその場で動く形に加工済み）。同じ骨格向けのモーションが配布元にさらに 417 種あり、必要なら追加できます。
+- **加工内容**：FBX を FBX2glTF で GLB に変換しました。TGA テクスチャは JPEG（顔 2048px、その他 1024px）に変換し、カラーとノーマルマップを付けています。スペキュラーマップは glTF の方式と合わないため外しました。
+- **再生成**：`FBX2GLTF=<FBX2glTF のパス> node scripts/kiba-real-city/import-rocketbox.mjs` を実行し、続けて `npm run scan` を実行します。ImageMagick が必要です。
+
 ### 人型キャラクター（15 体・すべて CC0）
 
 | ID | 名前 | 内容 | アニメ数 | 三角形 | サイズ |
