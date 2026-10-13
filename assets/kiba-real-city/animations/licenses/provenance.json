@@ -1,0 +1,44 @@
+[
+  {
+    "library": 1,
+    "source_page": "https://quaternius.itch.io/universal-animation-library",
+    "original_sha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+    "original_bytes": 7618436,
+    "subset": "UAL1_selected.glb",
+    "subset_sha256": "9585fe028b07a520c5ed9e2f5bf2edca3c77e51d0dae4cb99fcbe916ab8ada3e",
+    "clips": [
+      "Walk_Loop",
+      "Jog_Fwd_Loop",
+      "Sprint_Loop",
+      "Punch_Jab",
+      "Punch_Cross",
+      "Death01",
+      "Hit_Chest",
+      "Hit_Head",
+      "Roll"
+    ],
+    "license": "CC0-1.0",
+    "downloaded": "2026-09-06",
+    "price_paid_usd": 0
+  },
+  {
+    "library": 2,
+    "source_page": "https://quaternius.itch.io/universal-animation-library-2",
+    "original_sha256": "8cee20ab1bc55130092447e810e26df22dd2803eccc54f52137a7d54d7ab88a8",
+    "original_bytes": 8091444,
+    "subset": "UAL2_selected.glb",
+    "subset_sha256": "4edc339d0eea1090f3daa5942fb2bab137dce48dfe2c0955a56363715e4e5cf5",
+    "clips": [
+      "Melee_Hook",
+      "Melee_Hook_Rec",
+      "Hit_Knockback",
+      "Sword_Regular_Combo",
+      "Sword_Block",
+      "Sword_Regular_B",
+      "Sword_Regular_B_Rec"
+    ],
+    "license": "CC0-1.0",
+    "downloaded": "2026-09-06",
+    "price_paid_usd": 0
+  }
+]
