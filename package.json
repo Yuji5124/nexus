@@ -16,7 +16,8 @@
     "mcp": "node mcp-server.js",
     "giant-climb:fetch": "node scripts/giant-climb/fetch-sources.mjs",
     "giant-climb:import": "node scripts/giant-climb/import.mjs && npm run scan",
-    "giant-climb": "npm run giant-climb:fetch && npm run giant-climb:import"
+    "giant-climb": "npm run giant-climb:fetch && npm run giant-climb:import",
+    "leafcard-trees": "node scripts/leafcard-trees/import.mjs && npm run scan"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.1",

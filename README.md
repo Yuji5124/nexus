@@ -24,6 +24,10 @@ Run `npm run scan` to generate `data/assets.json`. Edit the record's name, tags,
 
 215 CC0 GLB models for the GIANT CLIMB climbing game (giant robot exterior and interior, Tokyo streets and buildings, vehicles, characters, gameplay objects) live in `assets/giant-climb/` with thumbnails in `thumbnails/giant-climb/`. Each record has `collection: "giant-climb"`, `gameRoles`, `climbable`, `units.metresPerUnit` and a commit-pinned `sourceUrl`. The pipeline (`npm run giant-climb`), source catalog and license evidence are documented in [giant-climb/README.md](giant-climb/README.md) and [giant-climb/REPORT.md](giant-climb/REPORT.md).
 
+## LEAFCARD TREES collection
+
+Five lightweight original trees built the game-foliage way: a low-poly trunk plus crossed alpha-masked leaf cards (the "double billboard" technique used by EZ-Tree), with every texture painted by the script. 144–388 triangles and 87–134 KB each, two materials. Files in `assets/leafcard-trees/`, records with `collection: "leafcard-trees"`. Rebuild or tweak with `npm run leafcard-trees`; details in [leafcard-trees/README.md](leafcard-trees/README.md).
+
 ## Use from Codex / Claude Code
 
 Fetch the raw index URL above, search name/category/tags/recommendedFor, inspect the license, then use previewUrl in Three.js:
