@@ -24,6 +24,10 @@ Run `npm run scan` to generate `data/assets.json`. Edit the record's name, tags,
 
 215 CC0 GLB models for the GIANT CLIMB climbing game (giant robot exterior and interior, Tokyo streets and buildings, vehicles, characters, gameplay objects) live in `assets/giant-climb/` with thumbnails in `thumbnails/giant-climb/`. Each record has `collection: "giant-climb"`, `gameRoles`, `climbable`, `units.metresPerUnit` and a commit-pinned `sourceUrl`. The pipeline (`npm run giant-climb`), source catalog and license evidence are documented in [giant-climb/README.md](giant-climb/README.md) and [giant-climb/REPORT.md](giant-climb/REPORT.md).
 
+## LOWPOLY TREES collection
+
+10 CC0 low-poly trees from GitHub live in `assets/lowpoly-trees/` with thumbnails in `thumbnails/lowpoly-trees/`: five from KayKit's official repositories (pine, round fir, orange and yellow autumn pines, dead tree) and five from Kenney (palm via pmndrs/market-assets; oak, autumn oak, branching tree and plateau tree from Nature Kit 2.1, verified byte-identical across three projects that bundle it). 50–490 triangles each. Records have `collection: "lowpoly-trees"` and `units.suggestedScale` for realistic heights. Rebuild with `npm run lowpoly-trees`; sources and the material fixes are in [lowpoly-trees/README.md](lowpoly-trees/README.md).
+
 ## Use from Codex / Claude Code
 
 Fetch the raw index URL above, search name/category/tags/recommendedFor, inspect the license, then use previewUrl in Three.js:
