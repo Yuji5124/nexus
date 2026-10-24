@@ -1,0 +1,27 @@
+Kenney Nature Kit 2.1 (bundled in JasonLee228/cruiz)
+Author: Kenney (www.kenney.nl)
+License: CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://github.com/JasonLee228/cruiz @ 536be4266f70092fc7c33afac9f73a2ed31657a4
+Evidence: Kenney Nature Kit 2.1 (CC0). The original zip is not hosted on GitHub; the files are taken from game projects that bundle the kit with its License.txt. The same bytes appear in three independent repositories (JasonLee228/cruiz, bborbe/driftline, and the Git LFS hashes in jpabloglez/trailpaw), and the GLBs still carry Kenney's exporter tag (UniGLTF-1.27), so they are unmodified originals.
+
+Nature Kit (2.1)
+
+	Created/distributed by Kenney (www.kenney.nl)
+	Creation date: 29-04-2020 01:02
+
+			------------------------------
+
+	License: (Creative Commons Zero, CC0)
+	http://creativecommons.org/publicdomain/zero/1.0/
+
+	This content is free to use in personal, educational and commercial projects.
+	Support us by crediting Kenney or www.kenney.nl (this is not mandatory)
+
+			------------------------------
+
+	Donate:   http://support.kenney.nl
+	Request:  http://request.kenney.nl
+	Patreon:  http://patreon.com/kenney/
+
+	Follow on Twitter for updates:
+	http://twitter.com/KenneyNL

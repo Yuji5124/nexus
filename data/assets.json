@@ -26978,6 +26978,1013 @@
     "previewUrl": "https://yuji5124.github.io/nexus/assets/leafcard-trees/leafcard_young_tree.glb"
   },
   {
+    "id": "kaykit_dead_tree",
+    "name": "KayKit Dead Tree",
+    "title": "KayKit Dead Tree",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "dead",
+      "bare",
+      "spooky",
+      "halloween",
+      "wasteland",
+      "swamp"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Bare, twisted dead tree with a few forked branches. Native height 5.066 units; scale ×1.382 for a 7 m tree.",
+    "file": "assets/lowpoly-trees/kaykit_dead_tree.glb",
+    "localPath": "assets/lowpoly-trees/kaykit_dead_tree.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kaykit_dead_tree.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kay Lousberg (www.kaylousberg.com)",
+    "source": "KayKit Halloween Bits 1.0",
+    "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Halloween-Bits-1.0/blob/6dc69bf6b2fa766a985754f35ec6a0324090e6c6/addons/kaykit_halloween_bits/Assets/gltf/tree_dead_large.gltf",
+    "sourceFile": "addons/kaykit_halloween_bits/Assets/gltf/tree_dead_large.gltf",
+    "sourceRevision": "6dc69bf6b2fa766a985754f35ec6a0324090e6c6",
+    "sourceSha256": "a91ca9c22fc5a0be4d44edb6fe9d8b47393e0f47dd0048b60c054adab1a0b2a1",
+    "licenseEvidence": "Official KayKit GitHub repository; LICENSE.txt: \"License: (Creative Commons Zero, CC0)\".",
+    "units": {
+      "metresPerUnit": 1.382,
+      "nativeSize": [
+        2.302,
+        5.066,
+        1.377
+      ],
+      "suggestedScale": 1.382,
+      "suggestedSizeMetres": [
+        3.18,
+        7,
+        1.9
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: glTF (with its .bin and texture, if any) converted to one self-contained GLB; unused data pruned",
+      "sourceBytes": 3074,
+      "outputBytes": 23676
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 23676,
+    "fileSize": 23676,
+    "vertices": 177,
+    "triangles": 256,
+    "polygonCount": 256,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 1,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -1.322,
+        -0.2722,
+        -0.7258
+      ],
+      "max": [
+        0.9797,
+        4.7939,
+        0.6507
+      ]
+    },
+    "dimensions": [
+      2.3017,
+      5.0661,
+      1.3765
+    ],
+    "scale": 1,
+    "sha256": "2381647138f5f692ba6d1525381ea6c6032525190ddc2c29af46d1d697060cdb",
+    "path": "assets/lowpoly-trees/kaykit_dead_tree.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kaykit_dead_tree.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kaykit_dead_tree.glb"
+  },
+  {
+    "id": "kaykit_fir_round",
+    "name": "KayKit Round Fir",
+    "title": "KayKit Round Fir",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "fir",
+      "conifer",
+      "evergreen",
+      "forest",
+      "round"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Soft rounded fir with three bevelled tiers of green foliage. Native height 1.213 units; scale ×5.771 for a 7 m tree.",
+    "file": "assets/lowpoly-trees/kaykit_fir_round.glb",
+    "localPath": "assets/lowpoly-trees/kaykit_fir_round.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kaykit_fir_round.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kay Lousberg (www.kaylousberg.com)",
+    "source": "KayKit Medieval Hexagon Pack 1.0",
+    "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Medieval-Hexagon-Pack-1.0/blob/84fa4e91af6a88989be7c99e0891cede11f2ca38/addons/kaykit_medieval_hexagon_pack/Assets/gltf/decoration/nature/tree_single_B.gltf",
+    "sourceFile": "addons/kaykit_medieval_hexagon_pack/Assets/gltf/decoration/nature/tree_single_B.gltf",
+    "sourceRevision": "84fa4e91af6a88989be7c99e0891cede11f2ca38",
+    "sourceSha256": "1c038591301947c485937e9fdbab182c813ef32df48c02fad3daeb2f1f0421e0",
+    "licenseEvidence": "Official KayKit GitHub repository; LICENSE.txt: \"License: (Creative Commons Zero, CC0)\".",
+    "units": {
+      "metresPerUnit": 5.771,
+      "nativeSize": [
+        0.685,
+        1.213,
+        0.72
+      ],
+      "suggestedScale": 5.771,
+      "suggestedSizeMetres": [
+        3.95,
+        7,
+        4.16
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: glTF (with its .bin and texture, if any) converted to one self-contained GLB; unused data pruned",
+      "sourceBytes": 3056,
+      "outputBytes": 24520
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 24520,
+    "fileSize": 24520,
+    "vertices": 189,
+    "triangles": 220,
+    "polygonCount": 220,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 1,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.3424,
+        -0.1,
+        -0.3601
+      ],
+      "max": [
+        0.3424,
+        1.1127,
+        0.3601
+      ]
+    },
+    "dimensions": [
+      0.6848,
+      1.2127,
+      0.7202
+    ],
+    "scale": 1,
+    "sha256": "936184d1adbb90b3b0ff110e278def83b52c17dee81fd0997a275086d391a875",
+    "path": "assets/lowpoly-trees/kaykit_fir_round.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kaykit_fir_round.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kaykit_fir_round.glb"
+  },
+  {
+    "id": "kaykit_pine",
+    "name": "KayKit Pine",
+    "title": "KayKit Pine",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "pine",
+      "conifer",
+      "evergreen",
+      "forest",
+      "mountain"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Classic low-poly pine: stacked dark-green cones on a short brown trunk. Native height 1.196 units; scale ×7.525 for a 9 m tree.",
+    "file": "assets/lowpoly-trees/kaykit_pine.glb",
+    "localPath": "assets/lowpoly-trees/kaykit_pine.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kaykit_pine.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kay Lousberg (www.kaylousberg.com)",
+    "source": "KayKit Medieval Hexagon Pack 1.0",
+    "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Medieval-Hexagon-Pack-1.0/blob/84fa4e91af6a88989be7c99e0891cede11f2ca38/addons/kaykit_medieval_hexagon_pack/Assets/gltf/decoration/nature/tree_single_A.gltf",
+    "sourceFile": "addons/kaykit_medieval_hexagon_pack/Assets/gltf/decoration/nature/tree_single_A.gltf",
+    "sourceRevision": "84fa4e91af6a88989be7c99e0891cede11f2ca38",
+    "sourceSha256": "ac913af6eaed6f15d26a2b75a877aa8dd10de90f26298f3f953abad86a4b4606",
+    "licenseEvidence": "Official KayKit GitHub repository; LICENSE.txt: \"License: (Creative Commons Zero, CC0)\".",
+    "units": {
+      "metresPerUnit": 7.525,
+      "nativeSize": [
+        0.574,
+        1.196,
+        0.547
+      ],
+      "suggestedScale": 7.525,
+      "suggestedSizeMetres": [
+        4.32,
+        9,
+        4.12
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: glTF (with its .bin and texture, if any) converted to one self-contained GLB; unused data pruned",
+      "sourceBytes": 3053,
+      "outputBytes": 20496
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 20496,
+    "fileSize": 20496,
+    "vertices": 95,
+    "triangles": 50,
+    "polygonCount": 50,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 1,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.2875,
+        -0.1026,
+        -0.3017
+      ],
+      "max": [
+        0.2864,
+        1.0938,
+        0.2453
+      ]
+    },
+    "dimensions": [
+      0.5739,
+      1.1964,
+      0.547
+    ],
+    "scale": 1,
+    "sha256": "5e19530e292a57ae958276b50ecca174966c96df798aa42e71cc82c764965780",
+    "path": "assets/lowpoly-trees/kaykit_pine.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kaykit_pine.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kaykit_pine.glb"
+  },
+  {
+    "id": "kaykit_pine_autumn_orange",
+    "name": "KayKit Autumn Pine (Orange)",
+    "title": "KayKit Autumn Pine (Orange)",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "pine",
+      "conifer",
+      "autumn",
+      "orange",
+      "fall",
+      "halloween"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Shaggy layered pine in burnt-orange autumn colour. Native height 7.475 units; scale ×1.07 for a 8 m tree.",
+    "file": "assets/lowpoly-trees/kaykit_pine_autumn_orange.glb",
+    "localPath": "assets/lowpoly-trees/kaykit_pine_autumn_orange.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kaykit_pine_autumn_orange.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kay Lousberg (www.kaylousberg.com)",
+    "source": "KayKit Halloween Bits 1.0",
+    "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Halloween-Bits-1.0/blob/6dc69bf6b2fa766a985754f35ec6a0324090e6c6/addons/kaykit_halloween_bits/Assets/gltf/tree_pine_orange_large.gltf",
+    "sourceFile": "addons/kaykit_halloween_bits/Assets/gltf/tree_pine_orange_large.gltf",
+    "sourceRevision": "6dc69bf6b2fa766a985754f35ec6a0324090e6c6",
+    "sourceSha256": "08eaa994a250d1feaecb44d69931368b1b2ea1b5cfcaacf6089e0fe56fae690b",
+    "licenseEvidence": "Official KayKit GitHub repository; LICENSE.txt: \"License: (Creative Commons Zero, CC0)\".",
+    "units": {
+      "metresPerUnit": 1.07,
+      "nativeSize": [
+        4.759,
+        7.475,
+        4.155
+      ],
+      "suggestedScale": 1.07,
+      "suggestedSizeMetres": [
+        5.09,
+        8,
+        4.45
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: glTF (with its .bin and texture, if any) converted to one self-contained GLB; unused data pruned",
+      "sourceBytes": 3085,
+      "outputBytes": 33980
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 33980,
+    "fileSize": 33980,
+    "vertices": 487,
+    "triangles": 318,
+    "polygonCount": 318,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 1,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -2.3626,
+        -0.5548,
+        -2.0761
+      ],
+      "max": [
+        2.3968,
+        6.9204,
+        2.0786
+      ]
+    },
+    "dimensions": [
+      4.7594,
+      7.4752,
+      4.1547
+    ],
+    "scale": 1,
+    "sha256": "706600d91be2ac0b1a81e723cf713d8e6996517b7a682cf9ad4639b1581231b2",
+    "path": "assets/lowpoly-trees/kaykit_pine_autumn_orange.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kaykit_pine_autumn_orange.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kaykit_pine_autumn_orange.glb"
+  },
+  {
+    "id": "kaykit_pine_autumn_yellow",
+    "name": "KayKit Autumn Pine (Yellow)",
+    "title": "KayKit Autumn Pine (Yellow)",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "pine",
+      "conifer",
+      "autumn",
+      "yellow",
+      "gold",
+      "fall",
+      "halloween"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Shaggy layered pine in golden-yellow autumn colour. Native height 7.475 units; scale ×1.07 for a 8 m tree.",
+    "file": "assets/lowpoly-trees/kaykit_pine_autumn_yellow.glb",
+    "localPath": "assets/lowpoly-trees/kaykit_pine_autumn_yellow.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kaykit_pine_autumn_yellow.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kay Lousberg (www.kaylousberg.com)",
+    "source": "KayKit Halloween Bits 1.0",
+    "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Halloween-Bits-1.0/blob/6dc69bf6b2fa766a985754f35ec6a0324090e6c6/addons/kaykit_halloween_bits/Assets/gltf/tree_pine_yellow_large.gltf",
+    "sourceFile": "addons/kaykit_halloween_bits/Assets/gltf/tree_pine_yellow_large.gltf",
+    "sourceRevision": "6dc69bf6b2fa766a985754f35ec6a0324090e6c6",
+    "sourceSha256": "ec0f4a2c18b92cee712a22e75fb92f3943990f1805254cf6cff3ee270d43cd33",
+    "licenseEvidence": "Official KayKit GitHub repository; LICENSE.txt: \"License: (Creative Commons Zero, CC0)\".",
+    "units": {
+      "metresPerUnit": 1.07,
+      "nativeSize": [
+        4.759,
+        7.475,
+        4.155
+      ],
+      "suggestedScale": 1.07,
+      "suggestedSizeMetres": [
+        5.09,
+        8,
+        4.45
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: glTF (with its .bin and texture, if any) converted to one self-contained GLB; unused data pruned",
+      "sourceBytes": 3085,
+      "outputBytes": 33980
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 33980,
+    "fileSize": 33980,
+    "vertices": 487,
+    "triangles": 318,
+    "polygonCount": 318,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 1,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -2.3626,
+        -0.5548,
+        -2.0761
+      ],
+      "max": [
+        2.3968,
+        6.9204,
+        2.0786
+      ]
+    },
+    "dimensions": [
+      4.7594,
+      7.4752,
+      4.1547
+    ],
+    "scale": 1,
+    "sha256": "cba9ccfdd5066b41b27e38515bed0d5be6c15f3f0fea585902d1c695f0579c55",
+    "path": "assets/lowpoly-trees/kaykit_pine_autumn_yellow.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kaykit_pine_autumn_yellow.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kaykit_pine_autumn_yellow.glb"
+  },
+  {
+    "id": "kenney_oak",
+    "name": "Kenney Oak",
+    "title": "Kenney Oak",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "oak",
+      "broadleaf",
+      "deciduous",
+      "round",
+      "park",
+      "forest"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Round faceted oak crown on a straight trunk, fresh green. Native height 1.226 units; scale ×5.71 for a 7 m tree.",
+    "file": "assets/lowpoly-trees/kenney_oak.glb",
+    "localPath": "assets/lowpoly-trees/kenney_oak.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kenney_oak.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kenney (www.kenney.nl)",
+    "source": "Kenney Nature Kit 2.1 (bundled in JasonLee228/cruiz)",
+    "sourceUrl": "https://github.com/JasonLee228/cruiz/blob/536be4266f70092fc7c33afac9f73a2ed31657a4/public/models/nature/tree_oak.glb",
+    "sourceFile": "public/models/nature/tree_oak.glb",
+    "sourceRevision": "536be4266f70092fc7c33afac9f73a2ed31657a4",
+    "sourceSha256": "d7fd8773674928c50c11b66d12c636d49bdcc15a8b1c7fbb98e6f63a3439a3f3",
+    "licenseEvidence": "Kenney Nature Kit 2.1 (CC0). The original zip is not hosted on GitHub; the files are taken from game projects that bundle the kit with its License.txt. The same bytes appear in three independent repositories (JasonLee228/cruiz, bborbe/driftline, and the Git LFS hashes in jpabloglez/trailpaw), and the GLBs still carry Kenney's exporter tag (UniGLTF-1.27), so they are unmodified originals.",
+    "units": {
+      "metresPerUnit": 5.71,
+      "nativeSize": [
+        0.641,
+        1.226,
+        0.74
+      ],
+      "suggestedScale": 5.71,
+      "suggestedSizeMetres": [
+        3.66,
+        7,
+        4.23
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: GLB re-written; 2 base colour(s) converted sRGB → linear (UniGLTF 1.27 stored sRGB values); 2 untextured material(s): metallic 1 → 0, roughness → 1 (Kenney exports render black otherwise); unused data pruned",
+      "sourceBytes": 14644,
+      "outputBytes": 11532
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 11532,
+    "fileSize": 11532,
+    "vertices": 648,
+    "triangles": 196,
+    "polygonCount": 196,
+    "meshCount": 1,
+    "materials": 2,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.3203,
+        -0.05,
+        -0.3698
+      ],
+      "max": [
+        0.3203,
+        1.1762,
+        0.3698
+      ]
+    },
+    "dimensions": [
+      0.6406,
+      1.2262,
+      0.7396
+    ],
+    "scale": 1,
+    "sha256": "4c8759c332058de0355e4cad23f395cef551ae0f86d215ca07655c88e865784a",
+    "path": "assets/lowpoly-trees/kenney_oak.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kenney_oak.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kenney_oak.glb"
+  },
+  {
+    "id": "kenney_oak_autumn",
+    "name": "Kenney Autumn Oak",
+    "title": "Kenney Autumn Oak",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "oak",
+      "broadleaf",
+      "deciduous",
+      "autumn",
+      "fall",
+      "orange"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "The round oak in autumn: warm orange crown on a pale birch-like trunk. Native height 1.226 units; scale ×5.71 for a 7 m tree.",
+    "file": "assets/lowpoly-trees/kenney_oak_autumn.glb",
+    "localPath": "assets/lowpoly-trees/kenney_oak_autumn.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kenney_oak_autumn.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kenney (www.kenney.nl)",
+    "source": "Kenney Nature Kit 2.1 (bundled in bborbe/driftline)",
+    "sourceUrl": "https://github.com/bborbe/driftline/blob/f93766d18320271128a5a06e36da63d8d40dd46f/assets/nature-kit/tree_oak_fall.glb",
+    "sourceFile": "assets/nature-kit/tree_oak_fall.glb",
+    "sourceRevision": "f93766d18320271128a5a06e36da63d8d40dd46f",
+    "sourceSha256": "43a258d17b5428d8ef525a19e30e667caeeb330b6f3cb367a07da12093ff97a1",
+    "licenseEvidence": "Kenney Nature Kit 2.1 (CC0). The original zip is not hosted on GitHub; the files are taken from game projects that bundle the kit with its License.txt. The same bytes appear in three independent repositories (JasonLee228/cruiz, bborbe/driftline, and the Git LFS hashes in jpabloglez/trailpaw), and the GLBs still carry Kenney's exporter tag (UniGLTF-1.27), so they are unmodified originals.",
+    "units": {
+      "metresPerUnit": 5.71,
+      "nativeSize": [
+        0.641,
+        1.226,
+        0.74
+      ],
+      "suggestedScale": 5.71,
+      "suggestedSizeMetres": [
+        3.66,
+        7,
+        4.23
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: GLB re-written; 2 base colour(s) converted sRGB → linear (UniGLTF 1.27 stored sRGB values); 2 untextured material(s): metallic 1 → 0, roughness → 1 (Kenney exports render black otherwise); unused data pruned",
+      "sourceBytes": 14640,
+      "outputBytes": 11508
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 11508,
+    "fileSize": 11508,
+    "vertices": 648,
+    "triangles": 196,
+    "polygonCount": 196,
+    "meshCount": 1,
+    "materials": 2,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.3203,
+        -0.05,
+        -0.3698
+      ],
+      "max": [
+        0.3203,
+        1.1762,
+        0.3698
+      ]
+    },
+    "dimensions": [
+      0.6406,
+      1.2262,
+      0.7396
+    ],
+    "scale": 1,
+    "sha256": "4ccb76a08e83e023480f9b01c4e8b60c70317f6321642a6d4fecb15ccfecb7f1",
+    "path": "assets/lowpoly-trees/kenney_oak_autumn.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kenney_oak_autumn.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kenney_oak_autumn.glb"
+  },
+  {
+    "id": "kenney_palm",
+    "name": "Kenney Palm",
+    "title": "Kenney Palm",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "palm",
+      "tropical",
+      "beach",
+      "island",
+      "resort"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Tall curved palm with a crown of broad drooping fronds. Native height 2.125 units; scale ×3.765 for a 8 m tree.",
+    "file": "assets/lowpoly-trees/kenney_palm.glb",
+    "localPath": "assets/lowpoly-trees/kenney_palm.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kenney_palm.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kenney (www.kenney.nl)",
+    "source": "Kenney models via pmndrs market-assets",
+    "sourceUrl": "https://github.com/pmndrs/market-assets/blob/c9cfa0236a012093edd5affe200808752375bd90/files/models/palm-detailed-long/model.gltf",
+    "sourceFile": "files/models/palm-detailed-long/model.gltf",
+    "sourceRevision": "c9cfa0236a012093edd5affe200808752375bd90",
+    "sourceSha256": "e128dd2f64f7d5c85ecaaf1913347cac29304e5ee6a1abcfb0953cccbfb35758",
+    "licenseEvidence": "info.json lists creator \"kenney\" and license id 1 (= CC0 in pmndrs/market licenses.js); Kenney publishes this model as CC0.",
+    "units": {
+      "metresPerUnit": 3.765,
+      "nativeSize": [
+        1.544,
+        2.125,
+        1.544
+      ],
+      "suggestedScale": 3.765,
+      "suggestedSizeMetres": [
+        5.81,
+        8,
+        5.81
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: glTF (with its .bin and texture, if any) converted to one self-contained GLB; Draco decoded; 2 untextured material(s): metallic 1 → 0, roughness → 1 (Kenney exports render black otherwise); unused data pruned",
+      "sourceBytes": 6852,
+      "outputBytes": 36832
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 36832,
+    "fileSize": 36832,
+    "vertices": 1330,
+    "triangles": 488,
+    "polygonCount": 488,
+    "meshCount": 2,
+    "materials": 2,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        2.3794,
+        0,
+        -7.1682
+      ],
+      "max": [
+        3.9232,
+        2.1253,
+        -5.6245
+      ]
+    },
+    "dimensions": [
+      1.5438,
+      2.1253,
+      1.5437
+    ],
+    "scale": 1,
+    "sha256": "4c3506598f7d0ce6ad61d2bed544b2e5b99e713d017b59fe24e5581599e907ed",
+    "path": "assets/lowpoly-trees/kenney_palm.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kenney_palm.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kenney_palm.glb"
+  },
+  {
+    "id": "kenney_tree_branching",
+    "name": "Kenney Branching Tree",
+    "title": "Kenney Branching Tree",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "broadleaf",
+      "deciduous",
+      "branching",
+      "park",
+      "forest"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Broadleaf tree whose trunk splits into side branches, each carrying its own faceted canopy. Native height 1.332 units; scale ×6.006 for a 8 m tree.",
+    "file": "assets/lowpoly-trees/kenney_tree_branching.glb",
+    "localPath": "assets/lowpoly-trees/kenney_tree_branching.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kenney_tree_branching.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kenney (www.kenney.nl)",
+    "source": "Kenney Nature Kit 2.1 (bundled in bborbe/driftline)",
+    "sourceUrl": "https://github.com/bborbe/driftline/blob/f93766d18320271128a5a06e36da63d8d40dd46f/assets/nature-kit/tree_detailed.glb",
+    "sourceFile": "assets/nature-kit/tree_detailed.glb",
+    "sourceRevision": "f93766d18320271128a5a06e36da63d8d40dd46f",
+    "sourceSha256": "c041daf2f0fb1d49e4325227cbcd58667adbe51e9b55e8c1f0a94b74cc521b3b",
+    "licenseEvidence": "Kenney Nature Kit 2.1 (CC0). The original zip is not hosted on GitHub; the files are taken from game projects that bundle the kit with its License.txt. The same bytes appear in three independent repositories (JasonLee228/cruiz, bborbe/driftline, and the Git LFS hashes in jpabloglez/trailpaw), and the GLBs still carry Kenney's exporter tag (UniGLTF-1.27), so they are unmodified originals.",
+    "units": {
+      "metresPerUnit": 6.006,
+      "nativeSize": [
+        0.847,
+        1.332,
+        0.762
+      ],
+      "suggestedScale": 6.006,
+      "suggestedSizeMetres": [
+        5.09,
+        8,
+        4.58
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: GLB re-written; 3 base colour(s) converted sRGB → linear (UniGLTF 1.27 stored sRGB values); 3 untextured material(s): metallic 1 → 0, roughness → 1 (Kenney exports render black otherwise); unused data pruned",
+      "sourceBytes": 31412,
+      "outputBytes": 24636
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 24636,
+    "fileSize": 24636,
+    "vertices": 2274,
+    "triangles": 402,
+    "polygonCount": 402,
+    "meshCount": 1,
+    "materials": 3,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.4325,
+        -0.05,
+        -0.3721
+      ],
+      "max": [
+        0.4146,
+        1.2824,
+        0.3895
+      ]
+    },
+    "dimensions": [
+      0.8471,
+      1.3324,
+      0.7616
+    ],
+    "scale": 1,
+    "sha256": "ad06b0afebfcc990a143f1ef6c8c71ae115425dd2181fd73fd3dacffc687723f",
+    "path": "assets/lowpoly-trees/kenney_tree_branching.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kenney_tree_branching.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kenney_tree_branching.glb"
+  },
+  {
+    "id": "kenney_tree_plateau",
+    "name": "Kenney Plateau Tree",
+    "title": "Kenney Plateau Tree",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "acacia",
+      "umbrella",
+      "savanna",
+      "broadleaf",
+      "bonsai",
+      "stylized"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Umbrella-like tree with flat stacked canopies, reminiscent of an acacia or bonsai. Native height 1.249 units; scale ×5.604 for a 7 m tree.",
+    "file": "assets/lowpoly-trees/kenney_tree_plateau.glb",
+    "localPath": "assets/lowpoly-trees/kenney_tree_plateau.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kenney_tree_plateau.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kenney (www.kenney.nl)",
+    "source": "Kenney Nature Kit 2.1 (bundled in JasonLee228/cruiz)",
+    "sourceUrl": "https://github.com/JasonLee228/cruiz/blob/536be4266f70092fc7c33afac9f73a2ed31657a4/public/models/nature/tree_plateau.glb",
+    "sourceFile": "public/models/nature/tree_plateau.glb",
+    "sourceRevision": "536be4266f70092fc7c33afac9f73a2ed31657a4",
+    "sourceSha256": "7f19e347ff28703dd9e5fcce89b920156e291fbdb19331a57cb31a95c73e1322",
+    "licenseEvidence": "Kenney Nature Kit 2.1 (CC0). The original zip is not hosted on GitHub; the files are taken from game projects that bundle the kit with its License.txt. The same bytes appear in three independent repositories (JasonLee228/cruiz, bborbe/driftline, and the Git LFS hashes in jpabloglez/trailpaw), and the GLBs still carry Kenney's exporter tag (UniGLTF-1.27), so they are unmodified originals.",
+    "units": {
+      "metresPerUnit": 5.604,
+      "nativeSize": [
+        0.612,
+        1.249,
+        0.655
+      ],
+      "suggestedScale": 5.604,
+      "suggestedSizeMetres": [
+        3.43,
+        7,
+        3.67
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: GLB re-written; 2 base colour(s) converted sRGB → linear (UniGLTF 1.27 stored sRGB values); 2 untextured material(s): metallic 1 → 0, roughness → 1 (Kenney exports render black otherwise); unused data pruned",
+      "sourceBytes": 16304,
+      "outputBytes": 12828
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 12828,
+    "fileSize": 12828,
+    "vertices": 738,
+    "triangles": 215,
+    "polygonCount": 215,
+    "meshCount": 1,
+    "materials": 2,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.3282,
+        -0.05,
+        -0.3255
+      ],
+      "max": [
+        0.2836,
+        1.1993,
+        0.3294
+      ]
+    },
+    "dimensions": [
+      0.6118,
+      1.2493,
+      0.6549
+    ],
+    "scale": 1,
+    "sha256": "473e165329886bffcedfe23acd066fc4c0980058e06dc0009565eaabe02d60a4",
+    "path": "assets/lowpoly-trees/kenney_tree_plateau.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kenney_tree_plateau.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kenney_tree_plateau.glb"
+  },
+  {
     "id": "assets_nature_tree_demo_tree",
     "name": "NEXUS Low Poly Demo Tree",
     "title": "NEXUS Low Poly Demo Tree",
@@ -27047,6 +28054,2032 @@
       "recommendedUse": "公園・街路樹・緑地・空のアクセント。",
       "placement": "路肩や遠景に配置。植栽は同一モデルを共有し、密集時はInstancedMeshを検討。"
     }
+  },
+  {
+    "id": "ranvora_v2_log_cabin",
+    "name": "RANVORA ver2 Log Cabin",
+    "title": "RANVORA ver2 Log Cabin",
+    "collection": "ranvora-ver2",
+    "category": "building",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "building",
+      "cabin",
+      "log-cabin",
+      "house",
+      "interior",
+      "furnished",
+      "wood",
+      "fireplace",
+      "porch",
+      "textured"
+    ],
+    "gameRoles": [
+      "building",
+      "interior",
+      "landmark"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Enterable realistic-leaning log cabin (interior 8 × 6.4 m): saddle-notched logs with chinking, thick gable roof with shingles, covered porch with steps and railing, stone chimney, shuttered windows with flower boxes, open plank door, woodpile and bench. Inside: fireplace with flames, exposed beams, kitchen counter, table with four chairs, quilted bed, bookshelf, rug, armchair and lantern. Code-drawn textures embedded. Origin = cabin centre at ground level, front (porch) faces +Z.",
+    "file": "assets/ranvora-ver2/buildings/ranvora_v2_log_cabin.glb",
+    "localPath": "assets/ranvora-ver2/buildings/ranvora_v2_log_cabin.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_log_cabin.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/world/Cabin.ts",
+    "sourceFile": "src/world/Cabin.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        9.77,
+        7.15,
+        10.424
+      ],
+      "suggestedSizeMetres": [
+        9.77,
+        7.15,
+        10.424
+      ],
+      "upAxis": "Y",
+      "front": "+Z",
+      "floorHeight": 0.6
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter (createCabin(WORLD.seed + 41)) → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 1963992,
+      "outputBytes": 1539992
+    },
+    "notes": "Same seed as the RANVORA ver2 world (WORLD.seed + 41 = 1378). Removed for export: 2 point lights (fireplace and lantern) and the flame flicker, which live in code. Bump maps are not part of glTF and are dropped; colour textures are kept. Collision boxes and floor heights are in Cabin.ts, not in the GLB.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "subcategory": "buildings",
+    "size": 1539992,
+    "fileSize": 1539992,
+    "vertices": 18996,
+    "triangles": 10934,
+    "polygonCount": 10934,
+    "meshCount": 33,
+    "materials": 21,
+    "textures": 8,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -5.12,
+        -0.02,
+        -3.8643
+      ],
+      "max": [
+        4.65,
+        7.13,
+        6.56
+      ]
+    },
+    "dimensions": [
+      9.77,
+      7.15,
+      10.4243
+    ],
+    "scale": 1,
+    "sha256": "10098904dfcf35a5d3564c24a2e5b3cad205870c5c1d3ef9b1731cc170cbf69f",
+    "path": "assets/ranvora-ver2/buildings/ranvora_v2_log_cabin.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/buildings/ranvora_v2_log_cabin.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/buildings/ranvora_v2_log_cabin.glb"
+  },
+  {
+    "id": "ranvora_v2_original_hero",
+    "name": "RANVORA Original Hero (初代主人公)",
+    "title": "RANVORA Original Hero (初代主人公)",
+    "collection": "ranvora-ver2",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "character",
+      "humanoid",
+      "rigged",
+      "animated",
+      "chibi",
+      "hero",
+      "player",
+      "fantasy",
+      "mask",
+      "horns",
+      "cloak",
+      "sword",
+      "staff",
+      "magic"
+    ],
+    "gameRoles": [
+      "player",
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "The first RANVORA hero, kept by RANVORA ver2 for comparison and recovery: 3.5-head chibi adventurer with cloak, mask with glowing eyes, horns, scarf, coat and boots. Sword, staff and magic effect meshes included. Rig: 33 bones. 7 clips: Idle, Jump, MagicCast, Run, StaffSwing, SwordSlash, Walk. Front faces +Z.",
+    "file": "assets/ranvora-ver2/characters/ranvora_v2_original_hero.glb",
+    "localPath": "assets/ranvora-ver2/characters/ranvora_v2_original_hero.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_original_hero.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/assets/characters/ranvora_chibi.gltf.json",
+    "sourceFile": "src/assets/characters/ranvora_chibi.gltf.json",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "sourceSha256": "42df1f827adff147b071352f717d4bae4afcc9ce8f9ccada0ad1acd41c44a014",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        0.79,
+        1.227,
+        0.78
+      ],
+      "suggestedSizeMetres": [
+        1.027,
+        1.595,
+        1.014
+      ],
+      "upAxis": "Y",
+      "front": "+Z",
+      "gameScale": 1.3
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: embedded .gltf.json → GLB (geometry, skin and animation data unchanged)",
+      "sourceBytes": 953714,
+      "outputBytes": 722456
+    },
+    "notes": "Made in Blender for RANVORA and carried over unchanged into RANVORA ver2. Both heroes share the same 33-bone skeleton and 7 clips, so animations and attack timing are interchangeable. RANVORA ver2 scales the model by 1.3 in game.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "skeleton": {
+      "joints": 33,
+      "sharedWith": "ranvora_v2_traveler"
+    },
+    "subcategory": "characters",
+    "size": 722456,
+    "fileSize": 722456,
+    "vertices": 7964,
+    "triangles": 15162,
+    "polygonCount": 15162,
+    "meshCount": 4,
+    "materials": 17,
+    "textures": 1,
+    "animations": [
+      "Idle",
+      "Jump",
+      "MagicCast",
+      "Run",
+      "StaffSwing",
+      "SwordSlash",
+      "Walk"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.366,
+        -0.003,
+        -0.3295
+      ],
+      "max": [
+        0.424,
+        1.2235,
+        0.45
+      ]
+    },
+    "dimensions": [
+      0.79,
+      1.2265,
+      0.7795
+    ],
+    "scale": 1,
+    "sha256": "ec05cd08f00552233085ef8b48b09677729e7860e6812506beaa69c4d48a3c36",
+    "path": "assets/ranvora-ver2/characters/ranvora_v2_original_hero.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/characters/ranvora_v2_original_hero.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/characters/ranvora_v2_original_hero.glb"
+  },
+  {
+    "id": "ranvora_v2_traveler",
+    "name": "RANVORA ver2 Traveler (謎の旅人)",
+    "title": "RANVORA ver2 Traveler (謎の旅人)",
+    "collection": "ranvora-ver2",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "character",
+      "humanoid",
+      "rigged",
+      "animated",
+      "traveler",
+      "hooded",
+      "cloak",
+      "chibi",
+      "hero",
+      "player",
+      "fantasy",
+      "sword",
+      "staff",
+      "magic"
+    ],
+    "gameRoles": [
+      "player",
+      "character"
+    ],
+    "climbable": false,
+    "animated": true,
+    "description": "Default hero of RANVORA ver2: a hooded mysterious traveler, about 3.5 heads tall, blue-grey hood and cloak, cream inner tunic, leather belt and boots, two softly glowing eyes in the hood shadow. Carries a sword and a staff (separate meshes on the hand bones) and a magic effect mesh. Rig: 33 bones. 7 clips: Idle, Jump, MagicCast, Run, StaffSwing, SwordSlash, Walk. Front faces +Z.",
+    "file": "assets/ranvora-ver2/characters/ranvora_v2_traveler.glb",
+    "localPath": "assets/ranvora-ver2/characters/ranvora_v2_traveler.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_traveler.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/assets/characters/traveler.gltf.json",
+    "sourceFile": "src/assets/characters/traveler.gltf.json",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "sourceSha256": "9c5e4f29a06bd7d8602fb7b8061aedb25fa1704d8e8e87c65afb2320a11adeb8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        0.79,
+        1.223,
+        0.739
+      ],
+      "suggestedSizeMetres": [
+        1.043,
+        1.614,
+        0.975
+      ],
+      "upAxis": "Y",
+      "front": "+Z",
+      "gameScale": 1.32
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: embedded .gltf.json → GLB (geometry, skin and animation data unchanged)",
+      "sourceBytes": 628267,
+      "outputBytes": 490380
+    },
+    "notes": "Generated by blender/traveler.py: new body mesh on the original hero skeleton; animations copied from the original glTF without resampling. Both heroes share the same 33-bone skeleton and 7 clips, so animations and attack timing are interchangeable. RANVORA ver2 scales the model by 1.32 in game.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "skeleton": {
+      "joints": 33,
+      "sharedWith": "ranvora_v2_original_hero"
+    },
+    "subcategory": "characters",
+    "size": 490380,
+    "fileSize": 490380,
+    "vertices": 5409,
+    "triangles": 4814,
+    "polygonCount": 4814,
+    "meshCount": 4,
+    "materials": 9,
+    "textures": 0,
+    "animations": [
+      "Idle",
+      "Jump",
+      "MagicCast",
+      "Run",
+      "StaffSwing",
+      "SwordSlash",
+      "Walk"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.366,
+        0,
+        -0.2889
+      ],
+      "max": [
+        0.424,
+        1.2235,
+        0.45
+      ]
+    },
+    "dimensions": [
+      0.79,
+      1.2235,
+      0.7389
+    ],
+    "scale": 1,
+    "sha256": "2d44f81cabed6879cd7ebda723bfe5f5f9aafffeb3338461e4cd2289f9e6d9e9",
+    "path": "assets/ranvora-ver2/characters/ranvora_v2_traveler.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/characters/ranvora_v2_traveler.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/characters/ranvora_v2_traveler.glb"
+  },
+  {
+    "id": "ranvora_v2_slime",
+    "name": "RANVORA ver2 Slime",
+    "title": "RANVORA ver2 Slime",
+    "collection": "ranvora-ver2",
+    "category": "character",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "enemy",
+      "slime",
+      "monster",
+      "creature",
+      "cute",
+      "flat-shaded",
+      "vertex-colors"
+    ],
+    "gameRoles": [
+      "enemy"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Squashed low-poly teal slime with flat base, two dark eyes and white glints — the first enemy of RANVORA ver2. Origin = ground contact point, faces +Z.",
+    "file": "assets/ranvora-ver2/enemies/ranvora_v2_slime.glb",
+    "localPath": "assets/ranvora-ver2/enemies/ranvora_v2_slime.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_slime.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/combat/EnemyView.ts",
+    "sourceFile": "src/combat/EnemyView.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        0.956,
+        0.567,
+        1.027
+      ],
+      "suggestedSizeMetres": [
+        0.956,
+        0.567,
+        1.027
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 16196,
+      "outputBytes": 14316
+    },
+    "notes": "Body and eyes as EnemyView draws them at rest. The hop, squash, telegraph and hit flash are code animations in src/combat/EnemyView.ts and are not baked into the GLB.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "subcategory": "enemies",
+    "size": 14316,
+    "fileSize": 14316,
+    "vertices": 334,
+    "triangles": 196,
+    "polygonCount": 196,
+    "meshCount": 3,
+    "materials": 3,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.4742,
+        0,
+        -0.5114
+      ],
+      "max": [
+        0.4815,
+        0.5673,
+        0.5157
+      ]
+    },
+    "dimensions": [
+      0.9557,
+      0.5673,
+      1.0271
+    ],
+    "scale": 1,
+    "sha256": "d1e3a0fce8959e2cb4d090b2b32b48d6ba9dfcc8e39c61f648cd30508e4898bb",
+    "path": "assets/ranvora-ver2/enemies/ranvora_v2_slime.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/enemies/ranvora_v2_slime.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/enemies/ranvora_v2_slime.glb"
+  },
+  {
+    "id": "ranvora_v2_slime_gel",
+    "name": "RANVORA ver2 Slime Gel",
+    "title": "RANVORA ver2 Slime Gel",
+    "collection": "ranvora-ver2",
+    "category": "item",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "item",
+      "pickup",
+      "material",
+      "crystal",
+      "gem",
+      "slime",
+      "emissive"
+    ],
+    "gameRoles": [
+      "pickup",
+      "item"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Glowing teal crystal of slime jelly (スライムゼリー), the material dropped by slimes.",
+    "file": "assets/ranvora-ver2/items/ranvora_v2_slime_gel.glb",
+    "localPath": "assets/ranvora-ver2/items/ranvora_v2_slime_gel.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_slime_gel.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/combat/EnemyView.ts",
+    "sourceFile": "src/combat/EnemyView.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        0.32,
+        0.32,
+        0.32
+      ],
+      "suggestedSizeMetres": [
+        0.32,
+        0.32,
+        0.32
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 2280,
+      "outputBytes": 1908
+    },
+    "notes": "In game it floats and spins; that motion is code, not in the GLB. Lifted 0.16 m so it rests on the ground.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "subcategory": "items",
+    "size": 1908,
+    "fileSize": 1908,
+    "vertices": 24,
+    "triangles": 8,
+    "polygonCount": 8,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.16,
+        0,
+        -0.16
+      ],
+      "max": [
+        0.16,
+        0.32,
+        0.16
+      ]
+    },
+    "dimensions": [
+      0.32,
+      0.32,
+      0.32
+    ],
+    "scale": 1,
+    "sha256": "33f20432899864edc41e6ceea4aae71179055e31d27e566573d5f03e0b46d936",
+    "path": "assets/ranvora-ver2/items/ranvora_v2_slime_gel.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/items/ranvora_v2_slime_gel.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/items/ranvora_v2_slime_gel.glb"
+  },
+  {
+    "id": "ranvora_v2_autumn",
+    "name": "RANVORA ver2 Maple (autumn)",
+    "title": "RANVORA ver2 Maple (autumn)",
+    "collection": "ranvora-ver2",
+    "category": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "nature",
+      "procedural",
+      "flat-shaded",
+      "vertex-colors",
+      "variants",
+      "tree",
+      "broadleaf",
+      "maple",
+      "autumn"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Branching maple tree in red-orange autumn colours. 4 variants (autumn_A, autumn_B, autumn_C, autumn_D), one root child each, laid out in a row along +X. Single vertex-coloured material, origin of each variant = ground contact point.",
+    "file": "assets/ranvora-ver2/nature/ranvora_v2_autumn.glb",
+    "localPath": "assets/ranvora-ver2/nature/ranvora_v2_autumn.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_autumn.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/world/Props.ts",
+    "sourceFile": "src/world/Props.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        24.284,
+        5.925,
+        6.483
+      ],
+      "suggestedSizeMetres": [
+        24.284,
+        5.925,
+        6.483
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter (RANVORA ver2 ProceduralProps, default seed) → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 366524,
+      "outputBytes": 385476
+    },
+    "notes": "Built by RANVORA ver2's ProceduralProps.autumn() with its default seed, so it matches the game exactly. Root child = variant, as in RANVORA ver2's GLB rule: register it as MODEL_OVERRIDES.autumn in src/assets/manifest.ts (AssetLoader.toPropSource ignores the row offsets). To place one variant elsewhere, take a root child and reset its X position.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "variants": 4,
+    "ranvoraPropKey": "autumn",
+    "subcategory": "nature",
+    "size": 385476,
+    "fileSize": 385476,
+    "vertices": 10056,
+    "triangles": 3352,
+    "polygonCount": 3352,
+    "meshCount": 4,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -2.7792,
+        -0.1656,
+        -3.2476
+      ],
+      "max": [
+        21.5051,
+        5.7595,
+        3.2354
+      ]
+    },
+    "dimensions": [
+      24.2843,
+      5.9251,
+      6.483
+    ],
+    "scale": 1,
+    "sha256": "076ef98cb0cbf77d87932c9f94f57fee37dfc112b898789105e1cec2a50dbac7",
+    "path": "assets/ranvora-ver2/nature/ranvora_v2_autumn.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/nature/ranvora_v2_autumn.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/nature/ranvora_v2_autumn.glb"
+  },
+  {
+    "id": "ranvora_v2_birch",
+    "name": "RANVORA ver2 Birch",
+    "title": "RANVORA ver2 Birch",
+    "collection": "ranvora-ver2",
+    "category": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "nature",
+      "procedural",
+      "flat-shaded",
+      "vertex-colors",
+      "variants",
+      "tree",
+      "broadleaf",
+      "birch"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Slender white-bark birch with dark bark marks and light green leaves. 5 variants (birch_A, birch_B, birch_C, birch_D, birch_E), one root child each, laid out in a row along +X. Single vertex-coloured material, origin of each variant = ground contact point.",
+    "file": "assets/ranvora-ver2/nature/ranvora_v2_birch.glb",
+    "localPath": "assets/ranvora-ver2/nature/ranvora_v2_birch.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_birch.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/world/Props.ts",
+    "sourceFile": "src/world/Props.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        24.151,
+        8.658,
+        5.545
+      ],
+      "suggestedSizeMetres": [
+        24.151,
+        8.658,
+        5.545
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter (RANVORA ver2 ProceduralProps, default seed) → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 520676,
+      "outputBytes": 547864
+    },
+    "notes": "Built by RANVORA ver2's ProceduralProps.birch() with its default seed, so it matches the game exactly. Root child = variant, as in RANVORA ver2's GLB rule: register it as MODEL_OVERRIDES.birch in src/assets/manifest.ts (AssetLoader.toPropSource ignores the row offsets). To place one variant elsewhere, take a root child and reset its X position.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "variants": 5,
+    "ranvoraPropKey": "birch",
+    "subcategory": "nature",
+    "size": 547864,
+    "fileSize": 547864,
+    "vertices": 14310,
+    "triangles": 4770,
+    "polygonCount": 4770,
+    "meshCount": 5,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -2.0046,
+        -0.1653,
+        -2.6415
+      ],
+      "max": [
+        22.1467,
+        8.4931,
+        2.9033
+      ]
+    },
+    "dimensions": [
+      24.1513,
+      8.6584,
+      5.5448
+    ],
+    "scale": 1,
+    "sha256": "9c892973cc142ead47b4a32987830d84e71a76235e71249b1c0b4873b3733dcc",
+    "path": "assets/ranvora-ver2/nature/ranvora_v2_birch.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/nature/ranvora_v2_birch.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/nature/ranvora_v2_birch.glb"
+  },
+  {
+    "id": "ranvora_v2_broadleaf",
+    "name": "RANVORA ver2 Oak (broadleaf)",
+    "title": "RANVORA ver2 Oak (broadleaf)",
+    "collection": "ranvora-ver2",
+    "category": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "nature",
+      "procedural",
+      "flat-shaded",
+      "vertex-colors",
+      "variants",
+      "tree",
+      "broadleaf",
+      "oak",
+      "deciduous"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Branching oak-like broadleaf tree with clustered leaf blobs. 5 variants (broadleaf_A, broadleaf_B, broadleaf_C, broadleaf_D, broadleaf_E), one root child each, laid out in a row along +X. Single vertex-coloured material, origin of each variant = ground contact point.",
+    "file": "assets/ranvora-ver2/nature/ranvora_v2_broadleaf.glb",
+    "localPath": "assets/ranvora-ver2/nature/ranvora_v2_broadleaf.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_broadleaf.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/world/Props.ts",
+    "sourceFile": "src/world/Props.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        34.878,
+        6.531,
+        7.849
+      ],
+      "suggestedSizeMetres": [
+        34.878,
+        6.531,
+        7.849
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter (RANVORA ver2 ProceduralProps, default seed) → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 484040,
+      "outputBytes": 509144
+    },
+    "notes": "Built by RANVORA ver2's ProceduralProps.broadleaf() with its default seed, so it matches the game exactly. Root child = variant, as in RANVORA ver2's GLB rule: register it as MODEL_OVERRIDES.broadleaf in src/assets/manifest.ts (AssetLoader.toPropSource ignores the row offsets). To place one variant elsewhere, take a root child and reset its X position.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "variants": 5,
+    "ranvoraPropKey": "broadleaf",
+    "subcategory": "nature",
+    "size": 509144,
+    "fileSize": 509144,
+    "vertices": 13290,
+    "triangles": 4430,
+    "polygonCount": 4430,
+    "meshCount": 5,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -3.7348,
+        -0.1814,
+        -3.7023
+      ],
+      "max": [
+        31.1434,
+        6.3498,
+        4.1469
+      ]
+    },
+    "dimensions": [
+      34.8782,
+      6.5312,
+      7.8492
+    ],
+    "scale": 1,
+    "sha256": "7d9bf0e17cefc870931084be124cab92867e4931fd97ed8d0c9778d4608909c7",
+    "path": "assets/ranvora-ver2/nature/ranvora_v2_broadleaf.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/nature/ranvora_v2_broadleaf.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/nature/ranvora_v2_broadleaf.glb"
+  },
+  {
+    "id": "ranvora_v2_bush",
+    "name": "RANVORA ver2 Bush",
+    "title": "RANVORA ver2 Bush",
+    "collection": "ranvora-ver2",
+    "category": "plant",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "nature",
+      "procedural",
+      "flat-shaded",
+      "vertex-colors",
+      "variants",
+      "bush",
+      "shrub",
+      "foliage"
+    ],
+    "gameRoles": [
+      "scenery",
+      "decoration"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Round shrub made of leaf blobs. 5 variants (bush_A, bush_B, bush_C, bush_D, bush_E), one root child each, laid out in a row along +X. Single vertex-coloured material, origin of each variant = ground contact point.",
+    "file": "assets/ranvora-ver2/nature/ranvora_v2_bush.glb",
+    "localPath": "assets/ranvora-ver2/nature/ranvora_v2_bush.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_bush.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/world/Props.ts",
+    "sourceFile": "src/world/Props.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        11.655,
+        1.344,
+        1.919
+      ],
+      "suggestedSizeMetres": [
+        11.655,
+        1.344,
+        1.919
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter (RANVORA ver2 ProceduralProps, default seed) → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 50860,
+      "outputBytes": 51924
+    },
+    "notes": "Built by RANVORA ver2's ProceduralProps.bush() with its default seed, so it matches the game exactly. Root child = variant, as in RANVORA ver2's GLB rule: register it as MODEL_OVERRIDES.bush in src/assets/manifest.ts (AssetLoader.toPropSource ignores the row offsets). To place one variant elsewhere, take a root child and reset its X position.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "variants": 5,
+    "ranvoraPropKey": "bush",
+    "subcategory": "nature",
+    "size": 51924,
+    "fileSize": 51924,
+    "vertices": 1260,
+    "triangles": 420,
+    "polygonCount": 420,
+    "meshCount": 5,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.7245,
+        -0.2817,
+        -0.9618
+      ],
+      "max": [
+        10.9301,
+        1.0627,
+        0.9571
+      ]
+    },
+    "dimensions": [
+      11.6546,
+      1.3444,
+      1.9189
+    ],
+    "scale": 1,
+    "sha256": "ba7cc7886e4f2fbf518f7ca84ecad12a400bd566754ebc0e759cde1cb99f67b9",
+    "path": "assets/ranvora-ver2/nature/ranvora_v2_bush.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/nature/ranvora_v2_bush.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/nature/ranvora_v2_bush.glb"
+  },
+  {
+    "id": "ranvora_v2_crag",
+    "name": "RANVORA ver2 Crag",
+    "title": "RANVORA ver2 Crag",
+    "collection": "ranvora-ver2",
+    "category": "rock",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "nature",
+      "procedural",
+      "flat-shaded",
+      "vertex-colors",
+      "variants",
+      "rock",
+      "crag",
+      "cliff",
+      "outcrop"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Tall jagged rock outcrop. 4 variants (crag_A, crag_B, crag_C, crag_D), one root child each, laid out in a row along +X. Single vertex-coloured material, origin of each variant = ground contact point.",
+    "file": "assets/ranvora-ver2/nature/ranvora_v2_crag.glb",
+    "localPath": "assets/ranvora-ver2/nature/ranvora_v2_crag.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_crag.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/world/Props.ts",
+    "sourceFile": "src/world/Props.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        10.15,
+        2.846,
+        2.005
+      ],
+      "suggestedSizeMetres": [
+        10.15,
+        2.846,
+        2.005
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter (RANVORA ver2 ProceduralProps, default seed) → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 23884,
+      "outputBytes": 23820
+    },
+    "notes": "Built by RANVORA ver2's ProceduralProps.crag() with its default seed, so it matches the game exactly. Root child = variant, as in RANVORA ver2's GLB rule: register it as MODEL_OVERRIDES.crag in src/assets/manifest.ts (AssetLoader.toPropSource ignores the row offsets). To place one variant elsewhere, take a root child and reset its X position.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "variants": 4,
+    "ranvoraPropKey": "crag",
+    "subcategory": "nature",
+    "size": 23820,
+    "fileSize": 23820,
+    "vertices": 540,
+    "triangles": 180,
+    "polygonCount": 180,
+    "meshCount": 4,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.5157,
+        0.0364,
+        -0.9403
+      ],
+      "max": [
+        9.6343,
+        2.8827,
+        1.0648
+      ]
+    },
+    "dimensions": [
+      10.15,
+      2.8463,
+      2.0051
+    ],
+    "scale": 1,
+    "sha256": "44cd8c285324924b5bb49a81841e2404c5953b14ba5431282f27fc53038652e8",
+    "path": "assets/ranvora-ver2/nature/ranvora_v2_crag.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/nature/ranvora_v2_crag.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/nature/ranvora_v2_crag.glb"
+  },
+  {
+    "id": "ranvora_v2_cypress",
+    "name": "RANVORA ver2 Cypress",
+    "title": "RANVORA ver2 Cypress",
+    "collection": "ranvora-ver2",
+    "category": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "nature",
+      "procedural",
+      "flat-shaded",
+      "vertex-colors",
+      "variants",
+      "tree",
+      "cypress",
+      "columnar",
+      "evergreen"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Narrow columnar cypress. 4 variants (cypress_A, cypress_B, cypress_C, cypress_D), one root child each, laid out in a row along +X. Single vertex-coloured material, origin of each variant = ground contact point.",
+    "file": "assets/ranvora-ver2/nature/ranvora_v2_cypress.glb",
+    "localPath": "assets/ranvora-ver2/nature/ranvora_v2_cypress.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_cypress.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/world/Props.ts",
+    "sourceFile": "src/world/Props.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        14.32,
+        8.816,
+        2.548
+      ],
+      "suggestedSizeMetres": [
+        14.32,
+        8.816,
+        2.548
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter (RANVORA ver2 ProceduralProps, default seed) → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 91744,
+      "outputBytes": 95440
+    },
+    "notes": "Built by RANVORA ver2's ProceduralProps.cypress() with its default seed, so it matches the game exactly. Root child = variant, as in RANVORA ver2's GLB rule: register it as MODEL_OVERRIDES.cypress in src/assets/manifest.ts (AssetLoader.toPropSource ignores the row offsets). To place one variant elsewhere, take a root child and reset its X position.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "variants": 4,
+    "ranvoraPropKey": "cypress",
+    "subcategory": "nature",
+    "size": 95440,
+    "fileSize": 95440,
+    "vertices": 2424,
+    "triangles": 808,
+    "polygonCount": 808,
+    "meshCount": 4,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -1.0891,
+        -0.6794,
+        -1.4014
+      ],
+      "max": [
+        13.2304,
+        8.1367,
+        1.1462
+      ]
+    },
+    "dimensions": [
+      14.3195,
+      8.8161,
+      2.5476
+    ],
+    "scale": 1,
+    "sha256": "4ffb663e5fe5264f9af2c2690fa9c00ce78c4588fa17a962f39859f73b7c1240",
+    "path": "assets/ranvora-ver2/nature/ranvora_v2_cypress.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/nature/ranvora_v2_cypress.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/nature/ranvora_v2_cypress.glb"
+  },
+  {
+    "id": "ranvora_v2_dead",
+    "name": "RANVORA ver2 Dead tree",
+    "title": "RANVORA ver2 Dead tree",
+    "collection": "ranvora-ver2",
+    "category": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "nature",
+      "procedural",
+      "flat-shaded",
+      "vertex-colors",
+      "variants",
+      "tree",
+      "dead",
+      "bare",
+      "spooky"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Bare dead tree, no leaves. 3 variants (dead_A, dead_B, dead_C), one root child each, laid out in a row along +X. Single vertex-coloured material, origin of each variant = ground contact point.",
+    "file": "assets/ranvora-ver2/nature/ranvora_v2_dead.glb",
+    "localPath": "assets/ranvora-ver2/nature/ranvora_v2_dead.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_dead.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/world/Props.ts",
+    "sourceFile": "src/world/Props.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        13.601,
+        4.387,
+        3.14
+      ],
+      "suggestedSizeMetres": [
+        13.601,
+        4.387,
+        3.14
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter (RANVORA ver2 ProceduralProps, default seed) → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 96084,
+      "outputBytes": 100384
+    },
+    "notes": "Built by RANVORA ver2's ProceduralProps.dead() with its default seed, so it matches the game exactly. Root child = variant, as in RANVORA ver2's GLB rule: register it as MODEL_OVERRIDES.dead in src/assets/manifest.ts (AssetLoader.toPropSource ignores the row offsets). To place one variant elsewhere, take a root child and reset its X position.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "variants": 3,
+    "ranvoraPropKey": "dead",
+    "subcategory": "nature",
+    "size": 100384,
+    "fileSize": 100384,
+    "vertices": 2574,
+    "triangles": 858,
+    "polygonCount": 858,
+    "meshCount": 3,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -1.3823,
+        -0.1611,
+        -1.5851
+      ],
+      "max": [
+        12.2189,
+        4.2255,
+        1.5548
+      ]
+    },
+    "dimensions": [
+      13.6012,
+      4.3866,
+      3.1399
+    ],
+    "scale": 1,
+    "sha256": "d75f1ecda86835f091d9976dddeae5afd40af715c8b50a6d8c404c5304319fc8",
+    "path": "assets/ranvora-ver2/nature/ranvora_v2_dead.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/nature/ranvora_v2_dead.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/nature/ranvora_v2_dead.glb"
+  },
+  {
+    "id": "ranvora_v2_flowers",
+    "name": "RANVORA ver2 Flower patch",
+    "title": "RANVORA ver2 Flower patch",
+    "collection": "ranvora-ver2",
+    "category": "plant",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "nature",
+      "procedural",
+      "flat-shaded",
+      "vertex-colors",
+      "variants",
+      "flowers",
+      "ground-detail",
+      "meadow"
+    ],
+    "gameRoles": [
+      "scenery",
+      "decoration"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Small patch of stemmed flowers (yellow, pink or white). 6 variants (flowers_A, flowers_B, flowers_C, flowers_D, flowers_E, flowers_F), one root child each, laid out in a row along +X. Single vertex-coloured material, origin of each variant = ground contact point.",
+    "file": "assets/ranvora-ver2/nature/ranvora_v2_flowers.glb",
+    "localPath": "assets/ranvora-ver2/nature/ranvora_v2_flowers.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_flowers.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/world/Props.ts",
+    "sourceFile": "src/world/Props.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        9.013,
+        0.394,
+        1.081
+      ],
+      "suggestedSizeMetres": [
+        9.013,
+        0.394,
+        1.081
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter (RANVORA ver2 ProceduralProps, default seed) → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 77568,
+      "outputBytes": 61088
+    },
+    "notes": "Built by RANVORA ver2's ProceduralProps.flowers() with its default seed, so it matches the game exactly. Root child = variant, as in RANVORA ver2's GLB rule: register it as MODEL_OVERRIDES.flowers in src/assets/manifest.ts (AssetLoader.toPropSource ignores the row offsets). To place one variant elsewhere, take a root child and reset its X position.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "variants": 6,
+    "ranvoraPropKey": "flowers",
+    "subcategory": "nature",
+    "size": 61088,
+    "fileSize": 61088,
+    "vertices": 1452,
+    "triangles": 660,
+    "polygonCount": 660,
+    "meshCount": 6,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.4893,
+        0,
+        -0.5399
+      ],
+      "max": [
+        8.524,
+        0.394,
+        0.5413
+      ]
+    },
+    "dimensions": [
+      9.0133,
+      0.394,
+      1.0812
+    ],
+    "scale": 1,
+    "sha256": "47997eb39719dcab23b95631f059e0f5eb064ef2c39120b54f49fbaa9bf4ec56",
+    "path": "assets/ranvora-ver2/nature/ranvora_v2_flowers.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/nature/ranvora_v2_flowers.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/nature/ranvora_v2_flowers.glb"
+  },
+  {
+    "id": "ranvora_v2_mossy_rock",
+    "name": "RANVORA ver2 Mossy rock",
+    "title": "RANVORA ver2 Mossy rock",
+    "collection": "ranvora-ver2",
+    "category": "rock",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "nature",
+      "procedural",
+      "flat-shaded",
+      "vertex-colors",
+      "variants",
+      "rock",
+      "moss",
+      "stone",
+      "forest"
+    ],
+    "gameRoles": [
+      "scenery",
+      "decoration"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Rocks with moss on top. 4 variants (mossyRock_A, mossyRock_B, mossyRock_C, mossyRock_D), one root child each, laid out in a row along +X. Single vertex-coloured material, origin of each variant = ground contact point.",
+    "file": "assets/ranvora-ver2/nature/ranvora_v2_mossy_rock.glb",
+    "localPath": "assets/ranvora-ver2/nature/ranvora_v2_mossy_rock.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_mossy_rock.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/world/Props.ts",
+    "sourceFile": "src/world/Props.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        11.889,
+        1.182,
+        2.56
+      ],
+      "suggestedSizeMetres": [
+        11.889,
+        1.182,
+        2.56
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter (RANVORA ver2 ProceduralProps, default seed) → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 39068,
+      "outputBytes": 39844
+    },
+    "notes": "Built by RANVORA ver2's ProceduralProps.mossyRock() with its default seed, so it matches the game exactly. Root child = variant, as in RANVORA ver2's GLB rule: register it as MODEL_OVERRIDES.mossyRock in src/assets/manifest.ts (AssetLoader.toPropSource ignores the row offsets). To place one variant elsewhere, take a root child and reset its X position.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "variants": 4,
+    "ranvoraPropKey": "mossyRock",
+    "subcategory": "nature",
+    "size": 39844,
+    "fileSize": 39844,
+    "vertices": 960,
+    "triangles": 320,
+    "polygonCount": 320,
+    "meshCount": 4,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.9157,
+        -0.0921,
+        -1.3858
+      ],
+      "max": [
+        10.9731,
+        1.0898,
+        1.1741
+      ]
+    },
+    "dimensions": [
+      11.8888,
+      1.1819,
+      2.5599
+    ],
+    "scale": 1,
+    "sha256": "581f8ddd4a7cd3eba8b58428b4ac69dc5f9a24426d35156b6b8ea66868ab76e4",
+    "path": "assets/ranvora-ver2/nature/ranvora_v2_mossy_rock.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/nature/ranvora_v2_mossy_rock.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/nature/ranvora_v2_mossy_rock.glb"
+  },
+  {
+    "id": "ranvora_v2_pebbles",
+    "name": "RANVORA ver2 Pebbles",
+    "title": "RANVORA ver2 Pebbles",
+    "collection": "ranvora-ver2",
+    "category": "rock",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "nature",
+      "procedural",
+      "flat-shaded",
+      "vertex-colors",
+      "variants",
+      "rock",
+      "pebbles",
+      "ground-detail"
+    ],
+    "gameRoles": [
+      "scenery",
+      "decoration"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Scatter of small stones (ground detail). 4 variants (pebbles_A, pebbles_B, pebbles_C, pebbles_D), one root child each, laid out in a row along +X. Single vertex-coloured material, origin of each variant = ground contact point.",
+    "file": "assets/ranvora-ver2/nature/ranvora_v2_pebbles.glb",
+    "localPath": "assets/ranvora-ver2/nature/ranvora_v2_pebbles.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_pebbles.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/world/Props.ts",
+    "sourceFile": "src/world/Props.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        7.38,
+        0.24,
+        1.538
+      ],
+      "suggestedSizeMetres": [
+        7.38,
+        0.24,
+        1.538
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter (RANVORA ver2 ProceduralProps, default seed) → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 49840,
+      "outputBytes": 51224
+    },
+    "notes": "Built by RANVORA ver2's ProceduralProps.pebbles() with its default seed, so it matches the game exactly. Root child = variant, as in RANVORA ver2's GLB rule: register it as MODEL_OVERRIDES.pebbles in src/assets/manifest.ts (AssetLoader.toPropSource ignores the row offsets). To place one variant elsewhere, take a root child and reset its X position.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "variants": 4,
+    "ranvoraPropKey": "pebbles",
+    "subcategory": "nature",
+    "size": 51224,
+    "fileSize": 51224,
+    "vertices": 1260,
+    "triangles": 420,
+    "polygonCount": 420,
+    "meshCount": 4,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.8037,
+        -0.0111,
+        -0.9441
+      ],
+      "max": [
+        6.5768,
+        0.2289,
+        0.5941
+      ]
+    },
+    "dimensions": [
+      7.3805,
+      0.24,
+      1.5382
+    ],
+    "scale": 1,
+    "sha256": "2a9bc8559e7ff4671d79ad862bd2e3ff9e003e01e3b9cb5ee624de1f8b7a66f9",
+    "path": "assets/ranvora-ver2/nature/ranvora_v2_pebbles.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/nature/ranvora_v2_pebbles.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/nature/ranvora_v2_pebbles.glb"
+  },
+  {
+    "id": "ranvora_v2_pine",
+    "name": "RANVORA ver2 Pine",
+    "title": "RANVORA ver2 Pine",
+    "collection": "ranvora-ver2",
+    "category": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "nature",
+      "procedural",
+      "flat-shaded",
+      "vertex-colors",
+      "variants",
+      "tree",
+      "conifer",
+      "pine",
+      "evergreen"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Layered low-poly pine (conifer), 6–9 m. 5 variants (pine_A, pine_B, pine_C, pine_D, pine_E), one root child each, laid out in a row along +X. Single vertex-coloured material, origin of each variant = ground contact point.",
+    "file": "assets/ranvora-ver2/nature/ranvora_v2_pine.glb",
+    "localPath": "assets/ranvora-ver2/nature/ranvora_v2_pine.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_pine.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/world/Props.ts",
+    "sourceFile": "src/world/Props.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        26.083,
+        9.523,
+        4.682
+      ],
+      "suggestedSizeMetres": [
+        26.083,
+        9.523,
+        4.682
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter (RANVORA ver2 ProceduralProps, default seed) → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 131868,
+      "outputBytes": 137424
+    },
+    "notes": "Built by RANVORA ver2's ProceduralProps.pine() with its default seed, so it matches the game exactly. Root child = variant, as in RANVORA ver2's GLB rule: register it as MODEL_OVERRIDES.pine in src/assets/manifest.ts (AssetLoader.toPropSource ignores the row offsets). To place one variant elsewhere, take a root child and reset its X position.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "variants": 5,
+    "ranvoraPropKey": "pine",
+    "subcategory": "nature",
+    "size": 137424,
+    "fileSize": 137424,
+    "vertices": 3510,
+    "triangles": 1170,
+    "polygonCount": 1170,
+    "meshCount": 5,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -1.8485,
+        -0.15,
+        -2.4264
+      ],
+      "max": [
+        24.2341,
+        9.3727,
+        2.256
+      ]
+    },
+    "dimensions": [
+      26.0826,
+      9.5227,
+      4.6824
+    ],
+    "scale": 1,
+    "sha256": "48cf68722aff3699e1de1425ed32be58bbbc045323765f6b13f10b6e7eb227c2",
+    "path": "assets/ranvora-ver2/nature/ranvora_v2_pine.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/nature/ranvora_v2_pine.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/nature/ranvora_v2_pine.glb"
+  },
+  {
+    "id": "ranvora_v2_rock",
+    "name": "RANVORA ver2 Rocks (boulder / slab / cluster)",
+    "title": "RANVORA ver2 Rocks (boulder / slab / cluster)",
+    "collection": "ranvora-ver2",
+    "category": "rock",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "nature",
+      "procedural",
+      "flat-shaded",
+      "vertex-colors",
+      "variants",
+      "rock",
+      "boulder",
+      "slab",
+      "stone"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Boulders, flat slabs and rock clusters. 8 variants (rock_A, rock_B, rock_C, rock_D, rock_E, rock_F, rock_G, rock_H), one root child each, laid out in a row along +X. Single vertex-coloured material, origin of each variant = ground contact point.",
+    "file": "assets/ranvora-ver2/nature/ranvora_v2_rock.glb",
+    "localPath": "assets/ranvora-ver2/nature/ranvora_v2_rock.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_rock.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/world/Props.ts",
+    "sourceFile": "src/world/Props.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        24.466,
+        1.246,
+        3.135
+      ],
+      "suggestedSizeMetres": [
+        24.466,
+        1.246,
+        3.135
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter (RANVORA ver2 ProceduralProps, default seed) → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 79944,
+      "outputBytes": 81544
+    },
+    "notes": "Built by RANVORA ver2's ProceduralProps.rock() with its default seed, so it matches the game exactly. Root child = variant, as in RANVORA ver2's GLB rule: register it as MODEL_OVERRIDES.rock in src/assets/manifest.ts (AssetLoader.toPropSource ignores the row offsets). To place one variant elsewhere, take a root child and reset its X position.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "variants": 8,
+    "ranvoraPropKey": "rock",
+    "subcategory": "nature",
+    "size": 81544,
+    "fileSize": 81544,
+    "vertices": 1980,
+    "triangles": 660,
+    "polygonCount": 660,
+    "meshCount": 8,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.9987,
+        -0.1029,
+        -1.5635
+      ],
+      "max": [
+        23.467,
+        1.1431,
+        1.5713
+      ]
+    },
+    "dimensions": [
+      24.4657,
+      1.246,
+      3.1348
+    ],
+    "scale": 1,
+    "sha256": "3dc3d170817a56a1918d07b659fb8418bf22653cdf622cdf0569a42385d44e96",
+    "path": "assets/ranvora-ver2/nature/ranvora_v2_rock.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/nature/ranvora_v2_rock.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/nature/ranvora_v2_rock.glb"
+  },
+  {
+    "id": "ranvora_v2_sakura",
+    "name": "RANVORA ver2 Sakura",
+    "title": "RANVORA ver2 Sakura",
+    "collection": "ranvora-ver2",
+    "category": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "nature",
+      "procedural",
+      "flat-shaded",
+      "vertex-colors",
+      "variants",
+      "tree",
+      "sakura",
+      "cherry-blossom",
+      "spring",
+      "japanese"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Cherry blossom tree with pink foliage. 4 variants (sakura_A, sakura_B, sakura_C, sakura_D), one root child each, laid out in a row along +X. Single vertex-coloured material, origin of each variant = ground contact point.",
+    "file": "assets/ranvora-ver2/nature/ranvora_v2_sakura.glb",
+    "localPath": "assets/ranvora-ver2/nature/ranvora_v2_sakura.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_sakura.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/world/Props.ts",
+    "sourceFile": "src/world/Props.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        30.273,
+        5.552,
+        8.387
+      ],
+      "suggestedSizeMetres": [
+        30.273,
+        5.552,
+        8.387
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter (RANVORA ver2 ProceduralProps, default seed) → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 328068,
+      "outputBytes": 344896
+    },
+    "notes": "Built by RANVORA ver2's ProceduralProps.sakura() with its default seed, so it matches the game exactly. Root child = variant, as in RANVORA ver2's GLB rule: register it as MODEL_OVERRIDES.sakura in src/assets/manifest.ts (AssetLoader.toPropSource ignores the row offsets). To place one variant elsewhere, take a root child and reset its X position.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "variants": 4,
+    "ranvoraPropKey": "sakura",
+    "subcategory": "nature",
+    "size": 344896,
+    "fileSize": 344896,
+    "vertices": 8988,
+    "triangles": 2996,
+    "polygonCount": 2996,
+    "meshCount": 4,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -4.1995,
+        -0.1713,
+        -4.1194
+      ],
+      "max": [
+        26.0736,
+        5.3811,
+        4.268
+      ]
+    },
+    "dimensions": [
+      30.2731,
+      5.5524,
+      8.3874
+    ],
+    "scale": 1,
+    "sha256": "ac69be2ae1c6295ac2a10007b1a0da9014648444588126da4f6b8046dd82f382",
+    "path": "assets/ranvora-ver2/nature/ranvora_v2_sakura.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/nature/ranvora_v2_sakura.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/nature/ranvora_v2_sakura.glb"
+  },
+  {
+    "id": "ranvora_v2_spruce",
+    "name": "RANVORA ver2 Spruce",
+    "title": "RANVORA ver2 Spruce",
+    "collection": "ranvora-ver2",
+    "category": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "nature",
+      "procedural",
+      "flat-shaded",
+      "vertex-colors",
+      "variants",
+      "tree",
+      "conifer",
+      "spruce",
+      "evergreen"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Tall slim spruce (conifer), 8–11 m. 4 variants (spruce_A, spruce_B, spruce_C, spruce_D), one root child each, laid out in a row along +X. Single vertex-coloured material, origin of each variant = ground contact point.",
+    "file": "assets/ranvora-ver2/nature/ranvora_v2_spruce.glb",
+    "localPath": "assets/ranvora-ver2/nature/ranvora_v2_spruce.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_spruce.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/world/Props.ts",
+    "sourceFile": "src/world/Props.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        17.803,
+        11.304,
+        2.878
+      ],
+      "suggestedSizeMetres": [
+        17.803,
+        11.304,
+        2.878
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter (RANVORA ver2 ProceduralProps, default seed) → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 124148,
+      "outputBytes": 129640
+    },
+    "notes": "Built by RANVORA ver2's ProceduralProps.spruce() with its default seed, so it matches the game exactly. Root child = variant, as in RANVORA ver2's GLB rule: register it as MODEL_OVERRIDES.spruce in src/assets/manifest.ts (AssetLoader.toPropSource ignores the row offsets). To place one variant elsewhere, take a root child and reset its X position.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "variants": 4,
+    "ranvoraPropKey": "spruce",
+    "subcategory": "nature",
+    "size": 129640,
+    "fileSize": 129640,
+    "vertices": 3324,
+    "triangles": 1108,
+    "polygonCount": 1108,
+    "meshCount": 4,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -1.3994,
+        -0.15,
+        -1.4275
+      ],
+      "max": [
+        16.4035,
+        11.1535,
+        1.4507
+      ]
+    },
+    "dimensions": [
+      17.8029,
+      11.3035,
+      2.8782
+    ],
+    "scale": 1,
+    "sha256": "184ebc5a2be293b8c3838c214a07431fd91d5125a112c5cb5569dc7b7cd8c7db",
+    "path": "assets/ranvora-ver2/nature/ranvora_v2_spruce.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/nature/ranvora_v2_spruce.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/nature/ranvora_v2_spruce.glb"
+  },
+  {
+    "id": "ranvora_v2_willow",
+    "name": "RANVORA ver2 Willow",
+    "title": "RANVORA ver2 Willow",
+    "collection": "ranvora-ver2",
+    "category": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "ranvora-ver2",
+      "ranvora",
+      "lowpoly",
+      "nature",
+      "procedural",
+      "flat-shaded",
+      "vertex-colors",
+      "variants",
+      "tree",
+      "willow",
+      "weeping",
+      "waterside"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Weeping willow with drooping foliage. 3 variants (willow_A, willow_B, willow_C), one root child each, laid out in a row along +X. Single vertex-coloured material, origin of each variant = ground contact point.",
+    "file": "assets/ranvora-ver2/nature/ranvora_v2_willow.glb",
+    "localPath": "assets/ranvora-ver2/nature/ranvora_v2_willow.glb",
+    "thumbnail": "thumbnails/ranvora-ver2/ranvora_v2_willow.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124",
+    "source": "RANVORA ver2",
+    "sourceUrl": "https://github.com/Yuji5124/RANVORA-ver2/blob/dd2657be122dae3d512280b010f3dfb054c9dde8/src/world/Props.ts",
+    "sourceFile": "src/world/Props.ts",
+    "sourceRevision": "dd2657be122dae3d512280b010f3dfb054c9dde8",
+    "licenseEvidence": "Original work made for the owner's own game RANVORA ver2 (Yuji5124/RANVORA-ver2). No licence has been declared yet, so it is recorded as UNKNOWN until the owner chooses one.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        22.182,
+        5.164,
+        6.267
+      ],
+      "suggestedSizeMetres": [
+        22.182,
+        5.164,
+        6.267
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "three.js GLTFExporter (RANVORA ver2 ProceduralProps, default seed) → glTF Transform 4: dedup, weld, prune",
+      "sourceBytes": 1161768,
+      "outputBytes": 1225272
+    },
+    "notes": "Built by RANVORA ver2's ProceduralProps.willow() with its default seed, so it matches the game exactly. Root child = variant, as in RANVORA ver2's GLB rule: register it as MODEL_OVERRIDES.willow in src/assets/manifest.ts (AssetLoader.toPropSource ignores the row offsets). To place one variant elsewhere, take a root child and reset its X position.",
+    "recommendedFor": [
+      "ranvora-ver2",
+      "threejs",
+      "lowpoly"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "variants": 3,
+    "ranvoraPropKey": "willow",
+    "subcategory": "nature",
+    "size": 1225272,
+    "fileSize": 1225272,
+    "vertices": 32175,
+    "triangles": 10725,
+    "polygonCount": 10725,
+    "meshCount": 3,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -2.8959,
+        -0.1862,
+        -3.572
+      ],
+      "max": [
+        19.2857,
+        4.9782,
+        2.6947
+      ]
+    },
+    "dimensions": [
+      22.1816,
+      5.1644,
+      6.2667
+    ],
+    "scale": 1,
+    "sha256": "1fdb25fc1854bdfd2520f681adca6b2da8e07f854c4a3b688e264e83646822e3",
+    "path": "assets/ranvora-ver2/nature/ranvora_v2_willow.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/ranvora-ver2/nature/ranvora_v2_willow.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/ranvora-ver2/nature/ranvora_v2_willow.glb"
   },
   {
     "id": "local-1791297238633-cc0-2d-asset-001",
