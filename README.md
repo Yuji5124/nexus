@@ -30,6 +30,9 @@ Run `npm run scan` to generate `data/assets.json`. Edit the record's name, tags,
 ## LOWPOLY TREES collection
 
 10 CC0 low-poly trees from GitHub live in `assets/lowpoly-trees/` with thumbnails in `thumbnails/lowpoly-trees/`: five from KayKit's official repositories (pine, round fir, orange and yellow autumn pines, dead tree) and five from Kenney (palm via pmndrs/market-assets; oak, autumn oak, branching tree and plateau tree from Nature Kit 2.1, verified byte-identical across three projects that bundle it). 50–490 triangles each. Records have `collection: "lowpoly-trees"` and `units.suggestedScale` for realistic heights. Rebuild with `npm run lowpoly-trees`; sources and the material fixes are in [lowpoly-trees/README.md](lowpoly-trees/README.md).
+## LEAFCARD TREES collection
+
+Five lightweight original trees built the game-foliage way: a low-poly trunk plus crossed alpha-masked leaf cards (the "double billboard" technique used by EZ-Tree), with every texture painted by the script. 144–388 triangles and 87–134 KB each, two materials. Files in `assets/leafcard-trees/`, records with `collection: "leafcard-trees"`. Rebuild or tweak with `npm run leafcard-trees`; details in [leafcard-trees/README.md](leafcard-trees/README.md).
 
 ## Use from Codex / Claude Code
 
