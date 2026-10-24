@@ -24,6 +24,10 @@ Run `npm run scan` to generate `data/assets.json`. Edit the record's name, tags,
 
 215 CC0 GLB models for the GIANT CLIMB climbing game (giant robot exterior and interior, Tokyo streets and buildings, vehicles, characters, gameplay objects) live in `assets/giant-climb/` with thumbnails in `thumbnails/giant-climb/`. Each record has `collection: "giant-climb"`, `gameRoles`, `climbable`, `units.metresPerUnit` and a commit-pinned `sourceUrl`. The pipeline (`npm run giant-climb`), source catalog and license evidence are documented in [giant-climb/README.md](giant-climb/README.md) and [giant-climb/REPORT.md](giant-climb/REPORT.md).
 
+## RANVORA ver2 collection
+
+20 GLB models from the owner's own game [RANVORA ver2](https://github.com/Yuji5124/RANVORA-ver2) (commit `dd2657b`) live in `assets/ranvora-ver2/` with thumbnails in `thumbnails/ranvora-ver2/`: the two rigged heroes (33 bones, 7 shared clips), 15 procedural nature props (68 variants, one root child per variant), the furnished log cabin, and the slime enemy and its gel drop. Records have `collection: "ranvora-ver2"`; licence is UNKNOWN until the owner declares one. Rebuild with `npm run ranvora-ver2`; details in [ranvora-ver2/README.md](ranvora-ver2/README.md).
+
 ## Use from Codex / Claude Code
 
 Fetch the raw index URL above, search name/category/tags/recommendedFor, inspect the license, then use previewUrl in Three.js:
