@@ -17,7 +17,8 @@
     "giant-climb:fetch": "node scripts/giant-climb/fetch-sources.mjs",
     "giant-climb:import": "node scripts/giant-climb/import.mjs && npm run scan",
     "giant-climb": "npm run giant-climb:fetch && npm run giant-climb:import",
-    "ranvora-ver2": "node scripts/ranvora-ver2/import.mjs && npm run scan"
+    "ranvora-ver2": "node scripts/ranvora-ver2/import.mjs && npm run scan",
+    "lowpoly-trees": "node scripts/lowpoly-trees/import.mjs && npm run scan"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.1",

@@ -27,6 +27,9 @@ Run `npm run scan` to generate `data/assets.json`. Edit the record's name, tags,
 ## RANVORA ver2 collection
 
 20 GLB models from the owner's own game [RANVORA ver2](https://github.com/Yuji5124/RANVORA-ver2) (commit `dd2657b`) live in `assets/ranvora-ver2/` with thumbnails in `thumbnails/ranvora-ver2/`: the two rigged heroes (33 bones, 7 shared clips), 15 procedural nature props (68 variants, one root child per variant), the furnished log cabin, and the slime enemy and its gel drop. Records have `collection: "ranvora-ver2"`; licence is UNKNOWN until the owner declares one. Rebuild with `npm run ranvora-ver2`; details in [ranvora-ver2/README.md](ranvora-ver2/README.md).
+## LOWPOLY TREES collection
+
+10 CC0 low-poly trees from GitHub live in `assets/lowpoly-trees/` with thumbnails in `thumbnails/lowpoly-trees/`: five from KayKit's official repositories (pine, round fir, orange and yellow autumn pines, dead tree) and five from Kenney (palm via pmndrs/market-assets; oak, autumn oak, branching tree and plateau tree from Nature Kit 2.1, verified byte-identical across three projects that bundle it). 50–490 triangles each. Records have `collection: "lowpoly-trees"` and `units.suggestedScale` for realistic heights. Rebuild with `npm run lowpoly-trees`; sources and the material fixes are in [lowpoly-trees/README.md](lowpoly-trees/README.md).
 
 ## Use from Codex / Claude Code
 

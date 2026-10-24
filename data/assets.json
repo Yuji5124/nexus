@@ -26477,6 +26477,1013 @@
     "previewUrl": "https://yuji5124.github.io/nexus/assets/kiba-real-city/realistic/rocketbox_sports_male_04.glb"
   },
   {
+    "id": "kaykit_dead_tree",
+    "name": "KayKit Dead Tree",
+    "title": "KayKit Dead Tree",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "dead",
+      "bare",
+      "spooky",
+      "halloween",
+      "wasteland",
+      "swamp"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Bare, twisted dead tree with a few forked branches. Native height 5.066 units; scale ×1.382 for a 7 m tree.",
+    "file": "assets/lowpoly-trees/kaykit_dead_tree.glb",
+    "localPath": "assets/lowpoly-trees/kaykit_dead_tree.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kaykit_dead_tree.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kay Lousberg (www.kaylousberg.com)",
+    "source": "KayKit Halloween Bits 1.0",
+    "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Halloween-Bits-1.0/blob/6dc69bf6b2fa766a985754f35ec6a0324090e6c6/addons/kaykit_halloween_bits/Assets/gltf/tree_dead_large.gltf",
+    "sourceFile": "addons/kaykit_halloween_bits/Assets/gltf/tree_dead_large.gltf",
+    "sourceRevision": "6dc69bf6b2fa766a985754f35ec6a0324090e6c6",
+    "sourceSha256": "a91ca9c22fc5a0be4d44edb6fe9d8b47393e0f47dd0048b60c054adab1a0b2a1",
+    "licenseEvidence": "Official KayKit GitHub repository; LICENSE.txt: \"License: (Creative Commons Zero, CC0)\".",
+    "units": {
+      "metresPerUnit": 1.382,
+      "nativeSize": [
+        2.302,
+        5.066,
+        1.377
+      ],
+      "suggestedScale": 1.382,
+      "suggestedSizeMetres": [
+        3.18,
+        7,
+        1.9
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: glTF (with its .bin and texture, if any) converted to one self-contained GLB; unused data pruned",
+      "sourceBytes": 3074,
+      "outputBytes": 23676
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 23676,
+    "fileSize": 23676,
+    "vertices": 177,
+    "triangles": 256,
+    "polygonCount": 256,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 1,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -1.322,
+        -0.2722,
+        -0.7258
+      ],
+      "max": [
+        0.9797,
+        4.7939,
+        0.6507
+      ]
+    },
+    "dimensions": [
+      2.3017,
+      5.0661,
+      1.3765
+    ],
+    "scale": 1,
+    "sha256": "2381647138f5f692ba6d1525381ea6c6032525190ddc2c29af46d1d697060cdb",
+    "path": "assets/lowpoly-trees/kaykit_dead_tree.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kaykit_dead_tree.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kaykit_dead_tree.glb"
+  },
+  {
+    "id": "kaykit_fir_round",
+    "name": "KayKit Round Fir",
+    "title": "KayKit Round Fir",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "fir",
+      "conifer",
+      "evergreen",
+      "forest",
+      "round"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Soft rounded fir with three bevelled tiers of green foliage. Native height 1.213 units; scale ×5.771 for a 7 m tree.",
+    "file": "assets/lowpoly-trees/kaykit_fir_round.glb",
+    "localPath": "assets/lowpoly-trees/kaykit_fir_round.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kaykit_fir_round.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kay Lousberg (www.kaylousberg.com)",
+    "source": "KayKit Medieval Hexagon Pack 1.0",
+    "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Medieval-Hexagon-Pack-1.0/blob/84fa4e91af6a88989be7c99e0891cede11f2ca38/addons/kaykit_medieval_hexagon_pack/Assets/gltf/decoration/nature/tree_single_B.gltf",
+    "sourceFile": "addons/kaykit_medieval_hexagon_pack/Assets/gltf/decoration/nature/tree_single_B.gltf",
+    "sourceRevision": "84fa4e91af6a88989be7c99e0891cede11f2ca38",
+    "sourceSha256": "1c038591301947c485937e9fdbab182c813ef32df48c02fad3daeb2f1f0421e0",
+    "licenseEvidence": "Official KayKit GitHub repository; LICENSE.txt: \"License: (Creative Commons Zero, CC0)\".",
+    "units": {
+      "metresPerUnit": 5.771,
+      "nativeSize": [
+        0.685,
+        1.213,
+        0.72
+      ],
+      "suggestedScale": 5.771,
+      "suggestedSizeMetres": [
+        3.95,
+        7,
+        4.16
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: glTF (with its .bin and texture, if any) converted to one self-contained GLB; unused data pruned",
+      "sourceBytes": 3056,
+      "outputBytes": 24520
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 24520,
+    "fileSize": 24520,
+    "vertices": 189,
+    "triangles": 220,
+    "polygonCount": 220,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 1,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.3424,
+        -0.1,
+        -0.3601
+      ],
+      "max": [
+        0.3424,
+        1.1127,
+        0.3601
+      ]
+    },
+    "dimensions": [
+      0.6848,
+      1.2127,
+      0.7202
+    ],
+    "scale": 1,
+    "sha256": "936184d1adbb90b3b0ff110e278def83b52c17dee81fd0997a275086d391a875",
+    "path": "assets/lowpoly-trees/kaykit_fir_round.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kaykit_fir_round.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kaykit_fir_round.glb"
+  },
+  {
+    "id": "kaykit_pine",
+    "name": "KayKit Pine",
+    "title": "KayKit Pine",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "pine",
+      "conifer",
+      "evergreen",
+      "forest",
+      "mountain"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Classic low-poly pine: stacked dark-green cones on a short brown trunk. Native height 1.196 units; scale ×7.525 for a 9 m tree.",
+    "file": "assets/lowpoly-trees/kaykit_pine.glb",
+    "localPath": "assets/lowpoly-trees/kaykit_pine.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kaykit_pine.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kay Lousberg (www.kaylousberg.com)",
+    "source": "KayKit Medieval Hexagon Pack 1.0",
+    "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Medieval-Hexagon-Pack-1.0/blob/84fa4e91af6a88989be7c99e0891cede11f2ca38/addons/kaykit_medieval_hexagon_pack/Assets/gltf/decoration/nature/tree_single_A.gltf",
+    "sourceFile": "addons/kaykit_medieval_hexagon_pack/Assets/gltf/decoration/nature/tree_single_A.gltf",
+    "sourceRevision": "84fa4e91af6a88989be7c99e0891cede11f2ca38",
+    "sourceSha256": "ac913af6eaed6f15d26a2b75a877aa8dd10de90f26298f3f953abad86a4b4606",
+    "licenseEvidence": "Official KayKit GitHub repository; LICENSE.txt: \"License: (Creative Commons Zero, CC0)\".",
+    "units": {
+      "metresPerUnit": 7.525,
+      "nativeSize": [
+        0.574,
+        1.196,
+        0.547
+      ],
+      "suggestedScale": 7.525,
+      "suggestedSizeMetres": [
+        4.32,
+        9,
+        4.12
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: glTF (with its .bin and texture, if any) converted to one self-contained GLB; unused data pruned",
+      "sourceBytes": 3053,
+      "outputBytes": 20496
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 20496,
+    "fileSize": 20496,
+    "vertices": 95,
+    "triangles": 50,
+    "polygonCount": 50,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 1,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.2875,
+        -0.1026,
+        -0.3017
+      ],
+      "max": [
+        0.2864,
+        1.0938,
+        0.2453
+      ]
+    },
+    "dimensions": [
+      0.5739,
+      1.1964,
+      0.547
+    ],
+    "scale": 1,
+    "sha256": "5e19530e292a57ae958276b50ecca174966c96df798aa42e71cc82c764965780",
+    "path": "assets/lowpoly-trees/kaykit_pine.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kaykit_pine.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kaykit_pine.glb"
+  },
+  {
+    "id": "kaykit_pine_autumn_orange",
+    "name": "KayKit Autumn Pine (Orange)",
+    "title": "KayKit Autumn Pine (Orange)",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "pine",
+      "conifer",
+      "autumn",
+      "orange",
+      "fall",
+      "halloween"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Shaggy layered pine in burnt-orange autumn colour. Native height 7.475 units; scale ×1.07 for a 8 m tree.",
+    "file": "assets/lowpoly-trees/kaykit_pine_autumn_orange.glb",
+    "localPath": "assets/lowpoly-trees/kaykit_pine_autumn_orange.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kaykit_pine_autumn_orange.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kay Lousberg (www.kaylousberg.com)",
+    "source": "KayKit Halloween Bits 1.0",
+    "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Halloween-Bits-1.0/blob/6dc69bf6b2fa766a985754f35ec6a0324090e6c6/addons/kaykit_halloween_bits/Assets/gltf/tree_pine_orange_large.gltf",
+    "sourceFile": "addons/kaykit_halloween_bits/Assets/gltf/tree_pine_orange_large.gltf",
+    "sourceRevision": "6dc69bf6b2fa766a985754f35ec6a0324090e6c6",
+    "sourceSha256": "08eaa994a250d1feaecb44d69931368b1b2ea1b5cfcaacf6089e0fe56fae690b",
+    "licenseEvidence": "Official KayKit GitHub repository; LICENSE.txt: \"License: (Creative Commons Zero, CC0)\".",
+    "units": {
+      "metresPerUnit": 1.07,
+      "nativeSize": [
+        4.759,
+        7.475,
+        4.155
+      ],
+      "suggestedScale": 1.07,
+      "suggestedSizeMetres": [
+        5.09,
+        8,
+        4.45
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: glTF (with its .bin and texture, if any) converted to one self-contained GLB; unused data pruned",
+      "sourceBytes": 3085,
+      "outputBytes": 33980
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 33980,
+    "fileSize": 33980,
+    "vertices": 487,
+    "triangles": 318,
+    "polygonCount": 318,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 1,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -2.3626,
+        -0.5548,
+        -2.0761
+      ],
+      "max": [
+        2.3968,
+        6.9204,
+        2.0786
+      ]
+    },
+    "dimensions": [
+      4.7594,
+      7.4752,
+      4.1547
+    ],
+    "scale": 1,
+    "sha256": "706600d91be2ac0b1a81e723cf713d8e6996517b7a682cf9ad4639b1581231b2",
+    "path": "assets/lowpoly-trees/kaykit_pine_autumn_orange.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kaykit_pine_autumn_orange.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kaykit_pine_autumn_orange.glb"
+  },
+  {
+    "id": "kaykit_pine_autumn_yellow",
+    "name": "KayKit Autumn Pine (Yellow)",
+    "title": "KayKit Autumn Pine (Yellow)",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "pine",
+      "conifer",
+      "autumn",
+      "yellow",
+      "gold",
+      "fall",
+      "halloween"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Shaggy layered pine in golden-yellow autumn colour. Native height 7.475 units; scale ×1.07 for a 8 m tree.",
+    "file": "assets/lowpoly-trees/kaykit_pine_autumn_yellow.glb",
+    "localPath": "assets/lowpoly-trees/kaykit_pine_autumn_yellow.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kaykit_pine_autumn_yellow.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kay Lousberg (www.kaylousberg.com)",
+    "source": "KayKit Halloween Bits 1.0",
+    "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Halloween-Bits-1.0/blob/6dc69bf6b2fa766a985754f35ec6a0324090e6c6/addons/kaykit_halloween_bits/Assets/gltf/tree_pine_yellow_large.gltf",
+    "sourceFile": "addons/kaykit_halloween_bits/Assets/gltf/tree_pine_yellow_large.gltf",
+    "sourceRevision": "6dc69bf6b2fa766a985754f35ec6a0324090e6c6",
+    "sourceSha256": "ec0f4a2c18b92cee712a22e75fb92f3943990f1805254cf6cff3ee270d43cd33",
+    "licenseEvidence": "Official KayKit GitHub repository; LICENSE.txt: \"License: (Creative Commons Zero, CC0)\".",
+    "units": {
+      "metresPerUnit": 1.07,
+      "nativeSize": [
+        4.759,
+        7.475,
+        4.155
+      ],
+      "suggestedScale": 1.07,
+      "suggestedSizeMetres": [
+        5.09,
+        8,
+        4.45
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: glTF (with its .bin and texture, if any) converted to one self-contained GLB; unused data pruned",
+      "sourceBytes": 3085,
+      "outputBytes": 33980
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 33980,
+    "fileSize": 33980,
+    "vertices": 487,
+    "triangles": 318,
+    "polygonCount": 318,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 1,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -2.3626,
+        -0.5548,
+        -2.0761
+      ],
+      "max": [
+        2.3968,
+        6.9204,
+        2.0786
+      ]
+    },
+    "dimensions": [
+      4.7594,
+      7.4752,
+      4.1547
+    ],
+    "scale": 1,
+    "sha256": "cba9ccfdd5066b41b27e38515bed0d5be6c15f3f0fea585902d1c695f0579c55",
+    "path": "assets/lowpoly-trees/kaykit_pine_autumn_yellow.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kaykit_pine_autumn_yellow.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kaykit_pine_autumn_yellow.glb"
+  },
+  {
+    "id": "kenney_oak",
+    "name": "Kenney Oak",
+    "title": "Kenney Oak",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "oak",
+      "broadleaf",
+      "deciduous",
+      "round",
+      "park",
+      "forest"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Round faceted oak crown on a straight trunk, fresh green. Native height 1.226 units; scale ×5.71 for a 7 m tree.",
+    "file": "assets/lowpoly-trees/kenney_oak.glb",
+    "localPath": "assets/lowpoly-trees/kenney_oak.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kenney_oak.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kenney (www.kenney.nl)",
+    "source": "Kenney Nature Kit 2.1 (bundled in JasonLee228/cruiz)",
+    "sourceUrl": "https://github.com/JasonLee228/cruiz/blob/536be4266f70092fc7c33afac9f73a2ed31657a4/public/models/nature/tree_oak.glb",
+    "sourceFile": "public/models/nature/tree_oak.glb",
+    "sourceRevision": "536be4266f70092fc7c33afac9f73a2ed31657a4",
+    "sourceSha256": "d7fd8773674928c50c11b66d12c636d49bdcc15a8b1c7fbb98e6f63a3439a3f3",
+    "licenseEvidence": "Kenney Nature Kit 2.1 (CC0). The original zip is not hosted on GitHub; the files are taken from game projects that bundle the kit with its License.txt. The same bytes appear in three independent repositories (JasonLee228/cruiz, bborbe/driftline, and the Git LFS hashes in jpabloglez/trailpaw), and the GLBs still carry Kenney's exporter tag (UniGLTF-1.27), so they are unmodified originals.",
+    "units": {
+      "metresPerUnit": 5.71,
+      "nativeSize": [
+        0.641,
+        1.226,
+        0.74
+      ],
+      "suggestedScale": 5.71,
+      "suggestedSizeMetres": [
+        3.66,
+        7,
+        4.23
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: GLB re-written; 2 base colour(s) converted sRGB → linear (UniGLTF 1.27 stored sRGB values); 2 untextured material(s): metallic 1 → 0, roughness → 1 (Kenney exports render black otherwise); unused data pruned",
+      "sourceBytes": 14644,
+      "outputBytes": 11532
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 11532,
+    "fileSize": 11532,
+    "vertices": 648,
+    "triangles": 196,
+    "polygonCount": 196,
+    "meshCount": 1,
+    "materials": 2,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.3203,
+        -0.05,
+        -0.3698
+      ],
+      "max": [
+        0.3203,
+        1.1762,
+        0.3698
+      ]
+    },
+    "dimensions": [
+      0.6406,
+      1.2262,
+      0.7396
+    ],
+    "scale": 1,
+    "sha256": "4c8759c332058de0355e4cad23f395cef551ae0f86d215ca07655c88e865784a",
+    "path": "assets/lowpoly-trees/kenney_oak.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kenney_oak.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kenney_oak.glb"
+  },
+  {
+    "id": "kenney_oak_autumn",
+    "name": "Kenney Autumn Oak",
+    "title": "Kenney Autumn Oak",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "oak",
+      "broadleaf",
+      "deciduous",
+      "autumn",
+      "fall",
+      "orange"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "The round oak in autumn: warm orange crown on a pale birch-like trunk. Native height 1.226 units; scale ×5.71 for a 7 m tree.",
+    "file": "assets/lowpoly-trees/kenney_oak_autumn.glb",
+    "localPath": "assets/lowpoly-trees/kenney_oak_autumn.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kenney_oak_autumn.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kenney (www.kenney.nl)",
+    "source": "Kenney Nature Kit 2.1 (bundled in bborbe/driftline)",
+    "sourceUrl": "https://github.com/bborbe/driftline/blob/f93766d18320271128a5a06e36da63d8d40dd46f/assets/nature-kit/tree_oak_fall.glb",
+    "sourceFile": "assets/nature-kit/tree_oak_fall.glb",
+    "sourceRevision": "f93766d18320271128a5a06e36da63d8d40dd46f",
+    "sourceSha256": "43a258d17b5428d8ef525a19e30e667caeeb330b6f3cb367a07da12093ff97a1",
+    "licenseEvidence": "Kenney Nature Kit 2.1 (CC0). The original zip is not hosted on GitHub; the files are taken from game projects that bundle the kit with its License.txt. The same bytes appear in three independent repositories (JasonLee228/cruiz, bborbe/driftline, and the Git LFS hashes in jpabloglez/trailpaw), and the GLBs still carry Kenney's exporter tag (UniGLTF-1.27), so they are unmodified originals.",
+    "units": {
+      "metresPerUnit": 5.71,
+      "nativeSize": [
+        0.641,
+        1.226,
+        0.74
+      ],
+      "suggestedScale": 5.71,
+      "suggestedSizeMetres": [
+        3.66,
+        7,
+        4.23
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: GLB re-written; 2 base colour(s) converted sRGB → linear (UniGLTF 1.27 stored sRGB values); 2 untextured material(s): metallic 1 → 0, roughness → 1 (Kenney exports render black otherwise); unused data pruned",
+      "sourceBytes": 14640,
+      "outputBytes": 11508
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 11508,
+    "fileSize": 11508,
+    "vertices": 648,
+    "triangles": 196,
+    "polygonCount": 196,
+    "meshCount": 1,
+    "materials": 2,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.3203,
+        -0.05,
+        -0.3698
+      ],
+      "max": [
+        0.3203,
+        1.1762,
+        0.3698
+      ]
+    },
+    "dimensions": [
+      0.6406,
+      1.2262,
+      0.7396
+    ],
+    "scale": 1,
+    "sha256": "4ccb76a08e83e023480f9b01c4e8b60c70317f6321642a6d4fecb15ccfecb7f1",
+    "path": "assets/lowpoly-trees/kenney_oak_autumn.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kenney_oak_autumn.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kenney_oak_autumn.glb"
+  },
+  {
+    "id": "kenney_palm",
+    "name": "Kenney Palm",
+    "title": "Kenney Palm",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "palm",
+      "tropical",
+      "beach",
+      "island",
+      "resort"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Tall curved palm with a crown of broad drooping fronds. Native height 2.125 units; scale ×3.765 for a 8 m tree.",
+    "file": "assets/lowpoly-trees/kenney_palm.glb",
+    "localPath": "assets/lowpoly-trees/kenney_palm.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kenney_palm.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kenney (www.kenney.nl)",
+    "source": "Kenney models via pmndrs market-assets",
+    "sourceUrl": "https://github.com/pmndrs/market-assets/blob/c9cfa0236a012093edd5affe200808752375bd90/files/models/palm-detailed-long/model.gltf",
+    "sourceFile": "files/models/palm-detailed-long/model.gltf",
+    "sourceRevision": "c9cfa0236a012093edd5affe200808752375bd90",
+    "sourceSha256": "e128dd2f64f7d5c85ecaaf1913347cac29304e5ee6a1abcfb0953cccbfb35758",
+    "licenseEvidence": "info.json lists creator \"kenney\" and license id 1 (= CC0 in pmndrs/market licenses.js); Kenney publishes this model as CC0.",
+    "units": {
+      "metresPerUnit": 3.765,
+      "nativeSize": [
+        1.544,
+        2.125,
+        1.544
+      ],
+      "suggestedScale": 3.765,
+      "suggestedSizeMetres": [
+        5.81,
+        8,
+        5.81
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: glTF (with its .bin and texture, if any) converted to one self-contained GLB; Draco decoded; 2 untextured material(s): metallic 1 → 0, roughness → 1 (Kenney exports render black otherwise); unused data pruned",
+      "sourceBytes": 6852,
+      "outputBytes": 36832
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 36832,
+    "fileSize": 36832,
+    "vertices": 1330,
+    "triangles": 488,
+    "polygonCount": 488,
+    "meshCount": 2,
+    "materials": 2,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        2.3794,
+        0,
+        -7.1682
+      ],
+      "max": [
+        3.9232,
+        2.1253,
+        -5.6245
+      ]
+    },
+    "dimensions": [
+      1.5438,
+      2.1253,
+      1.5437
+    ],
+    "scale": 1,
+    "sha256": "4c3506598f7d0ce6ad61d2bed544b2e5b99e713d017b59fe24e5581599e907ed",
+    "path": "assets/lowpoly-trees/kenney_palm.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kenney_palm.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kenney_palm.glb"
+  },
+  {
+    "id": "kenney_tree_branching",
+    "name": "Kenney Branching Tree",
+    "title": "Kenney Branching Tree",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "broadleaf",
+      "deciduous",
+      "branching",
+      "park",
+      "forest"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Broadleaf tree whose trunk splits into side branches, each carrying its own faceted canopy. Native height 1.332 units; scale ×6.006 for a 8 m tree.",
+    "file": "assets/lowpoly-trees/kenney_tree_branching.glb",
+    "localPath": "assets/lowpoly-trees/kenney_tree_branching.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kenney_tree_branching.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kenney (www.kenney.nl)",
+    "source": "Kenney Nature Kit 2.1 (bundled in bborbe/driftline)",
+    "sourceUrl": "https://github.com/bborbe/driftline/blob/f93766d18320271128a5a06e36da63d8d40dd46f/assets/nature-kit/tree_detailed.glb",
+    "sourceFile": "assets/nature-kit/tree_detailed.glb",
+    "sourceRevision": "f93766d18320271128a5a06e36da63d8d40dd46f",
+    "sourceSha256": "c041daf2f0fb1d49e4325227cbcd58667adbe51e9b55e8c1f0a94b74cc521b3b",
+    "licenseEvidence": "Kenney Nature Kit 2.1 (CC0). The original zip is not hosted on GitHub; the files are taken from game projects that bundle the kit with its License.txt. The same bytes appear in three independent repositories (JasonLee228/cruiz, bborbe/driftline, and the Git LFS hashes in jpabloglez/trailpaw), and the GLBs still carry Kenney's exporter tag (UniGLTF-1.27), so they are unmodified originals.",
+    "units": {
+      "metresPerUnit": 6.006,
+      "nativeSize": [
+        0.847,
+        1.332,
+        0.762
+      ],
+      "suggestedScale": 6.006,
+      "suggestedSizeMetres": [
+        5.09,
+        8,
+        4.58
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: GLB re-written; 3 base colour(s) converted sRGB → linear (UniGLTF 1.27 stored sRGB values); 3 untextured material(s): metallic 1 → 0, roughness → 1 (Kenney exports render black otherwise); unused data pruned",
+      "sourceBytes": 31412,
+      "outputBytes": 24636
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 24636,
+    "fileSize": 24636,
+    "vertices": 2274,
+    "triangles": 402,
+    "polygonCount": 402,
+    "meshCount": 1,
+    "materials": 3,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.4325,
+        -0.05,
+        -0.3721
+      ],
+      "max": [
+        0.4146,
+        1.2824,
+        0.3895
+      ]
+    },
+    "dimensions": [
+      0.8471,
+      1.3324,
+      0.7616
+    ],
+    "scale": 1,
+    "sha256": "ad06b0afebfcc990a143f1ef6c8c71ae115425dd2181fd73fd3dacffc687723f",
+    "path": "assets/lowpoly-trees/kenney_tree_branching.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kenney_tree_branching.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kenney_tree_branching.glb"
+  },
+  {
+    "id": "kenney_tree_plateau",
+    "name": "Kenney Plateau Tree",
+    "title": "Kenney Plateau Tree",
+    "collection": "lowpoly-trees",
+    "category": "tree",
+    "subcategory": "tree",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "lowpoly-trees",
+      "tree",
+      "lowpoly",
+      "nature",
+      "cc0",
+      "acacia",
+      "umbrella",
+      "savanna",
+      "broadleaf",
+      "bonsai",
+      "stylized"
+    ],
+    "gameRoles": [
+      "scenery",
+      "obstacle"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Umbrella-like tree with flat stacked canopies, reminiscent of an acacia or bonsai. Native height 1.249 units; scale ×5.604 for a 7 m tree.",
+    "file": "assets/lowpoly-trees/kenney_tree_plateau.glb",
+    "localPath": "assets/lowpoly-trees/kenney_tree_plateau.glb",
+    "thumbnail": "thumbnails/lowpoly-trees/kenney_tree_plateau.png",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kenney (www.kenney.nl)",
+    "source": "Kenney Nature Kit 2.1 (bundled in JasonLee228/cruiz)",
+    "sourceUrl": "https://github.com/JasonLee228/cruiz/blob/536be4266f70092fc7c33afac9f73a2ed31657a4/public/models/nature/tree_plateau.glb",
+    "sourceFile": "public/models/nature/tree_plateau.glb",
+    "sourceRevision": "536be4266f70092fc7c33afac9f73a2ed31657a4",
+    "sourceSha256": "7f19e347ff28703dd9e5fcce89b920156e291fbdb19331a57cb31a95c73e1322",
+    "licenseEvidence": "Kenney Nature Kit 2.1 (CC0). The original zip is not hosted on GitHub; the files are taken from game projects that bundle the kit with its License.txt. The same bytes appear in three independent repositories (JasonLee228/cruiz, bborbe/driftline, and the Git LFS hashes in jpabloglez/trailpaw), and the GLBs still carry Kenney's exporter tag (UniGLTF-1.27), so they are unmodified originals.",
+    "units": {
+      "metresPerUnit": 5.604,
+      "nativeSize": [
+        0.612,
+        1.249,
+        0.655
+      ],
+      "suggestedScale": 5.604,
+      "suggestedSizeMetres": [
+        3.43,
+        7,
+        3.67
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: GLB re-written; 2 base colour(s) converted sRGB → linear (UniGLTF 1.27 stored sRGB values); 2 untextured material(s): metallic 1 → 0, roughness → 1 (Kenney exports render black otherwise); unused data pruned",
+      "sourceBytes": 16304,
+      "outputBytes": 12828
+    },
+    "notes": "Origin at the base of the trunk. The kit is not to real-world scale; use units.suggestedScale for a realistic height.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "nature",
+      "forest"
+    ],
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "size": 12828,
+    "fileSize": 12828,
+    "vertices": 738,
+    "triangles": 215,
+    "polygonCount": 215,
+    "meshCount": 1,
+    "materials": 2,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.3282,
+        -0.05,
+        -0.3255
+      ],
+      "max": [
+        0.2836,
+        1.1993,
+        0.3294
+      ]
+    },
+    "dimensions": [
+      0.6118,
+      1.2493,
+      0.6549
+    ],
+    "scale": 1,
+    "sha256": "473e165329886bffcedfe23acd066fc4c0980058e06dc0009565eaabe02d60a4",
+    "path": "assets/lowpoly-trees/kenney_tree_plateau.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/lowpoly-trees/kenney_tree_plateau.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/lowpoly-trees/kenney_tree_plateau.glb"
+  },
+  {
     "id": "assets_nature_tree_demo_tree",
     "name": "NEXUS Low Poly Demo Tree",
     "title": "NEXUS Low Poly Demo Tree",
