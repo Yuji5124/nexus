@@ -34,6 +34,10 @@ Run `npm run scan` to generate `data/assets.json`. Edit the record's name, tags,
 
 Five lightweight original trees built the game-foliage way: a low-poly trunk plus crossed alpha-masked leaf cards (the "double billboard" technique used by EZ-Tree), with every texture painted by the script. 144–388 triangles and 87–134 KB each, two materials. Files in `assets/leafcard-trees/`, records with `collection: "leafcard-trees"`. Rebuild or tweak with `npm run leafcard-trees`; details in [leafcard-trees/README.md](leafcard-trees/README.md).
 
+## DEEP-SEA RUINS collection
+
+25 original low-poly ancient-ruin models for deep-sea games live in `assets/deep-sea-ruins/` with thumbnails in `thumbnails/deep-sea-ruins/`: pillars (intact, broken, fallen), arch gates, walls, stairs, altar, obelisk, crab guardian statue, fountain, lantern stele, floor tiles and rune ring, rubble, four stations (forge, dock gate, scale, healing spring) and glowing deep-sea overgrowth. 500–1,550 triangles, 25–90 KB each (about 790 KB total), no textures (stone uses weathering vertex colours, glyphs and lamps are emissive). Records have `collection: "deep-sea-ruins"`; licence is UNKNOWN until the owner declares one. Built with Blender: `blender -b -P scripts/deep-sea-ruins/build_ruins.py -- assets/deep-sea-ruins thumbnails/deep-sea-ruins`, then `npm run deep-sea-ruins`. Details in [deep-sea-ruins/README.md](deep-sea-ruins/README.md); ongoing plan (ruins → enemies → effects → more) in [deep-sea-ruins/PROGRESS.md](deep-sea-ruins/PROGRESS.md).
+
 ## Use from Codex / Claude Code
 
 Fetch the raw index URL above, search name/category/tags/recommendedFor, inspect the license, then use previewUrl in Three.js:
