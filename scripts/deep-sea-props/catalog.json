@@ -1,0 +1,318 @@
+[
+  {
+    "id": "fx_headlight_beam",
+    "kind": "effect",
+    "name": "Headlight Beam",
+    "description": "Translucent light cone for a submarine headlight or flashlight: apex at the origin, 14 m long, 9 m wide at the end, with a brighter inner cone and an amber lamp point. Faces +Z.",
+    "roles": [
+      "effect",
+      "light"
+    ],
+    "tags": [
+      "beam",
+      "light-cone",
+      "headlight",
+      "volumetric",
+      "alpha"
+    ]
+  },
+  {
+    "id": "fx_light_shaft",
+    "kind": "effect",
+    "name": "Light Shaft",
+    "description": "30 m tall tapered light shaft from the surface, three nested translucent cylinders so the centre reads brighter. Stand it vertically in shallow water.",
+    "roles": [
+      "effect",
+      "light"
+    ],
+    "tags": [
+      "god-ray",
+      "light-shaft",
+      "sunbeam",
+      "volumetric",
+      "alpha"
+    ]
+  },
+  {
+    "id": "fx_bubble_cluster",
+    "kind": "effect",
+    "name": "Bubble Column",
+    "description": "Sixteen translucent bubbles of growing size rising in a loose column about 4.1 m tall. Scale or animate upward.",
+    "roles": [
+      "effect"
+    ],
+    "tags": [
+      "bubbles",
+      "rising",
+      "water",
+      "alpha"
+    ]
+  },
+  {
+    "id": "fx_sonar_ring",
+    "kind": "effect",
+    "name": "Sonar Pulse Rings",
+    "description": "Three concentric thin rings (3, 6, 9 m radius) plus a glowing centre disc. Animate the scale to make an expanding sonar wave.",
+    "roles": [
+      "effect"
+    ],
+    "tags": [
+      "sonar",
+      "pulse",
+      "ring",
+      "wave",
+      "alpha"
+    ]
+  },
+  {
+    "id": "fx_shockwave_ring",
+    "kind": "effect",
+    "name": "Shockwave Ring",
+    "description": "Flared ring-shaped shockwave, 8 m across, with a bright glowing inner lip. Expand and fade for hit and landing effects.",
+    "roles": [
+      "effect"
+    ],
+    "tags": [
+      "shockwave",
+      "impact",
+      "ring",
+      "alpha"
+    ]
+  },
+  {
+    "id": "fx_energy_orb",
+    "kind": "effect",
+    "name": "Energy Orb",
+    "description": "Glowing core inside a translucent shell with three orbiting rings (cyan and amber). Usable as a charge-up, projectile or power core.",
+    "roles": [
+      "effect"
+    ],
+    "tags": [
+      "orb",
+      "energy",
+      "charge",
+      "projectile",
+      "emissive"
+    ]
+  },
+  {
+    "id": "fx_spark_burst",
+    "kind": "effect",
+    "name": "Spark Burst",
+    "description": "Twenty-eight radial spikes (alternating cyan and amber) around a hot core. Spin and scale up for a hit-spark or explosion flash.",
+    "roles": [
+      "effect"
+    ],
+    "tags": [
+      "spark",
+      "burst",
+      "hit",
+      "explosion",
+      "emissive"
+    ]
+  },
+  {
+    "id": "fx_current_vortex",
+    "kind": "effect",
+    "name": "Current Vortex",
+    "description": "Two translucent ribbons spiralling three turns up an 8 m column: the look of a strong deep-sea current or whirlpool. Rotate slowly around Y.",
+    "roles": [
+      "effect"
+    ],
+    "tags": [
+      "vortex",
+      "current",
+      "whirlpool",
+      "spiral",
+      "alpha"
+    ]
+  },
+  {
+    "id": "item_shard_crystal",
+    "kind": "item",
+    "name": "Shard Crystal",
+    "description": "Currency pickup: a cluster of six glowing cyan crystals on a small stone base, about 1.3 m tall.",
+    "roles": [
+      "collectible"
+    ],
+    "tags": [
+      "shard",
+      "crystal",
+      "currency",
+      "pickup",
+      "emissive"
+    ]
+  },
+  {
+    "id": "item_relic_tablet",
+    "kind": "item",
+    "name": "Relic Tablet",
+    "description": "Relic pickup: a small stone tablet on a base with a glowing ring glyph and an amber stud, about 1.2 m tall.",
+    "roles": [
+      "collectible"
+    ],
+    "tags": [
+      "relic",
+      "tablet",
+      "artifact",
+      "pickup",
+      "glyph"
+    ]
+  },
+  {
+    "id": "item_heal_pearl",
+    "kind": "item",
+    "name": "Healing Pearl",
+    "description": "Healing pickup: an open stone bivalve cradling a glass pearl with a green glowing heart.",
+    "roles": [
+      "collectible"
+    ],
+    "tags": [
+      "pearl",
+      "shell",
+      "healing",
+      "pickup"
+    ]
+  },
+  {
+    "id": "item_treasure_chest",
+    "kind": "item",
+    "name": "Sunken Treasure Chest",
+    "description": "Closed barrel-lidded wooden chest with iron bands, a gold lock plate and a glowing keyhole, 1.3 m wide.",
+    "roles": [
+      "collectible",
+      "interactable"
+    ],
+    "tags": [
+      "chest",
+      "treasure",
+      "loot",
+      "container"
+    ]
+  },
+  {
+    "id": "item_ancient_coin",
+    "kind": "item",
+    "name": "Ancient Coins",
+    "description": "A stack of five gold coins with a glowing glyph ring on top and two loose coins beside it.",
+    "roles": [
+      "collectible"
+    ],
+    "tags": [
+      "coin",
+      "gold",
+      "currency",
+      "pickup"
+    ]
+  },
+  {
+    "id": "item_rune_key",
+    "kind": "item",
+    "name": "Rune Key",
+    "description": "Key pickup: gold key with a round bow, three teeth and a glowing glyph gem. 1.2 m tall.",
+    "roles": [
+      "collectible"
+    ],
+    "tags": [
+      "key",
+      "gold",
+      "puzzle",
+      "pickup"
+    ]
+  },
+  {
+    "id": "prop_basalt_cluster",
+    "kind": "prop",
+    "name": "Basalt Column Cluster",
+    "description": "Eleven six-sided basalt columns of different heights (0.8-4.2 m): the rock of the blue-phosphor basin, and a fine cliff dressing.",
+    "roles": [
+      "obstacle",
+      "decoration"
+    ],
+    "tags": [
+      "basalt",
+      "columns",
+      "rock",
+      "terrain"
+    ]
+  },
+  {
+    "id": "prop_boulder_large",
+    "kind": "prop",
+    "name": "Large Boulder",
+    "description": "A big lumpy boulder (4.2 m wide) with five smaller lumps around its base. Use as seabed cover or a wall.",
+    "roles": [
+      "obstacle",
+      "decoration"
+    ],
+    "tags": [
+      "boulder",
+      "rock",
+      "terrain",
+      "cover"
+    ]
+  },
+  {
+    "id": "prop_anchor",
+    "kind": "prop",
+    "name": "Sunken Anchor",
+    "description": "Rusted iron anchor standing upright, 4.6 m tall, with a ring, stock bar, curved arms and a little coral growth.",
+    "roles": [
+      "landmark",
+      "decoration"
+    ],
+    "tags": [
+      "anchor",
+      "shipwreck",
+      "rust",
+      "metal"
+    ]
+  },
+  {
+    "id": "prop_vent_chimney",
+    "kind": "prop",
+    "name": "Hydrothermal Vent Chimney",
+    "description": "Stacked stone chimney 4.6 m tall with a glowing amber mouth, ringed by small stalks with glowing green tips.",
+    "roles": [
+      "landmark",
+      "hazard"
+    ],
+    "tags": [
+      "vent",
+      "chimney",
+      "hydrothermal",
+      "black-smoker"
+    ]
+  },
+  {
+    "id": "prop_crate_stack",
+    "kind": "prop",
+    "name": "Crate Stack",
+    "description": "Three wooden crates with iron straps stacked and tilted, plus a banded barrel. Shipwreck and supply-cache dressing.",
+    "roles": [
+      "obstacle",
+      "decoration"
+    ],
+    "tags": [
+      "crate",
+      "barrel",
+      "cargo",
+      "shipwreck"
+    ]
+  },
+  {
+    "id": "prop_coral_fan",
+    "kind": "prop",
+    "name": "Fan Coral",
+    "description": "Fan-shaped sea fan: a stem on a stone base fanning into eleven branches with glowing tips and three arcs of fine mesh. 3.2 m wide.",
+    "roles": [
+      "decoration"
+    ],
+    "tags": [
+      "coral",
+      "sea-fan",
+      "bioluminescent",
+      "overgrowth"
+    ]
+  }
+]

@@ -42,6 +42,10 @@ Five lightweight original trees built the game-foliage way: a low-poly trunk plu
 
 12 original low-poly enemies with a rigid-part armature and animation clips live in `assets/deep-sea-enemies/` with thumbnails in `thumbnails/deep-sea-enemies/`: scout drone, crawler bot, gunner turret, bulwark walker, jelly drone, eel bot, urchin mine, anglerfish lure bot, squid lancer, ruin sentinel (stone golem), stone crab guardian and hammerhead sweeper. Every enemy has `Idle`; movers add `Walk` or `Swim`; most add `Attack`. 740–2,484 triangles, 56–205 KB each (about 1.5 MB total), no textures. Records have `collection: "deep-sea-enemies"`, `animated: true` and the clip list in `animations`; licence is UNKNOWN until the owner declares one. Built with Blender: `blender -b -P scripts/deep-sea-enemies/build_enemies.py -- assets/deep-sea-enemies thumbnails/deep-sea-enemies`, then `npm run deep-sea-enemies`. Details in [deep-sea-enemies/README.md](deep-sea-enemies/README.md).
 
+## DEEP-SEA PROPS collection
+
+20 original low-poly objects in `assets/deep-sea-props/` with thumbnails in `thumbnails/deep-sea-props/`: 8 effect meshes (headlight beam, surface light shaft, bubble column, sonar pulse rings, shockwave ring, energy orb, spark burst, current vortex), 6 pickups (shard crystal, relic tablet, healing pearl, treasure chest, ancient coins, rune key) and 6 props / terrain pieces (basalt column cluster, large boulder, sunken anchor, hydrothermal vent chimney, crate stack, fan coral). The effect meshes use emissive alpha-blend materials (render them in the transparent pass, `depthWrite = false`). 168–1,388 triangles, 11–75 KB each (about 600 KB total), no textures. Records have `collection: "deep-sea-props"`; licence is UNKNOWN until the owner declares one. Built with Blender: `blender -b -P scripts/deep-sea-props/build_props.py -- assets/deep-sea-props thumbnails/deep-sea-props`, then `npm run deep-sea-props`. Details in [deep-sea-props/README.md](deep-sea-props/README.md).
+
 ## Use from Codex / Claude Code
 
 Fetch the raw index URL above, search name/category/tags/recommendedFor, inspect the license, then use previewUrl in Three.js:

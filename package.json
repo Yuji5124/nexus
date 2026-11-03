@@ -21,7 +21,8 @@
     "lowpoly-trees": "node scripts/lowpoly-trees/import.mjs && npm run scan",
     "leafcard-trees": "node scripts/leafcard-trees/import.mjs && npm run scan",
     "deep-sea-ruins": "node scripts/deep-sea-ruins/import.mjs && npm run scan",
-    "deep-sea-enemies": "node scripts/deep-sea-enemies/import.mjs && npm run scan"
+    "deep-sea-enemies": "node scripts/deep-sea-enemies/import.mjs && npm run scan",
+    "deep-sea-props": "node scripts/deep-sea-props/import.mjs && npm run scan"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.1",
