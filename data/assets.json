@@ -6473,521 +6473,6 @@
     "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/character/quaternius_robot_expressive.glb"
   },
   {
-    "id": "citykit_building_garage",
-    "name": "Building Garage",
-    "title": "Building Garage",
-    "collection": "giant-climb",
-    "category": "city-building",
-    "tags": [
-      "giant-climb",
-      "lowpoly",
-      "city",
-      "building",
-      "tile",
-      "road-driver"
-    ],
-    "gameRoles": [
-      "climbable-surface",
-      "background"
-    ],
-    "climbable": true,
-    "description": "Building Garage from Kenney Starter Kit City Builder.",
-    "file": "assets/giant-climb/city-building/citykit_building_garage.glb",
-    "localPath": "assets/giant-climb/city-building/citykit_building_garage.glb",
-    "thumbnail": "thumbnails/giant-climb/citykit_building_garage.png",
-    "format": "GLB",
-    "type": "model",
-    "license": "CC0-1.0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "author": "Kenney (www.kenney.nl)",
-    "source": "Kenney Starter Kit City Builder",
-    "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/building-garage.glb",
-    "sourceFile": "models/building-garage.glb",
-    "sourceRevision": "4535092b740b378b700efd9df9e27a631815b84a",
-    "sourceSha256": "7373b558fc9b1e27e60b60ca1ce53000af7e132d7304eeb6d49b47528a3b6806",
-    "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported.",
-    "units": {
-      "metresPerUnit": 12,
-      "nativeSize": [
-        1,
-        0.55,
-        1
-      ],
-      "suggestedSizeMetres": [
-        12,
-        6.6,
-        12
-      ],
-      "upAxis": "Y"
-    },
-    "optimization": {
-      "tool": "glTF Transform 4: dedup, prune, weld, unpartition, external textures embedded",
-      "sourceBytes": 19204,
-      "outputBytes": 21504,
-      "sourceTriangles": 196
-    },
-    "animations": [],
-    "animated": false,
-    "notes": "",
-    "recommendedFor": [
-      "giant-climb",
-      "threejs",
-      "lowpoly",
-      "climbable-surface",
-      "background",
-      "road-driver"
-    ],
-    "addedAt": "2026-10-11T00:00:00.000Z",
-    "subcategory": "city-building",
-    "size": 21504,
-    "fileSize": 21504,
-    "vertices": 276,
-    "triangles": 196,
-    "polygonCount": 196,
-    "meshCount": 1,
-    "materials": 1,
-    "textures": 1,
-    "boundingBox": {
-      "min": [
-        -0.5,
-        0,
-        -0.5
-      ],
-      "max": [
-        0.5,
-        0.55,
-        0.5
-      ]
-    },
-    "dimensions": [
-      1,
-      0.55,
-      1
-    ],
-    "scale": 1,
-    "sha256": "d14be1c3bec947199cb537f14a7d5ac34a9e4e02e20a47133015c93d7f00df35",
-    "path": "assets/giant-climb/city-building/citykit_building_garage.glb",
-    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/citykit_building_garage.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_garage.glb",
-    "roadDriver": {
-      "category": "CITY",
-      "recommendedUse": "都市の沿道建物と遠景シルエット。",
-      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
-    }
-  },
-  {
-    "id": "citykit_building_small_a",
-    "name": "Building Small A",
-    "title": "Building Small A",
-    "collection": "giant-climb",
-    "category": "city-building",
-    "tags": [
-      "giant-climb",
-      "lowpoly",
-      "city",
-      "building",
-      "tile",
-      "road-driver"
-    ],
-    "gameRoles": [
-      "climbable-surface",
-      "background"
-    ],
-    "climbable": true,
-    "description": "Building Small A from Kenney Starter Kit City Builder.",
-    "file": "assets/giant-climb/city-building/citykit_building_small_a.glb",
-    "localPath": "assets/giant-climb/city-building/citykit_building_small_a.glb",
-    "thumbnail": "thumbnails/giant-climb/citykit_building_small_a.png",
-    "format": "GLB",
-    "type": "model",
-    "license": "CC0-1.0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "author": "Kenney (www.kenney.nl)",
-    "source": "Kenney Starter Kit City Builder",
-    "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/building-small-a.glb",
-    "sourceFile": "models/building-small-a.glb",
-    "sourceRevision": "4535092b740b378b700efd9df9e27a631815b84a",
-    "sourceSha256": "22ce989013bd16b1732e81798e343cf85f947e92b6c93825b18131feded48e07",
-    "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported.",
-    "units": {
-      "metresPerUnit": 12,
-      "nativeSize": [
-        1,
-        0.95,
-        1
-      ],
-      "suggestedSizeMetres": [
-        12,
-        11.4,
-        12
-      ],
-      "upAxis": "Y"
-    },
-    "optimization": {
-      "tool": "glTF Transform 4: dedup, prune, weld, unpartition, external textures embedded",
-      "sourceBytes": 39660,
-      "outputBytes": 33796,
-      "sourceTriangles": 452
-    },
-    "animations": [],
-    "animated": false,
-    "notes": "",
-    "recommendedFor": [
-      "giant-climb",
-      "threejs",
-      "lowpoly",
-      "climbable-surface",
-      "background",
-      "road-driver"
-    ],
-    "addedAt": "2026-10-11T00:00:00.000Z",
-    "subcategory": "city-building",
-    "size": 33796,
-    "fileSize": 33796,
-    "vertices": 612,
-    "triangles": 452,
-    "polygonCount": 452,
-    "meshCount": 1,
-    "materials": 1,
-    "textures": 1,
-    "boundingBox": {
-      "min": [
-        -0.5,
-        0,
-        -0.5
-      ],
-      "max": [
-        0.5,
-        0.95,
-        0.5
-      ]
-    },
-    "dimensions": [
-      1,
-      0.95,
-      1
-    ],
-    "scale": 1,
-    "sha256": "4a49db0205b231c4b1b5137f08123f89f8363ffd9ea8396c202b756cb4dab4e1",
-    "path": "assets/giant-climb/city-building/citykit_building_small_a.glb",
-    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/citykit_building_small_a.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_small_a.glb",
-    "roadDriver": {
-      "category": "CITY",
-      "recommendedUse": "都市の沿道建物と遠景シルエット。",
-      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
-    }
-  },
-  {
-    "id": "citykit_building_small_b",
-    "name": "Building Small B",
-    "title": "Building Small B",
-    "collection": "giant-climb",
-    "category": "city-building",
-    "tags": [
-      "giant-climb",
-      "lowpoly",
-      "city",
-      "building",
-      "tile",
-      "road-driver"
-    ],
-    "gameRoles": [
-      "climbable-surface",
-      "background"
-    ],
-    "climbable": true,
-    "description": "Building Small B from Kenney Starter Kit City Builder.",
-    "file": "assets/giant-climb/city-building/citykit_building_small_b.glb",
-    "localPath": "assets/giant-climb/city-building/citykit_building_small_b.glb",
-    "thumbnail": "thumbnails/giant-climb/citykit_building_small_b.png",
-    "format": "GLB",
-    "type": "model",
-    "license": "CC0-1.0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "author": "Kenney (www.kenney.nl)",
-    "source": "Kenney Starter Kit City Builder",
-    "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/building-small-b.glb",
-    "sourceFile": "models/building-small-b.glb",
-    "sourceRevision": "4535092b740b378b700efd9df9e27a631815b84a",
-    "sourceSha256": "0bc8459045975158524753d6b648ff77e5f91fe8c033bc4886930b6d55543a2b",
-    "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported.",
-    "units": {
-      "metresPerUnit": 12,
-      "nativeSize": [
-        1,
-        1.626,
-        1
-      ],
-      "suggestedSizeMetres": [
-        12,
-        19.512,
-        12
-      ],
-      "upAxis": "Y"
-    },
-    "optimization": {
-      "tool": "glTF Transform 4: dedup, prune, weld, unpartition, external textures embedded",
-      "sourceBytes": 49764,
-      "outputBytes": 39996,
-      "sourceTriangles": 600
-    },
-    "animations": [],
-    "animated": false,
-    "notes": "",
-    "recommendedFor": [
-      "giant-climb",
-      "threejs",
-      "lowpoly",
-      "climbable-surface",
-      "background",
-      "road-driver"
-    ],
-    "addedAt": "2026-10-11T00:00:00.000Z",
-    "subcategory": "city-building",
-    "size": 39996,
-    "fileSize": 39996,
-    "vertices": 778,
-    "triangles": 600,
-    "polygonCount": 600,
-    "meshCount": 1,
-    "materials": 1,
-    "textures": 1,
-    "boundingBox": {
-      "min": [
-        -0.5,
-        0,
-        -0.5
-      ],
-      "max": [
-        0.5,
-        1.6265,
-        0.5
-      ]
-    },
-    "dimensions": [
-      1,
-      1.6265,
-      1
-    ],
-    "scale": 1,
-    "sha256": "701bc797a14bf892423f27eebfb2f57f8b215362b461af8d0a00dec2670ffa94",
-    "path": "assets/giant-climb/city-building/citykit_building_small_b.glb",
-    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/citykit_building_small_b.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_small_b.glb",
-    "roadDriver": {
-      "category": "CITY",
-      "recommendedUse": "都市の沿道建物と遠景シルエット。",
-      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
-    }
-  },
-  {
-    "id": "citykit_building_small_c",
-    "name": "Building Small C",
-    "title": "Building Small C",
-    "collection": "giant-climb",
-    "category": "city-building",
-    "tags": [
-      "giant-climb",
-      "lowpoly",
-      "city",
-      "building",
-      "tile",
-      "road-driver"
-    ],
-    "gameRoles": [
-      "climbable-surface",
-      "background"
-    ],
-    "climbable": true,
-    "description": "Building Small C from Kenney Starter Kit City Builder.",
-    "file": "assets/giant-climb/city-building/citykit_building_small_c.glb",
-    "localPath": "assets/giant-climb/city-building/citykit_building_small_c.glb",
-    "thumbnail": "thumbnails/giant-climb/citykit_building_small_c.png",
-    "format": "GLB",
-    "type": "model",
-    "license": "CC0-1.0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "author": "Kenney (www.kenney.nl)",
-    "source": "Kenney Starter Kit City Builder",
-    "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/building-small-c.glb",
-    "sourceFile": "models/building-small-c.glb",
-    "sourceRevision": "4535092b740b378b700efd9df9e27a631815b84a",
-    "sourceSha256": "3ea0f46fbed4e0acba7fda365cd968b3f23a6e02b9fee79dd54c99c42ffadf2f",
-    "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported.",
-    "units": {
-      "metresPerUnit": 12,
-      "nativeSize": [
-        1,
-        1.75,
-        1
-      ],
-      "suggestedSizeMetres": [
-        12,
-        21,
-        12
-      ],
-      "upAxis": "Y"
-    },
-    "optimization": {
-      "tool": "glTF Transform 4: dedup, prune, weld, unpartition, external textures embedded",
-      "sourceBytes": 70088,
-      "outputBytes": 54328,
-      "sourceTriangles": 834
-    },
-    "animations": [],
-    "animated": false,
-    "notes": "",
-    "recommendedFor": [
-      "giant-climb",
-      "threejs",
-      "lowpoly",
-      "climbable-surface",
-      "background",
-      "road-driver"
-    ],
-    "addedAt": "2026-10-11T00:00:00.000Z",
-    "subcategory": "city-building",
-    "size": 54328,
-    "fileSize": 54328,
-    "vertices": 1182,
-    "triangles": 834,
-    "polygonCount": 834,
-    "meshCount": 1,
-    "materials": 1,
-    "textures": 1,
-    "boundingBox": {
-      "min": [
-        -0.5,
-        0,
-        -0.5
-      ],
-      "max": [
-        0.5,
-        1.75,
-        0.5
-      ]
-    },
-    "dimensions": [
-      1,
-      1.75,
-      1
-    ],
-    "scale": 1,
-    "sha256": "36f1d6660d413c97bd9079cd13e7e5feacbc667686022eab04e27644254b330d",
-    "path": "assets/giant-climb/city-building/citykit_building_small_c.glb",
-    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/citykit_building_small_c.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_small_c.glb",
-    "roadDriver": {
-      "category": "CITY",
-      "recommendedUse": "都市の沿道建物と遠景シルエット。",
-      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
-    }
-  },
-  {
-    "id": "citykit_building_small_d",
-    "name": "Building Small D",
-    "title": "Building Small D",
-    "collection": "giant-climb",
-    "category": "city-building",
-    "tags": [
-      "giant-climb",
-      "lowpoly",
-      "city",
-      "building",
-      "tile",
-      "road-driver"
-    ],
-    "gameRoles": [
-      "climbable-surface",
-      "background"
-    ],
-    "climbable": true,
-    "description": "Building Small D from Kenney Starter Kit City Builder.",
-    "file": "assets/giant-climb/city-building/citykit_building_small_d.glb",
-    "localPath": "assets/giant-climb/city-building/citykit_building_small_d.glb",
-    "thumbnail": "thumbnails/giant-climb/citykit_building_small_d.png",
-    "format": "GLB",
-    "type": "model",
-    "license": "CC0-1.0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "author": "Kenney (www.kenney.nl)",
-    "source": "Kenney Starter Kit City Builder",
-    "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/building-small-d.glb",
-    "sourceFile": "models/building-small-d.glb",
-    "sourceRevision": "4535092b740b378b700efd9df9e27a631815b84a",
-    "sourceSha256": "0ab476fbd7956cea52e590a8e68e351ce2f6fc04df158aa3f5a76b7744bf37a0",
-    "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported.",
-    "units": {
-      "metresPerUnit": 12,
-      "nativeSize": [
-        1,
-        1,
-        1.05
-      ],
-      "suggestedSizeMetres": [
-        12,
-        12,
-        12.6
-      ],
-      "upAxis": "Y"
-    },
-    "optimization": {
-      "tool": "glTF Transform 4: dedup, prune, weld, unpartition, external textures embedded",
-      "sourceBytes": 39348,
-      "outputBytes": 33260,
-      "sourceTriangles": 448
-    },
-    "animations": [],
-    "animated": false,
-    "notes": "",
-    "recommendedFor": [
-      "giant-climb",
-      "threejs",
-      "lowpoly",
-      "climbable-surface",
-      "background",
-      "road-driver"
-    ],
-    "addedAt": "2026-10-11T00:00:00.000Z",
-    "subcategory": "city-building",
-    "size": 33260,
-    "fileSize": 33260,
-    "vertices": 596,
-    "triangles": 448,
-    "polygonCount": 448,
-    "meshCount": 1,
-    "materials": 1,
-    "textures": 1,
-    "boundingBox": {
-      "min": [
-        -0.5,
-        0,
-        -0.5
-      ],
-      "max": [
-        0.5,
-        1,
-        0.55
-      ]
-    },
-    "dimensions": [
-      1,
-      1,
-      1.05
-    ],
-    "scale": 1,
-    "sha256": "b7a1f380e537e7c33c2dc0efdbccba9749fbc3f94eb5c13210cc6807d002bd5a",
-    "path": "assets/giant-climb/city-building/citykit_building_small_d.glb",
-    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/citykit_building_small_d.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_small_d.glb",
-    "roadDriver": {
-      "category": "CITY",
-      "recommendedUse": "都市の沿道建物と遠景シルエット。",
-      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
-    }
-  },
-  {
     "id": "city_apartment_block",
     "name": "City Apartment Block",
     "title": "City Apartment Block",
@@ -7807,6 +7292,521 @@
     "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/city_rooftop_water_tank.glb"
   },
   {
+    "id": "citykit_building_garage",
+    "name": "Building Garage",
+    "title": "Building Garage",
+    "collection": "giant-climb",
+    "category": "city-building",
+    "tags": [
+      "giant-climb",
+      "lowpoly",
+      "city",
+      "building",
+      "tile",
+      "road-driver"
+    ],
+    "gameRoles": [
+      "climbable-surface",
+      "background"
+    ],
+    "climbable": true,
+    "description": "Building Garage from Kenney Starter Kit City Builder.",
+    "file": "assets/giant-climb/city-building/citykit_building_garage.glb",
+    "localPath": "assets/giant-climb/city-building/citykit_building_garage.glb",
+    "thumbnail": "thumbnails/giant-climb/citykit_building_garage.png",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kenney (www.kenney.nl)",
+    "source": "Kenney Starter Kit City Builder",
+    "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/building-garage.glb",
+    "sourceFile": "models/building-garage.glb",
+    "sourceRevision": "4535092b740b378b700efd9df9e27a631815b84a",
+    "sourceSha256": "7373b558fc9b1e27e60b60ca1ce53000af7e132d7304eeb6d49b47528a3b6806",
+    "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported.",
+    "units": {
+      "metresPerUnit": 12,
+      "nativeSize": [
+        1,
+        0.55,
+        1
+      ],
+      "suggestedSizeMetres": [
+        12,
+        6.6,
+        12
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: dedup, prune, weld, unpartition, external textures embedded",
+      "sourceBytes": 19204,
+      "outputBytes": 21504,
+      "sourceTriangles": 196
+    },
+    "animations": [],
+    "animated": false,
+    "notes": "",
+    "recommendedFor": [
+      "giant-climb",
+      "threejs",
+      "lowpoly",
+      "climbable-surface",
+      "background",
+      "road-driver"
+    ],
+    "addedAt": "2026-10-11T00:00:00.000Z",
+    "subcategory": "city-building",
+    "size": 21504,
+    "fileSize": 21504,
+    "vertices": 276,
+    "triangles": 196,
+    "polygonCount": 196,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 1,
+    "boundingBox": {
+      "min": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "max": [
+        0.5,
+        0.55,
+        0.5
+      ]
+    },
+    "dimensions": [
+      1,
+      0.55,
+      1
+    ],
+    "scale": 1,
+    "sha256": "d14be1c3bec947199cb537f14a7d5ac34a9e4e02e20a47133015c93d7f00df35",
+    "path": "assets/giant-climb/city-building/citykit_building_garage.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/citykit_building_garage.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_garage.glb",
+    "roadDriver": {
+      "category": "CITY",
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
+    }
+  },
+  {
+    "id": "citykit_building_small_a",
+    "name": "Building Small A",
+    "title": "Building Small A",
+    "collection": "giant-climb",
+    "category": "city-building",
+    "tags": [
+      "giant-climb",
+      "lowpoly",
+      "city",
+      "building",
+      "tile",
+      "road-driver"
+    ],
+    "gameRoles": [
+      "climbable-surface",
+      "background"
+    ],
+    "climbable": true,
+    "description": "Building Small A from Kenney Starter Kit City Builder.",
+    "file": "assets/giant-climb/city-building/citykit_building_small_a.glb",
+    "localPath": "assets/giant-climb/city-building/citykit_building_small_a.glb",
+    "thumbnail": "thumbnails/giant-climb/citykit_building_small_a.png",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kenney (www.kenney.nl)",
+    "source": "Kenney Starter Kit City Builder",
+    "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/building-small-a.glb",
+    "sourceFile": "models/building-small-a.glb",
+    "sourceRevision": "4535092b740b378b700efd9df9e27a631815b84a",
+    "sourceSha256": "22ce989013bd16b1732e81798e343cf85f947e92b6c93825b18131feded48e07",
+    "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported.",
+    "units": {
+      "metresPerUnit": 12,
+      "nativeSize": [
+        1,
+        0.95,
+        1
+      ],
+      "suggestedSizeMetres": [
+        12,
+        11.4,
+        12
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: dedup, prune, weld, unpartition, external textures embedded",
+      "sourceBytes": 39660,
+      "outputBytes": 33796,
+      "sourceTriangles": 452
+    },
+    "animations": [],
+    "animated": false,
+    "notes": "",
+    "recommendedFor": [
+      "giant-climb",
+      "threejs",
+      "lowpoly",
+      "climbable-surface",
+      "background",
+      "road-driver"
+    ],
+    "addedAt": "2026-10-11T00:00:00.000Z",
+    "subcategory": "city-building",
+    "size": 33796,
+    "fileSize": 33796,
+    "vertices": 612,
+    "triangles": 452,
+    "polygonCount": 452,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 1,
+    "boundingBox": {
+      "min": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "max": [
+        0.5,
+        0.95,
+        0.5
+      ]
+    },
+    "dimensions": [
+      1,
+      0.95,
+      1
+    ],
+    "scale": 1,
+    "sha256": "4a49db0205b231c4b1b5137f08123f89f8363ffd9ea8396c202b756cb4dab4e1",
+    "path": "assets/giant-climb/city-building/citykit_building_small_a.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/citykit_building_small_a.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_small_a.glb",
+    "roadDriver": {
+      "category": "CITY",
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
+    }
+  },
+  {
+    "id": "citykit_building_small_b",
+    "name": "Building Small B",
+    "title": "Building Small B",
+    "collection": "giant-climb",
+    "category": "city-building",
+    "tags": [
+      "giant-climb",
+      "lowpoly",
+      "city",
+      "building",
+      "tile",
+      "road-driver"
+    ],
+    "gameRoles": [
+      "climbable-surface",
+      "background"
+    ],
+    "climbable": true,
+    "description": "Building Small B from Kenney Starter Kit City Builder.",
+    "file": "assets/giant-climb/city-building/citykit_building_small_b.glb",
+    "localPath": "assets/giant-climb/city-building/citykit_building_small_b.glb",
+    "thumbnail": "thumbnails/giant-climb/citykit_building_small_b.png",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kenney (www.kenney.nl)",
+    "source": "Kenney Starter Kit City Builder",
+    "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/building-small-b.glb",
+    "sourceFile": "models/building-small-b.glb",
+    "sourceRevision": "4535092b740b378b700efd9df9e27a631815b84a",
+    "sourceSha256": "0bc8459045975158524753d6b648ff77e5f91fe8c033bc4886930b6d55543a2b",
+    "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported.",
+    "units": {
+      "metresPerUnit": 12,
+      "nativeSize": [
+        1,
+        1.626,
+        1
+      ],
+      "suggestedSizeMetres": [
+        12,
+        19.512,
+        12
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: dedup, prune, weld, unpartition, external textures embedded",
+      "sourceBytes": 49764,
+      "outputBytes": 39996,
+      "sourceTriangles": 600
+    },
+    "animations": [],
+    "animated": false,
+    "notes": "",
+    "recommendedFor": [
+      "giant-climb",
+      "threejs",
+      "lowpoly",
+      "climbable-surface",
+      "background",
+      "road-driver"
+    ],
+    "addedAt": "2026-10-11T00:00:00.000Z",
+    "subcategory": "city-building",
+    "size": 39996,
+    "fileSize": 39996,
+    "vertices": 778,
+    "triangles": 600,
+    "polygonCount": 600,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 1,
+    "boundingBox": {
+      "min": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "max": [
+        0.5,
+        1.6265,
+        0.5
+      ]
+    },
+    "dimensions": [
+      1,
+      1.6265,
+      1
+    ],
+    "scale": 1,
+    "sha256": "701bc797a14bf892423f27eebfb2f57f8b215362b461af8d0a00dec2670ffa94",
+    "path": "assets/giant-climb/city-building/citykit_building_small_b.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/citykit_building_small_b.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_small_b.glb",
+    "roadDriver": {
+      "category": "CITY",
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
+    }
+  },
+  {
+    "id": "citykit_building_small_c",
+    "name": "Building Small C",
+    "title": "Building Small C",
+    "collection": "giant-climb",
+    "category": "city-building",
+    "tags": [
+      "giant-climb",
+      "lowpoly",
+      "city",
+      "building",
+      "tile",
+      "road-driver"
+    ],
+    "gameRoles": [
+      "climbable-surface",
+      "background"
+    ],
+    "climbable": true,
+    "description": "Building Small C from Kenney Starter Kit City Builder.",
+    "file": "assets/giant-climb/city-building/citykit_building_small_c.glb",
+    "localPath": "assets/giant-climb/city-building/citykit_building_small_c.glb",
+    "thumbnail": "thumbnails/giant-climb/citykit_building_small_c.png",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kenney (www.kenney.nl)",
+    "source": "Kenney Starter Kit City Builder",
+    "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/building-small-c.glb",
+    "sourceFile": "models/building-small-c.glb",
+    "sourceRevision": "4535092b740b378b700efd9df9e27a631815b84a",
+    "sourceSha256": "3ea0f46fbed4e0acba7fda365cd968b3f23a6e02b9fee79dd54c99c42ffadf2f",
+    "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported.",
+    "units": {
+      "metresPerUnit": 12,
+      "nativeSize": [
+        1,
+        1.75,
+        1
+      ],
+      "suggestedSizeMetres": [
+        12,
+        21,
+        12
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: dedup, prune, weld, unpartition, external textures embedded",
+      "sourceBytes": 70088,
+      "outputBytes": 54328,
+      "sourceTriangles": 834
+    },
+    "animations": [],
+    "animated": false,
+    "notes": "",
+    "recommendedFor": [
+      "giant-climb",
+      "threejs",
+      "lowpoly",
+      "climbable-surface",
+      "background",
+      "road-driver"
+    ],
+    "addedAt": "2026-10-11T00:00:00.000Z",
+    "subcategory": "city-building",
+    "size": 54328,
+    "fileSize": 54328,
+    "vertices": 1182,
+    "triangles": 834,
+    "polygonCount": 834,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 1,
+    "boundingBox": {
+      "min": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "max": [
+        0.5,
+        1.75,
+        0.5
+      ]
+    },
+    "dimensions": [
+      1,
+      1.75,
+      1
+    ],
+    "scale": 1,
+    "sha256": "36f1d6660d413c97bd9079cd13e7e5feacbc667686022eab04e27644254b330d",
+    "path": "assets/giant-climb/city-building/citykit_building_small_c.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/citykit_building_small_c.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_small_c.glb",
+    "roadDriver": {
+      "category": "CITY",
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
+    }
+  },
+  {
+    "id": "citykit_building_small_d",
+    "name": "Building Small D",
+    "title": "Building Small D",
+    "collection": "giant-climb",
+    "category": "city-building",
+    "tags": [
+      "giant-climb",
+      "lowpoly",
+      "city",
+      "building",
+      "tile",
+      "road-driver"
+    ],
+    "gameRoles": [
+      "climbable-surface",
+      "background"
+    ],
+    "climbable": true,
+    "description": "Building Small D from Kenney Starter Kit City Builder.",
+    "file": "assets/giant-climb/city-building/citykit_building_small_d.glb",
+    "localPath": "assets/giant-climb/city-building/citykit_building_small_d.glb",
+    "thumbnail": "thumbnails/giant-climb/citykit_building_small_d.png",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Kenney (www.kenney.nl)",
+    "source": "Kenney Starter Kit City Builder",
+    "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/building-small-d.glb",
+    "sourceFile": "models/building-small-d.glb",
+    "sourceRevision": "4535092b740b378b700efd9df9e27a631815b84a",
+    "sourceSha256": "0ab476fbd7956cea52e590a8e68e351ce2f6fc04df158aa3f5a76b7744bf37a0",
+    "licenseEvidence": "README: \"Sprites and 3D Models (CC0 licensed)\"; project code is MIT and is not imported.",
+    "units": {
+      "metresPerUnit": 12,
+      "nativeSize": [
+        1,
+        1,
+        1.05
+      ],
+      "suggestedSizeMetres": [
+        12,
+        12,
+        12.6
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: dedup, prune, weld, unpartition, external textures embedded",
+      "sourceBytes": 39348,
+      "outputBytes": 33260,
+      "sourceTriangles": 448
+    },
+    "animations": [],
+    "animated": false,
+    "notes": "",
+    "recommendedFor": [
+      "giant-climb",
+      "threejs",
+      "lowpoly",
+      "climbable-surface",
+      "background",
+      "road-driver"
+    ],
+    "addedAt": "2026-10-11T00:00:00.000Z",
+    "subcategory": "city-building",
+    "size": 33260,
+    "fileSize": 33260,
+    "vertices": 596,
+    "triangles": 448,
+    "polygonCount": 448,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 1,
+    "boundingBox": {
+      "min": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "max": [
+        0.5,
+        1,
+        0.55
+      ]
+    },
+    "dimensions": [
+      1,
+      1,
+      1.05
+    ],
+    "scale": 1,
+    "sha256": "b7a1f380e537e7c33c2dc0efdbccba9749fbc3f94eb5c13210cc6807d002bd5a",
+    "path": "assets/giant-climb/city-building/citykit_building_small_d.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-building/citykit_building_small_d.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-building/citykit_building_small_d.glb",
+    "roadDriver": {
+      "category": "CITY",
+      "recommendedUse": "都市の沿道建物と遠景シルエット。",
+      "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
+    }
+  },
+  {
     "id": "kenney_house_4",
     "name": "House 4",
     "title": "House 4",
@@ -8103,6 +8103,1018 @@
       "recommendedUse": "都市の沿道建物と遠景シルエット。",
       "placement": "近景の小型建物は路肩から離して配置。高層建築は遠景に置き、同じモデルを再利用。"
     }
+  },
+  {
+    "id": "city_crosswalk_road",
+    "name": "City Crosswalk Road",
+    "title": "City Crosswalk Road",
+    "collection": "giant-climb",
+    "category": "city-street",
+    "tags": [
+      "giant-climb",
+      "lowpoly",
+      "city",
+      "tokyo",
+      "road",
+      "crosswalk",
+      "zebra",
+      "tile"
+    ],
+    "gameRoles": [
+      "walkable-floor",
+      "modular-kit"
+    ],
+    "climbable": false,
+    "description": "10×10 m road tile with zebra crossing.",
+    "file": "assets/giant-climb/city-street/city_crosswalk_road.glb",
+    "localPath": "assets/giant-climb/city-street/city_crosswalk_road.glb",
+    "thumbnail": "thumbnails/giant-climb/city_crosswalk_road.png",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "NEXUS",
+    "source": "NEXUS original (GIANT CLIMB)",
+    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+    "sourceFile": "city_crosswalk_road.glb",
+    "sourceRevision": "generated",
+    "sourceSha256": "7660bfd0a8414421e380187d396c59e68f447a60c61c5aedb4e7a69bdf579be2",
+    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        10,
+        0.12,
+        10
+      ],
+      "suggestedSizeMetres": [
+        10,
+        0.12,
+        10
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
+      "sourceBytes": 12004,
+      "outputBytes": 10672,
+      "sourceTriangles": 144
+    },
+    "animations": [],
+    "animated": false,
+    "notes": "",
+    "recommendedFor": [
+      "giant-climb",
+      "threejs",
+      "lowpoly",
+      "walkable-floor",
+      "modular-kit"
+    ],
+    "addedAt": "2026-10-11T00:00:00.000Z",
+    "subcategory": "city-street",
+    "size": 10672,
+    "fileSize": 10672,
+    "vertices": 336,
+    "triangles": 144,
+    "polygonCount": 144,
+    "meshCount": 2,
+    "materials": 2,
+    "textures": 0,
+    "boundingBox": {
+      "min": [
+        -5,
+        0,
+        -5
+      ],
+      "max": [
+        5,
+        0.12,
+        5
+      ]
+    },
+    "dimensions": [
+      10,
+      0.12,
+      10
+    ],
+    "scale": 1,
+    "sha256": "e08396602ac7ea6e275282ba99f4dd4bfc862c10f8ab2a803b9422afb0fdf18f",
+    "path": "assets/giant-climb/city-street/city_crosswalk_road.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_crosswalk_road.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_crosswalk_road.glb"
+  },
+  {
+    "id": "city_elevated_highway",
+    "name": "City Elevated Highway",
+    "title": "City Elevated Highway",
+    "collection": "giant-climb",
+    "category": "city-street",
+    "tags": [
+      "giant-climb",
+      "lowpoly",
+      "city",
+      "tokyo",
+      "highway",
+      "expressway",
+      "elevated",
+      "road",
+      "modular"
+    ],
+    "gameRoles": [
+      "walkable-floor",
+      "platform",
+      "modular-kit"
+    ],
+    "climbable": false,
+    "description": "20 m elevated expressway deck (2 lanes, 10 m high) on a T-pier — tile along Z.",
+    "file": "assets/giant-climb/city-street/city_elevated_highway.glb",
+    "localPath": "assets/giant-climb/city-street/city_elevated_highway.glb",
+    "thumbnail": "thumbnails/giant-climb/city_elevated_highway.png",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "NEXUS",
+    "source": "NEXUS original (GIANT CLIMB)",
+    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+    "sourceFile": "city_elevated_highway.glb",
+    "sourceRevision": "generated",
+    "sourceSha256": "687f3d2297cfaa12ad9b79bb1e49b969d023170b51c4beab0d4adb22f7007236",
+    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        12,
+        14.9,
+        20
+      ],
+      "suggestedSizeMetres": [
+        12,
+        14.9,
+        20
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
+      "sourceBytes": 16856,
+      "outputBytes": 15344,
+      "sourceTriangles": 168
+    },
+    "animations": [],
+    "animated": false,
+    "notes": "",
+    "recommendedFor": [
+      "giant-climb",
+      "threejs",
+      "lowpoly",
+      "walkable-floor",
+      "platform",
+      "modular-kit"
+    ],
+    "addedAt": "2026-10-11T00:00:00.000Z",
+    "subcategory": "city-street",
+    "size": 15344,
+    "fileSize": 15344,
+    "vertices": 392,
+    "triangles": 168,
+    "polygonCount": 168,
+    "meshCount": 6,
+    "materials": 6,
+    "textures": 0,
+    "boundingBox": {
+      "min": [
+        -6,
+        0,
+        -10
+      ],
+      "max": [
+        6,
+        14.9,
+        10
+      ]
+    },
+    "dimensions": [
+      12,
+      14.9,
+      20
+    ],
+    "scale": 1,
+    "sha256": "a03f34c69f2cea015718c55963a474f1b2d66a666af4cc31b309b7365ff282e1",
+    "path": "assets/giant-climb/city-street/city_elevated_highway.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_elevated_highway.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_elevated_highway.glb"
+  },
+  {
+    "id": "city_highway_ramp",
+    "name": "City Highway Ramp",
+    "title": "City Highway Ramp",
+    "collection": "giant-climb",
+    "category": "city-street",
+    "tags": [
+      "giant-climb",
+      "lowpoly",
+      "city",
+      "tokyo",
+      "highway",
+      "ramp",
+      "slope",
+      "road"
+    ],
+    "gameRoles": [
+      "walkable-floor",
+      "platform"
+    ],
+    "climbable": false,
+    "description": "20 m sloped highway ramp rising 0→5 m.",
+    "file": "assets/giant-climb/city-street/city_highway_ramp.glb",
+    "localPath": "assets/giant-climb/city-street/city_highway_ramp.glb",
+    "thumbnail": "thumbnails/giant-climb/city_highway_ramp.png",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "NEXUS",
+    "source": "NEXUS original (GIANT CLIMB)",
+    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+    "sourceFile": "city_highway_ramp.glb",
+    "sourceRevision": "generated",
+    "sourceSha256": "f1a6f04b0b0d41367d63036b60d59f8e5d686c85d91879eff75ed0a87d7a5a3f",
+    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        12,
+        6.036,
+        20.227
+      ],
+      "suggestedSizeMetres": [
+        12,
+        6.036,
+        20.227
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
+      "sourceBytes": 4376,
+      "outputBytes": 4060,
+      "sourceTriangles": 36
+    },
+    "animations": [],
+    "animated": false,
+    "notes": "",
+    "recommendedFor": [
+      "giant-climb",
+      "threejs",
+      "lowpoly",
+      "walkable-floor",
+      "platform"
+    ],
+    "addedAt": "2026-10-11T00:00:00.000Z",
+    "subcategory": "city-street",
+    "size": 4060,
+    "fileSize": 4060,
+    "vertices": 84,
+    "triangles": 36,
+    "polygonCount": 36,
+    "meshCount": 2,
+    "materials": 2,
+    "textures": 0,
+    "boundingBox": {
+      "min": [
+        -6,
+        -0.4832,
+        -10.1137
+      ],
+      "max": [
+        6,
+        5.5524,
+        10.1137
+      ]
+    },
+    "dimensions": [
+      12,
+      6.0356,
+      20.2274
+    ],
+    "scale": 1,
+    "sha256": "8678403ac0ee91f3f6d37561501f552c622bd47d8302abae86deefaf8221188d",
+    "path": "assets/giant-climb/city-street/city_highway_ramp.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_highway_ramp.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_highway_ramp.glb"
+  },
+  {
+    "id": "city_pedestrian_bridge",
+    "name": "City Pedestrian Bridge",
+    "title": "City Pedestrian Bridge",
+    "collection": "giant-climb",
+    "category": "city-street",
+    "tags": [
+      "giant-climb",
+      "lowpoly",
+      "city",
+      "tokyo",
+      "footbridge",
+      "hodokyo",
+      "bridge",
+      "stairs"
+    ],
+    "gameRoles": [
+      "walkable-floor",
+      "platform"
+    ],
+    "climbable": false,
+    "description": "Pedestrian overpass (歩道橋) with stairs on both ends spanning a 16 m road.",
+    "file": "assets/giant-climb/city-street/city_pedestrian_bridge.glb",
+    "localPath": "assets/giant-climb/city-street/city_pedestrian_bridge.glb",
+    "thumbnail": "thumbnails/giant-climb/city_pedestrian_bridge.png",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "NEXUS",
+    "source": "NEXUS original (GIANT CLIMB)",
+    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+    "sourceFile": "city_pedestrian_bridge.glb",
+    "sourceRevision": "generated",
+    "sourceSha256": "91fd44e5adb9736ed27d5715ecb03b9d7bb60c556b67f2f28a7de3585647833f",
+    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        2.5,
+        6.5,
+        29.6
+      ],
+      "suggestedSizeMetres": [
+        2.5,
+        6.5,
+        29.6
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
+      "sourceBytes": 36064,
+      "outputBytes": 31508,
+      "sourceTriangles": 468
+    },
+    "animations": [],
+    "animated": false,
+    "notes": "",
+    "recommendedFor": [
+      "giant-climb",
+      "threejs",
+      "lowpoly",
+      "walkable-floor",
+      "platform"
+    ],
+    "addedAt": "2026-10-11T00:00:00.000Z",
+    "subcategory": "city-street",
+    "size": 31508,
+    "fileSize": 31508,
+    "vertices": 1092,
+    "triangles": 468,
+    "polygonCount": 468,
+    "meshCount": 3,
+    "materials": 3,
+    "textures": 0,
+    "boundingBox": {
+      "min": [
+        -1.25,
+        0,
+        -14.8
+      ],
+      "max": [
+        1.25,
+        6.5,
+        14.8
+      ]
+    },
+    "dimensions": [
+      2.5,
+      6.5,
+      29.6
+    ],
+    "scale": 1,
+    "sha256": "11b97175dc1b7fef2cffe7f23fec99639ca1135df981a45dd4d1cc9fd55ab450",
+    "path": "assets/giant-climb/city-street/city_pedestrian_bridge.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_pedestrian_bridge.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_pedestrian_bridge.glb"
+  },
+  {
+    "id": "city_rubble_pile",
+    "name": "City Rubble Pile",
+    "title": "City Rubble Pile",
+    "collection": "giant-climb",
+    "category": "city-street",
+    "tags": [
+      "giant-climb",
+      "lowpoly",
+      "city",
+      "rubble",
+      "debris",
+      "destruction",
+      "concrete"
+    ],
+    "gameRoles": [
+      "obstacle",
+      "platform"
+    ],
+    "climbable": false,
+    "description": "Concrete debris left in the robot's footsteps.",
+    "file": "assets/giant-climb/city-street/city_rubble_pile.glb",
+    "localPath": "assets/giant-climb/city-street/city_rubble_pile.glb",
+    "thumbnail": "thumbnails/giant-climb/city_rubble_pile.png",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "NEXUS",
+    "source": "NEXUS original (GIANT CLIMB)",
+    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+    "sourceFile": "city_rubble_pile.glb",
+    "sourceRevision": "generated",
+    "sourceSha256": "b99ca7c78d49be57dd53ff42a91012bf6e8ec43443cb6b51fccbec89c8416773",
+    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        4.003,
+        1.934,
+        2.75
+      ],
+      "suggestedSizeMetres": [
+        4.003,
+        1.934,
+        2.75
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
+      "sourceBytes": 6276,
+      "outputBytes": 6332,
+      "sourceTriangles": 48
+    },
+    "animations": [],
+    "animated": false,
+    "notes": "",
+    "recommendedFor": [
+      "giant-climb",
+      "threejs",
+      "lowpoly",
+      "obstacle",
+      "platform"
+    ],
+    "addedAt": "2026-10-11T00:00:00.000Z",
+    "subcategory": "city-street",
+    "size": 6332,
+    "fileSize": 6332,
+    "vertices": 142,
+    "triangles": 48,
+    "polygonCount": 48,
+    "meshCount": 3,
+    "materials": 3,
+    "textures": 0,
+    "boundingBox": {
+      "min": [
+        -1.8437,
+        -0.4049,
+        -1.2118
+      ],
+      "max": [
+        2.1595,
+        1.5291,
+        1.5378
+      ]
+    },
+    "dimensions": [
+      4.0032,
+      1.934,
+      2.7496
+    ],
+    "scale": 1,
+    "sha256": "da9f2071293fcaeb67aeebdbccbd7a72305750fd29b5096637e928ddd727981b",
+    "path": "assets/giant-climb/city-street/city_rubble_pile.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_rubble_pile.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_rubble_pile.glb"
+  },
+  {
+    "id": "city_sidewalk_barrier",
+    "name": "City Sidewalk Barrier",
+    "title": "City Sidewalk Barrier",
+    "collection": "giant-climb",
+    "category": "city-street",
+    "tags": [
+      "giant-climb",
+      "lowpoly",
+      "city",
+      "tokyo",
+      "guardrail",
+      "barrier",
+      "street",
+      "road-driver",
+      "road-props"
+    ],
+    "gameRoles": [
+      "obstacle",
+      "handhold"
+    ],
+    "climbable": true,
+    "description": "4 m sidewalk guard rail.",
+    "file": "assets/giant-climb/city-street/city_sidewalk_barrier.glb",
+    "localPath": "assets/giant-climb/city-street/city_sidewalk_barrier.glb",
+    "thumbnail": "thumbnails/giant-climb/city_sidewalk_barrier.png",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "NEXUS",
+    "source": "NEXUS original (GIANT CLIMB)",
+    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+    "sourceFile": "city_sidewalk_barrier.glb",
+    "sourceRevision": "generated",
+    "sourceSha256": "d9d8c6c390a0c51456b327b1118575c5bef747139028d13eefae26939a965084",
+    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        4,
+        0.8,
+        0.08
+      ],
+      "suggestedSizeMetres": [
+        4,
+        0.8,
+        0.08
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
+      "sourceBytes": 5308,
+      "outputBytes": 4800,
+      "sourceTriangles": 60
+    },
+    "animations": [],
+    "animated": false,
+    "notes": "",
+    "recommendedFor": [
+      "giant-climb",
+      "threejs",
+      "lowpoly",
+      "obstacle",
+      "handhold",
+      "road-driver"
+    ],
+    "addedAt": "2026-10-11T00:00:00.000Z",
+    "subcategory": "city-street",
+    "size": 4800,
+    "fileSize": 4800,
+    "vertices": 140,
+    "triangles": 60,
+    "polygonCount": 60,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 0,
+    "boundingBox": {
+      "min": [
+        -2,
+        0,
+        -0.04
+      ],
+      "max": [
+        2,
+        0.8,
+        0.04
+      ]
+    },
+    "dimensions": [
+      4,
+      0.8,
+      0.08
+    ],
+    "scale": 1,
+    "sha256": "76fb4737ae46539daae997be3f0dc678e2c3af84d542da1bb043dc8fc8f48e91",
+    "path": "assets/giant-climb/city-street/city_sidewalk_barrier.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_sidewalk_barrier.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_sidewalk_barrier.glb",
+    "roadDriver": {
+      "category": "ROAD PROPS",
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。"
+    }
+  },
+  {
+    "id": "city_street_lamp",
+    "name": "City Street Lamp",
+    "title": "City Street Lamp",
+    "collection": "giant-climb",
+    "category": "city-street",
+    "tags": [
+      "giant-climb",
+      "lowpoly",
+      "city",
+      "tokyo",
+      "street-lamp",
+      "light",
+      "street",
+      "road-driver",
+      "road-props"
+    ],
+    "gameRoles": [
+      "handhold",
+      "decoration"
+    ],
+    "climbable": true,
+    "description": "7 m street lamp.",
+    "file": "assets/giant-climb/city-street/city_street_lamp.glb",
+    "localPath": "assets/giant-climb/city-street/city_street_lamp.glb",
+    "thumbnail": "thumbnails/giant-climb/city_street_lamp.png",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "NEXUS",
+    "source": "NEXUS original (GIANT CLIMB)",
+    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+    "sourceFile": "city_street_lamp.glb",
+    "sourceRevision": "generated",
+    "sourceSha256": "e685069408c42d88eeb47f00425a05f7085f648ebf9fe771eca3ccaeb86896e9",
+    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.64,
+        7,
+        0.3
+      ],
+      "suggestedSizeMetres": [
+        1.64,
+        7,
+        0.3
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
+      "sourceBytes": 7500,
+      "outputBytes": 7048,
+      "sourceTriangles": 68
+    },
+    "animations": [],
+    "animated": false,
+    "notes": "",
+    "recommendedFor": [
+      "giant-climb",
+      "threejs",
+      "lowpoly",
+      "handhold",
+      "decoration",
+      "road-driver"
+    ],
+    "addedAt": "2026-10-11T00:00:00.000Z",
+    "subcategory": "city-street",
+    "size": 7048,
+    "fileSize": 7048,
+    "vertices": 163,
+    "triangles": 68,
+    "polygonCount": 68,
+    "meshCount": 3,
+    "materials": 3,
+    "textures": 0,
+    "boundingBox": {
+      "min": [
+        -0.14,
+        0,
+        -0.15
+      ],
+      "max": [
+        1.5,
+        7,
+        0.15
+      ]
+    },
+    "dimensions": [
+      1.64,
+      7,
+      0.3
+    ],
+    "scale": 1,
+    "sha256": "8be983c8e5bbd81c5286f179f1722c6c221d6ed7b30385861afa6b0115f08315",
+    "path": "assets/giant-climb/city-street/city_street_lamp.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_street_lamp.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_street_lamp.glb",
+    "roadDriver": {
+      "category": "ROAD PROPS",
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。"
+    }
+  },
+  {
+    "id": "city_traffic_light",
+    "name": "City Traffic Light",
+    "title": "City Traffic Light",
+    "collection": "giant-climb",
+    "category": "city-street",
+    "tags": [
+      "giant-climb",
+      "lowpoly",
+      "city",
+      "tokyo",
+      "traffic-light",
+      "signal",
+      "street",
+      "road-driver",
+      "road-props"
+    ],
+    "gameRoles": [
+      "handhold",
+      "decoration"
+    ],
+    "climbable": true,
+    "description": "Horizontal Japanese-style traffic signal on a cantilever mast.",
+    "file": "assets/giant-climb/city-street/city_traffic_light.glb",
+    "localPath": "assets/giant-climb/city-street/city_traffic_light.glb",
+    "thumbnail": "thumbnails/giant-climb/city_traffic_light.png",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "NEXUS",
+    "source": "NEXUS original (GIANT CLIMB)",
+    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+    "sourceFile": "city_traffic_light.glb",
+    "sourceRevision": "generated",
+    "sourceSha256": "f3704a45c5a0429d5af768db01c6f48c4c9a110429700bb38ba14b6b3a4a05d6",
+    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        4.15,
+        5.5,
+        0.405
+      ],
+      "suggestedSizeMetres": [
+        4.15,
+        5.5,
+        0.405
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
+      "sourceBytes": 15340,
+      "outputBytes": 12892,
+      "sourceTriangles": 152
+    },
+    "animations": [],
+    "animated": false,
+    "notes": "",
+    "recommendedFor": [
+      "giant-climb",
+      "threejs",
+      "lowpoly",
+      "handhold",
+      "decoration",
+      "road-driver"
+    ],
+    "addedAt": "2026-10-11T00:00:00.000Z",
+    "subcategory": "city-street",
+    "size": 12892,
+    "fileSize": 12892,
+    "vertices": 318,
+    "triangles": 152,
+    "polygonCount": 152,
+    "meshCount": 5,
+    "materials": 5,
+    "textures": 0,
+    "boundingBox": {
+      "min": [
+        -0.15,
+        0,
+        -0.175
+      ],
+      "max": [
+        4,
+        5.5,
+        0.23
+      ]
+    },
+    "dimensions": [
+      4.15,
+      5.5,
+      0.405
+    ],
+    "scale": 1,
+    "sha256": "c254175908ee287f11ae514705d78568eeb168145580a7a8658bcf7cb8629ac3",
+    "path": "assets/giant-climb/city-street/city_traffic_light.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_traffic_light.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_traffic_light.glb",
+    "roadDriver": {
+      "category": "ROAD PROPS",
+      "recommendedUse": "道路タイル、路肩、信号、街灯。",
+      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。"
+    }
+  },
+  {
+    "id": "city_utility_pole",
+    "name": "City Utility Pole",
+    "title": "City Utility Pole",
+    "collection": "giant-climb",
+    "category": "city-street",
+    "tags": [
+      "giant-climb",
+      "lowpoly",
+      "city",
+      "tokyo",
+      "utility-pole",
+      "denchu",
+      "wires",
+      "street"
+    ],
+    "gameRoles": [
+      "climbable-surface",
+      "handhold"
+    ],
+    "climbable": true,
+    "description": "Concrete utility pole with transformer and crossarms (12 m) — iconic Tokyo street climb.",
+    "file": "assets/giant-climb/city-street/city_utility_pole.glb",
+    "localPath": "assets/giant-climb/city-street/city_utility_pole.glb",
+    "thumbnail": "thumbnails/giant-climb/city_utility_pole.png",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "NEXUS",
+    "source": "NEXUS original (GIANT CLIMB)",
+    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+    "sourceFile": "city_utility_pole.glb",
+    "sourceRevision": "generated",
+    "sourceSha256": "b5ccae850cc4c58bbbfd34da7898046fbc8c17bbe929c44a97362c73d6e063eb",
+    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        2.2,
+        12,
+        10.353
+      ],
+      "suggestedSizeMetres": [
+        2.2,
+        12,
+        10.353
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
+      "sourceBytes": 25960,
+      "outputBytes": 24304,
+      "sourceTriangles": 292
+    },
+    "animations": [],
+    "animated": false,
+    "notes": "",
+    "recommendedFor": [
+      "giant-climb",
+      "threejs",
+      "lowpoly",
+      "climbable-surface",
+      "handhold"
+    ],
+    "addedAt": "2026-10-11T00:00:00.000Z",
+    "subcategory": "city-street",
+    "size": 24304,
+    "fileSize": 24304,
+    "vertices": 739,
+    "triangles": 292,
+    "polygonCount": 292,
+    "meshCount": 6,
+    "materials": 6,
+    "textures": 0,
+    "boundingBox": {
+      "min": [
+        -1.1,
+        0,
+        -0.35
+      ],
+      "max": [
+        1.1,
+        12,
+        10.0034
+      ]
+    },
+    "dimensions": [
+      2.2,
+      12,
+      10.3534
+    ],
+    "scale": 1,
+    "sha256": "0c075c44c75e6ac1636c74ab75660666df4b9d6a33b121df55cd90158988c1c0",
+    "path": "assets/giant-climb/city-street/city_utility_pole.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_utility_pole.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_utility_pole.glb"
+  },
+  {
+    "id": "city_vending_machine",
+    "name": "City Vending Machine",
+    "title": "City Vending Machine",
+    "collection": "giant-climb",
+    "category": "city-street",
+    "tags": [
+      "giant-climb",
+      "lowpoly",
+      "city",
+      "tokyo",
+      "vending-machine",
+      "jidohanbaiki",
+      "prop"
+    ],
+    "gameRoles": [
+      "obstacle",
+      "platform"
+    ],
+    "climbable": false,
+    "description": "Drink vending machine with lit display (unbranded).",
+    "file": "assets/giant-climb/city-street/city_vending_machine.glb",
+    "localPath": "assets/giant-climb/city-street/city_vending_machine.glb",
+    "thumbnail": "thumbnails/giant-climb/city_vending_machine.png",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "NEXUS",
+    "source": "NEXUS original (GIANT CLIMB)",
+    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+    "sourceFile": "city_vending_machine.glb",
+    "sourceRevision": "generated",
+    "sourceSha256": "3a59e2b25ab0ecfa768915f1413536d418629ed6c28ce24944a9579dcfd7df19",
+    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1,
+        1.8,
+        0.78
+      ],
+      "suggestedSizeMetres": [
+        1,
+        1.8,
+        0.78
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
+      "sourceBytes": 6804,
+      "outputBytes": 6464,
+      "sourceTriangles": 48
+    },
+    "animations": [],
+    "animated": false,
+    "notes": "",
+    "recommendedFor": [
+      "giant-climb",
+      "threejs",
+      "lowpoly",
+      "obstacle",
+      "platform"
+    ],
+    "addedAt": "2026-10-11T00:00:00.000Z",
+    "subcategory": "city-street",
+    "size": 6464,
+    "fileSize": 6464,
+    "vertices": 112,
+    "triangles": 48,
+    "polygonCount": 48,
+    "meshCount": 4,
+    "materials": 4,
+    "textures": 0,
+    "boundingBox": {
+      "min": [
+        -0.5,
+        0,
+        -0.375
+      ],
+      "max": [
+        0.5,
+        1.8,
+        0.405
+      ]
+    },
+    "dimensions": [
+      1,
+      1.8,
+      0.78
+    ],
+    "scale": 1,
+    "sha256": "46766ad764b9a22373ac766a7e354299a753b4a3d58c98df6130ba8264fda4d1",
+    "path": "assets/giant-climb/city-street/city_vending_machine.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_vending_machine.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_vending_machine.glb"
   },
   {
     "id": "citykit_grass",
@@ -9144,1018 +10156,6 @@
       "recommendedUse": "道路タイル、路肩、信号、街灯。",
       "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。"
     }
-  },
-  {
-    "id": "city_crosswalk_road",
-    "name": "City Crosswalk Road",
-    "title": "City Crosswalk Road",
-    "collection": "giant-climb",
-    "category": "city-street",
-    "tags": [
-      "giant-climb",
-      "lowpoly",
-      "city",
-      "tokyo",
-      "road",
-      "crosswalk",
-      "zebra",
-      "tile"
-    ],
-    "gameRoles": [
-      "walkable-floor",
-      "modular-kit"
-    ],
-    "climbable": false,
-    "description": "10×10 m road tile with zebra crossing.",
-    "file": "assets/giant-climb/city-street/city_crosswalk_road.glb",
-    "localPath": "assets/giant-climb/city-street/city_crosswalk_road.glb",
-    "thumbnail": "thumbnails/giant-climb/city_crosswalk_road.png",
-    "format": "GLB",
-    "type": "model",
-    "license": "CC0-1.0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "author": "NEXUS",
-    "source": "NEXUS original (GIANT CLIMB)",
-    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
-    "sourceFile": "city_crosswalk_road.glb",
-    "sourceRevision": "generated",
-    "sourceSha256": "7660bfd0a8414421e380187d396c59e68f447a60c61c5aedb4e7a69bdf579be2",
-    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
-    "units": {
-      "metresPerUnit": 1,
-      "nativeSize": [
-        10,
-        0.12,
-        10
-      ],
-      "suggestedSizeMetres": [
-        10,
-        0.12,
-        10
-      ],
-      "upAxis": "Y"
-    },
-    "optimization": {
-      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
-      "sourceBytes": 12004,
-      "outputBytes": 10672,
-      "sourceTriangles": 144
-    },
-    "animations": [],
-    "animated": false,
-    "notes": "",
-    "recommendedFor": [
-      "giant-climb",
-      "threejs",
-      "lowpoly",
-      "walkable-floor",
-      "modular-kit"
-    ],
-    "addedAt": "2026-10-11T00:00:00.000Z",
-    "subcategory": "city-street",
-    "size": 10672,
-    "fileSize": 10672,
-    "vertices": 336,
-    "triangles": 144,
-    "polygonCount": 144,
-    "meshCount": 2,
-    "materials": 2,
-    "textures": 0,
-    "boundingBox": {
-      "min": [
-        -5,
-        0,
-        -5
-      ],
-      "max": [
-        5,
-        0.12,
-        5
-      ]
-    },
-    "dimensions": [
-      10,
-      0.12,
-      10
-    ],
-    "scale": 1,
-    "sha256": "e08396602ac7ea6e275282ba99f4dd4bfc862c10f8ab2a803b9422afb0fdf18f",
-    "path": "assets/giant-climb/city-street/city_crosswalk_road.glb",
-    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_crosswalk_road.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_crosswalk_road.glb"
-  },
-  {
-    "id": "city_elevated_highway",
-    "name": "City Elevated Highway",
-    "title": "City Elevated Highway",
-    "collection": "giant-climb",
-    "category": "city-street",
-    "tags": [
-      "giant-climb",
-      "lowpoly",
-      "city",
-      "tokyo",
-      "highway",
-      "expressway",
-      "elevated",
-      "road",
-      "modular"
-    ],
-    "gameRoles": [
-      "walkable-floor",
-      "platform",
-      "modular-kit"
-    ],
-    "climbable": false,
-    "description": "20 m elevated expressway deck (2 lanes, 10 m high) on a T-pier — tile along Z.",
-    "file": "assets/giant-climb/city-street/city_elevated_highway.glb",
-    "localPath": "assets/giant-climb/city-street/city_elevated_highway.glb",
-    "thumbnail": "thumbnails/giant-climb/city_elevated_highway.png",
-    "format": "GLB",
-    "type": "model",
-    "license": "CC0-1.0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "author": "NEXUS",
-    "source": "NEXUS original (GIANT CLIMB)",
-    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
-    "sourceFile": "city_elevated_highway.glb",
-    "sourceRevision": "generated",
-    "sourceSha256": "687f3d2297cfaa12ad9b79bb1e49b969d023170b51c4beab0d4adb22f7007236",
-    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
-    "units": {
-      "metresPerUnit": 1,
-      "nativeSize": [
-        12,
-        14.9,
-        20
-      ],
-      "suggestedSizeMetres": [
-        12,
-        14.9,
-        20
-      ],
-      "upAxis": "Y"
-    },
-    "optimization": {
-      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
-      "sourceBytes": 16856,
-      "outputBytes": 15344,
-      "sourceTriangles": 168
-    },
-    "animations": [],
-    "animated": false,
-    "notes": "",
-    "recommendedFor": [
-      "giant-climb",
-      "threejs",
-      "lowpoly",
-      "walkable-floor",
-      "platform",
-      "modular-kit"
-    ],
-    "addedAt": "2026-10-11T00:00:00.000Z",
-    "subcategory": "city-street",
-    "size": 15344,
-    "fileSize": 15344,
-    "vertices": 392,
-    "triangles": 168,
-    "polygonCount": 168,
-    "meshCount": 6,
-    "materials": 6,
-    "textures": 0,
-    "boundingBox": {
-      "min": [
-        -6,
-        0,
-        -10
-      ],
-      "max": [
-        6,
-        14.9,
-        10
-      ]
-    },
-    "dimensions": [
-      12,
-      14.9,
-      20
-    ],
-    "scale": 1,
-    "sha256": "a03f34c69f2cea015718c55963a474f1b2d66a666af4cc31b309b7365ff282e1",
-    "path": "assets/giant-climb/city-street/city_elevated_highway.glb",
-    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_elevated_highway.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_elevated_highway.glb"
-  },
-  {
-    "id": "city_highway_ramp",
-    "name": "City Highway Ramp",
-    "title": "City Highway Ramp",
-    "collection": "giant-climb",
-    "category": "city-street",
-    "tags": [
-      "giant-climb",
-      "lowpoly",
-      "city",
-      "tokyo",
-      "highway",
-      "ramp",
-      "slope",
-      "road"
-    ],
-    "gameRoles": [
-      "walkable-floor",
-      "platform"
-    ],
-    "climbable": false,
-    "description": "20 m sloped highway ramp rising 0→5 m.",
-    "file": "assets/giant-climb/city-street/city_highway_ramp.glb",
-    "localPath": "assets/giant-climb/city-street/city_highway_ramp.glb",
-    "thumbnail": "thumbnails/giant-climb/city_highway_ramp.png",
-    "format": "GLB",
-    "type": "model",
-    "license": "CC0-1.0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "author": "NEXUS",
-    "source": "NEXUS original (GIANT CLIMB)",
-    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
-    "sourceFile": "city_highway_ramp.glb",
-    "sourceRevision": "generated",
-    "sourceSha256": "f1a6f04b0b0d41367d63036b60d59f8e5d686c85d91879eff75ed0a87d7a5a3f",
-    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
-    "units": {
-      "metresPerUnit": 1,
-      "nativeSize": [
-        12,
-        6.036,
-        20.227
-      ],
-      "suggestedSizeMetres": [
-        12,
-        6.036,
-        20.227
-      ],
-      "upAxis": "Y"
-    },
-    "optimization": {
-      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
-      "sourceBytes": 4376,
-      "outputBytes": 4060,
-      "sourceTriangles": 36
-    },
-    "animations": [],
-    "animated": false,
-    "notes": "",
-    "recommendedFor": [
-      "giant-climb",
-      "threejs",
-      "lowpoly",
-      "walkable-floor",
-      "platform"
-    ],
-    "addedAt": "2026-10-11T00:00:00.000Z",
-    "subcategory": "city-street",
-    "size": 4060,
-    "fileSize": 4060,
-    "vertices": 84,
-    "triangles": 36,
-    "polygonCount": 36,
-    "meshCount": 2,
-    "materials": 2,
-    "textures": 0,
-    "boundingBox": {
-      "min": [
-        -6,
-        -0.4832,
-        -10.1137
-      ],
-      "max": [
-        6,
-        5.5524,
-        10.1137
-      ]
-    },
-    "dimensions": [
-      12,
-      6.0356,
-      20.2274
-    ],
-    "scale": 1,
-    "sha256": "8678403ac0ee91f3f6d37561501f552c622bd47d8302abae86deefaf8221188d",
-    "path": "assets/giant-climb/city-street/city_highway_ramp.glb",
-    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_highway_ramp.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_highway_ramp.glb"
-  },
-  {
-    "id": "city_pedestrian_bridge",
-    "name": "City Pedestrian Bridge",
-    "title": "City Pedestrian Bridge",
-    "collection": "giant-climb",
-    "category": "city-street",
-    "tags": [
-      "giant-climb",
-      "lowpoly",
-      "city",
-      "tokyo",
-      "footbridge",
-      "hodokyo",
-      "bridge",
-      "stairs"
-    ],
-    "gameRoles": [
-      "walkable-floor",
-      "platform"
-    ],
-    "climbable": false,
-    "description": "Pedestrian overpass (歩道橋) with stairs on both ends spanning a 16 m road.",
-    "file": "assets/giant-climb/city-street/city_pedestrian_bridge.glb",
-    "localPath": "assets/giant-climb/city-street/city_pedestrian_bridge.glb",
-    "thumbnail": "thumbnails/giant-climb/city_pedestrian_bridge.png",
-    "format": "GLB",
-    "type": "model",
-    "license": "CC0-1.0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "author": "NEXUS",
-    "source": "NEXUS original (GIANT CLIMB)",
-    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
-    "sourceFile": "city_pedestrian_bridge.glb",
-    "sourceRevision": "generated",
-    "sourceSha256": "91fd44e5adb9736ed27d5715ecb03b9d7bb60c556b67f2f28a7de3585647833f",
-    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
-    "units": {
-      "metresPerUnit": 1,
-      "nativeSize": [
-        2.5,
-        6.5,
-        29.6
-      ],
-      "suggestedSizeMetres": [
-        2.5,
-        6.5,
-        29.6
-      ],
-      "upAxis": "Y"
-    },
-    "optimization": {
-      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
-      "sourceBytes": 36064,
-      "outputBytes": 31508,
-      "sourceTriangles": 468
-    },
-    "animations": [],
-    "animated": false,
-    "notes": "",
-    "recommendedFor": [
-      "giant-climb",
-      "threejs",
-      "lowpoly",
-      "walkable-floor",
-      "platform"
-    ],
-    "addedAt": "2026-10-11T00:00:00.000Z",
-    "subcategory": "city-street",
-    "size": 31508,
-    "fileSize": 31508,
-    "vertices": 1092,
-    "triangles": 468,
-    "polygonCount": 468,
-    "meshCount": 3,
-    "materials": 3,
-    "textures": 0,
-    "boundingBox": {
-      "min": [
-        -1.25,
-        0,
-        -14.8
-      ],
-      "max": [
-        1.25,
-        6.5,
-        14.8
-      ]
-    },
-    "dimensions": [
-      2.5,
-      6.5,
-      29.6
-    ],
-    "scale": 1,
-    "sha256": "11b97175dc1b7fef2cffe7f23fec99639ca1135df981a45dd4d1cc9fd55ab450",
-    "path": "assets/giant-climb/city-street/city_pedestrian_bridge.glb",
-    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_pedestrian_bridge.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_pedestrian_bridge.glb"
-  },
-  {
-    "id": "city_rubble_pile",
-    "name": "City Rubble Pile",
-    "title": "City Rubble Pile",
-    "collection": "giant-climb",
-    "category": "city-street",
-    "tags": [
-      "giant-climb",
-      "lowpoly",
-      "city",
-      "rubble",
-      "debris",
-      "destruction",
-      "concrete"
-    ],
-    "gameRoles": [
-      "obstacle",
-      "platform"
-    ],
-    "climbable": false,
-    "description": "Concrete debris left in the robot's footsteps.",
-    "file": "assets/giant-climb/city-street/city_rubble_pile.glb",
-    "localPath": "assets/giant-climb/city-street/city_rubble_pile.glb",
-    "thumbnail": "thumbnails/giant-climb/city_rubble_pile.png",
-    "format": "GLB",
-    "type": "model",
-    "license": "CC0-1.0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "author": "NEXUS",
-    "source": "NEXUS original (GIANT CLIMB)",
-    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
-    "sourceFile": "city_rubble_pile.glb",
-    "sourceRevision": "generated",
-    "sourceSha256": "b99ca7c78d49be57dd53ff42a91012bf6e8ec43443cb6b51fccbec89c8416773",
-    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
-    "units": {
-      "metresPerUnit": 1,
-      "nativeSize": [
-        4.003,
-        1.934,
-        2.75
-      ],
-      "suggestedSizeMetres": [
-        4.003,
-        1.934,
-        2.75
-      ],
-      "upAxis": "Y"
-    },
-    "optimization": {
-      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
-      "sourceBytes": 6276,
-      "outputBytes": 6332,
-      "sourceTriangles": 48
-    },
-    "animations": [],
-    "animated": false,
-    "notes": "",
-    "recommendedFor": [
-      "giant-climb",
-      "threejs",
-      "lowpoly",
-      "obstacle",
-      "platform"
-    ],
-    "addedAt": "2026-10-11T00:00:00.000Z",
-    "subcategory": "city-street",
-    "size": 6332,
-    "fileSize": 6332,
-    "vertices": 142,
-    "triangles": 48,
-    "polygonCount": 48,
-    "meshCount": 3,
-    "materials": 3,
-    "textures": 0,
-    "boundingBox": {
-      "min": [
-        -1.8437,
-        -0.4049,
-        -1.2118
-      ],
-      "max": [
-        2.1595,
-        1.5291,
-        1.5378
-      ]
-    },
-    "dimensions": [
-      4.0032,
-      1.934,
-      2.7496
-    ],
-    "scale": 1,
-    "sha256": "da9f2071293fcaeb67aeebdbccbd7a72305750fd29b5096637e928ddd727981b",
-    "path": "assets/giant-climb/city-street/city_rubble_pile.glb",
-    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_rubble_pile.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_rubble_pile.glb"
-  },
-  {
-    "id": "city_sidewalk_barrier",
-    "name": "City Sidewalk Barrier",
-    "title": "City Sidewalk Barrier",
-    "collection": "giant-climb",
-    "category": "city-street",
-    "tags": [
-      "giant-climb",
-      "lowpoly",
-      "city",
-      "tokyo",
-      "guardrail",
-      "barrier",
-      "street",
-      "road-driver",
-      "road-props"
-    ],
-    "gameRoles": [
-      "obstacle",
-      "handhold"
-    ],
-    "climbable": true,
-    "description": "4 m sidewalk guard rail.",
-    "file": "assets/giant-climb/city-street/city_sidewalk_barrier.glb",
-    "localPath": "assets/giant-climb/city-street/city_sidewalk_barrier.glb",
-    "thumbnail": "thumbnails/giant-climb/city_sidewalk_barrier.png",
-    "format": "GLB",
-    "type": "model",
-    "license": "CC0-1.0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "author": "NEXUS",
-    "source": "NEXUS original (GIANT CLIMB)",
-    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
-    "sourceFile": "city_sidewalk_barrier.glb",
-    "sourceRevision": "generated",
-    "sourceSha256": "d9d8c6c390a0c51456b327b1118575c5bef747139028d13eefae26939a965084",
-    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
-    "units": {
-      "metresPerUnit": 1,
-      "nativeSize": [
-        4,
-        0.8,
-        0.08
-      ],
-      "suggestedSizeMetres": [
-        4,
-        0.8,
-        0.08
-      ],
-      "upAxis": "Y"
-    },
-    "optimization": {
-      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
-      "sourceBytes": 5308,
-      "outputBytes": 4800,
-      "sourceTriangles": 60
-    },
-    "animations": [],
-    "animated": false,
-    "notes": "",
-    "recommendedFor": [
-      "giant-climb",
-      "threejs",
-      "lowpoly",
-      "obstacle",
-      "handhold",
-      "road-driver"
-    ],
-    "addedAt": "2026-10-11T00:00:00.000Z",
-    "subcategory": "city-street",
-    "size": 4800,
-    "fileSize": 4800,
-    "vertices": 140,
-    "triangles": 60,
-    "polygonCount": 60,
-    "meshCount": 1,
-    "materials": 1,
-    "textures": 0,
-    "boundingBox": {
-      "min": [
-        -2,
-        0,
-        -0.04
-      ],
-      "max": [
-        2,
-        0.8,
-        0.04
-      ]
-    },
-    "dimensions": [
-      4,
-      0.8,
-      0.08
-    ],
-    "scale": 1,
-    "sha256": "76fb4737ae46539daae997be3f0dc678e2c3af84d542da1bb043dc8fc8f48e91",
-    "path": "assets/giant-climb/city-street/city_sidewalk_barrier.glb",
-    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_sidewalk_barrier.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_sidewalk_barrier.glb",
-    "roadDriver": {
-      "category": "ROAD PROPS",
-      "recommendedUse": "道路タイル、路肩、信号、街灯。",
-      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。"
-    }
-  },
-  {
-    "id": "city_street_lamp",
-    "name": "City Street Lamp",
-    "title": "City Street Lamp",
-    "collection": "giant-climb",
-    "category": "city-street",
-    "tags": [
-      "giant-climb",
-      "lowpoly",
-      "city",
-      "tokyo",
-      "street-lamp",
-      "light",
-      "street",
-      "road-driver",
-      "road-props"
-    ],
-    "gameRoles": [
-      "handhold",
-      "decoration"
-    ],
-    "climbable": true,
-    "description": "7 m street lamp.",
-    "file": "assets/giant-climb/city-street/city_street_lamp.glb",
-    "localPath": "assets/giant-climb/city-street/city_street_lamp.glb",
-    "thumbnail": "thumbnails/giant-climb/city_street_lamp.png",
-    "format": "GLB",
-    "type": "model",
-    "license": "CC0-1.0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "author": "NEXUS",
-    "source": "NEXUS original (GIANT CLIMB)",
-    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
-    "sourceFile": "city_street_lamp.glb",
-    "sourceRevision": "generated",
-    "sourceSha256": "e685069408c42d88eeb47f00425a05f7085f648ebf9fe771eca3ccaeb86896e9",
-    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
-    "units": {
-      "metresPerUnit": 1,
-      "nativeSize": [
-        1.64,
-        7,
-        0.3
-      ],
-      "suggestedSizeMetres": [
-        1.64,
-        7,
-        0.3
-      ],
-      "upAxis": "Y"
-    },
-    "optimization": {
-      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
-      "sourceBytes": 7500,
-      "outputBytes": 7048,
-      "sourceTriangles": 68
-    },
-    "animations": [],
-    "animated": false,
-    "notes": "",
-    "recommendedFor": [
-      "giant-climb",
-      "threejs",
-      "lowpoly",
-      "handhold",
-      "decoration",
-      "road-driver"
-    ],
-    "addedAt": "2026-10-11T00:00:00.000Z",
-    "subcategory": "city-street",
-    "size": 7048,
-    "fileSize": 7048,
-    "vertices": 163,
-    "triangles": 68,
-    "polygonCount": 68,
-    "meshCount": 3,
-    "materials": 3,
-    "textures": 0,
-    "boundingBox": {
-      "min": [
-        -0.14,
-        0,
-        -0.15
-      ],
-      "max": [
-        1.5,
-        7,
-        0.15
-      ]
-    },
-    "dimensions": [
-      1.64,
-      7,
-      0.3
-    ],
-    "scale": 1,
-    "sha256": "8be983c8e5bbd81c5286f179f1722c6c221d6ed7b30385861afa6b0115f08315",
-    "path": "assets/giant-climb/city-street/city_street_lamp.glb",
-    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_street_lamp.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_street_lamp.glb",
-    "roadDriver": {
-      "category": "ROAD PROPS",
-      "recommendedUse": "道路タイル、路肩、信号、街灯。",
-      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。"
-    }
-  },
-  {
-    "id": "city_traffic_light",
-    "name": "City Traffic Light",
-    "title": "City Traffic Light",
-    "collection": "giant-climb",
-    "category": "city-street",
-    "tags": [
-      "giant-climb",
-      "lowpoly",
-      "city",
-      "tokyo",
-      "traffic-light",
-      "signal",
-      "street",
-      "road-driver",
-      "road-props"
-    ],
-    "gameRoles": [
-      "handhold",
-      "decoration"
-    ],
-    "climbable": true,
-    "description": "Horizontal Japanese-style traffic signal on a cantilever mast.",
-    "file": "assets/giant-climb/city-street/city_traffic_light.glb",
-    "localPath": "assets/giant-climb/city-street/city_traffic_light.glb",
-    "thumbnail": "thumbnails/giant-climb/city_traffic_light.png",
-    "format": "GLB",
-    "type": "model",
-    "license": "CC0-1.0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "author": "NEXUS",
-    "source": "NEXUS original (GIANT CLIMB)",
-    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
-    "sourceFile": "city_traffic_light.glb",
-    "sourceRevision": "generated",
-    "sourceSha256": "f3704a45c5a0429d5af768db01c6f48c4c9a110429700bb38ba14b6b3a4a05d6",
-    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
-    "units": {
-      "metresPerUnit": 1,
-      "nativeSize": [
-        4.15,
-        5.5,
-        0.405
-      ],
-      "suggestedSizeMetres": [
-        4.15,
-        5.5,
-        0.405
-      ],
-      "upAxis": "Y"
-    },
-    "optimization": {
-      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
-      "sourceBytes": 15340,
-      "outputBytes": 12892,
-      "sourceTriangles": 152
-    },
-    "animations": [],
-    "animated": false,
-    "notes": "",
-    "recommendedFor": [
-      "giant-climb",
-      "threejs",
-      "lowpoly",
-      "handhold",
-      "decoration",
-      "road-driver"
-    ],
-    "addedAt": "2026-10-11T00:00:00.000Z",
-    "subcategory": "city-street",
-    "size": 12892,
-    "fileSize": 12892,
-    "vertices": 318,
-    "triangles": 152,
-    "polygonCount": 152,
-    "meshCount": 5,
-    "materials": 5,
-    "textures": 0,
-    "boundingBox": {
-      "min": [
-        -0.15,
-        0,
-        -0.175
-      ],
-      "max": [
-        4,
-        5.5,
-        0.23
-      ]
-    },
-    "dimensions": [
-      4.15,
-      5.5,
-      0.405
-    ],
-    "scale": 1,
-    "sha256": "c254175908ee287f11ae514705d78568eeb168145580a7a8658bcf7cb8629ac3",
-    "path": "assets/giant-climb/city-street/city_traffic_light.glb",
-    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_traffic_light.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_traffic_light.glb",
-    "roadDriver": {
-      "category": "ROAD PROPS",
-      "recommendedUse": "道路タイル、路肩、信号、街灯。",
-      "placement": "タイルは同じ幅の辺を合わせて反復。街灯・信号・バリアは道路端に少数配置し、遠景は間引く。"
-    }
-  },
-  {
-    "id": "city_utility_pole",
-    "name": "City Utility Pole",
-    "title": "City Utility Pole",
-    "collection": "giant-climb",
-    "category": "city-street",
-    "tags": [
-      "giant-climb",
-      "lowpoly",
-      "city",
-      "tokyo",
-      "utility-pole",
-      "denchu",
-      "wires",
-      "street"
-    ],
-    "gameRoles": [
-      "climbable-surface",
-      "handhold"
-    ],
-    "climbable": true,
-    "description": "Concrete utility pole with transformer and crossarms (12 m) — iconic Tokyo street climb.",
-    "file": "assets/giant-climb/city-street/city_utility_pole.glb",
-    "localPath": "assets/giant-climb/city-street/city_utility_pole.glb",
-    "thumbnail": "thumbnails/giant-climb/city_utility_pole.png",
-    "format": "GLB",
-    "type": "model",
-    "license": "CC0-1.0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "author": "NEXUS",
-    "source": "NEXUS original (GIANT CLIMB)",
-    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
-    "sourceFile": "city_utility_pole.glb",
-    "sourceRevision": "generated",
-    "sourceSha256": "b5ccae850cc4c58bbbfd34da7898046fbc8c17bbe929c44a97362c73d6e063eb",
-    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
-    "units": {
-      "metresPerUnit": 1,
-      "nativeSize": [
-        2.2,
-        12,
-        10.353
-      ],
-      "suggestedSizeMetres": [
-        2.2,
-        12,
-        10.353
-      ],
-      "upAxis": "Y"
-    },
-    "optimization": {
-      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
-      "sourceBytes": 25960,
-      "outputBytes": 24304,
-      "sourceTriangles": 292
-    },
-    "animations": [],
-    "animated": false,
-    "notes": "",
-    "recommendedFor": [
-      "giant-climb",
-      "threejs",
-      "lowpoly",
-      "climbable-surface",
-      "handhold"
-    ],
-    "addedAt": "2026-10-11T00:00:00.000Z",
-    "subcategory": "city-street",
-    "size": 24304,
-    "fileSize": 24304,
-    "vertices": 739,
-    "triangles": 292,
-    "polygonCount": 292,
-    "meshCount": 6,
-    "materials": 6,
-    "textures": 0,
-    "boundingBox": {
-      "min": [
-        -1.1,
-        0,
-        -0.35
-      ],
-      "max": [
-        1.1,
-        12,
-        10.0034
-      ]
-    },
-    "dimensions": [
-      2.2,
-      12,
-      10.3534
-    ],
-    "scale": 1,
-    "sha256": "0c075c44c75e6ac1636c74ab75660666df4b9d6a33b121df55cd90158988c1c0",
-    "path": "assets/giant-climb/city-street/city_utility_pole.glb",
-    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_utility_pole.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_utility_pole.glb"
-  },
-  {
-    "id": "city_vending_machine",
-    "name": "City Vending Machine",
-    "title": "City Vending Machine",
-    "collection": "giant-climb",
-    "category": "city-street",
-    "tags": [
-      "giant-climb",
-      "lowpoly",
-      "city",
-      "tokyo",
-      "vending-machine",
-      "jidohanbaiki",
-      "prop"
-    ],
-    "gameRoles": [
-      "obstacle",
-      "platform"
-    ],
-    "climbable": false,
-    "description": "Drink vending machine with lit display (unbranded).",
-    "file": "assets/giant-climb/city-street/city_vending_machine.glb",
-    "localPath": "assets/giant-climb/city-street/city_vending_machine.glb",
-    "thumbnail": "thumbnails/giant-climb/city_vending_machine.png",
-    "format": "GLB",
-    "type": "model",
-    "license": "CC0-1.0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "author": "NEXUS",
-    "source": "NEXUS original (GIANT CLIMB)",
-    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
-    "sourceFile": "city_vending_machine.glb",
-    "sourceRevision": "generated",
-    "sourceSha256": "3a59e2b25ab0ecfa768915f1413536d418629ed6c28ce24944a9579dcfd7df19",
-    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
-    "units": {
-      "metresPerUnit": 1,
-      "nativeSize": [
-        1,
-        1.8,
-        0.78
-      ],
-      "suggestedSizeMetres": [
-        1,
-        1.8,
-        0.78
-      ],
-      "upAxis": "Y"
-    },
-    "optimization": {
-      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
-      "sourceBytes": 6804,
-      "outputBytes": 6464,
-      "sourceTriangles": 48
-    },
-    "animations": [],
-    "animated": false,
-    "notes": "",
-    "recommendedFor": [
-      "giant-climb",
-      "threejs",
-      "lowpoly",
-      "obstacle",
-      "platform"
-    ],
-    "addedAt": "2026-10-11T00:00:00.000Z",
-    "subcategory": "city-street",
-    "size": 6464,
-    "fileSize": 6464,
-    "vertices": 112,
-    "triangles": 48,
-    "polygonCount": 48,
-    "meshCount": 4,
-    "materials": 4,
-    "textures": 0,
-    "boundingBox": {
-      "min": [
-        -0.5,
-        0,
-        -0.375
-      ],
-      "max": [
-        0.5,
-        1.8,
-        0.405
-      ]
-    },
-    "dimensions": [
-      1,
-      1.8,
-      0.78
-    ],
-    "scale": 1,
-    "sha256": "46766ad764b9a22373ac766a7e354299a753b4a3d58c98df6130ba8264fda4d1",
-    "path": "assets/giant-climb/city-street/city_vending_machine.glb",
-    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/city-street/city_vending_machine.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/city-street/city_vending_machine.glb"
   },
   {
     "id": "space_monorail_track_corner_large",
@@ -15117,102 +15117,6 @@
     "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/robot-exterior/robot_eye_sensor.glb"
   },
   {
-    "id": "robot_fingertip",
-    "name": "Robot Fingertip",
-    "title": "Robot Fingertip",
-    "collection": "giant-climb",
-    "category": "robot-exterior",
-    "tags": [
-      "giant-climb",
-      "lowpoly",
-      "robot",
-      "finger",
-      "tip",
-      "hand",
-      "mecha"
-    ],
-    "gameRoles": [
-      "platform"
-    ],
-    "climbable": false,
-    "description": "Tapered fingertip that caps a finger chain.",
-    "file": "assets/giant-climb/robot-exterior/robot_fingertip.glb",
-    "localPath": "assets/giant-climb/robot-exterior/robot_fingertip.glb",
-    "thumbnail": "thumbnails/giant-climb/robot_fingertip.png",
-    "format": "GLB",
-    "type": "model",
-    "license": "CC0-1.0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "author": "NEXUS",
-    "source": "NEXUS original (GIANT CLIMB)",
-    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
-    "sourceFile": "robot_fingertip.glb",
-    "sourceRevision": "generated",
-    "sourceSha256": "ad430b6520062a659f7a91d89a2e68c22132eae4bd6235913c9b978f1cba9651",
-    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
-    "units": {
-      "metresPerUnit": 1,
-      "nativeSize": [
-        1.2,
-        1.23,
-        2.4
-      ],
-      "suggestedSizeMetres": [
-        1.2,
-        1.23,
-        2.4
-      ],
-      "upAxis": "Y"
-    },
-    "optimization": {
-      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
-      "sourceBytes": 5200,
-      "outputBytes": 4920,
-      "sourceTriangles": 48
-    },
-    "animations": [],
-    "animated": false,
-    "notes": "",
-    "recommendedFor": [
-      "giant-climb",
-      "threejs",
-      "lowpoly",
-      "platform"
-    ],
-    "addedAt": "2026-10-11T00:00:00.000Z",
-    "subcategory": "robot-exterior",
-    "size": 4920,
-    "fileSize": 4920,
-    "vertices": 116,
-    "triangles": 48,
-    "polygonCount": 48,
-    "meshCount": 2,
-    "materials": 2,
-    "textures": 0,
-    "boundingBox": {
-      "min": [
-        -0.6,
-        -0.05,
-        -0.7
-      ],
-      "max": [
-        0.6,
-        1.18,
-        1.7
-      ]
-    },
-    "dimensions": [
-      1.2,
-      1.23,
-      2.4
-    ],
-    "scale": 1,
-    "sha256": "a758234b0cf84f25969a45b84eb949b1faab41a0a5e94ca8cf980ca766707bf9",
-    "path": "assets/giant-climb/robot-exterior/robot_fingertip.glb",
-    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/robot-exterior/robot_fingertip.glb",
-    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/robot-exterior/robot_fingertip.glb"
-  },
-  {
     "id": "robot_finger_segment",
     "name": "Robot Finger Segment",
     "title": "Robot Finger Segment",
@@ -15308,6 +15212,102 @@
     "path": "assets/giant-climb/robot-exterior/robot_finger_segment.glb",
     "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/robot-exterior/robot_finger_segment.glb",
     "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/robot-exterior/robot_finger_segment.glb"
+  },
+  {
+    "id": "robot_fingertip",
+    "name": "Robot Fingertip",
+    "title": "Robot Fingertip",
+    "collection": "giant-climb",
+    "category": "robot-exterior",
+    "tags": [
+      "giant-climb",
+      "lowpoly",
+      "robot",
+      "finger",
+      "tip",
+      "hand",
+      "mecha"
+    ],
+    "gameRoles": [
+      "platform"
+    ],
+    "climbable": false,
+    "description": "Tapered fingertip that caps a finger chain.",
+    "file": "assets/giant-climb/robot-exterior/robot_fingertip.glb",
+    "localPath": "assets/giant-climb/robot-exterior/robot_fingertip.glb",
+    "thumbnail": "thumbnails/giant-climb/robot_fingertip.png",
+    "format": "GLB",
+    "type": "model",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "NEXUS",
+    "source": "NEXUS original (GIANT CLIMB)",
+    "sourceUrl": "https://github.com/Yuji5124/nexus/blob/main/scripts/giant-climb/generate-originals.mjs",
+    "sourceFile": "robot_fingertip.glb",
+    "sourceRevision": "generated",
+    "sourceSha256": "ad430b6520062a659f7a91d89a2e68c22132eae4bd6235913c9b978f1cba9651",
+    "licenseEvidence": "Created procedurally for GIANT CLIMB in this repository and dedicated to the public domain (CC0 1.0).",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        1.2,
+        1.23,
+        2.4
+      ],
+      "suggestedSizeMetres": [
+        1.2,
+        1.23,
+        2.4
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "glTF Transform 4: dedup, prune, weld, unpartition",
+      "sourceBytes": 5200,
+      "outputBytes": 4920,
+      "sourceTriangles": 48
+    },
+    "animations": [],
+    "animated": false,
+    "notes": "",
+    "recommendedFor": [
+      "giant-climb",
+      "threejs",
+      "lowpoly",
+      "platform"
+    ],
+    "addedAt": "2026-10-11T00:00:00.000Z",
+    "subcategory": "robot-exterior",
+    "size": 4920,
+    "fileSize": 4920,
+    "vertices": 116,
+    "triangles": 48,
+    "polygonCount": 48,
+    "meshCount": 2,
+    "materials": 2,
+    "textures": 0,
+    "boundingBox": {
+      "min": [
+        -0.6,
+        -0.05,
+        -0.7
+      ],
+      "max": [
+        0.6,
+        1.18,
+        1.7
+      ]
+    },
+    "dimensions": [
+      1.2,
+      1.23,
+      2.4
+    ],
+    "scale": 1,
+    "sha256": "a758234b0cf84f25969a45b84eb949b1faab41a0a5e94ca8cf980ca766707bf9",
+    "path": "assets/giant-climb/robot-exterior/robot_fingertip.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/giant-climb/robot-exterior/robot_fingertip.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/giant-climb/robot-exterior/robot_fingertip.glb"
   },
   {
     "id": "robot_foot",
