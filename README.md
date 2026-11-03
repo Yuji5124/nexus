@@ -38,6 +38,10 @@ Five lightweight original trees built the game-foliage way: a low-poly trunk plu
 
 25 original low-poly ancient-ruin models for deep-sea games live in `assets/deep-sea-ruins/` with thumbnails in `thumbnails/deep-sea-ruins/`: pillars (intact, broken, fallen), arch gates, walls, stairs, altar, obelisk, crab guardian statue, fountain, lantern stele, floor tiles and rune ring, rubble, four stations (forge, dock gate, scale, healing spring) and glowing deep-sea overgrowth. 500–1,550 triangles, 25–90 KB each (about 790 KB total), no textures (stone uses weathering vertex colours, glyphs and lamps are emissive). Records have `collection: "deep-sea-ruins"`; licence is UNKNOWN until the owner declares one. Built with Blender: `blender -b -P scripts/deep-sea-ruins/build_ruins.py -- assets/deep-sea-ruins thumbnails/deep-sea-ruins`, then `npm run deep-sea-ruins`. Details in [deep-sea-ruins/README.md](deep-sea-ruins/README.md); ongoing plan (ruins → enemies → effects → more) in [deep-sea-ruins/PROGRESS.md](deep-sea-ruins/PROGRESS.md).
 
+## DEEP-SEA ENEMIES collection
+
+12 original low-poly enemies with a rigid-part armature and animation clips live in `assets/deep-sea-enemies/` with thumbnails in `thumbnails/deep-sea-enemies/`: scout drone, crawler bot, gunner turret, bulwark walker, jelly drone, eel bot, urchin mine, anglerfish lure bot, squid lancer, ruin sentinel (stone golem), stone crab guardian and hammerhead sweeper. Every enemy has `Idle`; movers add `Walk` or `Swim`; most add `Attack`. 740–2,484 triangles, 56–205 KB each (about 1.5 MB total), no textures. Records have `collection: "deep-sea-enemies"`, `animated: true` and the clip list in `animations`; licence is UNKNOWN until the owner declares one. Built with Blender: `blender -b -P scripts/deep-sea-enemies/build_enemies.py -- assets/deep-sea-enemies thumbnails/deep-sea-enemies`, then `npm run deep-sea-enemies`. Details in [deep-sea-enemies/README.md](deep-sea-enemies/README.md).
+
 ## Use from Codex / Claude Code
 
 Fetch the raw index URL above, search name/category/tags/recommendedFor, inspect the license, then use previewUrl in Three.js:
