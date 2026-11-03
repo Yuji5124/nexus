@@ -1,0 +1,320 @@
+[
+  {
+    "id": "prop_lume_coral",
+    "kind": "prop",
+    "name": "Lume Coral",
+    "description": "Branching coral with pale branches and glowing violet tips, three trunks on a stone base. About 2.9 m tall; the bioluminescent dressing of the luminous deep.",
+    "roles": [
+      "decoration"
+    ],
+    "tags": [
+      "luminous-deep",
+      "coral",
+      "bioluminescent",
+      "overgrowth"
+    ]
+  },
+  {
+    "id": "prop_glass_sponge",
+    "kind": "prop",
+    "name": "Glass Sponge Colony",
+    "description": "Seven flared bone-white sponge tubes (0.8-2.4 m) with softly glowing mouths and ring ribs, on a stone base.",
+    "roles": [
+      "decoration"
+    ],
+    "tags": [
+      "luminous-deep",
+      "sponge",
+      "glass-sponge",
+      "seafloor"
+    ]
+  },
+  {
+    "id": "prop_lamp_stalks",
+    "kind": "prop",
+    "name": "Lamp Stalks",
+    "description": "Nine slender bent stalks (1.6-3.8 m) each tipped with a glowing bulb, violet or amber: a soft light grove for dark basins.",
+    "roles": [
+      "decoration"
+    ],
+    "tags": [
+      "luminous-deep",
+      "stalk",
+      "bioluminescent",
+      "lamp"
+    ]
+  },
+  {
+    "id": "prop_whale_fall",
+    "kind": "prop",
+    "name": "Whale Fall",
+    "description": "A whale skeleton lying on the seabed, about 15 m long: spine, eight rib pairs, skull and jaw, with violet bacterial mats glowing around the bones. A landmark.",
+    "roles": [
+      "landmark"
+    ],
+    "tags": [
+      "luminous-deep",
+      "whale-fall",
+      "skeleton",
+      "landmark",
+      "bones"
+    ]
+  },
+  {
+    "id": "prop_tubeworm_garden",
+    "kind": "prop",
+    "name": "Tubeworm Garden",
+    "description": "Sixteen white tubeworm tubes (0.9-2.6 m) tipped with orange-red plumes, on a rock mound: scenery version of the Tubeworm Spitter enemy.",
+    "roles": [
+      "decoration"
+    ],
+    "tags": [
+      "luminous-deep",
+      "tubeworm",
+      "vent",
+      "seafloor"
+    ]
+  },
+  {
+    "id": "prop_nodule_field",
+    "kind": "prop",
+    "name": "Manganese Nodule Field",
+    "description": "A patch of dark nodules, 26 loose and five cyan crystal glints, about 4.8 m across: a resource-gathering spot or seabed dressing.",
+    "roles": [
+      "collectible",
+      "decoration"
+    ],
+    "tags": [
+      "luminous-deep",
+      "nodules",
+      "resource",
+      "seabed"
+    ]
+  },
+  {
+    "id": "prop_street_lamp",
+    "kind": "prop",
+    "name": "Sunken Street Lamp",
+    "description": "A leaning iron lamp post 5.2 m tall with a curved arm and an amber lantern that still glows. Street dressing for the sunken city.",
+    "roles": [
+      "landmark",
+      "decoration"
+    ],
+    "tags": [
+      "sunken-city",
+      "lamp",
+      "street",
+      "metal"
+    ]
+  },
+  {
+    "id": "prop_data_obelisk",
+    "kind": "prop",
+    "name": "Record Obelisk",
+    "description": "A stepped stone obelisk 8 m tall with ten rows of glowing glyph bars on the front and a ring at mid height. Looks like a recording device; its meaning is left open.",
+    "roles": [
+      "landmark",
+      "interactable"
+    ],
+    "tags": [
+      "sunken-city",
+      "obelisk",
+      "record",
+      "glyph"
+    ]
+  },
+  {
+    "id": "prop_dwelling_wall",
+    "kind": "prop",
+    "name": "Dwelling Ruin Corner",
+    "description": "A collapsed house corner 6.4 m wide: walls of uneven height, an arched doorway, a window with an amber lamp and scattered blocks.",
+    "roles": [
+      "decoration",
+      "shelter"
+    ],
+    "tags": [
+      "sunken-city",
+      "house",
+      "wall",
+      "ruin"
+    ]
+  },
+  {
+    "id": "prop_urn_set",
+    "kind": "prop",
+    "name": "Everyday Ware Set",
+    "description": "Two urns, a bowl, a plate, a cup and a ladle: everyday objects one urn of which has a glowing rim. A fun prop the hermit crab can mistake for tools.",
+    "roles": [
+      "decoration",
+      "collectible"
+    ],
+    "tags": [
+      "sunken-city",
+      "urn",
+      "pottery",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "prop_conduit_bundle",
+    "kind": "prop",
+    "name": "Conduit Bundle",
+    "description": "Five iron pipes of different widths bundled by three clamps along 7 m, glowing seams at each end and a bend with an amber lamp.",
+    "roles": [
+      "decoration",
+      "obstacle"
+    ],
+    "tags": [
+      "sunken-city",
+      "pipe",
+      "conduit",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "prop_mural_panel",
+    "kind": "prop",
+    "name": "Mural Panel",
+    "description": "A framed stone panel 4.8 m wide and 3.8 m tall with concentric ring reliefs, amber spirals and a row of five glowing circles. The meaning of the pictures is left open.",
+    "roles": [
+      "landmark",
+      "interactable"
+    ],
+    "tags": [
+      "sunken-city",
+      "mural",
+      "relief",
+      "wall"
+    ]
+  },
+  {
+    "id": "prop_glow_rubble",
+    "kind": "prop",
+    "name": "Glowing Rubble",
+    "description": "A heap of fourteen fallen blocks about 4 m across, with amber light leaking from its cracks.",
+    "roles": [
+      "obstacle",
+      "decoration"
+    ],
+    "tags": [
+      "sunken-city",
+      "rubble",
+      "debris",
+      "ruin"
+    ]
+  },
+  {
+    "id": "fx_afterimage_ghost",
+    "kind": "effect",
+    "name": "Afterimage Echo",
+    "description": "Four translucent copies of a diamond body, spaced 1.7 m apart and fading backwards, each with a violet ring and a tiny eye. Visual for the lingering-presence phenomenon.",
+    "roles": [
+      "effect"
+    ],
+    "tags": [
+      "abyss",
+      "afterimage",
+      "echo",
+      "phenomenon",
+      "alpha"
+    ]
+  },
+  {
+    "id": "fx_phase_rift",
+    "kind": "effect",
+    "name": "Phase Rift",
+    "description": "A tall oval rift 5.3 m high: glowing double frame, a translucent wobbling face and ten glowing shards. Visual for places overlapping.",
+    "roles": [
+      "effect",
+      "interactable"
+    ],
+    "tags": [
+      "abyss",
+      "rift",
+      "portal",
+      "phenomenon",
+      "alpha"
+    ]
+  },
+  {
+    "id": "fx_rainbow_current",
+    "kind": "effect",
+    "name": "Rainbow Current",
+    "description": "Five translucent ribbons (red, yellow, green, cyan, violet) twisting 1.6 turns up a 12 m column and widening as they rise. Visual for the final-depth rainbow current.",
+    "roles": [
+      "effect"
+    ],
+    "tags": [
+      "abyss",
+      "rainbow",
+      "current",
+      "ribbon",
+      "alpha"
+    ]
+  },
+  {
+    "id": "prop_floating_stones",
+    "kind": "prop",
+    "name": "Floating Stones",
+    "description": "Nine stones drifting at 1-6 m in a loose ring, violet underlight on each and thin translucent threads linking them. Visual for the weight-drift phenomenon.",
+    "roles": [
+      "landmark",
+      "platform"
+    ],
+    "tags": [
+      "abyss",
+      "floating",
+      "stones",
+      "phenomenon",
+      "alpha"
+    ]
+  },
+  {
+    "id": "fx_pressure_husk",
+    "kind": "effect",
+    "name": "Pressure Husk Dome",
+    "description": "A translucent dome 8 m wide and 3.2 m high (its lower half lies below the ground plane) with a glowing rim and three violet shell lines. Visual for an area that keeps an earlier pressure.",
+    "roles": [
+      "effect",
+      "safe-zone"
+    ],
+    "tags": [
+      "abyss",
+      "dome",
+      "pressure",
+      "phenomenon",
+      "alpha"
+    ]
+  },
+  {
+    "id": "prop_invisible_steps",
+    "kind": "prop",
+    "name": "Unseen Steps",
+    "description": "Six faint translucent slabs (1.6 x 1.1 m) spiralling up 4.5 m, only their edges glowing. Visual for the invisible-footing phenomenon.",
+    "roles": [
+      "platform"
+    ],
+    "tags": [
+      "abyss",
+      "steps",
+      "platform",
+      "phenomenon",
+      "alpha"
+    ]
+  },
+  {
+    "id": "prop_abyss_monolith",
+    "kind": "prop",
+    "name": "Abyssal Monolith",
+    "description": "A light-swallowing black pillar 12.8 m tall on two steps, with one thin glowing seam and a floating ring with three violet beads. Its meaning is left open.",
+    "roles": [
+      "landmark"
+    ],
+    "tags": [
+      "abyss",
+      "monolith",
+      "landmark",
+      "mystery"
+    ]
+  }
+]
