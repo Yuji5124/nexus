@@ -24,7 +24,8 @@
     "deep-sea-enemies": "node scripts/deep-sea-enemies/import.mjs && npm run scan",
     "deep-sea-props": "node scripts/deep-sea-props/import.mjs && npm run scan",
     "deep-trench-enemies": "node scripts/deep-trench-enemies/import.mjs && npm run scan",
-    "deep-trench-props": "node scripts/deep-trench-props/import.mjs && npm run scan"
+    "deep-trench-props": "node scripts/deep-trench-props/import.mjs && npm run scan",
+    "deep-sea-submarine": "node scripts/deep-sea-submarine/import.mjs && npm run scan"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.1",

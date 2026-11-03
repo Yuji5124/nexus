@@ -1,0 +1,309 @@
+[
+  {
+    "id": "sub_hull_mk1",
+    "kind": "hull",
+    "name": "Pressure Hull Section Mk1",
+    "description": "First-stage pressure hull section, 4 m long and 4 m across: thin ribs, end flanges, an orange band and a hatch pad. Axis along the sub (Y in glTF is up, the long axis is Z).",
+    "roles": [
+      "upgrade"
+    ],
+    "tags": [
+      "hull",
+      "pressure",
+      "tier1",
+      "section"
+    ]
+  },
+  {
+    "id": "sub_hull_mk2",
+    "kind": "hull",
+    "name": "Pressure Hull Section Mk2",
+    "description": "Second-stage pressure hull section: thicker ribs plus eight outer armour plates on a 4.2 m diameter shell.",
+    "roles": [
+      "upgrade"
+    ],
+    "tags": [
+      "hull",
+      "pressure",
+      "tier2",
+      "section"
+    ]
+  },
+  {
+    "id": "sub_hull_mk3",
+    "kind": "hull",
+    "name": "Pressure Hull Section Mk3",
+    "description": "Third-stage pressure hull section: heavy ribs, twelve armour plates, brass bolt blocks and a glowing seam on a 4.5 m diameter shell.",
+    "roles": [
+      "upgrade"
+    ],
+    "tags": [
+      "hull",
+      "pressure",
+      "tier3",
+      "section"
+    ]
+  },
+  {
+    "id": "sub_shell_plating",
+    "kind": "hull",
+    "name": "Shell Reinforcement Plating",
+    "description": "Hull section wrapped in ten purple shell plates with gold edging and a gold-and-purple spiral shell on top: a look for the shell the hermit crab donates to the sub.",
+    "roles": [
+      "upgrade",
+      "story"
+    ],
+    "tags": [
+      "hull",
+      "shell",
+      "reinforcement",
+      "purple-gold"
+    ]
+  },
+  {
+    "id": "sub_thruster_small",
+    "kind": "propulsion",
+    "name": "Small Thruster",
+    "description": "Ducted four-blade thruster on a bracket with a rear motor. Thrust axis along the sub; mount point at the origin.",
+    "roles": [
+      "upgrade"
+    ],
+    "tags": [
+      "thruster",
+      "propeller",
+      "engine",
+      "small"
+    ]
+  },
+  {
+    "id": "sub_thruster_large",
+    "kind": "propulsion",
+    "name": "Main Engine",
+    "description": "Large engine pod: a ducted five-blade propeller, a thick motor body with a glowing exhaust ring, and a mounting plate with two struts. About 4 m long.",
+    "roles": [
+      "upgrade"
+    ],
+    "tags": [
+      "thruster",
+      "engine",
+      "propeller",
+      "large"
+    ]
+  },
+  {
+    "id": "sub_ballast_tank",
+    "kind": "propulsion",
+    "name": "Ballast Tank",
+    "description": "Twin horizontal tanks with domed ends, orange bands and a brass valve wheel on a base plate.",
+    "roles": [
+      "upgrade"
+    ],
+    "tags": [
+      "ballast",
+      "tank",
+      "buoyancy",
+      "valve"
+    ]
+  },
+  {
+    "id": "sub_battery_pack",
+    "kind": "propulsion",
+    "name": "Battery Pack",
+    "description": "Four battery cells in a frame with glowing charge strips, brass terminals and a cable.",
+    "roles": [
+      "upgrade"
+    ],
+    "tags": [
+      "battery",
+      "power",
+      "cells"
+    ]
+  },
+  {
+    "id": "sub_sonar_dish",
+    "kind": "sensor",
+    "name": "Sonar Dish",
+    "description": "Parabolic sonar dish with a glowing face, a feed horn and three struts on a rotating mast.",
+    "roles": [
+      "upgrade"
+    ],
+    "tags": [
+      "sonar",
+      "dish",
+      "sensor",
+      "mast"
+    ]
+  },
+  {
+    "id": "sub_sonar_array",
+    "kind": "sensor",
+    "name": "Hydrophone Array",
+    "description": "Flat 3 by 5 array of rubber-ringed transducers with glowing and orange dots on a 3 m plate.",
+    "roles": [
+      "upgrade"
+    ],
+    "tags": [
+      "sonar",
+      "array",
+      "hydrophone",
+      "panel"
+    ]
+  },
+  {
+    "id": "sub_headlamp",
+    "kind": "light",
+    "name": "Headlamp",
+    "description": "Round headlamp with a reflector cone, glowing bulb, glass lens and a protective grille, on a short bracket.",
+    "roles": [
+      "upgrade"
+    ],
+    "tags": [
+      "lamp",
+      "headlight",
+      "light",
+      "lens"
+    ]
+  },
+  {
+    "id": "sub_floodlight_bar",
+    "kind": "light",
+    "name": "Floodlight Bar",
+    "description": "Work-light bar 3 m wide with six warm lamps and orange end caps.",
+    "roles": [
+      "upgrade"
+    ],
+    "tags": [
+      "lamp",
+      "floodlight",
+      "light",
+      "bar"
+    ]
+  },
+  {
+    "id": "sub_manipulator_arm",
+    "kind": "tool",
+    "name": "Manipulator Arm",
+    "description": "Three-segment work arm with a swivel base, orange joints and a two-finger brass claw. Rest pose reaches about 4 m forward.",
+    "roles": [
+      "upgrade",
+      "tool"
+    ],
+    "tags": [
+      "arm",
+      "manipulator",
+      "claw",
+      "work"
+    ]
+  },
+  {
+    "id": "sub_tether_winch",
+    "kind": "tool",
+    "name": "Tether Winch",
+    "description": "Winch with a flanged drum wound in brass cable, a guide arm, a hook and an orange motor housing.",
+    "roles": [
+      "upgrade",
+      "tool"
+    ],
+    "tags": [
+      "winch",
+      "tether",
+      "cable",
+      "hook"
+    ]
+  },
+  {
+    "id": "sub_cargo_pod",
+    "kind": "tool",
+    "name": "Cargo Pod",
+    "description": "Capsule cargo pod 3.2 m long with a top hatch, three orange bands, a side door and mounting rails.",
+    "roles": [
+      "upgrade",
+      "storage"
+    ],
+    "tags": [
+      "cargo",
+      "pod",
+      "storage",
+      "capsule"
+    ]
+  },
+  {
+    "id": "sub_sample_rack",
+    "kind": "tool",
+    "name": "Sample Rack",
+    "description": "Rack of six glass sample tubes with glowing contents (cyan, amber, purple) and rubber caps.",
+    "roles": [
+      "upgrade",
+      "storage"
+    ],
+    "tags": [
+      "samples",
+      "rack",
+      "tubes",
+      "storage"
+    ]
+  },
+  {
+    "id": "sub_hatch_module",
+    "kind": "crew",
+    "name": "Hatch Tower",
+    "description": "Round hatch tower 2 m tall with a wheel-handled lid, handrails, a ladder and a warm lamp.",
+    "roles": [
+      "upgrade",
+      "entrance"
+    ],
+    "tags": [
+      "hatch",
+      "entrance",
+      "ladder",
+      "tower"
+    ]
+  },
+  {
+    "id": "sub_dome_viewport",
+    "kind": "crew",
+    "name": "Dome Viewport",
+    "description": "Glass dome window 2.6 m across with a framing ring, twelve bolts, a cross frame and a soft interior lamp.",
+    "roles": [
+      "upgrade",
+      "window"
+    ],
+    "tags": [
+      "window",
+      "dome",
+      "viewport",
+      "glass"
+    ]
+  },
+  {
+    "id": "sub_antenna_mast",
+    "kind": "crew",
+    "name": "Antenna Mast",
+    "description": "4 m communications mast with three glowing rings, small panel antennas, a dish and an orange tip light.",
+    "roles": [
+      "upgrade"
+    ],
+    "tags": [
+      "antenna",
+      "mast",
+      "comms",
+      "radio"
+    ]
+  },
+  {
+    "id": "sub_repair_kit",
+    "kind": "crew",
+    "name": "Repair Kit",
+    "description": "Orange toolbox with a handle, open side tray and loose tools: a wrench, a purple patch plate and bolts. Fits a post-battle repair scene.",
+    "roles": [
+      "pickup",
+      "story"
+    ],
+    "tags": [
+      "repair",
+      "toolbox",
+      "wrench",
+      "patch"
+    ]
+  }
+]
