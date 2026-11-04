@@ -1,0 +1,88 @@
+{
+ "name": "誰もいない王 (ムレ) / The Kingless King (Mure)",
+ "version": 1,
+ "count": 40000,
+ "stride": 11,
+ "fields": [
+  "x",
+  "y",
+  "z",
+  "dirX",
+  "dirY",
+  "dirZ",
+  "u",
+  "part",
+  "phase",
+  "size",
+  "color"
+ ],
+ "dtype": "float32 little-endian",
+ "coordinates": "glTF / Three.js: X right, Y up, forward +Z, 1 unit = 1 m (Blender (x,y,z) -> (x,z,-y)). Boss faces +Z; its tail extends toward -Z.",
+ "parts": [
+  {
+   "id": 0,
+   "name": "head",
+   "count": 3000
+  },
+  {
+   "id": 1,
+   "name": "crown_ring",
+   "count": 1000
+  },
+  {
+   "id": 2,
+   "name": "crown_spikes",
+   "count": 800
+  },
+  {
+   "id": 3,
+   "name": "neck_chest",
+   "count": 6000
+  },
+  {
+   "id": 4,
+   "name": "wing_l",
+   "count": 9000
+  },
+  {
+   "id": 5,
+   "name": "wing_r",
+   "count": 9000
+  },
+  {
+   "id": 6,
+   "name": "tail",
+   "count": 6000
+  },
+  {
+   "id": 7,
+   "name": "moult",
+   "count": 5200
+  }
+ ],
+ "colors": [
+  "silver",
+  "pearl",
+  "gold",
+  "pink"
+ ],
+ "fishLengthMetres": 1.6,
+ "boundingBoxBlender": {
+  "min": [
+   -108.6,
+   -112.0,
+   -2.2
+  ],
+  "max": [
+   109.2,
+   145.4,
+   114.2
+  ]
+ },
+ "notes": [
+  "x y z = rest position; dirX/Y/Z = unit flow direction (the fish's nose); u = 0..1 position along its part's curve; phase = 0..1 random for animation offset; size = 0.8..1.25 scale on fishLengthMetres; color indexes `colors`.",
+  "The centre of the silhouette is empty by construction: every fish lies on a shell (head, neck/chest tube), a thin ribbon (wing feathers, tail, crown spikes) or a ring. No fish is the leader.",
+  "Moulting (suggested): reassign fish between parts / blend each fish between its rest position and the `moult` streams, then re-form. Not a rule, only a suggestion.",
+  "HP, attacks, hit boxes, weak points and defeat conditions are NOT decided here."
+ ]
+}

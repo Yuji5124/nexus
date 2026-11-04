@@ -1,5 +1,189 @@
 [
   {
+    "id": "boss_mure_fish",
+    "name": "The Kingless King (Mure) - One Fish",
+    "title": "The Kingless King (Mure) - One Fish",
+    "collection": "deep-boss-mure",
+    "category": "boss",
+    "subcategory": "boss",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "deep-boss-mure",
+      "deep-sea",
+      "pearl-sea",
+      "lowpoly",
+      "boss",
+      "fish",
+      "instancing"
+    ],
+    "gameRoles": [
+      "boss",
+      "instancing-source"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "One school fish of the boss as a 6-vertex, 8-triangle elongated octahedron (nose toward +Z), about 1.6 m long. Meant to be instanced for every fish listed in boss_mure_school.bin; replace with a nicer fish if wanted. 0.51 × 0.63 × 1.68 m (W × H × D). Suggested depth: around 4,500 m (a proposal, not a spec).",
+    "file": "assets/deep-boss-mure/boss_mure_fish.glb",
+    "localPath": "assets/deep-boss-mure/boss_mure_fish.glb",
+    "thumbnail": "thumbnails/deep-boss-mure/boss_mure_fish.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124 (NEXUS original)",
+    "source": "NEXUS original (scripts/deep-boss-mure)",
+    "sourceUrl": "https://github.com/Yuji5124/nexus/tree/main/scripts/deep-boss-mure",
+    "licenseEvidence": "Original geometry generated procedurally by scripts/deep-boss-mure/boss_mure.py; no third-party meshes, images or code. Follows the 4,500 m boss concept brief of the crustaceans-have-plans game. No licence declared yet.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        0.51,
+        0.63,
+        1.68
+      ],
+      "suggestedSizeMetres": [
+        0.51,
+        0.63,
+        1.68
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "hand-written glTF writer; vertex colours, no textures",
+      "outputBytes": 1208
+    },
+    "notes": "The real boss is the fish layout in boss_mure_school.bin/.json (40,000 fish, float32 x 11 each), not this GLB. Boss faces +Z, tail toward -Z, 1 unit = 1 m. HP, attacks, hit boxes and defeat conditions are not decided.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "underwater",
+      "deep-sea",
+      "boss"
+    ],
+    "addedAt": "2026-11-05T00:00:00.000Z",
+    "size": 1208,
+    "fileSize": 1208,
+    "vertices": 6,
+    "triangles": 8,
+    "polygonCount": 8,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.256,
+        -0.2816,
+        -0.8
+      ],
+      "max": [
+        0.256,
+        0.352,
+        0.88
+      ]
+    },
+    "dimensions": [
+      0.512,
+      0.6336,
+      1.68
+    ],
+    "scale": 1,
+    "sha256": "3ac4289c3449e5c405da103ba95ba2eb870133c6801bfe1189bf3c539e5d68a7",
+    "path": "assets/deep-boss-mure/boss_mure_fish.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/deep-boss-mure/boss_mure_fish.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/deep-boss-mure/boss_mure_fish.glb"
+  },
+  {
+    "id": "boss_mure_preview",
+    "name": "The Kingless King (Mure) - Preview",
+    "title": "The Kingless King (Mure) - Preview",
+    "collection": "deep-boss-mure",
+    "category": "boss",
+    "subcategory": "boss",
+    "format": "GLB",
+    "type": "model",
+    "tags": [
+      "deep-boss-mure",
+      "deep-sea",
+      "pearl-sea",
+      "lowpoly",
+      "boss",
+      "preview",
+      "fish-school"
+    ],
+    "gameRoles": [
+      "boss",
+      "reference"
+    ],
+    "climbable": false,
+    "animated": false,
+    "description": "Silhouette preview of the 4,500 m boss \"The Kingless King (Mure)\": a quarter of the 40,000 fish (10000 fish, drawn about twice as large) as one vertex-coloured mesh, to check the shape: crown ring and spikes, head, hollow neck and chest, two feather-fan wings, three flowing tail ribbons. 217.66 × 116.54 × 258.38 m (W × H × D). Suggested depth: around 4,500 m (a proposal, not a spec).",
+    "file": "assets/deep-boss-mure/boss_mure_preview.glb",
+    "localPath": "assets/deep-boss-mure/boss_mure_preview.glb",
+    "thumbnail": "thumbnails/deep-boss-mure/boss_mure_preview.png",
+    "license": "UNKNOWN",
+    "author": "Yuji5124 (NEXUS original)",
+    "source": "NEXUS original (scripts/deep-boss-mure)",
+    "sourceUrl": "https://github.com/Yuji5124/nexus/tree/main/scripts/deep-boss-mure",
+    "licenseEvidence": "Original geometry generated procedurally by scripts/deep-boss-mure/boss_mure.py; no third-party meshes, images or code. Follows the 4,500 m boss concept brief of the crustaceans-have-plans game. No licence declared yet.",
+    "units": {
+      "metresPerUnit": 1,
+      "nativeSize": [
+        217.66,
+        116.54,
+        258.38
+      ],
+      "suggestedSizeMetres": [
+        217.66,
+        116.54,
+        258.38
+      ],
+      "upAxis": "Y"
+    },
+    "optimization": {
+      "tool": "hand-written glTF writer; vertex colours, no textures",
+      "outputBytes": 1441156
+    },
+    "notes": "The real boss is the fish layout in boss_mure_school.bin/.json (40,000 fish, float32 x 11 each), not this GLB. Boss faces +Z, tail toward -Z, 1 unit = 1 m. HP, attacks, hit boxes and defeat conditions are not decided.",
+    "recommendedFor": [
+      "threejs",
+      "lowpoly",
+      "underwater",
+      "deep-sea",
+      "boss"
+    ],
+    "addedAt": "2026-11-05T00:00:00.000Z",
+    "size": 1441156,
+    "fileSize": 1441156,
+    "vertices": 60000,
+    "triangles": 80000,
+    "polygonCount": 80000,
+    "meshCount": 1,
+    "materials": 1,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -109.0763,
+        -0.2578,
+        -145.569
+      ],
+      "max": [
+        108.5803,
+        116.2822,
+        112.8136
+      ]
+    },
+    "dimensions": [
+      217.6566,
+      116.54,
+      258.3826
+    ],
+    "scale": 1,
+    "sha256": "c8f6f6e0ba81f70913c3267356b0dc6cc0db8594a3369bcacc8378df97f9c50d",
+    "path": "assets/deep-boss-mure/boss_mure_preview.glb",
+    "rawUrl": "https://raw.githubusercontent.com/Yuji5124/nexus/main/assets/deep-boss-mure/boss_mure_preview.glb",
+    "previewUrl": "https://yuji5124.github.io/nexus/assets/deep-boss-mure/boss_mure_preview.glb"
+  },
+  {
     "id": "fauna_pearl_fish",
     "name": "Pearl Fish",
     "title": "Pearl Fish",

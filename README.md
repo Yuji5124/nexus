@@ -62,6 +62,10 @@ Five lightweight original trees built the game-foliage way: a low-poly trunk plu
 
 20 original low-poly background objects for the 4,500 m "milky pearl sea" of the crustaceans-have-plans game, in `assets/deep-pearl-sea/` (thumbnails in `thumbnails/deep-pearl-sea/`): white coral, a translucent nacre leaf forest, giant pearl crystals, a moulted husk arch, peeling shell layers, a pearl clam, a pearl heap, a shell-dust drift, a white colonnade, an arch gate, a domed pavilion, terraced falls and a spiral shell spire, plus translucent effects (light curtain, shell-dust current, moulting sheet, nacre bubbles, iridescent veil) and two ordinary small-fish pieces. The boss is not modelled (it is being designed separately). 126–4,200 triangles, about 1.4 MB total, no textures; translucent materials use alpha blending. Records have `collection: "deep-pearl-sea"`; licence is UNKNOWN until the owner declares one. Built with Blender (headless or Blender MCP): `blender -b -P scripts/deep-pearl-sea/build_pearl_parts.py -- assets/deep-pearl-sea thumbnails/deep-pearl-sea`, then `npm run deep-pearl-sea`. Details in [deep-pearl-sea/README.md](deep-pearl-sea/README.md).
 
+## DEEP-BOSS-MURE collection
+
+A design proposal for the 4,500 m boss "The Kingless King (Mure)" of the crustaceans-have-plans game, in `assets/deep-boss-mure/`: a procedurally generated layout of 40,000 small fish (`boss_mure_school.bin` + `.json`, float32 x 11 per fish, meant for an InstancedMesh) that forms a crowned phoenix/manta/ancient-fish silhouette about 257 m long and 218 m across with a hollow body, plus a quarter-density preview GLB and a one-fish GLB. Looks only: HP, attacks, hit boxes and defeat conditions are not decided. Build with `python scripts/deep-boss-mure/build_boss_mure.py assets/deep-boss-mure`, then `npm run deep-boss-mure`. Details in [deep-boss-mure/README.md](deep-boss-mure/README.md).
+
 ## Use from Codex / Claude Code
 
 Fetch the raw index URL above, search name/category/tags/recommendedFor, inspect the license, then use previewUrl in Three.js:
