@@ -1,0 +1,313 @@
+[
+  {
+    "id": "prop_pearl_coral",
+    "kind": "prop",
+    "name": "Pearl Coral",
+    "description": "White branching coral on a pearl mound, two trunks with pale pink tips, about 3 m tall.",
+    "roles": [
+      "decoration"
+    ],
+    "tags": [
+      "flora",
+      "coral",
+      "white",
+      "seafloor"
+    ]
+  },
+  {
+    "id": "prop_nacre_leaf_forest",
+    "kind": "prop",
+    "name": "Nacre Leaf Forest",
+    "description": "Ten translucent mother-of-pearl leaves up to 4 m tall with thin pearl veins on a pearl mound: the translucent shell forest of the milky sea.",
+    "roles": [
+      "decoration"
+    ],
+    "tags": [
+      "flora",
+      "shell-forest",
+      "translucent",
+      "nacre",
+      "alpha"
+    ]
+  },
+  {
+    "id": "prop_pearl_crystal_giant",
+    "kind": "prop",
+    "name": "Giant Pearl Crystal",
+    "description": "Six pearly hexagonal crystals with pink points, the tallest 6.5 m, with small pearls at the base.",
+    "roles": [
+      "landmark",
+      "decoration"
+    ],
+    "tags": [
+      "crystal",
+      "pearl",
+      "nacre",
+      "landmark"
+    ]
+  },
+  {
+    "id": "prop_husk_arch",
+    "kind": "prop",
+    "name": "Moulted Husk Arch",
+    "description": "A giant empty husk forming an arch about 16 m wide and 8 m high: nine ribbed shell arcs joined by a ridge, open at the back. Part of the terrain.",
+    "roles": [
+      "landmark",
+      "terrain"
+    ],
+    "tags": [
+      "husk",
+      "moult",
+      "arch",
+      "terrain",
+      "landmark"
+    ]
+  },
+  {
+    "id": "prop_peeling_plates",
+    "kind": "prop",
+    "name": "Peeling Shell Layers",
+    "description": "Six old shell plates lifting like pages off a fresh nacre layer, with pink pearls around. The look of the seafloor moulting.",
+    "roles": [
+      "decoration",
+      "terrain"
+    ],
+    "tags": [
+      "moult",
+      "layers",
+      "plates",
+      "terrain"
+    ]
+  },
+  {
+    "id": "prop_pearl_clam",
+    "kind": "prop",
+    "name": "Pearl Clam",
+    "description": "A giant open bivalve about 4 m wide holding five pearls on a nacre floor.",
+    "roles": [
+      "decoration",
+      "collectible"
+    ],
+    "tags": [
+      "clam",
+      "pearl",
+      "shell",
+      "seafloor"
+    ]
+  },
+  {
+    "id": "prop_pearl_heap",
+    "kind": "prop",
+    "name": "Pearl Heap",
+    "description": "A heap of sixty pearls of mixed size (some pink) on a shadow-coloured base, about 3 m across.",
+    "roles": [
+      "decoration",
+      "collectible"
+    ],
+    "tags": [
+      "pearl",
+      "heap",
+      "treasure"
+    ]
+  },
+  {
+    "id": "prop_shell_dust_dune",
+    "kind": "prop",
+    "name": "Shell-dust Drift",
+    "description": "A low drift of shell dust about 8 m wide, like snow, with wind lines, shell chips and a few floating motes.",
+    "roles": [
+      "decoration",
+      "terrain"
+    ],
+    "tags": [
+      "dust",
+      "dune",
+      "seafloor",
+      "snow"
+    ]
+  },
+  {
+    "id": "prop_white_colonnade",
+    "kind": "prop",
+    "name": "White Colonnade",
+    "description": "A 13 m colonnade of five fluted columns with gold rings, one broken, with a half-fallen beam.",
+    "roles": [
+      "landmark",
+      "decoration"
+    ],
+    "tags": [
+      "ruin",
+      "colonnade",
+      "temple",
+      "white"
+    ]
+  },
+  {
+    "id": "prop_white_arch_gate",
+    "kind": "prop",
+    "name": "White Arch Gate",
+    "description": "A stone arch gate about 8 m high with a gold keystone and faint jade marks on the pillars. Its makers are left unexplained.",
+    "roles": [
+      "landmark",
+      "gate"
+    ],
+    "tags": [
+      "ruin",
+      "arch",
+      "gate",
+      "temple"
+    ]
+  },
+  {
+    "id": "prop_white_dome_pavilion",
+    "kind": "prop",
+    "name": "White Dome Pavilion",
+    "description": "A small domed temple about 7 m tall: three steps, eight columns, a gold ring and a gold finial.",
+    "roles": [
+      "landmark"
+    ],
+    "tags": [
+      "ruin",
+      "dome",
+      "temple",
+      "pavilion"
+    ]
+  },
+  {
+    "id": "prop_terrace_falls",
+    "kind": "prop",
+    "name": "Terraced Falls",
+    "description": "Three stacked white rock terraces about 5 m high with thin water curtains running down each step.",
+    "roles": [
+      "landmark",
+      "scenery"
+    ],
+    "tags": [
+      "terrace",
+      "waterfall",
+      "rock",
+      "scenery",
+      "alpha"
+    ]
+  },
+  {
+    "id": "prop_shell_spire",
+    "kind": "prop",
+    "name": "Shell Spire",
+    "description": "A tall spiral shell about 8 m high, twelve twisted whorls with pink and nacre rims.",
+    "roles": [
+      "landmark"
+    ],
+    "tags": [
+      "spire",
+      "shell",
+      "spiral",
+      "landmark"
+    ]
+  },
+  {
+    "id": "fx_light_curtain",
+    "kind": "effect",
+    "name": "Light Curtain",
+    "description": "Three nested wide translucent light shafts, 25 m high and up to 18 m across, for the soft light that comes from every direction.",
+    "roles": [
+      "effect"
+    ],
+    "tags": [
+      "light",
+      "curtain",
+      "volumetric",
+      "alpha"
+    ]
+  },
+  {
+    "id": "fx_dust_current",
+    "kind": "effect",
+    "name": "Shell-dust Current",
+    "description": "Two translucent bands and 36 specks of dust spiralling 1.4 turns up a 9 m column: the unseen current the dust draws.",
+    "roles": [
+      "effect"
+    ],
+    "tags": [
+      "dust",
+      "current",
+      "spiral",
+      "alpha"
+    ]
+  },
+  {
+    "id": "fx_molt_sheet",
+    "kind": "effect",
+    "name": "Moulting Sheet",
+    "description": "A thin translucent sheet of old shell, 5 m across, peeling off and curling up at one end.",
+    "roles": [
+      "effect"
+    ],
+    "tags": [
+      "moult",
+      "sheet",
+      "peel",
+      "alpha"
+    ]
+  },
+  {
+    "id": "fx_nacre_bubbles",
+    "kind": "effect",
+    "name": "Nacre Bubbles",
+    "description": "Sixteen translucent bubbles of growing size in a loose 4 m column, each with a tiny highlight.",
+    "roles": [
+      "effect"
+    ],
+    "tags": [
+      "bubbles",
+      "rising",
+      "nacre",
+      "alpha"
+    ]
+  },
+  {
+    "id": "fx_iridescent_veil",
+    "kind": "effect",
+    "name": "Iridescent Veil",
+    "description": "Three wavy translucent ribbons (white, pink, jade) drifting along 10 m.",
+    "roles": [
+      "effect"
+    ],
+    "tags": [
+      "veil",
+      "ribbon",
+      "iridescent",
+      "alpha"
+    ]
+  },
+  {
+    "id": "fauna_pearl_fish",
+    "kind": "fauna",
+    "name": "Pearl Fish",
+    "description": "One small pearl-white fish 0.5 m long with a gold tail, fins and eyes. Meant to be instanced for ambient schools.",
+    "roles": [
+      "ambient"
+    ],
+    "tags": [
+      "fish",
+      "small",
+      "ambient",
+      "instancing"
+    ]
+  },
+  {
+    "id": "fx_fish_swarm_cloud",
+    "kind": "fauna",
+    "name": "Fish Swarm Cloud",
+    "description": "Seventy small fish in a loose S-shaped flow 14 m long, all heading the same way, no leader. An ordinary school; not a boss body.",
+    "roles": [
+      "ambient"
+    ],
+    "tags": [
+      "fish",
+      "swarm",
+      "school",
+      "ambient"
+    ]
+  }
+]
