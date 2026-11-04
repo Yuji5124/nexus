@@ -64,7 +64,7 @@ Five lightweight original trees built the game-foliage way: a low-poly trunk plu
 
 ## DEEP-BOSS-MURE collection
 
-A design proposal for the 4,500 m boss "The Kingless King (Mure)" of the crustaceans-have-plans game, in `assets/deep-boss-mure/`: a procedurally generated layout of 40,000 small fish (`boss_mure_school.bin` + `.json`, float32 x 11 per fish, meant for an InstancedMesh) that forms a crowned phoenix/manta/ancient-fish silhouette about 257 m long and 218 m across with a hollow body, plus a quarter-density preview GLB and a one-fish GLB. Looks only: HP, attacks, hit boxes and defeat conditions are not decided. Build with `python scripts/deep-boss-mure/build_boss_mure.py assets/deep-boss-mure`, then `npm run deep-boss-mure`. Details in [deep-boss-mure/README.md](deep-boss-mure/README.md).
+A design proposal for the 4,500 m boss "The Kingless King (Mure)" of the crustaceans-have-plans game, in `assets/deep-boss-mure/`: a procedurally generated layout of 40,491 small fish (`boss_mure_school.bin` + `.json`, float32 x 11 per fish, meant for an InstancedMesh) that forms a crowned phoenix/manta/ancient-fish silhouette about 257 m long and 218 m across with a hollow body, plus a quarter-density preview GLB and a one-fish GLB. Looks only: HP, attacks, hit boxes and defeat conditions are not decided. Build with `python scripts/deep-boss-mure/build_boss_mure.py assets/deep-boss-mure`, then `npm run deep-boss-mure`. Details in [deep-boss-mure/README.md](deep-boss-mure/README.md).
 
 ## Use from Codex / Claude Code
 

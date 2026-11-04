@@ -18,7 +18,7 @@ import json
 
 PARTS = ("head", "crown_ring", "crown_spikes", "neck_chest", "wing_l", "wing_r", "tail", "moult")
 PID = {n: i for i, n in enumerate(PARTS)}
-COUNTS = {"head": 3000, "crown_ring": 1000, "crown_spikes": 800, "neck_chest": 6000, "wing_l": 9000, "wing_r": 9000, "tail": 6000, "moult": 5200}
+COUNTS = {"head": 3000, "crown_ring": 1000, "crown_spikes": 800, "neck_chest": 8000, "wing_l": 8500, "wing_r": 8500, "tail": 5500, "moult": 5200}
 FISH_LEN = 1.6          # 小魚 1 匹の基準の全長 (m)。ボスが 200 m を超えるので、1 匹ずつが見分けられる大きさ
 COLORS = ("silver", "pearl", "gold", "pink")
 
@@ -143,15 +143,22 @@ def _tube(rnd, pts, radius_fn, shell, n, part):
 
 
 def _outline(rnd, pts, radius_fn, n, part):
-    """首・胸: 背中の線と腹の線の 2 本の帯だけ。間は空洞 (肉体が無いので、向こうの海が見える)。"""
+    """首・胸: 縦の 4 本の線と 7 つの輪だけ (断面は横に広い楕円 = マンタ風)。中は空洞で、向こうの海が見える。"""
     out = []
+    hoops = [0.12, 0.28, 0.44, 0.6, 0.74, 0.88, 1.0]
     for k in range(n):
-        u = rnd.random()
+        if k % 10 < 3:
+            u = min(1.0, max(0.0, rnd.choice(hoops) + rnd.gauss(0, 0.012)))
+            a = rnd.uniform(0, 2 * math.pi)
+        else:
+            u = rnd.random()
+            a = rnd.choice((0.0, math.pi / 2, math.pi, 3 * math.pi / 2)) + rnd.gauss(0, 0.06)
         p = bez(*pts, u)
         tg = bez_d(*pts, u)
-        sgn = 1.0 if k % 2 == 0 else -1.0
+        n1, n2 = frame(tg, (0, 0, 1))
         r = radius_fn(u)
-        pos = (p[0] + rnd.gauss(0, 1.6), p[1] + rnd.gauss(0, 0.8), p[2] + sgn * r + rnd.gauss(0, 0.9))
+        pos = _add(p, _add(_mul(n1, 1.6 * r * math.cos(a)), _mul(n2, r * math.sin(a))))
+        pos = _add(pos, (rnd.gauss(0, 0.8), rnd.gauss(0, 0.8), rnd.gauss(0, 0.8)))
         d = _add(_mul(tg, -1.0), (rnd.gauss(0, 0.12), rnd.gauss(0, 0.12), rnd.gauss(0, 0.12)))
         out.append(_rec(pos, d, u, part, rnd))
     return out
@@ -226,7 +233,7 @@ def build(seed=7, scale=1.0):
     fish = []
     fish += _head(rnd, int(COUNTS["head"] * scale))
     fish += _crown(rnd, int(COUNTS["crown_ring"] * scale), int(COUNTS["crown_spikes"] * scale))
-    fish += _outline(rnd, NECK, lambda u: 2.2 * (6.0 + 7.0 * math.sin(math.pi * min(1.0, u * 1.1)) ** 0.8 + 3.0 * u), int(COUNTS["neck_chest"] * scale), "neck_chest")
+    fish += _outline(rnd, NECK, lambda u: 7.0 + 24.0 * u ** 1.3, int(COUNTS["neck_chest"] * scale), "neck_chest")
     curves = []
     for sign, part in ((-1, "wing_l"), (1, "wing_r")):
         feathers = wing_feathers(sign)
