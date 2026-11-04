@@ -54,3 +54,6 @@ npm run deep-boss-mure
 
 ## 参考にしたもの（コード・素材は使っていません）
 ユーザーの 4,500m ボスのコンセプト指示と画像（画像はリポジトリに入れていません）。
+
+## ゲームでの仮実装 (`game/`)
+crustaceans-have-plans の `src/bossDebug/` に置いた検証用の仮実装の写し。`mureFight.ts` (戦闘ロジック)、`mureArena.ts` (描画。InstancedBufferGeometry + 頂点シェーダー)、`boss-mure.html`、`check_mure_boss.mjs` (テスト)、`BOSS_MURE_4500.md` (説明)。HP・ダメージ・時間は仮。ゲーム側ではボス戦デバッグ一覧の 4,500m から入る。

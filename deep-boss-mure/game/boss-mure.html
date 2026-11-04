@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>誰もいない王（ムレ）</title><link rel="stylesheet" href="/src/bossDebug/arena.css"/></head><body>
+<canvas id="game"></canvas><section id="battle-hud"><small id="depth"></small><h1 id="boss-name"></h1><div class="hp-track"><i id="boss-hp-fill"></i></div><p id="boss-health"></p><p id="player-health"></p><p id="party"></p><p id="phase">モデル読み込み中…</p><p id="tether"></p></section><p id="hint"></p><p id="controls"></p>
+<div id="pause" hidden><article><small>3人 / BOSS DEBUG</small><h2 id="pause-title">一時停止</h2><p>十字キーで移動。Rで浮上、Lで下降。Selectで3人を切り替えます。アクセルは遠くから射撃できます。</p><p>レーザーは狙いが止まった後、横や上下へ移動して回避。被弾で3人共通のHPが減ります。</p><button id="resume">戦闘へ戻る</button><button id="retry">再挑戦</button><a id="return" href="/boss-debug.html">ボス一覧へ戻る</a></article></div>
+<button id="continue" type="button" hidden>紙芝居へ進む</button>
+<script type="module" src="/src/bossDebug/mureArena.ts"></script></body></html>

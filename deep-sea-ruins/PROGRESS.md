@@ -87,3 +87,5 @@
 - 決めていないこと: HP・攻撃・当たり判定・弱点・撃破条件・脱皮の発動条件。
 - 未確認: Three.js での描画と性能、乳白色の海での見え方。胴が細く、鳥寄りに見える。詳細は `deep-boss-mure/README.md`。
 - 注意: `npm run scan` より先に `npm run deep-boss-mure`。
+
+- 追記 (2026-11-05): ゲーム側 (crustaceans-have-plans) の `src/bossDebug/` に、ボス戦デバッグの 4,500m として戦闘込みの仮実装を入れた (周期16秒: 集合の予兆 → 奔流 → 脱皮の隙。HP 70 などは仮)。写しを `deep-boss-mure/game/` に保存。ゲーム側はまだコミットしていない。
